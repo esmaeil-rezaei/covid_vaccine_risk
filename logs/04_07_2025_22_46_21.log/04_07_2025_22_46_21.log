@@ -1,0 +1,4 @@
+[ 2025-04-07 22:46:21,644 ] 19 root - INFO - Logging has been set up.
+[ 2025-04-07 22:46:21,644 ] 21 root - WARNING - This is a warning message.
+[ 2025-04-07 22:46:21,644 ] 22 root - ERROR - This is an error message.
+[ 2025-04-07 22:46:21,644 ] 23 root - CRITICAL - This is a critical message.
