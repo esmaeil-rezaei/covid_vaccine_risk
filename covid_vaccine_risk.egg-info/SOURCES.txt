@@ -1,0 +1,7 @@
+setup.py
+covid_vaccine_risk.egg-info/PKG-INFO
+covid_vaccine_risk.egg-info/SOURCES.txt
+covid_vaccine_risk.egg-info/dependency_links.txt
+covid_vaccine_risk.egg-info/requires.txt
+covid_vaccine_risk.egg-info/top_level.txt
+src/__init__.py
