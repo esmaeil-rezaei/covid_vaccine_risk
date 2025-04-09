@@ -1,2 +1,0 @@
-[ 2025-04-08 21:10:49,167 ] 31 root - INFO - Entered the data ingestion method or component
-[ 2025-04-08 21:10:49,168 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_ingestion.py] line number [34] error message[[Errno 2] No such file or directory: 'artifacts\\heart_attack_vaccine_data.csv']
