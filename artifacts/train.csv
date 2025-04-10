@@ -1,441 +1,441 @@
-Age,BMI,Blood Pressure,Cholesterol Level,Diabetes Status,Gender,Heart Attack Date,Location,Outcome,Patient ID,Pre-existing Conditions,Severity,Smoking History,Vaccination Date,Vaccine Dose
-26,29.0,Elevated,244,No,Female,2021-08-12,Surat,Survived,483,Heart Disease,Moderate,No,2021-05-17,2nd Dose
-35,30.3,Very High,162,Yes,Male,,Agra,,159,Hypertension,,No,2021-08-07,Booster
-26,29.4,High,157,Yes,Female,,Surat,,16,Obesity,,Yes,2021-12-02,Booster
-33,18.8,Elevated,240,No,Male,,Mumbai,,335,Hypertension,,No,2022-04-21,1st Dose
-72,32.8,High,197,Yes,Female,,Agra,,40,None,,No,2022-11-11,Booster
-34,23.9,Very High,208,Yes,Male,,Bhopal,,55,Heart Disease,,No,2023-01-19,Booster
-28,28.9,Elevated,252,No,Female,,Hyderabad,,535,Hypertension,,Yes,2023-07-12,1st Dose
-34,26.1,High,300,Yes,Female,2022-12-30,Chandigarh,Survived,47,Hypertension,Severe,No,2022-04-26,Booster
-44,25.0,Elevated,164,No,Female,2022-01-16,Delhi,Survived,94,Smoking,Moderate,No,2021-12-31,Booster
-38,32.6,Elevated,229,Yes,Female,2021-12-31,Chandigarh,Survived,479,None,Fatal,No,2021-03-21,2nd Dose
-47,27.8,Very High,181,No,Male,,Delhi,,364,None,,Yes,2021-05-06,1st Dose
-52,28.9,Elevated,253,No,Female,,Ludhiana,,494,Smoking,,No,2022-06-28,1st Dose
-75,19.9,High,154,Yes,Male,,Pune,,474,Multiple Conditions,,Yes,2022-02-16,Booster
-60,29.8,Normal,170,Yes,Male,,Delhi,,249,Multiple Conditions,,Yes,2021-03-06,1st Dose
-40,26.6,High,196,No,Female,,Jaipur,,550,Obesity,,No,2021-07-11,2nd Dose
-57,19.6,Normal,187,Yes,Male,2022-06-20,Ludhiana,Survived,490,Smoking,Mild,Yes,2021-12-20,2nd Dose
-63,21.1,Elevated,178,No,Female,,Mumbai,,445,Hypertension,,No,2023-10-03,2nd Dose
-25,23.3,High,296,Yes,Female,,Ludhiana,,366,Obesity,,No,2021-01-07,Booster
-71,31.6,Normal,265,No,Male,2023-07-12,Surat,Survived,205,Hypertension,Fatal,Yes,2023-06-22,1st Dose
-64,21.7,High,174,Yes,Female,2023-04-12,Agra,Survived,336,Hypertension,Fatal,No,2022-07-09,2nd Dose
-56,22.5,Elevated,164,No,Female,,Mumbai,,358,Hypertension,,No,2021-01-29,1st Dose
-72,23.9,High,196,No,Female,,Bangalore,,362,Multiple Conditions,,No,2021-11-14,1st Dose
-68,29.3,Elevated,150,No,Female,,Delhi,,311,Obesity,,Yes,2021-09-05,Booster
-78,30.8,Elevated,245,Yes,Female,,Indore,,399,Heart Disease,,No,2022-03-24,1st Dose
-49,21.2,Very High,284,Yes,Male,2024-03-25,Surat,Survived,70,Heart Disease,Moderate,Yes,2023-07-03,1st Dose
-42,25.4,Normal,208,No,Male,,Jaipur,,262,Heart Disease,,Yes,2021-06-17,2nd Dose
-27,35.0,High,283,Yes,Male,,Pune,,518,Multiple Conditions,,Yes,2022-04-14,2nd Dose
-72,25.4,Very High,220,No,Male,,Chandigarh,,438,Smoking,,No,2021-11-20,Booster
-38,21.9,Very High,251,No,Female,,Ahmedabad,,183,Obesity,,Yes,2022-04-05,2nd Dose
-29,30.8,Normal,219,Yes,Male,,Chennai,,125,Obesity,,Yes,2023-03-27,2nd Dose
-48,19.7,Elevated,243,No,Female,2022-02-08,Ahmedabad,Survived,394,None,Severe,No,2021-12-15,1st Dose
-75,32.3,Elevated,292,No,Male,,Ahmedabad,,226,None,,No,2022-05-14,1st Dose
-32,21.3,Normal,260,Yes,Male,,Ludhiana,,236,Diabetes,,No,2022-01-23,Booster
-61,27.1,High,195,No,Male,,Lucknow,,177,Multiple Conditions,,No,2021-05-21,Booster
-41,19.7,Very High,191,No,Male,2023-08-28,Jaipur,Not Survived,538,Multiple Conditions,Fatal,Yes,2023-06-03,Booster
-38,29.5,Elevated,172,No,Female,,Lucknow,,306,Smoking,,Yes,2021-05-23,2nd Dose
-26,33.1,High,162,No,Female,,Chennai,,500,Multiple Conditions,,No,2022-03-17,2nd Dose
-36,34.4,Elevated,215,Yes,Female,,Bangalore,,384,Smoking,,No,2022-12-06,Booster
-53,27.8,High,262,No,Female,,Patna,,275,Heart Disease,,Yes,2023-08-27,1st Dose
-63,31.0,Very High,198,Yes,Female,,Kolkata,,313,Diabetes,,Yes,2022-03-23,Booster
-28,20.6,Normal,161,No,Male,,Bangalore,,368,Multiple Conditions,,No,2022-07-04,Booster
-78,22.2,Elevated,256,No,Male,,Chennai,,322,Heart Disease,,No,2023-08-07,Booster
-74,23.4,Very High,278,Yes,Female,,Bhopal,,473,Obesity,,Yes,2022-06-05,Booster
-28,28.5,Elevated,294,No,Female,,Bhopal,,20,Obesity,,No,2022-01-28,Booster
-57,33.6,Normal,254,Yes,Male,2024-03-09,Bangalore,Survived,381,Smoking,Mild,No,2023-06-30,Booster
-58,30.2,High,194,Yes,Male,,Kolkata,,57,Heart Disease,,Yes,2023-11-01,1st Dose
-74,26.4,High,178,No,Female,,Chandigarh,,391,Multiple Conditions,,Yes,2022-02-01,Booster
-62,27.0,Elevated,259,No,Female,,Delhi,,282,Hypertension,,No,2022-07-30,1st Dose
-43,33.8,High,279,No,Female,2024-03-14,Indore,Survived,396,Hypertension,Severe,No,2023-04-18,1st Dose
-69,32.5,Very High,230,Yes,Male,,Delhi,,472,Hypertension,,No,2023-12-25,Booster
-46,30.1,High,238,Yes,Female,2023-04-04,Mumbai,Not Survived,258,Multiple Conditions,Fatal,Yes,2022-07-12,Booster
-49,33.3,Normal,248,No,Male,,Chennai,,489,Hypertension,,Yes,2023-12-23,Booster
-52,28.5,High,289,Yes,Female,2024-07-28,Delhi,Survived,193,None,Mild,Yes,2023-10-02,2nd Dose
-56,34.1,High,223,No,Female,,Delhi,,26,Hypertension,,No,2021-04-23,1st Dose
-38,31.0,Normal,234,Yes,Male,,Agra,,291,Heart Disease,,Yes,2022-08-30,Booster
-52,30.1,Very High,251,No,Male,,Chandigarh,,43,Multiple Conditions,,Yes,2022-02-08,2nd Dose
-44,21.6,High,190,Yes,Male,,Bangalore,,350,Multiple Conditions,,No,2023-05-23,2nd Dose
-44,25.1,Elevated,255,No,Female,,Patna,,524,Diabetes,,No,2023-04-27,1st Dose
-80,23.1,Normal,194,No,Female,,Mumbai,,470,Multiple Conditions,,No,2021-12-24,Booster
-28,24.3,Very High,237,No,Male,,Nagpur,,400,Obesity,,No,2021-06-20,1st Dose
-41,26.8,Very High,299,No,Male,,Delhi,,319,Smoking,,Yes,2022-04-24,2nd Dose
-35,22.3,Elevated,295,Yes,Male,,Bhopal,,155,Diabetes,,Yes,2022-07-15,1st Dose
-68,33.7,High,293,No,Female,,Bangalore,,127,Obesity,,Yes,2023-04-06,1st Dose
-56,18.8,High,151,No,Female,,Ahmedabad,,288,Multiple Conditions,,No,2023-04-07,Booster
-33,24.2,Normal,212,No,Female,,Delhi,,375,Hypertension,,Yes,2023-06-05,1st Dose
-66,34.2,Elevated,216,No,Female,,Lucknow,,175,Hypertension,,No,2022-01-16,1st Dose
-75,33.2,High,252,Yes,Male,,Bangalore,,32,Diabetes,,Yes,2022-07-29,Booster
-28,24.1,High,173,No,Female,,Indore,,114,Smoking,,Yes,2021-04-07,2nd Dose
-71,29.7,Very High,273,Yes,Male,,Mumbai,,305,Diabetes,,Yes,2022-05-10,2nd Dose
-34,19.0,Very High,266,Yes,Male,,Indore,,174,Diabetes,,Yes,2023-08-10,1st Dose
-79,21.5,Normal,289,Yes,Female,2023-05-02,Agra,Survived,363,Smoking,Fatal,Yes,2022-05-31,1st Dose
-74,26.3,Elevated,268,No,Male,,Chandigarh,,209,Obesity,,Yes,2021-06-12,Booster
-27,28.6,High,216,No,Male,,Surat,,58,Obesity,,No,2022-03-16,1st Dose
-28,24.4,Elevated,278,Yes,Male,,Surat,,256,Smoking,,No,2023-07-18,1st Dose
-41,25.4,Elevated,179,Yes,Female,,Jaipur,,25,Multiple Conditions,,Yes,2021-10-18,2nd Dose
-33,27.0,Very High,185,Yes,Male,,Indore,,18,Obesity,,No,2023-02-06,1st Dose
-61,34.7,Very High,204,No,Female,,Delhi,,238,Multiple Conditions,,No,2023-11-06,1st Dose
-36,20.6,High,228,No,Male,,Chandigarh,,67,Diabetes,,Yes,2021-02-09,1st Dose
-27,24.9,Normal,297,No,Male,2023-07-19,Mumbai,Survived,250,Obesity,Moderate,Yes,2023-05-03,2nd Dose
-41,28.8,Normal,160,No,Female,2023-08-26,Pune,Survived,529,Multiple Conditions,Mild,No,2022-11-26,2nd Dose
-32,29.9,Elevated,277,Yes,Female,,Agra,,266,Obesity,,Yes,2022-04-08,Booster
-62,19.0,High,257,No,Male,2023-05-29,Delhi,Survived,452,Multiple Conditions,Mild,Yes,2022-12-19,Booster
-75,19.6,High,271,No,Female,,Mumbai,,447,Smoking,,Yes,2023-04-30,2nd Dose
-74,27.8,High,262,Yes,Male,,Kolkata,,95,Multiple Conditions,,No,2023-12-13,2nd Dose
-77,19.1,Very High,192,Yes,Female,,Agra,,181,Heart Disease,,No,2023-01-08,2nd Dose
-54,28.8,Elevated,200,No,Female,,Ahmedabad,,235,Hypertension,,Yes,2022-11-21,2nd Dose
-43,23.6,High,202,No,Female,,Nagpur,,93,Hypertension,,No,2021-11-24,Booster
-56,25.2,High,164,Yes,Female,,Hyderabad,,24,Diabetes,,No,2022-06-22,2nd Dose
-64,28.5,Normal,200,Yes,Female,,Chandigarh,,278,Diabetes,,Yes,2022-11-29,Booster
-66,27.3,Elevated,199,Yes,Male,,Hyderabad,,300,Hypertension,,No,2021-03-17,1st Dose
-39,23.5,Elevated,246,No,Female,,Lucknow,,298,Multiple Conditions,,No,2023-08-31,1st Dose
-74,30.0,High,162,Yes,Female,,Chandigarh,,6,Diabetes,,Yes,2022-11-20,2nd Dose
-30,34.0,Elevated,263,No,Female,,Patna,,117,Multiple Conditions,,No,2021-07-15,1st Dose
-31,31.2,Very High,278,Yes,Male,,Mumbai,,46,Smoking,,No,2022-07-31,2nd Dose
-33,23.8,Elevated,225,No,Male,,Patna,,229,Diabetes,,Yes,2021-04-14,Booster
-58,24.8,Very High,154,Yes,Female,,Chandigarh,,317,Hypertension,,Yes,2021-03-26,Booster
-28,19.6,Elevated,179,Yes,Female,,Kolkata,,17,None,,No,2023-06-08,Booster
-37,34.2,Normal,263,Yes,Male,,Jaipur,,49,Smoking,,Yes,2021-08-18,Booster
-53,24.3,Normal,271,No,Female,,Patna,,423,Obesity,,No,2023-12-07,Booster
-33,29.6,Elevated,261,Yes,Female,2023-12-30,Nagpur,Survived,412,Obesity,Mild,No,2023-12-06,Booster
-33,24.6,Normal,199,No,Male,,Hyderabad,,4,Smoking,,No,2022-03-17,1st Dose
-79,22.9,Very High,152,No,Male,,Indore,,273,Obesity,,Yes,2021-03-01,1st Dose
-41,26.5,Normal,162,Yes,Male,2021-08-27,Kolkata,Survived,245,Smoking,Severe,Yes,2021-01-06,Booster
-39,30.0,Very High,257,No,Female,2024-07-26,Kolkata,Survived,61,Obesity,Moderate,No,2023-09-29,1st Dose
-46,32.5,High,229,Yes,Male,,Ludhiana,,197,Hypertension,,Yes,2023-01-23,2nd Dose
-79,25.5,High,198,Yes,Female,2022-05-21,Patna,Survived,530,Hypertension,Severe,Yes,2022-03-03,Booster
-27,22.1,Normal,287,No,Female,,Mumbai,,111,Obesity,,Yes,2022-12-18,Booster
-51,33.9,Normal,261,Yes,Female,,Mumbai,,458,Obesity,,Yes,2021-09-21,1st Dose
-28,22.6,Elevated,215,Yes,Male,,Delhi,,302,Diabetes,,No,2022-11-05,Booster
-70,28.5,High,183,No,Male,,Patna,,30,Hypertension,,No,2022-11-28,1st Dose
-69,20.3,Normal,174,Yes,Female,2024-02-02,Bhopal,Survived,246,Hypertension,Moderate,No,2023-04-29,1st Dose
-78,20.2,Very High,256,Yes,Male,2023-08-25,Delhi,Survived,223,None,Mild,Yes,2022-11-11,Booster
-44,27.3,Very High,180,No,Male,,Indore,,27,Heart Disease,,Yes,2021-11-30,1st Dose
-48,19.8,Very High,231,No,Female,2023-10-17,Pune,Survived,8,Obesity,Mild,No,2022-12-25,2nd Dose
-38,26.9,Elevated,172,Yes,Female,,Indore,,182,Diabetes,,Yes,2023-03-24,Booster
-55,19.7,High,217,No,Female,,Indore,,51,Heart Disease,,Yes,2023-05-24,2nd Dose
-44,24.7,Very High,257,Yes,Male,,Delhi,,109,Smoking,,No,2022-12-14,1st Dose
-66,33.6,Normal,278,Yes,Male,,Jaipur,,38,Smoking,,Yes,2021-08-06,2nd Dose
-68,21.1,Normal,153,Yes,Male,2024-02-25,Nagpur,Survived,158,Obesity,Moderate,Yes,2023-12-22,1st Dose
-69,34.6,High,285,No,Female,,Pune,,525,Multiple Conditions,,Yes,2023-10-11,1st Dose
-26,19.8,Elevated,184,Yes,Female,,Jaipur,,119,Multiple Conditions,,No,2021-03-30,2nd Dose
-72,33.7,Normal,294,Yes,Female,,Chennai,,413,Heart Disease,,Yes,2022-12-07,1st Dose
-32,24.9,Normal,254,Yes,Male,,Ahmedabad,,115,Diabetes,,No,2023-06-18,2nd Dose
-77,22.9,High,191,Yes,Male,2021-05-23,Pune,Survived,299,Multiple Conditions,Severe,Yes,2021-01-08,1st Dose
-42,19.8,High,206,No,Female,2023-01-16,Kolkata,Survived,204,Diabetes,Moderate,Yes,2022-10-25,Booster
-66,19.3,Elevated,250,Yes,Female,,Bhopal,,176,None,,Yes,2021-10-16,Booster
-51,26.5,Very High,237,Yes,Male,,Delhi,,248,Obesity,,No,2022-09-03,1st Dose
-27,26.6,Very High,154,No,Male,,Pune,,376,Diabetes,,No,2022-10-19,1st Dose
-32,21.4,Very High,258,No,Male,2021-08-24,Chandigarh,Survived,145,None,Severe,Yes,2021-07-22,1st Dose
-73,31.3,High,171,No,Female,,Indore,,195,Diabetes,,Yes,2022-08-23,Booster
-66,28.5,High,244,Yes,Male,2022-02-28,Lucknow,Survived,427,Diabetes,Mild,Yes,2021-05-09,Booster
-40,25.5,High,232,No,Female,2023-03-30,Surat,Survived,440,None,Mild,Yes,2022-05-20,2nd Dose
-54,23.0,Elevated,150,No,Female,2023-07-05,Indore,Survived,292,Hypertension,Severe,No,2022-11-08,Booster
-56,29.3,Very High,269,No,Male,2023-09-11,Ludhiana,Survived,308,Smoking,Severe,No,2023-02-21,2nd Dose
-65,32.9,High,214,No,Female,2023-11-12,Delhi,Survived,421,Smoking,Fatal,Yes,2023-04-15,1st Dose
-54,25.6,Elevated,265,Yes,Female,,Bhopal,,514,Heart Disease,,No,2023-03-09,Booster
-39,31.8,High,254,No,Female,2023-07-01,Ludhiana,Survived,142,Multiple Conditions,Severe,No,2022-11-14,Booster
-38,32.0,High,230,Yes,Male,,Nagpur,,422,Hypertension,,Yes,2021-04-08,2nd Dose
-49,35.0,Elevated,220,No,Female,2023-08-25,Kolkata,Survived,68,Smoking,Mild,No,2023-04-19,2nd Dose
-32,28.7,Very High,274,No,Female,,Bhopal,,433,Hypertension,,No,2022-07-01,2nd Dose
-72,21.9,Very High,197,No,Female,2023-11-28,Agra,Survived,228,Multiple Conditions,Severe,Yes,2023-03-24,1st Dose
-40,19.7,High,282,No,Male,2023-10-25,Lucknow,Survived,169,Smoking,Mild,No,2023-04-18,1st Dose
-61,26.0,Very High,263,No,Male,2022-12-25,Kolkata,Survived,189,Multiple Conditions,Moderate,No,2022-02-04,Booster
-46,30.5,Elevated,229,Yes,Female,2023-08-12,Bhopal,Survived,272,Hypertension,Moderate,Yes,2023-07-21,1st Dose
-58,34.7,Normal,286,Yes,Female,,Delhi,,435,Obesity,,No,2022-04-23,1st Dose
-32,32.4,Normal,297,Yes,Male,,Pune,,269,Heart Disease,,Yes,2022-01-04,2nd Dose
-42,33.5,Normal,209,Yes,Female,,Pune,,194,Heart Disease,,Yes,2022-09-14,2nd Dose
-50,33.2,Very High,277,No,Male,,Bangalore,,153,Hypertension,,Yes,2022-07-17,1st Dose
-64,27.5,Very High,171,No,Male,,Mumbai,,512,Smoking,,No,2022-08-11,1st Dose
-79,30.4,Very High,191,No,Female,,Kolkata,,356,Heart Disease,,No,2021-03-26,2nd Dose
-70,23.5,Very High,183,Yes,Male,2023-04-14,Ludhiana,Not Survived,411,None,Fatal,Yes,2023-01-04,2nd Dose
-28,27.3,Normal,206,No,Female,2022-05-08,Chennai,Survived,404,Multiple Conditions,Mild,No,2022-01-09,Booster
-27,28.7,Elevated,153,Yes,Male,2024-03-04,Mumbai,Survived,104,Smoking,Moderate,Yes,2023-05-31,Booster
-26,31.2,Very High,294,No,Male,,Agra,,378,None,,No,2022-04-28,2nd Dose
-26,31.4,High,286,No,Male,2024-10-20,Chennai,Survived,75,Multiple Conditions,Moderate,Yes,2023-12-20,2nd Dose
-29,34.0,Normal,159,Yes,Male,,Mumbai,,354,Multiple Conditions,,No,2022-12-27,2nd Dose
-42,25.4,Very High,211,No,Female,,Agra,,528,Hypertension,,Yes,2023-03-07,Booster
-54,32.0,Elevated,234,No,Male,,Patna,,120,Heart Disease,,Yes,2023-03-07,2nd Dose
-69,27.6,Very High,212,No,Female,2022-02-23,Ahmedabad,Not Survived,323,Obesity,Fatal,No,2021-08-12,1st Dose
-48,26.7,Very High,211,No,Male,2023-07-13,Bhopal,Survived,343,Obesity,Severe,Yes,2023-06-29,2nd Dose
-56,30.9,High,214,No,Female,,Delhi,,409,Obesity,,Yes,2021-05-29,Booster
-50,32.2,Elevated,235,No,Female,,Hyderabad,,461,Heart Disease,,No,2022-11-16,1st Dose
-60,33.2,Normal,228,Yes,Male,,Chandigarh,,333,Diabetes,,No,2021-06-09,Booster
-35,27.1,Normal,159,No,Male,2023-10-15,Ludhiana,Survived,287,Hypertension,Severe,No,2023-09-13,Booster
-42,33.7,Normal,202,Yes,Male,,Indore,,339,None,,Yes,2021-03-24,2nd Dose
-53,20.4,Elevated,188,Yes,Female,,Lucknow,,443,None,,No,2022-07-29,1st Dose
-54,24.1,Normal,252,No,Female,,Kolkata,,342,Obesity,,No,2021-09-09,Booster
-33,25.9,High,153,Yes,Female,2024-04-06,Patna,Survived,37,Obesity,Severe,No,2023-12-14,1st Dose
-28,26.5,High,216,Yes,Male,,Mumbai,,140,Obesity,,No,2022-05-03,Booster
-27,24.1,Very High,269,Yes,Female,2023-09-03,Kolkata,Survived,254,Heart Disease,Moderate,Yes,2022-12-25,2nd Dose
-50,33.6,High,246,No,Female,,Kolkata,,326,Smoking,,Yes,2021-05-22,2nd Dose
-34,30.2,Very High,293,No,Male,,Surat,,60,Hypertension,,Yes,2022-09-19,Booster
-63,26.9,Normal,262,No,Female,2023-03-29,Jaipur,Survived,112,Diabetes,Moderate,No,2022-12-03,1st Dose
-44,32.9,Normal,180,No,Female,2023-11-28,Jaipur,Survived,303,Heart Disease,Severe,Yes,2023-06-08,Booster
-75,30.5,High,274,No,Female,2024-03-14,Jaipur,Not Survived,463,Heart Disease,Fatal,Yes,2023-04-18,Booster
-30,23.6,High,260,No,Female,,Indore,,263,None,,Yes,2022-04-27,Booster
-47,23.6,Normal,191,Yes,Male,,Lucknow,,416,Hypertension,,No,2023-07-26,1st Dose
-38,23.9,High,280,Yes,Female,,Patna,,151,Smoking,,No,2023-12-02,1st Dose
-38,21.1,High,247,Yes,Male,,Surat,,267,Obesity,,Yes,2023-01-04,1st Dose
-77,26.7,Normal,159,No,Female,2023-03-15,Mumbai,Survived,441,Multiple Conditions,Mild,No,2022-03-15,1st Dose
-77,31.0,Very High,171,Yes,Female,2023-02-04,Jaipur,Survived,39,Hypertension,Mild,No,2022-02-08,1st Dose
-78,20.1,Very High,214,No,Female,,Bangalore,,361,Obesity,,No,2022-01-29,1st Dose
-71,20.0,Very High,182,Yes,Male,,Jaipur,,199,Hypertension,,No,2021-04-30,Booster
-68,31.9,High,240,No,Male,,Ahmedabad,,297,Multiple Conditions,,Yes,2021-08-28,Booster
-66,25.3,Normal,213,Yes,Female,,Surat,,147,None,,Yes,2023-05-23,Booster
-47,32.2,Elevated,179,Yes,Female,,Surat,,453,Obesity,,Yes,2021-11-26,2nd Dose
-43,24.1,Elevated,286,Yes,Male,,Mumbai,,148,Diabetes,,No,2021-04-12,1st Dose
-75,31.3,Normal,267,No,Male,2023-09-21,Agra,Survived,401,None,Fatal,No,2022-12-30,1st Dose
-43,31.4,Normal,227,Yes,Male,,Kolkata,,425,Diabetes,,Yes,2021-01-29,2nd Dose
-52,24.7,Elevated,273,Yes,Female,,Bhopal,,124,Multiple Conditions,,Yes,2021-04-18,1st Dose
-65,25.1,Elevated,220,No,Male,2022-06-06,Bhopal,Survived,426,None,Moderate,Yes,2021-11-14,2nd Dose
-50,27.9,Elevated,182,No,Male,,Jaipur,,97,Heart Disease,,No,2022-02-11,Booster
-33,24.4,Very High,250,Yes,Female,2022-04-18,Mumbai,Survived,144,Smoking,Moderate,No,2022-02-15,2nd Dose
-34,24.6,Normal,165,Yes,Female,,Chandigarh,,240,Hypertension,,No,2022-06-27,1st Dose
-30,26.7,High,183,No,Female,,Chennai,,526,Heart Disease,,Yes,2022-11-06,Booster
-78,32.6,Normal,164,Yes,Female,,Patna,,98,None,,No,2021-03-27,2nd Dose
-44,23.2,Elevated,249,No,Male,,Indore,,468,Heart Disease,,Yes,2023-07-22,Booster
-64,34.5,Normal,274,Yes,Male,,Pune,,294,None,,No,2022-09-23,1st Dose
-62,26.3,High,180,No,Male,,Chandigarh,,405,Heart Disease,,Yes,2023-10-06,2nd Dose
-46,21.2,Very High,231,Yes,Female,2023-08-04,Ahmedabad,Survived,123,Heart Disease,Severe,No,2022-08-12,Booster
-59,24.1,Elevated,290,No,Female,2022-02-25,Lucknow,Survived,184,Hypertension,Moderate,No,2021-07-19,2nd Dose
-30,30.6,Elevated,274,No,Female,,Pune,,203,Hypertension,,Yes,2021-12-17,Booster
-49,24.4,High,188,No,Female,,Patna,,247,Smoking,,Yes,2021-10-26,2nd Dose
-36,29.8,Elevated,152,Yes,Female,2023-10-12,Lucknow,Survived,471,Heart Disease,Moderate,No,2023-01-11,1st Dose
-25,31.2,Elevated,270,Yes,Male,,Chandigarh,,341,Smoking,,No,2021-03-26,1st Dose
-50,28.5,Very High,171,Yes,Female,2023-09-01,Chandigarh,Survived,406,Hypertension,Mild,Yes,2023-04-20,Booster
-61,23.9,Very High,269,No,Female,,Hyderabad,,442,Obesity,,No,2023-10-01,2nd Dose
-75,25.5,Very High,174,Yes,Female,,Bhopal,,457,None,,No,2021-04-06,2nd Dose
-45,19.9,High,254,No,Male,,Nagpur,,325,Multiple Conditions,,No,2021-04-03,Booster
-77,32.2,Elevated,223,No,Male,2024-02-14,Ludhiana,Survived,126,Heart Disease,Moderate,No,2023-11-02,1st Dose
-28,22.0,Normal,239,Yes,Female,,Nagpur,,347,Obesity,,No,2021-08-18,Booster
-50,29.8,Very High,187,Yes,Female,,Kolkata,,224,Multiple Conditions,,No,2022-07-29,1st Dose
-46,24.0,Very High,241,No,Female,2022-08-23,Bhopal,Survived,484,None,Mild,No,2022-06-08,1st Dose
-55,34.0,Elevated,159,No,Male,2023-01-04,Ahmedabad,Survived,220,Smoking,Fatal,Yes,2022-09-04,Booster
-64,21.0,Very High,162,Yes,Female,,Kolkata,,130,Hypertension,,Yes,2022-04-14,Booster
-37,34.7,High,250,Yes,Female,2023-09-30,Bhopal,Survived,486,Smoking,Fatal,Yes,2023-03-07,Booster
-77,25.8,Very High,223,Yes,Male,,Jaipur,,330,Hypertension,,Yes,2023-02-10,1st Dose
-64,29.8,Normal,198,Yes,Female,2021-09-12,Chennai,Survived,377,Multiple Conditions,Mild,No,2021-08-25,1st Dose
-29,19.9,Normal,174,Yes,Female,,Jaipur,,437,Smoking,,Yes,2023-12-30,1st Dose
-53,18.6,Elevated,206,No,Female,2022-11-26,Ahmedabad,Not Survived,332,None,Fatal,No,2022-11-13,Booster
-58,33.7,High,236,No,Female,,Lucknow,,497,Multiple Conditions,,No,2022-06-20,1st Dose
-63,27.1,High,268,Yes,Male,,Ahmedabad,,337,Smoking,,No,2022-04-19,Booster
-66,33.7,Elevated,275,No,Female,,Mumbai,,295,Heart Disease,,Yes,2022-12-27,1st Dose
-71,29.2,Very High,286,No,Female,,Ludhiana,,424,Hypertension,,Yes,2021-06-22,Booster
-48,23.0,Elevated,227,Yes,Female,,Indore,,515,Hypertension,,Yes,2021-06-26,1st Dose
-49,27.8,High,206,Yes,Male,2021-08-31,Ahmedabad,Survived,349,Obesity,Severe,No,2021-06-24,1st Dose
-43,34.3,Normal,289,No,Male,,Chennai,,113,Smoking,,No,2022-07-15,Booster
-31,27.8,Elevated,254,Yes,Male,,Chandigarh,,180,Heart Disease,,Yes,2023-03-28,1st Dose
-55,33.0,Very High,275,No,Male,,Chandigarh,,353,None,,No,2021-10-16,1st Dose
-76,25.7,Very High,201,Yes,Female,,Ludhiana,,389,Smoking,,No,2021-10-28,1st Dose
-64,25.6,Normal,177,No,Female,2024-04-12,Hyderabad,Survived,432,Smoking,Mild,Yes,2023-12-28,2nd Dose
-44,34.6,Very High,220,Yes,Male,,Agra,,315,Heart Disease,,No,2022-06-30,Booster
-45,25.6,Normal,230,Yes,Male,2023-04-20,Chennai,Survived,152,Multiple Conditions,Moderate,Yes,2022-10-11,Booster
-79,33.4,Very High,214,No,Female,,Surat,,415,None,,No,2022-12-17,Booster
-59,29.9,Elevated,252,No,Female,2024-08-26,Jaipur,Survived,234,None,Severe,Yes,2023-10-08,2nd Dose
-30,27.2,Very High,161,No,Female,,Ahmedabad,,307,Heart Disease,,Yes,2023-12-23,Booster
-61,27.8,Normal,156,No,Male,,Bangalore,,357,None,,Yes,2022-04-20,2nd Dose
-32,24.4,Normal,234,No,Male,2023-08-15,Agra,Survived,165,Smoking,Mild,Yes,2023-08-05,2nd Dose
-29,21.7,Normal,239,No,Male,2021-10-17,Chennai,Survived,318,Heart Disease,Moderate,Yes,2021-05-04,1st Dose
-42,33.3,High,279,No,Female,2023-12-10,Mumbai,Survived,137,Multiple Conditions,Severe,Yes,2023-09-22,2nd Dose
-31,21.4,Very High,182,No,Male,2023-11-29,Hyderabad,Survived,198,Obesity,Moderate,Yes,2023-05-02,Booster
-67,26.0,Normal,226,Yes,Female,,Agra,,259,Hypertension,,Yes,2022-01-16,1st Dose
-74,34.9,Very High,258,Yes,Male,2024-05-06,Mumbai,Survived,233,Smoking,Severe,Yes,2023-06-30,Booster
-69,29.2,Very High,255,No,Male,,Lucknow,,116,Obesity,,Yes,2021-10-14,Booster
-48,23.2,Very High,205,Yes,Male,2022-04-29,Lucknow,Survived,121,Hypertension,Fatal,Yes,2021-11-17,1st Dose
-46,26.7,Elevated,298,No,Male,,Mumbai,,478,Hypertension,,No,2023-07-10,Booster
-49,31.2,Elevated,192,Yes,Female,,Indore,,225,Obesity,,No,2021-08-21,1st Dose
-58,26.7,High,191,Yes,Female,,Pune,,464,Smoking,,Yes,2023-08-20,2nd Dose
-53,21.1,Normal,285,Yes,Male,,Ludhiana,,502,Heart Disease,,No,2023-09-22,Booster
-64,28.8,Very High,222,Yes,Male,,Ahmedabad,,348,Smoking,,Yes,2021-07-16,1st Dose
-30,18.9,Very High,254,Yes,Male,,Bangalore,,128,None,,Yes,2022-09-10,1st Dose
-80,18.9,High,153,No,Female,,Chennai,,541,None,,No,2022-11-29,1st Dose
-71,20.9,Very High,260,Yes,Male,,Hyderabad,,286,Heart Disease,,Yes,2021-07-27,2nd Dose
-32,31.2,High,256,No,Male,2021-12-07,Hyderabad,Not Survived,501,Multiple Conditions,Fatal,No,2021-08-02,1st Dose
-60,32.7,Normal,155,No,Male,,Surat,,520,Smoking,,No,2021-10-07,1st Dose
-63,31.4,Normal,174,Yes,Female,,Kolkata,,108,Diabetes,,No,2023-03-15,1st Dose
-42,23.1,High,162,Yes,Female,2024-03-20,Delhi,Survived,496,Smoking,Mild,No,2023-08-01,1st Dose
-41,23.7,High,216,Yes,Female,,Patna,,374,Smoking,,Yes,2022-01-26,2nd Dose
-58,32.8,High,239,No,Female,,Mumbai,,134,Hypertension,,Yes,2021-11-08,1st Dose
-53,20.1,Very High,156,No,Female,,Agra,,434,Diabetes,,No,2023-12-28,2nd Dose
-80,32.8,Elevated,253,Yes,Female,,Jaipur,,45,Diabetes,,No,2023-05-02,Booster
-49,25.2,Elevated,168,Yes,Female,,Ludhiana,,170,Multiple Conditions,,No,2022-04-18,1st Dose
-57,24.9,Normal,192,No,Male,,Lucknow,,66,Multiple Conditions,,No,2021-01-04,Booster
-44,29.2,High,247,Yes,Male,2022-05-19,Bhopal,Survived,284,Diabetes,Moderate,Yes,2021-09-18,2nd Dose
-73,21.6,High,223,Yes,Male,,Chennai,,86,None,,Yes,2022-04-02,Booster
-48,20.7,Elevated,184,Yes,Female,,Jaipur,,243,Smoking,,No,2023-09-24,1st Dose
-51,19.9,Normal,222,No,Male,,Pune,,187,Smoking,,No,2022-02-11,1st Dose
-39,26.2,Elevated,249,No,Female,,Hyderabad,,498,None,,No,2021-05-06,1st Dose
-56,32.2,Very High,185,No,Female,,Patna,,160,Diabetes,,Yes,2021-12-21,2nd Dose
-66,30.2,High,153,No,Female,,Lucknow,,13,Smoking,,No,2023-05-10,Booster
-65,34.3,Normal,209,No,Male,,Kolkata,,36,Obesity,,Yes,2023-05-31,Booster
-65,20.3,Very High,281,No,Female,2022-07-09,Ludhiana,Survived,29,Obesity,Mild,No,2021-08-05,1st Dose
-52,34.2,Very High,157,Yes,Male,,Mumbai,,171,Multiple Conditions,,Yes,2021-12-27,2nd Dose
-76,33.9,High,294,Yes,Male,2024-04-11,Delhi,Survived,143,Diabetes,Mild,No,2023-07-29,Booster
-67,30.0,Normal,282,No,Female,,Ludhiana,,527,Obesity,,No,2021-10-30,1st Dose
-65,34.1,High,247,No,Female,,Ludhiana,,549,Obesity,,Yes,2022-08-14,2nd Dose
-71,26.6,Very High,151,Yes,Female,2021-12-05,Agra,Survived,222,Hypertension,Mild,No,2021-01-27,Booster
-48,32.5,Elevated,165,No,Female,2024-06-17,Kolkata,Survived,487,Smoking,Mild,No,2023-11-24,2nd Dose
-55,31.3,Normal,295,No,Female,,Delhi,,96,Diabetes,,No,2023-08-27,1st Dose
-47,24.2,High,280,Yes,Male,,Surat,,52,None,,Yes,2023-01-24,1st Dose
-66,19.6,Elevated,163,Yes,Female,,Bangalore,,241,Multiple Conditions,,No,2021-01-29,2nd Dose
-73,18.7,Very High,176,No,Female,,Bangalore,,430,Obesity,,Yes,2022-07-01,Booster
-63,23.9,High,260,Yes,Male,2024-01-26,Ludhiana,Survived,352,Multiple Conditions,Moderate,Yes,2023-05-30,Booster
-72,32.0,Normal,299,No,Female,2021-07-24,Bangalore,Survived,439,Heart Disease,Moderate,No,2021-02-09,Booster
-67,26.6,Elevated,268,No,Male,2023-10-27,Indore,Survived,179,Multiple Conditions,Severe,No,2023-01-13,Booster
-48,22.4,Normal,226,No,Female,2023-12-07,Kolkata,Survived,451,Obesity,Mild,No,2023-11-13,1st Dose
-26,24.7,High,201,Yes,Female,,Pune,,42,Multiple Conditions,,Yes,2023-01-26,Booster
-48,23.6,High,292,No,Female,,Surat,,504,None,,Yes,2021-04-22,Booster
-70,28.1,Elevated,185,No,Female,,Agra,,448,Obesity,,Yes,2022-03-29,1st Dose
-70,24.6,High,212,No,Female,,Kolkata,,207,Obesity,,Yes,2022-03-23,Booster
-34,23.0,Normal,197,Yes,Male,,Mumbai,,393,Smoking,,No,2023-12-31,2nd Dose
-57,21.6,High,179,No,Female,2024-06-08,Indore,Survived,283,Obesity,Severe,Yes,2023-11-16,Booster
-60,19.8,Normal,236,No,Male,2022-10-28,Chandigarh,Survived,359,Smoking,Severe,No,2022-09-28,2nd Dose
-76,28.6,High,276,No,Male,,Jaipur,,398,Heart Disease,,Yes,2021-05-01,Booster
-41,21.8,Normal,184,Yes,Female,,Pune,,255,Hypertension,,No,2021-05-29,1st Dose
-50,26.3,Normal,181,Yes,Male,,Patna,,480,Smoking,,Yes,2023-02-14,2nd Dose
-50,21.0,Normal,273,No,Female,,Mumbai,,5,Diabetes,,No,2023-03-26,2nd Dose
-70,21.2,Elevated,273,No,Female,,Patna,,257,None,,Yes,2023-07-08,1st Dose
-67,28.5,Normal,294,Yes,Female,,Delhi,,516,Heart Disease,,Yes,2021-10-03,1st Dose
-41,26.5,Normal,261,Yes,Female,,Ahmedabad,,101,Heart Disease,,No,2022-11-10,Booster
-63,30.3,Normal,241,Yes,Male,,Mumbai,,227,Smoking,,No,2021-10-16,1st Dose
-40,20.2,Normal,259,No,Male,,Mumbai,,493,Multiple Conditions,,No,2021-07-10,Booster
-29,27.4,High,220,Yes,Female,2021-12-03,Pune,Survived,214,Multiple Conditions,Moderate,Yes,2021-02-19,Booster
-59,30.5,High,152,No,Male,,Agra,,488,Smoking,,No,2021-03-14,2nd Dose
-75,19.4,Normal,198,Yes,Male,,Jaipur,,172,Diabetes,,No,2021-01-26,2nd Dose
-68,24.5,Elevated,240,Yes,Male,2022-09-26,Lucknow,Survived,99,Multiple Conditions,Mild,Yes,2022-02-21,2nd Dose
-61,29.5,Very High,262,Yes,Female,,Agra,,293,None,,No,2023-03-23,2nd Dose
-76,25.0,Normal,292,Yes,Female,,Agra,,216,Diabetes,,No,2022-09-11,Booster
-56,34.7,Normal,242,No,Male,,Chennai,,62,Obesity,,No,2022-03-28,Booster
-72,18.8,Elevated,212,Yes,Male,,Pune,,407,Heart Disease,,No,2023-08-08,2nd Dose
-53,21.3,High,277,Yes,Male,,Delhi,,48,Multiple Conditions,,Yes,2023-08-25,2nd Dose
-63,34.4,Normal,197,Yes,Female,,Bangalore,,33,Multiple Conditions,,Yes,2023-04-29,1st Dose
-25,23.6,High,212,No,Female,2023-07-23,Bhopal,Survived,418,Hypertension,Fatal,No,2023-06-16,2nd Dose
-29,24.4,Normal,167,No,Female,,Delhi,,268,Obesity,,No,2021-01-26,1st Dose
-41,33.6,High,202,No,Female,2022-06-01,Ludhiana,Survived,328,Heart Disease,Severe,No,2021-11-14,Booster
-64,26.0,High,166,No,Male,,Ludhiana,,201,None,,Yes,2022-10-26,Booster
-27,26.8,High,165,No,Female,,Nagpur,,135,None,,Yes,2022-12-21,2nd Dose
-48,22.3,Very High,160,No,Male,2024-09-10,Surat,Survived,28,Diabetes,Mild,No,2023-12-08,Booster
-26,28.4,High,272,Yes,Male,,Mumbai,,450,Heart Disease,,Yes,2023-07-07,Booster
-74,30.8,High,199,Yes,Male,,Jaipur,,231,Hypertension,,No,2022-05-22,1st Dose
-34,27.7,Very High,277,No,Female,,Lucknow,,261,Obesity,,Yes,2022-07-04,2nd Dose
-63,20.5,High,181,Yes,Female,2024-03-02,Indore,Not Survived,379,Heart Disease,Fatal,Yes,2023-11-01,1st Dose
-55,25.7,Elevated,160,No,Female,2023-10-01,Kolkata,Survived,289,Heart Disease,Moderate,Yes,2023-03-20,2nd Dose
-48,29.9,Elevated,195,Yes,Male,2023-09-22,Bangalore,Survived,419,Heart Disease,Moderate,No,2023-04-08,Booster
-48,33.6,High,279,No,Female,2024-12-05,Agra,Survived,163,Heart Disease,Moderate,Yes,2023-12-07,2nd Dose
-55,28.4,Very High,299,Yes,Female,,Patna,,392,Obesity,,Yes,2023-01-09,2nd Dose
-65,25.1,High,245,No,Female,,Nagpur,,491,Diabetes,,No,2022-07-13,1st Dose
-54,26.7,Normal,218,No,Female,2022-09-04,Bhopal,Survived,139,Heart Disease,Fatal,No,2022-05-06,2nd Dose
-54,20.1,Normal,218,Yes,Female,,Bangalore,,63,Smoking,,No,2023-09-15,2nd Dose
-69,22.4,Very High,296,No,Female,,Indore,,136,Smoking,,Yes,2021-11-29,2nd Dose
-38,32.7,High,272,Yes,Female,2022-08-30,Bhopal,Survived,129,Multiple Conditions,Severe,No,2022-02-13,2nd Dose
-25,19.6,Normal,285,No,Male,,Lucknow,,534,Obesity,,Yes,2022-10-21,Booster
-73,23.0,Normal,200,No,Male,,Nagpur,,9,Obesity,,No,2022-07-31,Booster
-50,26.3,High,160,Yes,Male,,Jaipur,,327,Heart Disease,,No,2021-07-28,Booster
-31,23.6,Elevated,209,Yes,Male,,Agra,,345,Diabetes,,No,2023-08-13,2nd Dose
-62,33.7,Very High,268,Yes,Female,,Bhopal,,65,Multiple Conditions,,Yes,2023-04-24,Booster
-48,29.2,Normal,188,Yes,Male,,Ludhiana,,301,Heart Disease,,Yes,2021-07-09,2nd Dose
-41,33.0,Normal,249,No,Female,,Agra,,15,None,,No,2021-06-08,2nd Dose
-42,29.4,High,203,Yes,Female,,Agra,,157,Multiple Conditions,,Yes,2021-08-14,2nd Dose
-62,23.3,Normal,257,Yes,Female,,Mumbai,,41,None,,No,2022-05-01,1st Dose
-48,35.0,Elevated,214,No,Male,,Hyderabad,,380,Multiple Conditions,,No,2022-01-20,1st Dose
-58,25.5,Normal,151,No,Male,,Ludhiana,,188,Heart Disease,,No,2021-11-13,2nd Dose
-77,28.6,Normal,196,No,Male,,Ludhiana,,465,Obesity,,Yes,2021-11-05,1st Dose
-80,25.4,Normal,163,No,Female,,Pune,,217,Obesity,,Yes,2022-08-21,Booster
-26,19.2,Elevated,238,No,Male,,Lucknow,,410,Diabetes,,Yes,2021-02-28,1st Dose
-59,20.9,Normal,294,No,Male,,Pune,,280,None,,Yes,2021-10-24,2nd Dose
-73,29.4,Elevated,167,No,Female,,Lucknow,,503,Obesity,,Yes,2022-02-20,1st Dose
-68,30.9,Normal,225,Yes,Male,,Chennai,,499,Heart Disease,,Yes,2021-04-10,Booster
-55,32.3,High,198,No,Male,2024-08-14,Chandigarh,Survived,338,Multiple Conditions,Severe,Yes,2023-11-02,1st Dose
-34,26.0,High,210,Yes,Female,,Chennai,,237,Hypertension,,Yes,2023-12-16,1st Dose
-38,31.0,High,281,No,Female,,Nagpur,,208,Hypertension,,No,2021-02-14,1st Dose
-61,19.0,Elevated,237,No,Male,,Nagpur,,213,Obesity,,No,2023-10-09,1st Dose
-35,29.7,Very High,272,Yes,Male,,Pune,,296,Hypertension,,No,2023-08-31,1st Dose
-69,23.9,Very High,246,Yes,Female,,Hyderabad,,519,Obesity,,Yes,2022-06-20,Booster
-27,32.1,High,259,No,Male,,Hyderabad,,252,Smoking,,Yes,2023-03-12,Booster
-71,26.1,Very High,190,No,Female,,Indore,,542,Obesity,,Yes,2023-03-30,Booster
-58,24.3,High,241,No,Male,,Lucknow,,462,None,,Yes,2022-12-02,Booster
-58,30.3,Normal,298,Yes,Male,,Pune,,456,Obesity,,No,2021-11-19,Booster
-51,34.2,Elevated,267,Yes,Male,2021-12-25,Bhopal,Survived,548,Smoking,Mild,No,2021-09-08,1st Dose
-77,33.9,Very High,167,No,Male,2024-02-03,Patna,Not Survived,304,Hypertension,Fatal,Yes,2023-11-07,2nd Dose
-45,19.7,High,246,No,Male,2023-04-16,Surat,Survived,351,Smoking,Fatal,Yes,2022-04-23,Booster
-77,27.8,Very High,290,No,Male,,Lucknow,,270,Diabetes,,No,2023-10-27,1st Dose
-59,21.7,High,155,No,Female,,Chennai,,446,Hypertension,,No,2023-08-11,2nd Dose
-76,28.9,Normal,229,No,Male,,Chennai,,202,Heart Disease,,No,2021-01-16,Booster
-58,35.0,Very High,208,No,Male,,Bhopal,,162,Hypertension,,No,2022-03-15,1st Dose
-76,25.0,Elevated,198,Yes,Male,,Indore,,44,Diabetes,,No,2023-10-29,1st Dose
-26,33.7,High,284,Yes,Female,2024-06-02,Pune,Survived,218,None,Moderate,No,2023-07-08,1st Dose
-37,22.5,Very High,287,No,Male,,Kolkata,,402,None,,No,2023-06-08,2nd Dose
-34,19.0,Very High,186,Yes,Female,,Surat,,191,Obesity,,No,2021-08-04,2nd Dose
-41,34.6,Elevated,268,No,Male,,Pune,,477,None,,No,2022-11-26,Booster
-29,24.2,High,255,No,Female,,Patna,,310,Multiple Conditions,,No,2023-09-23,2nd Dose
-37,30.7,Very High,241,No,Female,,Nagpur,,260,Heart Disease,,No,2023-07-26,2nd Dose
-41,30.6,High,180,No,Female,2021-12-19,Ludhiana,Survived,106,Multiple Conditions,Fatal,Yes,2021-10-23,1st Dose
-32,21.7,Very High,212,No,Female,,Bhopal,,54,Heart Disease,,No,2021-08-13,2nd Dose
-49,30.9,High,198,No,Male,,Chandigarh,,390,None,,No,2023-10-18,1st Dose
-27,29.1,Elevated,150,Yes,Male,,Agra,,2,None,,No,2023-07-12,2nd Dose
-71,33.2,High,215,Yes,Male,2022-07-23,Patna,Survived,521,None,Fatal,No,2022-01-12,Booster
-27,29.1,Elevated,209,Yes,Male,,Lucknow,,360,Hypertension,,Yes,2022-09-05,2nd Dose
-71,19.6,Very High,186,Yes,Male,2023-12-14,Pune,Survived,50,None,Mild,No,2023-10-08,Booster
-77,27.2,Very High,258,Yes,Female,2022-08-17,Bhopal,Survived,420,Hypertension,Moderate,Yes,2022-05-28,2nd Dose
-28,24.0,Elevated,218,No,Female,2021-09-10,Lucknow,Survived,81,Heart Disease,Mild,Yes,2021-01-20,1st Dose
-37,23.0,Normal,206,No,Female,2023-01-19,Hyderabad,Survived,206,Multiple Conditions,Fatal,No,2022-07-10,Booster
-72,24.0,Normal,199,Yes,Male,,Jaipur,,35,Smoking,,No,2021-06-19,2nd Dose
-60,24.1,Very High,206,No,Female,2022-11-22,Pune,Survived,431,Smoking,Moderate,No,2022-09-23,Booster
-58,29.4,Very High,187,No,Female,,Pune,,264,Obesity,,Yes,2022-11-22,Booster
-69,33.7,Elevated,187,Yes,Female,,Delhi,,428,Hypertension,,No,2021-06-19,Booster
-50,28.7,High,292,No,Male,,Chennai,,455,Diabetes,,Yes,2023-08-30,1st Dose
-74,27.5,Normal,254,Yes,Female,,Agra,,444,Obesity,,Yes,2022-06-26,Booster
-73,31.1,Elevated,210,Yes,Male,,Bangalore,,367,None,,No,2021-04-27,2nd Dose
-30,26.0,Elevated,171,Yes,Female,2023-08-23,Chandigarh,Survived,92,Multiple Conditions,Mild,Yes,2022-11-28,1st Dose
-75,28.8,Very High,208,No,Male,2023-01-26,Chandigarh,Survived,340,Multiple Conditions,Severe,Yes,2022-07-12,1st Dose
-58,33.6,High,268,No,Female,,Pune,,531,Hypertension,,No,2023-06-15,1st Dose
-58,31.9,High,205,Yes,Male,2023-02-15,Lucknow,Survived,53,Multiple Conditions,Moderate,No,2022-02-28,Booster
-48,29.5,Very High,188,Yes,Male,,Delhi,,346,Smoking,,No,2023-10-28,Booster
-47,20.8,High,152,No,Male,,Mumbai,,265,Multiple Conditions,,Yes,2022-08-03,1st Dose
-75,29.8,Very High,190,No,Male,2021-05-24,Pune,Survived,506,Diabetes,Mild,No,2021-05-02,2nd Dose
-40,19.2,Normal,257,Yes,Female,,Surat,,242,Multiple Conditions,,Yes,2021-07-29,Booster
-71,33.7,Normal,214,No,Female,2024-06-12,Agra,Survived,14,Heart Disease,Moderate,Yes,2023-11-14,1st Dose
-53,24.1,Elevated,282,Yes,Male,,Nagpur,,316,Smoking,,No,2023-11-19,2nd Dose
-67,26.9,Very High,152,Yes,Female,2022-09-16,Mumbai,Survived,89,Heart Disease,Severe,Yes,2022-03-02,Booster
-46,34.9,Normal,202,Yes,Female,,Agra,,388,Obesity,,Yes,2023-12-22,1st Dose
-49,29.3,Elevated,207,Yes,Female,,Bangalore,,274,Diabetes,,Yes,2022-05-03,2nd Dose
-73,34.8,Very High,214,No,Female,,Chennai,,167,Multiple Conditions,,Yes,2021-07-27,Booster
-57,34.8,Elevated,279,Yes,Male,2023-10-22,Ahmedabad,Survived,545,Smoking,Severe,No,2023-08-01,Booster
-27,28.0,Very High,279,No,Male,2024-07-11,Mumbai,Survived,485,Obesity,Mild,No,2023-08-02,2nd Dose
-57,22.0,Normal,185,No,Female,,Ludhiana,,536,Smoking,,No,2023-08-21,2nd Dose
-57,23.5,Normal,253,No,Female,,Agra,,505,Smoking,,Yes,2022-08-23,2nd Dose
-75,23.5,Normal,206,No,Female,,Delhi,,244,Hypertension,,No,2023-12-05,2nd Dose
-30,29.1,High,188,No,Male,,Agra,,190,Smoking,,No,2021-03-07,Booster
-60,30.6,Elevated,242,No,Male,,Jaipur,,476,Hypertension,,Yes,2022-12-27,2nd Dose
-34,25.2,Very High,267,No,Male,,Pune,,511,Heart Disease,,No,2022-01-13,2nd Dose
-46,30.9,Normal,242,No,Female,,Patna,,59,Smoking,,No,2021-04-20,1st Dose
-70,28.3,Normal,219,Yes,Male,,Bangalore,,475,Smoking,,No,2022-05-12,1st Dose
-47,23.0,Elevated,196,No,Male,2022-12-05,Jaipur,Survived,253,Multiple Conditions,Severe,No,2022-04-02,Booster
-35,32.1,High,290,No,Female,2022-04-29,Lucknow,Survived,22,Multiple Conditions,Moderate,No,2022-03-23,Booster
-61,24.7,High,162,No,Male,,Pune,,314,Multiple Conditions,,No,2023-12-13,2nd Dose
-39,24.5,Elevated,202,No,Female,,Ludhiana,,460,Heart Disease,,Yes,2021-02-15,1st Dose
-66,24.2,High,229,Yes,Female,2024-08-02,Chandigarh,Survived,161,None,Severe,No,2023-09-14,2nd Dose
-74,22.1,Elevated,151,No,Male,2023-03-23,Surat,Survived,277,Obesity,Mild,No,2022-12-26,2nd Dose
-43,31.8,Normal,267,Yes,Female,2022-11-26,Lucknow,Survived,192,Diabetes,Moderate,No,2021-12-23,1st Dose
-48,34.0,Elevated,158,No,Female,2023-04-11,Bangalore,Survived,386,Diabetes,Mild,Yes,2022-09-18,2nd Dose
-45,21.2,Very High,226,No,Male,2024-08-19,Delhi,Survived,414,Multiple Conditions,Moderate,Yes,2023-12-05,1st Dose
-44,20.1,Normal,258,Yes,Female,,Agra,,492,Obesity,,Yes,2023-09-25,Booster
-69,26.5,Elevated,215,Yes,Male,,Chennai,,344,Obesity,,Yes,2022-07-09,1st Dose
-54,20.8,Elevated,213,No,Male,2023-11-21,Agra,Survived,309,Smoking,Severe,Yes,2023-11-03,1st Dose
-26,26.2,Elevated,181,No,Male,,Ludhiana,,131,Multiple Conditions,,Yes,2021-05-28,1st Dose
-49,30.2,Normal,169,Yes,Male,2022-01-08,Ahmedabad,Not Survived,100,Diabetes,Fatal,No,2021-06-21,1st Dose
-48,22.9,Elevated,257,No,Female,,Chandigarh,,373,Smoking,,No,2022-03-12,2nd Dose
-67,33.1,Normal,257,Yes,Male,,Delhi,,88,Hypertension,,No,2022-10-02,Booster
-64,23.9,Very High,163,Yes,Female,,Patna,,459,Multiple Conditions,,No,2023-12-17,Booster
-74,20.2,Normal,213,No,Female,,Lucknow,,331,Diabetes,,No,2022-09-23,2nd Dose
-64,22.1,High,239,No,Male,,Hyderabad,,215,Multiple Conditions,,Yes,2022-04-23,2nd Dose
-62,25.7,Very High,235,Yes,Male,,Hyderabad,,467,Multiple Conditions,,No,2022-02-18,2nd Dose
-47,21.2,Elevated,161,No,Male,,Lucknow,,122,Diabetes,,No,2023-12-10,Booster
-33,23.9,Normal,230,Yes,Female,,Kolkata,,21,Obesity,,No,2022-01-14,1st Dose
-25,33.0,Normal,183,Yes,Female,,Hyderabad,,72,Hypertension,,No,2023-08-17,1st Dose
-78,23.5,Elevated,202,No,Male,,Pune,,107,Obesity,,Yes,2023-03-13,2nd Dose
-69,18.7,High,182,Yes,Male,2023-06-10,Chennai,Survived,271,Hypertension,Severe,Yes,2022-10-09,1st Dose
-62,20.8,Very High,220,Yes,Female,,Kolkata,,436,Hypertension,,Yes,2021-07-27,1st Dose
-71,28.6,Normal,273,Yes,Female,,Lucknow,,103,None,,Yes,2022-08-08,2nd Dose
+Age,BMI,Blood Pressure,Cholesterol Level,Diabetes Status,Gender,Location,Outcome,Patient ID,Pre-existing Conditions,Severity,Smoking History,Vaccine Dose,target,Heart Attack Date_year,Heart Attack Date_month,Heart Attack Date_day,Heart Attack Date_day_of_week,Heart Attack Date_quarter,Heart Attack Date_is_weekend,Vaccination Date_year,Vaccination Date_month,Vaccination Date_day,Vaccination Date_day_of_week,Vaccination Date_quarter,Vaccination Date_is_weekend
+26,29.0,Elevated,244,No,Female,Surat,Survived,483,Heart Disease,Moderate,No,2nd Dose,0,2021.0,8.0,12.0,3.0,3.0,0,2021,5,17,0,2,0
+35,30.3,Very High,162,Yes,Male,Agra,,159,Hypertension,,No,Booster,0,,,,,,0,2021,8,7,5,3,1
+26,29.4,High,157,Yes,Female,Surat,,16,Obesity,,Yes,Booster,0,,,,,,0,2021,12,2,3,4,0
+33,18.8,Elevated,240,No,Male,Mumbai,,335,Hypertension,,No,1st Dose,0,,,,,,0,2022,4,21,3,2,0
+72,32.8,High,197,Yes,Female,Agra,,40,None,,No,Booster,0,,,,,,0,2022,11,11,4,4,0
+34,23.9,Very High,208,Yes,Male,Bhopal,,55,Heart Disease,,No,Booster,0,,,,,,0,2023,1,19,3,1,0
+28,28.9,Elevated,252,No,Female,Hyderabad,,535,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,7,12,2,3,0
+34,26.1,High,300,Yes,Female,Chandigarh,Survived,47,Hypertension,Severe,No,Booster,0,2022.0,12.0,30.0,4.0,4.0,0,2022,4,26,1,2,0
+44,25.0,Elevated,164,No,Female,Delhi,Survived,94,Smoking,Moderate,No,Booster,0,2022.0,1.0,16.0,6.0,1.0,1,2021,12,31,4,4,0
+38,32.6,Elevated,229,Yes,Female,Chandigarh,Survived,479,None,Fatal,No,2nd Dose,0,2021.0,12.0,31.0,4.0,4.0,0,2021,3,21,6,1,1
+47,27.8,Very High,181,No,Male,Delhi,,364,None,,Yes,1st Dose,0,,,,,,0,2021,5,6,3,2,0
+52,28.9,Elevated,253,No,Female,Ludhiana,,494,Smoking,,No,1st Dose,0,,,,,,0,2022,6,28,1,2,0
+75,19.9,High,154,Yes,Male,Pune,,474,Multiple Conditions,,Yes,Booster,0,,,,,,0,2022,2,16,2,1,0
+60,29.8,Normal,170,Yes,Male,Delhi,,249,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2021,3,6,5,1,1
+40,26.6,High,196,No,Female,Jaipur,,550,Obesity,,No,2nd Dose,0,,,,,,0,2021,7,11,6,3,1
+57,19.6,Normal,187,Yes,Male,Ludhiana,Survived,490,Smoking,Mild,Yes,2nd Dose,0,2022.0,6.0,20.0,0.0,2.0,0,2021,12,20,0,4,0
+63,21.1,Elevated,178,No,Female,Mumbai,,445,Hypertension,,No,2nd Dose,0,,,,,,0,2023,10,3,1,4,0
+25,23.3,High,296,Yes,Female,Ludhiana,,366,Obesity,,No,Booster,0,,,,,,0,2021,1,7,3,1,0
+71,31.6,Normal,265,No,Male,Surat,Survived,205,Hypertension,Fatal,Yes,1st Dose,0,2023.0,7.0,12.0,2.0,3.0,0,2023,6,22,3,2,0
+64,21.7,High,174,Yes,Female,Agra,Survived,336,Hypertension,Fatal,No,2nd Dose,0,2023.0,4.0,12.0,2.0,2.0,0,2022,7,9,5,3,1
+56,22.5,Elevated,164,No,Female,Mumbai,,358,Hypertension,,No,1st Dose,0,,,,,,0,2021,1,29,4,1,0
+72,23.9,High,196,No,Female,Bangalore,,362,Multiple Conditions,,No,1st Dose,0,,,,,,0,2021,11,14,6,4,1
+68,29.3,Elevated,150,No,Female,Delhi,,311,Obesity,,Yes,Booster,0,,,,,,0,2021,9,5,6,3,1
+78,30.8,Elevated,245,Yes,Female,Indore,,399,Heart Disease,,No,1st Dose,0,,,,,,0,2022,3,24,3,1,0
+49,21.2,Very High,284,Yes,Male,Surat,Survived,70,Heart Disease,Moderate,Yes,1st Dose,0,2024.0,3.0,25.0,0.0,1.0,0,2023,7,3,0,3,0
+42,25.4,Normal,208,No,Male,Jaipur,,262,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2021,6,17,3,2,0
+27,35.0,High,283,Yes,Male,Pune,,518,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2022,4,14,3,2,0
+72,25.4,Very High,220,No,Male,Chandigarh,,438,Smoking,,No,Booster,0,,,,,,0,2021,11,20,5,4,1
+38,21.9,Very High,251,No,Female,Ahmedabad,,183,Obesity,,Yes,2nd Dose,0,,,,,,0,2022,4,5,1,2,0
+29,30.8,Normal,219,Yes,Male,Chennai,,125,Obesity,,Yes,2nd Dose,0,,,,,,0,2023,3,27,0,1,0
+48,19.7,Elevated,243,No,Female,Ahmedabad,Survived,394,None,Severe,No,1st Dose,0,2022.0,2.0,8.0,1.0,1.0,0,2021,12,15,2,4,0
+75,32.3,Elevated,292,No,Male,Ahmedabad,,226,None,,No,1st Dose,0,,,,,,0,2022,5,14,5,2,1
+32,21.3,Normal,260,Yes,Male,Ludhiana,,236,Diabetes,,No,Booster,0,,,,,,0,2022,1,23,6,1,1
+61,27.1,High,195,No,Male,Lucknow,,177,Multiple Conditions,,No,Booster,0,,,,,,0,2021,5,21,4,2,0
+41,19.7,Very High,191,No,Male,Jaipur,Not Survived,538,Multiple Conditions,Fatal,Yes,Booster,0,2023.0,8.0,28.0,0.0,3.0,0,2023,6,3,5,2,1
+38,29.5,Elevated,172,No,Female,Lucknow,,306,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,5,23,6,2,1
+26,33.1,High,162,No,Female,Chennai,,500,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2022,3,17,3,1,0
+36,34.4,Elevated,215,Yes,Female,Bangalore,,384,Smoking,,No,Booster,0,,,,,,0,2022,12,6,1,4,0
+53,27.8,High,262,No,Female,Patna,,275,Heart Disease,,Yes,1st Dose,0,,,,,,0,2023,8,27,6,3,1
+63,31.0,Very High,198,Yes,Female,Kolkata,,313,Diabetes,,Yes,Booster,0,,,,,,0,2022,3,23,2,1,0
+28,20.6,Normal,161,No,Male,Bangalore,,368,Multiple Conditions,,No,Booster,0,,,,,,0,2022,7,4,0,3,0
+78,22.2,Elevated,256,No,Male,Chennai,,322,Heart Disease,,No,Booster,0,,,,,,0,2023,8,7,0,3,0
+74,23.4,Very High,278,Yes,Female,Bhopal,,473,Obesity,,Yes,Booster,0,,,,,,0,2022,6,5,6,2,1
+28,28.5,Elevated,294,No,Female,Bhopal,,20,Obesity,,No,Booster,0,,,,,,0,2022,1,28,4,1,0
+57,33.6,Normal,254,Yes,Male,Bangalore,Survived,381,Smoking,Mild,No,Booster,0,2024.0,3.0,9.0,5.0,1.0,1,2023,6,30,4,2,0
+58,30.2,High,194,Yes,Male,Kolkata,,57,Heart Disease,,Yes,1st Dose,0,,,,,,0,2023,11,1,2,4,0
+74,26.4,High,178,No,Female,Chandigarh,,391,Multiple Conditions,,Yes,Booster,0,,,,,,0,2022,2,1,1,1,0
+62,27.0,Elevated,259,No,Female,Delhi,,282,Hypertension,,No,1st Dose,0,,,,,,0,2022,7,30,5,3,1
+43,33.8,High,279,No,Female,Indore,Survived,396,Hypertension,Severe,No,1st Dose,0,2024.0,3.0,14.0,3.0,1.0,0,2023,4,18,1,2,0
+69,32.5,Very High,230,Yes,Male,Delhi,,472,Hypertension,,No,Booster,0,,,,,,0,2023,12,25,0,4,0
+46,30.1,High,238,Yes,Female,Mumbai,Not Survived,258,Multiple Conditions,Fatal,Yes,Booster,0,2023.0,4.0,4.0,1.0,2.0,0,2022,7,12,1,3,0
+49,33.3,Normal,248,No,Male,Chennai,,489,Hypertension,,Yes,Booster,0,,,,,,0,2023,12,23,5,4,1
+52,28.5,High,289,Yes,Female,Delhi,Survived,193,None,Mild,Yes,2nd Dose,0,2024.0,7.0,28.0,6.0,3.0,1,2023,10,2,0,4,0
+56,34.1,High,223,No,Female,Delhi,,26,Hypertension,,No,1st Dose,0,,,,,,0,2021,4,23,4,2,0
+38,31.0,Normal,234,Yes,Male,Agra,,291,Heart Disease,,Yes,Booster,0,,,,,,0,2022,8,30,1,3,0
+52,30.1,Very High,251,No,Male,Chandigarh,,43,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2022,2,8,1,1,0
+44,21.6,High,190,Yes,Male,Bangalore,,350,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,5,23,1,2,0
+44,25.1,Elevated,255,No,Female,Patna,,524,Diabetes,,No,1st Dose,0,,,,,,0,2023,4,27,3,2,0
+80,23.1,Normal,194,No,Female,Mumbai,,470,Multiple Conditions,,No,Booster,0,,,,,,0,2021,12,24,4,4,0
+28,24.3,Very High,237,No,Male,Nagpur,,400,Obesity,,No,1st Dose,0,,,,,,0,2021,6,20,6,2,1
+41,26.8,Very High,299,No,Male,Delhi,,319,Smoking,,Yes,2nd Dose,0,,,,,,0,2022,4,24,6,2,1
+35,22.3,Elevated,295,Yes,Male,Bhopal,,155,Diabetes,,Yes,1st Dose,0,,,,,,0,2022,7,15,4,3,0
+68,33.7,High,293,No,Female,Bangalore,,127,Obesity,,Yes,1st Dose,0,,,,,,0,2023,4,6,3,2,0
+56,18.8,High,151,No,Female,Ahmedabad,,288,Multiple Conditions,,No,Booster,0,,,,,,0,2023,4,7,4,2,0
+33,24.2,Normal,212,No,Female,Delhi,,375,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,6,5,0,2,0
+66,34.2,Elevated,216,No,Female,Lucknow,,175,Hypertension,,No,1st Dose,0,,,,,,0,2022,1,16,6,1,1
+75,33.2,High,252,Yes,Male,Bangalore,,32,Diabetes,,Yes,Booster,0,,,,,,0,2022,7,29,4,3,0
+28,24.1,High,173,No,Female,Indore,,114,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,4,7,2,2,0
+71,29.7,Very High,273,Yes,Male,Mumbai,,305,Diabetes,,Yes,2nd Dose,0,,,,,,0,2022,5,10,1,2,0
+34,19.0,Very High,266,Yes,Male,Indore,,174,Diabetes,,Yes,1st Dose,0,,,,,,0,2023,8,10,3,3,0
+79,21.5,Normal,289,Yes,Female,Agra,Survived,363,Smoking,Fatal,Yes,1st Dose,0,2023.0,5.0,2.0,1.0,2.0,0,2022,5,31,1,2,0
+74,26.3,Elevated,268,No,Male,Chandigarh,,209,Obesity,,Yes,Booster,0,,,,,,0,2021,6,12,5,2,1
+27,28.6,High,216,No,Male,Surat,,58,Obesity,,No,1st Dose,0,,,,,,0,2022,3,16,2,1,0
+28,24.4,Elevated,278,Yes,Male,Surat,,256,Smoking,,No,1st Dose,0,,,,,,0,2023,7,18,1,3,0
+41,25.4,Elevated,179,Yes,Female,Jaipur,,25,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2021,10,18,0,4,0
+33,27.0,Very High,185,Yes,Male,Indore,,18,Obesity,,No,1st Dose,0,,,,,,0,2023,2,6,0,1,0
+61,34.7,Very High,204,No,Female,Delhi,,238,Multiple Conditions,,No,1st Dose,0,,,,,,0,2023,11,6,0,4,0
+36,20.6,High,228,No,Male,Chandigarh,,67,Diabetes,,Yes,1st Dose,0,,,,,,0,2021,2,9,1,1,0
+27,24.9,Normal,297,No,Male,Mumbai,Survived,250,Obesity,Moderate,Yes,2nd Dose,0,2023.0,7.0,19.0,2.0,3.0,0,2023,5,3,2,2,0
+41,28.8,Normal,160,No,Female,Pune,Survived,529,Multiple Conditions,Mild,No,2nd Dose,0,2023.0,8.0,26.0,5.0,3.0,1,2022,11,26,5,4,1
+32,29.9,Elevated,277,Yes,Female,Agra,,266,Obesity,,Yes,Booster,0,,,,,,0,2022,4,8,4,2,0
+62,19.0,High,257,No,Male,Delhi,Survived,452,Multiple Conditions,Mild,Yes,Booster,0,2023.0,5.0,29.0,0.0,2.0,0,2022,12,19,0,4,0
+75,19.6,High,271,No,Female,Mumbai,,447,Smoking,,Yes,2nd Dose,0,,,,,,0,2023,4,30,6,2,1
+74,27.8,High,262,Yes,Male,Kolkata,,95,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,12,13,2,4,0
+77,19.1,Very High,192,Yes,Female,Agra,,181,Heart Disease,,No,2nd Dose,0,,,,,,0,2023,1,8,6,1,1
+54,28.8,Elevated,200,No,Female,Ahmedabad,,235,Hypertension,,Yes,2nd Dose,0,,,,,,0,2022,11,21,0,4,0
+43,23.6,High,202,No,Female,Nagpur,,93,Hypertension,,No,Booster,0,,,,,,0,2021,11,24,2,4,0
+56,25.2,High,164,Yes,Female,Hyderabad,,24,Diabetes,,No,2nd Dose,0,,,,,,0,2022,6,22,2,2,0
+64,28.5,Normal,200,Yes,Female,Chandigarh,,278,Diabetes,,Yes,Booster,0,,,,,,0,2022,11,29,1,4,0
+66,27.3,Elevated,199,Yes,Male,Hyderabad,,300,Hypertension,,No,1st Dose,0,,,,,,0,2021,3,17,2,1,0
+39,23.5,Elevated,246,No,Female,Lucknow,,298,Multiple Conditions,,No,1st Dose,0,,,,,,0,2023,8,31,3,3,0
+74,30.0,High,162,Yes,Female,Chandigarh,,6,Diabetes,,Yes,2nd Dose,0,,,,,,0,2022,11,20,6,4,1
+30,34.0,Elevated,263,No,Female,Patna,,117,Multiple Conditions,,No,1st Dose,0,,,,,,0,2021,7,15,3,3,0
+31,31.2,Very High,278,Yes,Male,Mumbai,,46,Smoking,,No,2nd Dose,0,,,,,,0,2022,7,31,6,3,1
+33,23.8,Elevated,225,No,Male,Patna,,229,Diabetes,,Yes,Booster,0,,,,,,0,2021,4,14,2,2,0
+58,24.8,Very High,154,Yes,Female,Chandigarh,,317,Hypertension,,Yes,Booster,0,,,,,,0,2021,3,26,4,1,0
+28,19.6,Elevated,179,Yes,Female,Kolkata,,17,None,,No,Booster,0,,,,,,0,2023,6,8,3,2,0
+37,34.2,Normal,263,Yes,Male,Jaipur,,49,Smoking,,Yes,Booster,0,,,,,,0,2021,8,18,2,3,0
+53,24.3,Normal,271,No,Female,Patna,,423,Obesity,,No,Booster,0,,,,,,0,2023,12,7,3,4,0
+33,29.6,Elevated,261,Yes,Female,Nagpur,Survived,412,Obesity,Mild,No,Booster,0,2023.0,12.0,30.0,5.0,4.0,1,2023,12,6,2,4,0
+33,24.6,Normal,199,No,Male,Hyderabad,,4,Smoking,,No,1st Dose,0,,,,,,0,2022,3,17,3,1,0
+79,22.9,Very High,152,No,Male,Indore,,273,Obesity,,Yes,1st Dose,0,,,,,,0,2021,3,1,0,1,0
+41,26.5,Normal,162,Yes,Male,Kolkata,Survived,245,Smoking,Severe,Yes,Booster,0,2021.0,8.0,27.0,4.0,3.0,0,2021,1,6,2,1,0
+39,30.0,Very High,257,No,Female,Kolkata,Survived,61,Obesity,Moderate,No,1st Dose,0,2024.0,7.0,26.0,4.0,3.0,0,2023,9,29,4,3,0
+46,32.5,High,229,Yes,Male,Ludhiana,,197,Hypertension,,Yes,2nd Dose,0,,,,,,0,2023,1,23,0,1,0
+79,25.5,High,198,Yes,Female,Patna,Survived,530,Hypertension,Severe,Yes,Booster,0,2022.0,5.0,21.0,5.0,2.0,1,2022,3,3,3,1,0
+27,22.1,Normal,287,No,Female,Mumbai,,111,Obesity,,Yes,Booster,0,,,,,,0,2022,12,18,6,4,1
+51,33.9,Normal,261,Yes,Female,Mumbai,,458,Obesity,,Yes,1st Dose,0,,,,,,0,2021,9,21,1,3,0
+28,22.6,Elevated,215,Yes,Male,Delhi,,302,Diabetes,,No,Booster,0,,,,,,0,2022,11,5,5,4,1
+70,28.5,High,183,No,Male,Patna,,30,Hypertension,,No,1st Dose,0,,,,,,0,2022,11,28,0,4,0
+69,20.3,Normal,174,Yes,Female,Bhopal,Survived,246,Hypertension,Moderate,No,1st Dose,0,2024.0,2.0,2.0,4.0,1.0,0,2023,4,29,5,2,1
+78,20.2,Very High,256,Yes,Male,Delhi,Survived,223,None,Mild,Yes,Booster,0,2023.0,8.0,25.0,4.0,3.0,0,2022,11,11,4,4,0
+44,27.3,Very High,180,No,Male,Indore,,27,Heart Disease,,Yes,1st Dose,0,,,,,,0,2021,11,30,1,4,0
+48,19.8,Very High,231,No,Female,Pune,Survived,8,Obesity,Mild,No,2nd Dose,0,2023.0,10.0,17.0,1.0,4.0,0,2022,12,25,6,4,1
+38,26.9,Elevated,172,Yes,Female,Indore,,182,Diabetes,,Yes,Booster,0,,,,,,0,2023,3,24,4,1,0
+55,19.7,High,217,No,Female,Indore,,51,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2023,5,24,2,2,0
+44,24.7,Very High,257,Yes,Male,Delhi,,109,Smoking,,No,1st Dose,0,,,,,,0,2022,12,14,2,4,0
+66,33.6,Normal,278,Yes,Male,Jaipur,,38,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,8,6,4,3,0
+68,21.1,Normal,153,Yes,Male,Nagpur,Survived,158,Obesity,Moderate,Yes,1st Dose,0,2024.0,2.0,25.0,6.0,1.0,1,2023,12,22,4,4,0
+69,34.6,High,285,No,Female,Pune,,525,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2023,10,11,2,4,0
+26,19.8,Elevated,184,Yes,Female,Jaipur,,119,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2021,3,30,1,1,0
+72,33.7,Normal,294,Yes,Female,Chennai,,413,Heart Disease,,Yes,1st Dose,0,,,,,,0,2022,12,7,2,4,0
+32,24.9,Normal,254,Yes,Male,Ahmedabad,,115,Diabetes,,No,2nd Dose,0,,,,,,0,2023,6,18,6,2,1
+77,22.9,High,191,Yes,Male,Pune,Survived,299,Multiple Conditions,Severe,Yes,1st Dose,0,2021.0,5.0,23.0,6.0,2.0,1,2021,1,8,4,1,0
+42,19.8,High,206,No,Female,Kolkata,Survived,204,Diabetes,Moderate,Yes,Booster,0,2023.0,1.0,16.0,0.0,1.0,0,2022,10,25,1,4,0
+66,19.3,Elevated,250,Yes,Female,Bhopal,,176,None,,Yes,Booster,0,,,,,,0,2021,10,16,5,4,1
+51,26.5,Very High,237,Yes,Male,Delhi,,248,Obesity,,No,1st Dose,0,,,,,,0,2022,9,3,5,3,1
+27,26.6,Very High,154,No,Male,Pune,,376,Diabetes,,No,1st Dose,0,,,,,,0,2022,10,19,2,4,0
+32,21.4,Very High,258,No,Male,Chandigarh,Survived,145,None,Severe,Yes,1st Dose,0,2021.0,8.0,24.0,1.0,3.0,0,2021,7,22,3,3,0
+73,31.3,High,171,No,Female,Indore,,195,Diabetes,,Yes,Booster,0,,,,,,0,2022,8,23,1,3,0
+66,28.5,High,244,Yes,Male,Lucknow,Survived,427,Diabetes,Mild,Yes,Booster,0,2022.0,2.0,28.0,0.0,1.0,0,2021,5,9,6,2,1
+40,25.5,High,232,No,Female,Surat,Survived,440,None,Mild,Yes,2nd Dose,0,2023.0,3.0,30.0,3.0,1.0,0,2022,5,20,4,2,0
+54,23.0,Elevated,150,No,Female,Indore,Survived,292,Hypertension,Severe,No,Booster,0,2023.0,7.0,5.0,2.0,3.0,0,2022,11,8,1,4,0
+56,29.3,Very High,269,No,Male,Ludhiana,Survived,308,Smoking,Severe,No,2nd Dose,0,2023.0,9.0,11.0,0.0,3.0,0,2023,2,21,1,1,0
+65,32.9,High,214,No,Female,Delhi,Survived,421,Smoking,Fatal,Yes,1st Dose,0,2023.0,11.0,12.0,6.0,4.0,1,2023,4,15,5,2,1
+54,25.6,Elevated,265,Yes,Female,Bhopal,,514,Heart Disease,,No,Booster,0,,,,,,0,2023,3,9,3,1,0
+39,31.8,High,254,No,Female,Ludhiana,Survived,142,Multiple Conditions,Severe,No,Booster,0,2023.0,7.0,1.0,5.0,3.0,1,2022,11,14,0,4,0
+38,32.0,High,230,Yes,Male,Nagpur,,422,Hypertension,,Yes,2nd Dose,0,,,,,,0,2021,4,8,3,2,0
+49,35.0,Elevated,220,No,Female,Kolkata,Survived,68,Smoking,Mild,No,2nd Dose,0,2023.0,8.0,25.0,4.0,3.0,0,2023,4,19,2,2,0
+32,28.7,Very High,274,No,Female,Bhopal,,433,Hypertension,,No,2nd Dose,0,,,,,,0,2022,7,1,4,3,0
+72,21.9,Very High,197,No,Female,Agra,Survived,228,Multiple Conditions,Severe,Yes,1st Dose,0,2023.0,11.0,28.0,1.0,4.0,0,2023,3,24,4,1,0
+40,19.7,High,282,No,Male,Lucknow,Survived,169,Smoking,Mild,No,1st Dose,0,2023.0,10.0,25.0,2.0,4.0,0,2023,4,18,1,2,0
+61,26.0,Very High,263,No,Male,Kolkata,Survived,189,Multiple Conditions,Moderate,No,Booster,0,2022.0,12.0,25.0,6.0,4.0,1,2022,2,4,4,1,0
+46,30.5,Elevated,229,Yes,Female,Bhopal,Survived,272,Hypertension,Moderate,Yes,1st Dose,0,2023.0,8.0,12.0,5.0,3.0,1,2023,7,21,4,3,0
+58,34.7,Normal,286,Yes,Female,Delhi,,435,Obesity,,No,1st Dose,0,,,,,,0,2022,4,23,5,2,1
+32,32.4,Normal,297,Yes,Male,Pune,,269,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2022,1,4,1,1,0
+42,33.5,Normal,209,Yes,Female,Pune,,194,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2022,9,14,2,3,0
+50,33.2,Very High,277,No,Male,Bangalore,,153,Hypertension,,Yes,1st Dose,0,,,,,,0,2022,7,17,6,3,1
+64,27.5,Very High,171,No,Male,Mumbai,,512,Smoking,,No,1st Dose,0,,,,,,0,2022,8,11,3,3,0
+79,30.4,Very High,191,No,Female,Kolkata,,356,Heart Disease,,No,2nd Dose,0,,,,,,0,2021,3,26,4,1,0
+70,23.5,Very High,183,Yes,Male,Ludhiana,Not Survived,411,None,Fatal,Yes,2nd Dose,0,2023.0,4.0,14.0,4.0,2.0,0,2023,1,4,2,1,0
+28,27.3,Normal,206,No,Female,Chennai,Survived,404,Multiple Conditions,Mild,No,Booster,0,2022.0,5.0,8.0,6.0,2.0,1,2022,1,9,6,1,1
+27,28.7,Elevated,153,Yes,Male,Mumbai,Survived,104,Smoking,Moderate,Yes,Booster,0,2024.0,3.0,4.0,0.0,1.0,0,2023,5,31,2,2,0
+26,31.2,Very High,294,No,Male,Agra,,378,None,,No,2nd Dose,0,,,,,,0,2022,4,28,3,2,0
+26,31.4,High,286,No,Male,Chennai,Survived,75,Multiple Conditions,Moderate,Yes,2nd Dose,0,2024.0,10.0,20.0,6.0,4.0,1,2023,12,20,2,4,0
+29,34.0,Normal,159,Yes,Male,Mumbai,,354,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2022,12,27,1,4,0
+42,25.4,Very High,211,No,Female,Agra,,528,Hypertension,,Yes,Booster,0,,,,,,0,2023,3,7,1,1,0
+54,32.0,Elevated,234,No,Male,Patna,,120,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2023,3,7,1,1,0
+69,27.6,Very High,212,No,Female,Ahmedabad,Not Survived,323,Obesity,Fatal,No,1st Dose,0,2022.0,2.0,23.0,2.0,1.0,0,2021,8,12,3,3,0
+48,26.7,Very High,211,No,Male,Bhopal,Survived,343,Obesity,Severe,Yes,2nd Dose,0,2023.0,7.0,13.0,3.0,3.0,0,2023,6,29,3,2,0
+56,30.9,High,214,No,Female,Delhi,,409,Obesity,,Yes,Booster,0,,,,,,0,2021,5,29,5,2,1
+50,32.2,Elevated,235,No,Female,Hyderabad,,461,Heart Disease,,No,1st Dose,0,,,,,,0,2022,11,16,2,4,0
+60,33.2,Normal,228,Yes,Male,Chandigarh,,333,Diabetes,,No,Booster,0,,,,,,0,2021,6,9,2,2,0
+35,27.1,Normal,159,No,Male,Ludhiana,Survived,287,Hypertension,Severe,No,Booster,0,2023.0,10.0,15.0,6.0,4.0,1,2023,9,13,2,3,0
+42,33.7,Normal,202,Yes,Male,Indore,,339,None,,Yes,2nd Dose,0,,,,,,0,2021,3,24,2,1,0
+53,20.4,Elevated,188,Yes,Female,Lucknow,,443,None,,No,1st Dose,0,,,,,,0,2022,7,29,4,3,0
+54,24.1,Normal,252,No,Female,Kolkata,,342,Obesity,,No,Booster,0,,,,,,0,2021,9,9,3,3,0
+33,25.9,High,153,Yes,Female,Patna,Survived,37,Obesity,Severe,No,1st Dose,0,2024.0,4.0,6.0,5.0,2.0,1,2023,12,14,3,4,0
+28,26.5,High,216,Yes,Male,Mumbai,,140,Obesity,,No,Booster,0,,,,,,0,2022,5,3,1,2,0
+27,24.1,Very High,269,Yes,Female,Kolkata,Survived,254,Heart Disease,Moderate,Yes,2nd Dose,0,2023.0,9.0,3.0,6.0,3.0,1,2022,12,25,6,4,1
+50,33.6,High,246,No,Female,Kolkata,,326,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,5,22,5,2,1
+34,30.2,Very High,293,No,Male,Surat,,60,Hypertension,,Yes,Booster,0,,,,,,0,2022,9,19,0,3,0
+63,26.9,Normal,262,No,Female,Jaipur,Survived,112,Diabetes,Moderate,No,1st Dose,0,2023.0,3.0,29.0,2.0,1.0,0,2022,12,3,5,4,1
+44,32.9,Normal,180,No,Female,Jaipur,Survived,303,Heart Disease,Severe,Yes,Booster,0,2023.0,11.0,28.0,1.0,4.0,0,2023,6,8,3,2,0
+75,30.5,High,274,No,Female,Jaipur,Not Survived,463,Heart Disease,Fatal,Yes,Booster,0,2024.0,3.0,14.0,3.0,1.0,0,2023,4,18,1,2,0
+30,23.6,High,260,No,Female,Indore,,263,None,,Yes,Booster,0,,,,,,0,2022,4,27,2,2,0
+47,23.6,Normal,191,Yes,Male,Lucknow,,416,Hypertension,,No,1st Dose,0,,,,,,0,2023,7,26,2,3,0
+38,23.9,High,280,Yes,Female,Patna,,151,Smoking,,No,1st Dose,0,,,,,,0,2023,12,2,5,4,1
+38,21.1,High,247,Yes,Male,Surat,,267,Obesity,,Yes,1st Dose,0,,,,,,0,2023,1,4,2,1,0
+77,26.7,Normal,159,No,Female,Mumbai,Survived,441,Multiple Conditions,Mild,No,1st Dose,0,2023.0,3.0,15.0,2.0,1.0,0,2022,3,15,1,1,0
+77,31.0,Very High,171,Yes,Female,Jaipur,Survived,39,Hypertension,Mild,No,1st Dose,0,2023.0,2.0,4.0,5.0,1.0,1,2022,2,8,1,1,0
+78,20.1,Very High,214,No,Female,Bangalore,,361,Obesity,,No,1st Dose,0,,,,,,0,2022,1,29,5,1,1
+71,20.0,Very High,182,Yes,Male,Jaipur,,199,Hypertension,,No,Booster,0,,,,,,0,2021,4,30,4,2,0
+68,31.9,High,240,No,Male,Ahmedabad,,297,Multiple Conditions,,Yes,Booster,0,,,,,,0,2021,8,28,5,3,1
+66,25.3,Normal,213,Yes,Female,Surat,,147,None,,Yes,Booster,0,,,,,,0,2023,5,23,1,2,0
+47,32.2,Elevated,179,Yes,Female,Surat,,453,Obesity,,Yes,2nd Dose,0,,,,,,0,2021,11,26,4,4,0
+43,24.1,Elevated,286,Yes,Male,Mumbai,,148,Diabetes,,No,1st Dose,0,,,,,,0,2021,4,12,0,2,0
+75,31.3,Normal,267,No,Male,Agra,Survived,401,None,Fatal,No,1st Dose,0,2023.0,9.0,21.0,3.0,3.0,0,2022,12,30,4,4,0
+43,31.4,Normal,227,Yes,Male,Kolkata,,425,Diabetes,,Yes,2nd Dose,0,,,,,,0,2021,1,29,4,1,0
+52,24.7,Elevated,273,Yes,Female,Bhopal,,124,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2021,4,18,6,2,1
+65,25.1,Elevated,220,No,Male,Bhopal,Survived,426,None,Moderate,Yes,2nd Dose,0,2022.0,6.0,6.0,0.0,2.0,0,2021,11,14,6,4,1
+50,27.9,Elevated,182,No,Male,Jaipur,,97,Heart Disease,,No,Booster,0,,,,,,0,2022,2,11,4,1,0
+33,24.4,Very High,250,Yes,Female,Mumbai,Survived,144,Smoking,Moderate,No,2nd Dose,0,2022.0,4.0,18.0,0.0,2.0,0,2022,2,15,1,1,0
+34,24.6,Normal,165,Yes,Female,Chandigarh,,240,Hypertension,,No,1st Dose,0,,,,,,0,2022,6,27,0,2,0
+30,26.7,High,183,No,Female,Chennai,,526,Heart Disease,,Yes,Booster,0,,,,,,0,2022,11,6,6,4,1
+78,32.6,Normal,164,Yes,Female,Patna,,98,None,,No,2nd Dose,0,,,,,,0,2021,3,27,5,1,1
+44,23.2,Elevated,249,No,Male,Indore,,468,Heart Disease,,Yes,Booster,0,,,,,,0,2023,7,22,5,3,1
+64,34.5,Normal,274,Yes,Male,Pune,,294,None,,No,1st Dose,0,,,,,,0,2022,9,23,4,3,0
+62,26.3,High,180,No,Male,Chandigarh,,405,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2023,10,6,4,4,0
+46,21.2,Very High,231,Yes,Female,Ahmedabad,Survived,123,Heart Disease,Severe,No,Booster,0,2023.0,8.0,4.0,4.0,3.0,0,2022,8,12,4,3,0
+59,24.1,Elevated,290,No,Female,Lucknow,Survived,184,Hypertension,Moderate,No,2nd Dose,0,2022.0,2.0,25.0,4.0,1.0,0,2021,7,19,0,3,0
+30,30.6,Elevated,274,No,Female,Pune,,203,Hypertension,,Yes,Booster,0,,,,,,0,2021,12,17,4,4,0
+49,24.4,High,188,No,Female,Patna,,247,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,10,26,1,4,0
+36,29.8,Elevated,152,Yes,Female,Lucknow,Survived,471,Heart Disease,Moderate,No,1st Dose,0,2023.0,10.0,12.0,3.0,4.0,0,2023,1,11,2,1,0
+25,31.2,Elevated,270,Yes,Male,Chandigarh,,341,Smoking,,No,1st Dose,0,,,,,,0,2021,3,26,4,1,0
+50,28.5,Very High,171,Yes,Female,Chandigarh,Survived,406,Hypertension,Mild,Yes,Booster,0,2023.0,9.0,1.0,4.0,3.0,0,2023,4,20,3,2,0
+61,23.9,Very High,269,No,Female,Hyderabad,,442,Obesity,,No,2nd Dose,0,,,,,,0,2023,10,1,6,4,1
+75,25.5,Very High,174,Yes,Female,Bhopal,,457,None,,No,2nd Dose,0,,,,,,0,2021,4,6,1,2,0
+45,19.9,High,254,No,Male,Nagpur,,325,Multiple Conditions,,No,Booster,0,,,,,,0,2021,4,3,5,2,1
+77,32.2,Elevated,223,No,Male,Ludhiana,Survived,126,Heart Disease,Moderate,No,1st Dose,0,2024.0,2.0,14.0,2.0,1.0,0,2023,11,2,3,4,0
+28,22.0,Normal,239,Yes,Female,Nagpur,,347,Obesity,,No,Booster,0,,,,,,0,2021,8,18,2,3,0
+50,29.8,Very High,187,Yes,Female,Kolkata,,224,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,7,29,4,3,0
+46,24.0,Very High,241,No,Female,Bhopal,Survived,484,None,Mild,No,1st Dose,0,2022.0,8.0,23.0,1.0,3.0,0,2022,6,8,2,2,0
+55,34.0,Elevated,159,No,Male,Ahmedabad,Survived,220,Smoking,Fatal,Yes,Booster,0,2023.0,1.0,4.0,2.0,1.0,0,2022,9,4,6,3,1
+64,21.0,Very High,162,Yes,Female,Kolkata,,130,Hypertension,,Yes,Booster,0,,,,,,0,2022,4,14,3,2,0
+37,34.7,High,250,Yes,Female,Bhopal,Survived,486,Smoking,Fatal,Yes,Booster,0,2023.0,9.0,30.0,5.0,3.0,1,2023,3,7,1,1,0
+77,25.8,Very High,223,Yes,Male,Jaipur,,330,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,2,10,4,1,0
+64,29.8,Normal,198,Yes,Female,Chennai,Survived,377,Multiple Conditions,Mild,No,1st Dose,0,2021.0,9.0,12.0,6.0,3.0,1,2021,8,25,2,3,0
+29,19.9,Normal,174,Yes,Female,Jaipur,,437,Smoking,,Yes,1st Dose,0,,,,,,0,2023,12,30,5,4,1
+53,18.6,Elevated,206,No,Female,Ahmedabad,Not Survived,332,None,Fatal,No,Booster,0,2022.0,11.0,26.0,5.0,4.0,1,2022,11,13,6,4,1
+58,33.7,High,236,No,Female,Lucknow,,497,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,6,20,0,2,0
+63,27.1,High,268,Yes,Male,Ahmedabad,,337,Smoking,,No,Booster,0,,,,,,0,2022,4,19,1,2,0
+66,33.7,Elevated,275,No,Female,Mumbai,,295,Heart Disease,,Yes,1st Dose,0,,,,,,0,2022,12,27,1,4,0
+71,29.2,Very High,286,No,Female,Ludhiana,,424,Hypertension,,Yes,Booster,0,,,,,,0,2021,6,22,1,2,0
+48,23.0,Elevated,227,Yes,Female,Indore,,515,Hypertension,,Yes,1st Dose,0,,,,,,0,2021,6,26,5,2,1
+49,27.8,High,206,Yes,Male,Ahmedabad,Survived,349,Obesity,Severe,No,1st Dose,0,2021.0,8.0,31.0,1.0,3.0,0,2021,6,24,3,2,0
+43,34.3,Normal,289,No,Male,Chennai,,113,Smoking,,No,Booster,0,,,,,,0,2022,7,15,4,3,0
+31,27.8,Elevated,254,Yes,Male,Chandigarh,,180,Heart Disease,,Yes,1st Dose,0,,,,,,0,2023,3,28,1,1,0
+55,33.0,Very High,275,No,Male,Chandigarh,,353,None,,No,1st Dose,0,,,,,,0,2021,10,16,5,4,1
+76,25.7,Very High,201,Yes,Female,Ludhiana,,389,Smoking,,No,1st Dose,0,,,,,,0,2021,10,28,3,4,0
+64,25.6,Normal,177,No,Female,Hyderabad,Survived,432,Smoking,Mild,Yes,2nd Dose,0,2024.0,4.0,12.0,4.0,2.0,0,2023,12,28,3,4,0
+44,34.6,Very High,220,Yes,Male,Agra,,315,Heart Disease,,No,Booster,0,,,,,,0,2022,6,30,3,2,0
+45,25.6,Normal,230,Yes,Male,Chennai,Survived,152,Multiple Conditions,Moderate,Yes,Booster,0,2023.0,4.0,20.0,3.0,2.0,0,2022,10,11,1,4,0
+79,33.4,Very High,214,No,Female,Surat,,415,None,,No,Booster,0,,,,,,0,2022,12,17,5,4,1
+59,29.9,Elevated,252,No,Female,Jaipur,Survived,234,None,Severe,Yes,2nd Dose,0,2024.0,8.0,26.0,0.0,3.0,0,2023,10,8,6,4,1
+30,27.2,Very High,161,No,Female,Ahmedabad,,307,Heart Disease,,Yes,Booster,0,,,,,,0,2023,12,23,5,4,1
+61,27.8,Normal,156,No,Male,Bangalore,,357,None,,Yes,2nd Dose,0,,,,,,0,2022,4,20,2,2,0
+32,24.4,Normal,234,No,Male,Agra,Survived,165,Smoking,Mild,Yes,2nd Dose,0,2023.0,8.0,15.0,1.0,3.0,0,2023,8,5,5,3,1
+29,21.7,Normal,239,No,Male,Chennai,Survived,318,Heart Disease,Moderate,Yes,1st Dose,0,2021.0,10.0,17.0,6.0,4.0,1,2021,5,4,1,2,0
+42,33.3,High,279,No,Female,Mumbai,Survived,137,Multiple Conditions,Severe,Yes,2nd Dose,0,2023.0,12.0,10.0,6.0,4.0,1,2023,9,22,4,3,0
+31,21.4,Very High,182,No,Male,Hyderabad,Survived,198,Obesity,Moderate,Yes,Booster,0,2023.0,11.0,29.0,2.0,4.0,0,2023,5,2,1,2,0
+67,26.0,Normal,226,Yes,Female,Agra,,259,Hypertension,,Yes,1st Dose,0,,,,,,0,2022,1,16,6,1,1
+74,34.9,Very High,258,Yes,Male,Mumbai,Survived,233,Smoking,Severe,Yes,Booster,0,2024.0,5.0,6.0,0.0,2.0,0,2023,6,30,4,2,0
+69,29.2,Very High,255,No,Male,Lucknow,,116,Obesity,,Yes,Booster,0,,,,,,0,2021,10,14,3,4,0
+48,23.2,Very High,205,Yes,Male,Lucknow,Survived,121,Hypertension,Fatal,Yes,1st Dose,0,2022.0,4.0,29.0,4.0,2.0,0,2021,11,17,2,4,0
+46,26.7,Elevated,298,No,Male,Mumbai,,478,Hypertension,,No,Booster,0,,,,,,0,2023,7,10,0,3,0
+49,31.2,Elevated,192,Yes,Female,Indore,,225,Obesity,,No,1st Dose,0,,,,,,0,2021,8,21,5,3,1
+58,26.7,High,191,Yes,Female,Pune,,464,Smoking,,Yes,2nd Dose,0,,,,,,0,2023,8,20,6,3,1
+53,21.1,Normal,285,Yes,Male,Ludhiana,,502,Heart Disease,,No,Booster,0,,,,,,0,2023,9,22,4,3,0
+64,28.8,Very High,222,Yes,Male,Ahmedabad,,348,Smoking,,Yes,1st Dose,0,,,,,,0,2021,7,16,4,3,0
+30,18.9,Very High,254,Yes,Male,Bangalore,,128,None,,Yes,1st Dose,0,,,,,,0,2022,9,10,5,3,1
+80,18.9,High,153,No,Female,Chennai,,541,None,,No,1st Dose,0,,,,,,0,2022,11,29,1,4,0
+71,20.9,Very High,260,Yes,Male,Hyderabad,,286,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2021,7,27,1,3,0
+32,31.2,High,256,No,Male,Hyderabad,Not Survived,501,Multiple Conditions,Fatal,No,1st Dose,0,2021.0,12.0,7.0,1.0,4.0,0,2021,8,2,0,3,0
+60,32.7,Normal,155,No,Male,Surat,,520,Smoking,,No,1st Dose,0,,,,,,0,2021,10,7,3,4,0
+63,31.4,Normal,174,Yes,Female,Kolkata,,108,Diabetes,,No,1st Dose,0,,,,,,0,2023,3,15,2,1,0
+42,23.1,High,162,Yes,Female,Delhi,Survived,496,Smoking,Mild,No,1st Dose,0,2024.0,3.0,20.0,2.0,1.0,0,2023,8,1,1,3,0
+41,23.7,High,216,Yes,Female,Patna,,374,Smoking,,Yes,2nd Dose,0,,,,,,0,2022,1,26,2,1,0
+58,32.8,High,239,No,Female,Mumbai,,134,Hypertension,,Yes,1st Dose,0,,,,,,0,2021,11,8,0,4,0
+53,20.1,Very High,156,No,Female,Agra,,434,Diabetes,,No,2nd Dose,0,,,,,,0,2023,12,28,3,4,0
+80,32.8,Elevated,253,Yes,Female,Jaipur,,45,Diabetes,,No,Booster,0,,,,,,0,2023,5,2,1,2,0
+49,25.2,Elevated,168,Yes,Female,Ludhiana,,170,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,4,18,0,2,0
+57,24.9,Normal,192,No,Male,Lucknow,,66,Multiple Conditions,,No,Booster,0,,,,,,0,2021,1,4,0,1,0
+44,29.2,High,247,Yes,Male,Bhopal,Survived,284,Diabetes,Moderate,Yes,2nd Dose,0,2022.0,5.0,19.0,3.0,2.0,0,2021,9,18,5,3,1
+73,21.6,High,223,Yes,Male,Chennai,,86,None,,Yes,Booster,0,,,,,,0,2022,4,2,5,2,1
+48,20.7,Elevated,184,Yes,Female,Jaipur,,243,Smoking,,No,1st Dose,0,,,,,,0,2023,9,24,6,3,1
+51,19.9,Normal,222,No,Male,Pune,,187,Smoking,,No,1st Dose,0,,,,,,0,2022,2,11,4,1,0
+39,26.2,Elevated,249,No,Female,Hyderabad,,498,None,,No,1st Dose,0,,,,,,0,2021,5,6,3,2,0
+56,32.2,Very High,185,No,Female,Patna,,160,Diabetes,,Yes,2nd Dose,0,,,,,,0,2021,12,21,1,4,0
+66,30.2,High,153,No,Female,Lucknow,,13,Smoking,,No,Booster,0,,,,,,0,2023,5,10,2,2,0
+65,34.3,Normal,209,No,Male,Kolkata,,36,Obesity,,Yes,Booster,0,,,,,,0,2023,5,31,2,2,0
+65,20.3,Very High,281,No,Female,Ludhiana,Survived,29,Obesity,Mild,No,1st Dose,0,2022.0,7.0,9.0,5.0,3.0,1,2021,8,5,3,3,0
+52,34.2,Very High,157,Yes,Male,Mumbai,,171,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2021,12,27,0,4,0
+76,33.9,High,294,Yes,Male,Delhi,Survived,143,Diabetes,Mild,No,Booster,0,2024.0,4.0,11.0,3.0,2.0,0,2023,7,29,5,3,1
+67,30.0,Normal,282,No,Female,Ludhiana,,527,Obesity,,No,1st Dose,0,,,,,,0,2021,10,30,5,4,1
+65,34.1,High,247,No,Female,Ludhiana,,549,Obesity,,Yes,2nd Dose,0,,,,,,0,2022,8,14,6,3,1
+71,26.6,Very High,151,Yes,Female,Agra,Survived,222,Hypertension,Mild,No,Booster,0,2021.0,12.0,5.0,6.0,4.0,1,2021,1,27,2,1,0
+48,32.5,Elevated,165,No,Female,Kolkata,Survived,487,Smoking,Mild,No,2nd Dose,0,2024.0,6.0,17.0,0.0,2.0,0,2023,11,24,4,4,0
+55,31.3,Normal,295,No,Female,Delhi,,96,Diabetes,,No,1st Dose,0,,,,,,0,2023,8,27,6,3,1
+47,24.2,High,280,Yes,Male,Surat,,52,None,,Yes,1st Dose,0,,,,,,0,2023,1,24,1,1,0
+66,19.6,Elevated,163,Yes,Female,Bangalore,,241,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2021,1,29,4,1,0
+73,18.7,Very High,176,No,Female,Bangalore,,430,Obesity,,Yes,Booster,0,,,,,,0,2022,7,1,4,3,0
+63,23.9,High,260,Yes,Male,Ludhiana,Survived,352,Multiple Conditions,Moderate,Yes,Booster,0,2024.0,1.0,26.0,4.0,1.0,0,2023,5,30,1,2,0
+72,32.0,Normal,299,No,Female,Bangalore,Survived,439,Heart Disease,Moderate,No,Booster,0,2021.0,7.0,24.0,5.0,3.0,1,2021,2,9,1,1,0
+67,26.6,Elevated,268,No,Male,Indore,Survived,179,Multiple Conditions,Severe,No,Booster,0,2023.0,10.0,27.0,4.0,4.0,0,2023,1,13,4,1,0
+48,22.4,Normal,226,No,Female,Kolkata,Survived,451,Obesity,Mild,No,1st Dose,0,2023.0,12.0,7.0,3.0,4.0,0,2023,11,13,0,4,0
+26,24.7,High,201,Yes,Female,Pune,,42,Multiple Conditions,,Yes,Booster,0,,,,,,0,2023,1,26,3,1,0
+48,23.6,High,292,No,Female,Surat,,504,None,,Yes,Booster,0,,,,,,0,2021,4,22,3,2,0
+70,28.1,Elevated,185,No,Female,Agra,,448,Obesity,,Yes,1st Dose,0,,,,,,0,2022,3,29,1,1,0
+70,24.6,High,212,No,Female,Kolkata,,207,Obesity,,Yes,Booster,0,,,,,,0,2022,3,23,2,1,0
+34,23.0,Normal,197,Yes,Male,Mumbai,,393,Smoking,,No,2nd Dose,0,,,,,,0,2023,12,31,6,4,1
+57,21.6,High,179,No,Female,Indore,Survived,283,Obesity,Severe,Yes,Booster,0,2024.0,6.0,8.0,5.0,2.0,1,2023,11,16,3,4,0
+60,19.8,Normal,236,No,Male,Chandigarh,Survived,359,Smoking,Severe,No,2nd Dose,0,2022.0,10.0,28.0,4.0,4.0,0,2022,9,28,2,3,0
+76,28.6,High,276,No,Male,Jaipur,,398,Heart Disease,,Yes,Booster,0,,,,,,0,2021,5,1,5,2,1
+41,21.8,Normal,184,Yes,Female,Pune,,255,Hypertension,,No,1st Dose,0,,,,,,0,2021,5,29,5,2,1
+50,26.3,Normal,181,Yes,Male,Patna,,480,Smoking,,Yes,2nd Dose,0,,,,,,0,2023,2,14,1,1,0
+50,21.0,Normal,273,No,Female,Mumbai,,5,Diabetes,,No,2nd Dose,0,,,,,,0,2023,3,26,6,1,1
+70,21.2,Elevated,273,No,Female,Patna,,257,None,,Yes,1st Dose,0,,,,,,0,2023,7,8,5,3,1
+67,28.5,Normal,294,Yes,Female,Delhi,,516,Heart Disease,,Yes,1st Dose,0,,,,,,0,2021,10,3,6,4,1
+41,26.5,Normal,261,Yes,Female,Ahmedabad,,101,Heart Disease,,No,Booster,0,,,,,,0,2022,11,10,3,4,0
+63,30.3,Normal,241,Yes,Male,Mumbai,,227,Smoking,,No,1st Dose,0,,,,,,0,2021,10,16,5,4,1
+40,20.2,Normal,259,No,Male,Mumbai,,493,Multiple Conditions,,No,Booster,0,,,,,,0,2021,7,10,5,3,1
+29,27.4,High,220,Yes,Female,Pune,Survived,214,Multiple Conditions,Moderate,Yes,Booster,0,2021.0,12.0,3.0,4.0,4.0,0,2021,2,19,4,1,0
+59,30.5,High,152,No,Male,Agra,,488,Smoking,,No,2nd Dose,0,,,,,,0,2021,3,14,6,1,1
+75,19.4,Normal,198,Yes,Male,Jaipur,,172,Diabetes,,No,2nd Dose,0,,,,,,0,2021,1,26,1,1,0
+68,24.5,Elevated,240,Yes,Male,Lucknow,Survived,99,Multiple Conditions,Mild,Yes,2nd Dose,0,2022.0,9.0,26.0,0.0,3.0,0,2022,2,21,0,1,0
+61,29.5,Very High,262,Yes,Female,Agra,,293,None,,No,2nd Dose,0,,,,,,0,2023,3,23,3,1,0
+76,25.0,Normal,292,Yes,Female,Agra,,216,Diabetes,,No,Booster,0,,,,,,0,2022,9,11,6,3,1
+56,34.7,Normal,242,No,Male,Chennai,,62,Obesity,,No,Booster,0,,,,,,0,2022,3,28,0,1,0
+72,18.8,Elevated,212,Yes,Male,Pune,,407,Heart Disease,,No,2nd Dose,0,,,,,,0,2023,8,8,1,3,0
+53,21.3,High,277,Yes,Male,Delhi,,48,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2023,8,25,4,3,0
+63,34.4,Normal,197,Yes,Female,Bangalore,,33,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2023,4,29,5,2,1
+25,23.6,High,212,No,Female,Bhopal,Survived,418,Hypertension,Fatal,No,2nd Dose,0,2023.0,7.0,23.0,6.0,3.0,1,2023,6,16,4,2,0
+29,24.4,Normal,167,No,Female,Delhi,,268,Obesity,,No,1st Dose,0,,,,,,0,2021,1,26,1,1,0
+41,33.6,High,202,No,Female,Ludhiana,Survived,328,Heart Disease,Severe,No,Booster,0,2022.0,6.0,1.0,2.0,2.0,0,2021,11,14,6,4,1
+64,26.0,High,166,No,Male,Ludhiana,,201,None,,Yes,Booster,0,,,,,,0,2022,10,26,2,4,0
+27,26.8,High,165,No,Female,Nagpur,,135,None,,Yes,2nd Dose,0,,,,,,0,2022,12,21,2,4,0
+48,22.3,Very High,160,No,Male,Surat,Survived,28,Diabetes,Mild,No,Booster,0,2024.0,9.0,10.0,1.0,3.0,0,2023,12,8,4,4,0
+26,28.4,High,272,Yes,Male,Mumbai,,450,Heart Disease,,Yes,Booster,0,,,,,,0,2023,7,7,4,3,0
+74,30.8,High,199,Yes,Male,Jaipur,,231,Hypertension,,No,1st Dose,0,,,,,,0,2022,5,22,6,2,1
+34,27.7,Very High,277,No,Female,Lucknow,,261,Obesity,,Yes,2nd Dose,0,,,,,,0,2022,7,4,0,3,0
+63,20.5,High,181,Yes,Female,Indore,Not Survived,379,Heart Disease,Fatal,Yes,1st Dose,0,2024.0,3.0,2.0,5.0,1.0,1,2023,11,1,2,4,0
+55,25.7,Elevated,160,No,Female,Kolkata,Survived,289,Heart Disease,Moderate,Yes,2nd Dose,0,2023.0,10.0,1.0,6.0,4.0,1,2023,3,20,0,1,0
+48,29.9,Elevated,195,Yes,Male,Bangalore,Survived,419,Heart Disease,Moderate,No,Booster,0,2023.0,9.0,22.0,4.0,3.0,0,2023,4,8,5,2,1
+48,33.6,High,279,No,Female,Agra,Survived,163,Heart Disease,Moderate,Yes,2nd Dose,0,2024.0,12.0,5.0,3.0,4.0,0,2023,12,7,3,4,0
+55,28.4,Very High,299,Yes,Female,Patna,,392,Obesity,,Yes,2nd Dose,0,,,,,,0,2023,1,9,0,1,0
+65,25.1,High,245,No,Female,Nagpur,,491,Diabetes,,No,1st Dose,0,,,,,,0,2022,7,13,2,3,0
+54,26.7,Normal,218,No,Female,Bhopal,Survived,139,Heart Disease,Fatal,No,2nd Dose,0,2022.0,9.0,4.0,6.0,3.0,1,2022,5,6,4,2,0
+54,20.1,Normal,218,Yes,Female,Bangalore,,63,Smoking,,No,2nd Dose,0,,,,,,0,2023,9,15,4,3,0
+69,22.4,Very High,296,No,Female,Indore,,136,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,11,29,0,4,0
+38,32.7,High,272,Yes,Female,Bhopal,Survived,129,Multiple Conditions,Severe,No,2nd Dose,0,2022.0,8.0,30.0,1.0,3.0,0,2022,2,13,6,1,1
+25,19.6,Normal,285,No,Male,Lucknow,,534,Obesity,,Yes,Booster,0,,,,,,0,2022,10,21,4,4,0
+73,23.0,Normal,200,No,Male,Nagpur,,9,Obesity,,No,Booster,0,,,,,,0,2022,7,31,6,3,1
+50,26.3,High,160,Yes,Male,Jaipur,,327,Heart Disease,,No,Booster,0,,,,,,0,2021,7,28,2,3,0
+31,23.6,Elevated,209,Yes,Male,Agra,,345,Diabetes,,No,2nd Dose,0,,,,,,0,2023,8,13,6,3,1
+62,33.7,Very High,268,Yes,Female,Bhopal,,65,Multiple Conditions,,Yes,Booster,0,,,,,,0,2023,4,24,0,2,0
+48,29.2,Normal,188,Yes,Male,Ludhiana,,301,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2021,7,9,4,3,0
+41,33.0,Normal,249,No,Female,Agra,,15,None,,No,2nd Dose,0,,,,,,0,2021,6,8,1,2,0
+42,29.4,High,203,Yes,Female,Agra,,157,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2021,8,14,5,3,1
+62,23.3,Normal,257,Yes,Female,Mumbai,,41,None,,No,1st Dose,0,,,,,,0,2022,5,1,6,2,1
+48,35.0,Elevated,214,No,Male,Hyderabad,,380,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,1,20,3,1,0
+58,25.5,Normal,151,No,Male,Ludhiana,,188,Heart Disease,,No,2nd Dose,0,,,,,,0,2021,11,13,5,4,1
+77,28.6,Normal,196,No,Male,Ludhiana,,465,Obesity,,Yes,1st Dose,0,,,,,,0,2021,11,5,4,4,0
+80,25.4,Normal,163,No,Female,Pune,,217,Obesity,,Yes,Booster,0,,,,,,0,2022,8,21,6,3,1
+26,19.2,Elevated,238,No,Male,Lucknow,,410,Diabetes,,Yes,1st Dose,0,,,,,,0,2021,2,28,6,1,1
+59,20.9,Normal,294,No,Male,Pune,,280,None,,Yes,2nd Dose,0,,,,,,0,2021,10,24,6,4,1
+73,29.4,Elevated,167,No,Female,Lucknow,,503,Obesity,,Yes,1st Dose,0,,,,,,0,2022,2,20,6,1,1
+68,30.9,Normal,225,Yes,Male,Chennai,,499,Heart Disease,,Yes,Booster,0,,,,,,0,2021,4,10,5,2,1
+55,32.3,High,198,No,Male,Chandigarh,Survived,338,Multiple Conditions,Severe,Yes,1st Dose,0,2024.0,8.0,14.0,2.0,3.0,0,2023,11,2,3,4,0
+34,26.0,High,210,Yes,Female,Chennai,,237,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,12,16,5,4,1
+38,31.0,High,281,No,Female,Nagpur,,208,Hypertension,,No,1st Dose,0,,,,,,0,2021,2,14,6,1,1
+61,19.0,Elevated,237,No,Male,Nagpur,,213,Obesity,,No,1st Dose,0,,,,,,0,2023,10,9,0,4,0
+35,29.7,Very High,272,Yes,Male,Pune,,296,Hypertension,,No,1st Dose,0,,,,,,0,2023,8,31,3,3,0
+69,23.9,Very High,246,Yes,Female,Hyderabad,,519,Obesity,,Yes,Booster,0,,,,,,0,2022,6,20,0,2,0
+27,32.1,High,259,No,Male,Hyderabad,,252,Smoking,,Yes,Booster,0,,,,,,0,2023,3,12,6,1,1
+71,26.1,Very High,190,No,Female,Indore,,542,Obesity,,Yes,Booster,0,,,,,,0,2023,3,30,3,1,0
+58,24.3,High,241,No,Male,Lucknow,,462,None,,Yes,Booster,0,,,,,,0,2022,12,2,4,4,0
+58,30.3,Normal,298,Yes,Male,Pune,,456,Obesity,,No,Booster,0,,,,,,0,2021,11,19,4,4,0
+51,34.2,Elevated,267,Yes,Male,Bhopal,Survived,548,Smoking,Mild,No,1st Dose,0,2021.0,12.0,25.0,5.0,4.0,1,2021,9,8,2,3,0
+77,33.9,Very High,167,No,Male,Patna,Not Survived,304,Hypertension,Fatal,Yes,2nd Dose,0,2024.0,2.0,3.0,5.0,1.0,1,2023,11,7,1,4,0
+45,19.7,High,246,No,Male,Surat,Survived,351,Smoking,Fatal,Yes,Booster,0,2023.0,4.0,16.0,6.0,2.0,1,2022,4,23,5,2,1
+77,27.8,Very High,290,No,Male,Lucknow,,270,Diabetes,,No,1st Dose,0,,,,,,0,2023,10,27,4,4,0
+59,21.7,High,155,No,Female,Chennai,,446,Hypertension,,No,2nd Dose,0,,,,,,0,2023,8,11,4,3,0
+76,28.9,Normal,229,No,Male,Chennai,,202,Heart Disease,,No,Booster,0,,,,,,0,2021,1,16,5,1,1
+58,35.0,Very High,208,No,Male,Bhopal,,162,Hypertension,,No,1st Dose,0,,,,,,0,2022,3,15,1,1,0
+76,25.0,Elevated,198,Yes,Male,Indore,,44,Diabetes,,No,1st Dose,0,,,,,,0,2023,10,29,6,4,1
+26,33.7,High,284,Yes,Female,Pune,Survived,218,None,Moderate,No,1st Dose,0,2024.0,6.0,2.0,6.0,2.0,1,2023,7,8,5,3,1
+37,22.5,Very High,287,No,Male,Kolkata,,402,None,,No,2nd Dose,0,,,,,,0,2023,6,8,3,2,0
+34,19.0,Very High,186,Yes,Female,Surat,,191,Obesity,,No,2nd Dose,0,,,,,,0,2021,8,4,2,3,0
+41,34.6,Elevated,268,No,Male,Pune,,477,None,,No,Booster,0,,,,,,0,2022,11,26,5,4,1
+29,24.2,High,255,No,Female,Patna,,310,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,9,23,5,3,1
+37,30.7,Very High,241,No,Female,Nagpur,,260,Heart Disease,,No,2nd Dose,0,,,,,,0,2023,7,26,2,3,0
+41,30.6,High,180,No,Female,Ludhiana,Survived,106,Multiple Conditions,Fatal,Yes,1st Dose,0,2021.0,12.0,19.0,6.0,4.0,1,2021,10,23,5,4,1
+32,21.7,Very High,212,No,Female,Bhopal,,54,Heart Disease,,No,2nd Dose,0,,,,,,0,2021,8,13,4,3,0
+49,30.9,High,198,No,Male,Chandigarh,,390,None,,No,1st Dose,0,,,,,,0,2023,10,18,2,4,0
+27,29.1,Elevated,150,Yes,Male,Agra,,2,None,,No,2nd Dose,0,,,,,,0,2023,7,12,2,3,0
+71,33.2,High,215,Yes,Male,Patna,Survived,521,None,Fatal,No,Booster,0,2022.0,7.0,23.0,5.0,3.0,1,2022,1,12,2,1,0
+27,29.1,Elevated,209,Yes,Male,Lucknow,,360,Hypertension,,Yes,2nd Dose,0,,,,,,0,2022,9,5,0,3,0
+71,19.6,Very High,186,Yes,Male,Pune,Survived,50,None,Mild,No,Booster,0,2023.0,12.0,14.0,3.0,4.0,0,2023,10,8,6,4,1
+77,27.2,Very High,258,Yes,Female,Bhopal,Survived,420,Hypertension,Moderate,Yes,2nd Dose,0,2022.0,8.0,17.0,2.0,3.0,0,2022,5,28,5,2,1
+28,24.0,Elevated,218,No,Female,Lucknow,Survived,81,Heart Disease,Mild,Yes,1st Dose,0,2021.0,9.0,10.0,4.0,3.0,0,2021,1,20,2,1,0
+37,23.0,Normal,206,No,Female,Hyderabad,Survived,206,Multiple Conditions,Fatal,No,Booster,0,2023.0,1.0,19.0,3.0,1.0,0,2022,7,10,6,3,1
+72,24.0,Normal,199,Yes,Male,Jaipur,,35,Smoking,,No,2nd Dose,0,,,,,,0,2021,6,19,5,2,1
+60,24.1,Very High,206,No,Female,Pune,Survived,431,Smoking,Moderate,No,Booster,0,2022.0,11.0,22.0,1.0,4.0,0,2022,9,23,4,3,0
+58,29.4,Very High,187,No,Female,Pune,,264,Obesity,,Yes,Booster,0,,,,,,0,2022,11,22,1,4,0
+69,33.7,Elevated,187,Yes,Female,Delhi,,428,Hypertension,,No,Booster,0,,,,,,0,2021,6,19,5,2,1
+50,28.7,High,292,No,Male,Chennai,,455,Diabetes,,Yes,1st Dose,0,,,,,,0,2023,8,30,2,3,0
+74,27.5,Normal,254,Yes,Female,Agra,,444,Obesity,,Yes,Booster,0,,,,,,0,2022,6,26,6,2,1
+73,31.1,Elevated,210,Yes,Male,Bangalore,,367,None,,No,2nd Dose,0,,,,,,0,2021,4,27,1,2,0
+30,26.0,Elevated,171,Yes,Female,Chandigarh,Survived,92,Multiple Conditions,Mild,Yes,1st Dose,0,2023.0,8.0,23.0,2.0,3.0,0,2022,11,28,0,4,0
+75,28.8,Very High,208,No,Male,Chandigarh,Survived,340,Multiple Conditions,Severe,Yes,1st Dose,0,2023.0,1.0,26.0,3.0,1.0,0,2022,7,12,1,3,0
+58,33.6,High,268,No,Female,Pune,,531,Hypertension,,No,1st Dose,0,,,,,,0,2023,6,15,3,2,0
+58,31.9,High,205,Yes,Male,Lucknow,Survived,53,Multiple Conditions,Moderate,No,Booster,0,2023.0,2.0,15.0,2.0,1.0,0,2022,2,28,0,1,0
+48,29.5,Very High,188,Yes,Male,Delhi,,346,Smoking,,No,Booster,0,,,,,,0,2023,10,28,5,4,1
+47,20.8,High,152,No,Male,Mumbai,,265,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2022,8,3,2,3,0
+75,29.8,Very High,190,No,Male,Pune,Survived,506,Diabetes,Mild,No,2nd Dose,0,2021.0,5.0,24.0,0.0,2.0,0,2021,5,2,6,2,1
+40,19.2,Normal,257,Yes,Female,Surat,,242,Multiple Conditions,,Yes,Booster,0,,,,,,0,2021,7,29,3,3,0
+71,33.7,Normal,214,No,Female,Agra,Survived,14,Heart Disease,Moderate,Yes,1st Dose,0,2024.0,6.0,12.0,2.0,2.0,0,2023,11,14,1,4,0
+53,24.1,Elevated,282,Yes,Male,Nagpur,,316,Smoking,,No,2nd Dose,0,,,,,,0,2023,11,19,6,4,1
+67,26.9,Very High,152,Yes,Female,Mumbai,Survived,89,Heart Disease,Severe,Yes,Booster,0,2022.0,9.0,16.0,4.0,3.0,0,2022,3,2,2,1,0
+46,34.9,Normal,202,Yes,Female,Agra,,388,Obesity,,Yes,1st Dose,0,,,,,,0,2023,12,22,4,4,0
+49,29.3,Elevated,207,Yes,Female,Bangalore,,274,Diabetes,,Yes,2nd Dose,0,,,,,,0,2022,5,3,1,2,0
+73,34.8,Very High,214,No,Female,Chennai,,167,Multiple Conditions,,Yes,Booster,0,,,,,,0,2021,7,27,1,3,0
+57,34.8,Elevated,279,Yes,Male,Ahmedabad,Survived,545,Smoking,Severe,No,Booster,0,2023.0,10.0,22.0,6.0,4.0,1,2023,8,1,1,3,0
+27,28.0,Very High,279,No,Male,Mumbai,Survived,485,Obesity,Mild,No,2nd Dose,0,2024.0,7.0,11.0,3.0,3.0,0,2023,8,2,2,3,0
+57,22.0,Normal,185,No,Female,Ludhiana,,536,Smoking,,No,2nd Dose,0,,,,,,0,2023,8,21,0,3,0
+57,23.5,Normal,253,No,Female,Agra,,505,Smoking,,Yes,2nd Dose,0,,,,,,0,2022,8,23,1,3,0
+75,23.5,Normal,206,No,Female,Delhi,,244,Hypertension,,No,2nd Dose,0,,,,,,0,2023,12,5,1,4,0
+30,29.1,High,188,No,Male,Agra,,190,Smoking,,No,Booster,0,,,,,,0,2021,3,7,6,1,1
+60,30.6,Elevated,242,No,Male,Jaipur,,476,Hypertension,,Yes,2nd Dose,0,,,,,,0,2022,12,27,1,4,0
+34,25.2,Very High,267,No,Male,Pune,,511,Heart Disease,,No,2nd Dose,0,,,,,,0,2022,1,13,3,1,0
+46,30.9,Normal,242,No,Female,Patna,,59,Smoking,,No,1st Dose,0,,,,,,0,2021,4,20,1,2,0
+70,28.3,Normal,219,Yes,Male,Bangalore,,475,Smoking,,No,1st Dose,0,,,,,,0,2022,5,12,3,2,0
+47,23.0,Elevated,196,No,Male,Jaipur,Survived,253,Multiple Conditions,Severe,No,Booster,0,2022.0,12.0,5.0,0.0,4.0,0,2022,4,2,5,2,1
+35,32.1,High,290,No,Female,Lucknow,Survived,22,Multiple Conditions,Moderate,No,Booster,0,2022.0,4.0,29.0,4.0,2.0,0,2022,3,23,2,1,0
+61,24.7,High,162,No,Male,Pune,,314,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,12,13,2,4,0
+39,24.5,Elevated,202,No,Female,Ludhiana,,460,Heart Disease,,Yes,1st Dose,0,,,,,,0,2021,2,15,0,1,0
+66,24.2,High,229,Yes,Female,Chandigarh,Survived,161,None,Severe,No,2nd Dose,0,2024.0,8.0,2.0,4.0,3.0,0,2023,9,14,3,3,0
+74,22.1,Elevated,151,No,Male,Surat,Survived,277,Obesity,Mild,No,2nd Dose,0,2023.0,3.0,23.0,3.0,1.0,0,2022,12,26,0,4,0
+43,31.8,Normal,267,Yes,Female,Lucknow,Survived,192,Diabetes,Moderate,No,1st Dose,0,2022.0,11.0,26.0,5.0,4.0,1,2021,12,23,3,4,0
+48,34.0,Elevated,158,No,Female,Bangalore,Survived,386,Diabetes,Mild,Yes,2nd Dose,0,2023.0,4.0,11.0,1.0,2.0,0,2022,9,18,6,3,1
+45,21.2,Very High,226,No,Male,Delhi,Survived,414,Multiple Conditions,Moderate,Yes,1st Dose,0,2024.0,8.0,19.0,0.0,3.0,0,2023,12,5,1,4,0
+44,20.1,Normal,258,Yes,Female,Agra,,492,Obesity,,Yes,Booster,0,,,,,,0,2023,9,25,0,3,0
+69,26.5,Elevated,215,Yes,Male,Chennai,,344,Obesity,,Yes,1st Dose,0,,,,,,0,2022,7,9,5,3,1
+54,20.8,Elevated,213,No,Male,Agra,Survived,309,Smoking,Severe,Yes,1st Dose,0,2023.0,11.0,21.0,1.0,4.0,0,2023,11,3,4,4,0
+26,26.2,Elevated,181,No,Male,Ludhiana,,131,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2021,5,28,4,2,0
+49,30.2,Normal,169,Yes,Male,Ahmedabad,Not Survived,100,Diabetes,Fatal,No,1st Dose,0,2022.0,1.0,8.0,5.0,1.0,1,2021,6,21,0,2,0
+48,22.9,Elevated,257,No,Female,Chandigarh,,373,Smoking,,No,2nd Dose,0,,,,,,0,2022,3,12,5,1,1
+67,33.1,Normal,257,Yes,Male,Delhi,,88,Hypertension,,No,Booster,0,,,,,,0,2022,10,2,6,4,1
+64,23.9,Very High,163,Yes,Female,Patna,,459,Multiple Conditions,,No,Booster,0,,,,,,0,2023,12,17,6,4,1
+74,20.2,Normal,213,No,Female,Lucknow,,331,Diabetes,,No,2nd Dose,0,,,,,,0,2022,9,23,4,3,0
+64,22.1,High,239,No,Male,Hyderabad,,215,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2022,4,23,5,2,1
+62,25.7,Very High,235,Yes,Male,Hyderabad,,467,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2022,2,18,4,1,0
+47,21.2,Elevated,161,No,Male,Lucknow,,122,Diabetes,,No,Booster,0,,,,,,0,2023,12,10,6,4,1
+33,23.9,Normal,230,Yes,Female,Kolkata,,21,Obesity,,No,1st Dose,0,,,,,,0,2022,1,14,4,1,0
+25,33.0,Normal,183,Yes,Female,Hyderabad,,72,Hypertension,,No,1st Dose,0,,,,,,0,2023,8,17,3,3,0
+78,23.5,Elevated,202,No,Male,Pune,,107,Obesity,,Yes,2nd Dose,0,,,,,,0,2023,3,13,0,1,0
+69,18.7,High,182,Yes,Male,Chennai,Survived,271,Hypertension,Severe,Yes,1st Dose,0,2023.0,6.0,10.0,5.0,2.0,1,2022,10,9,6,4,1
+62,20.8,Very High,220,Yes,Female,Kolkata,,436,Hypertension,,Yes,1st Dose,0,,,,,,0,2021,7,27,1,3,0
+71,28.6,Normal,273,Yes,Female,Lucknow,,103,None,,Yes,2nd Dose,0,,,,,,0,2022,8,8,0,3,0

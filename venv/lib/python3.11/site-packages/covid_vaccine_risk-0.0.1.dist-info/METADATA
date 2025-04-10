@@ -13,6 +13,7 @@ Requires-Dist: catboost
 Requires-Dist: xgboost
 Requires-Dist: Flask
 Requires-Dist: requests
+Requires-Dist: dill
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
