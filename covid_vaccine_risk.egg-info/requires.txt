@@ -8,3 +8,4 @@ xgboost
 Flask
 requests
 dill
+catboost

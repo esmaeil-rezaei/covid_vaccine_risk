@@ -93,7 +93,7 @@ def load_object(file_path):
 
 def binary_encoder(df, heart_attack_date, target_column_name):
     try:
-        df[target_column_name] = df[heart_attack_date].apply(lambda x: 1 if x == 'Yes' else 0)
+        df[target_column_name] = df[heart_attack_date].apply(lambda x: 1 if x else 0)
         return df
     except Exception as e:
         raise handle_exception(e)
