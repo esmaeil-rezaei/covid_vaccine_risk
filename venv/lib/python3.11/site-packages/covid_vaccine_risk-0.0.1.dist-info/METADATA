@@ -15,6 +15,7 @@ Requires-Dist: Flask
 Requires-Dist: requests
 Requires-Dist: dill
 Requires-Dist: catboost
+Requires-Dist: kagglehub
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

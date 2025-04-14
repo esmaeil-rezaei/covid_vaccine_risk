@@ -30,14 +30,14 @@ class DataTransformation:
 
         """
         try:
-            target_column_name = ["target"]
+            target_column_name = ["Cognitive_Score"]
 
             numerical_columns = (
                 df.select_dtypes(include=["number"])
                 .columns.difference(target_column_name)
                 .tolist()
             )
-            categorical_columns = df.select_dtypes(exclude=["number"]).columns.tolist()
+            categorical_columns = df.select_dtypes(exclude=["number"]).columns.difference(['User_ID']).tolist()
 
             num_pipeline = Pipeline(
                 steps=[
@@ -80,7 +80,7 @@ class DataTransformation:
 
             preprocessing_obj = self.get_data_transformer_object(train_df)
 
-            target_column_name = "target"
+            target_column_name = "Cognitive_Score"
 
             input_feature_train_df = train_df.drop(columns=[target_column_name], axis=1)
             target_feature_train_df = train_df[target_column_name]

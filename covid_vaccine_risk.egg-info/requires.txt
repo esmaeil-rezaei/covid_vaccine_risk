@@ -9,3 +9,4 @@ Flask
 requests
 dill
 catboost
+kagglehub

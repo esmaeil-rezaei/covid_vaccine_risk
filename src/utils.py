@@ -7,32 +7,21 @@ from src.exception_handler import handle_exception
 from src.logger import logging
 import dill
 import pickle
+import kagglehub
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
 
 
 
 
-def fetch_firebase_json_as_dataframe(firebase_url: str) -> pd.DataFrame:
+def fetch_kaggle_as_dataframe(kaggle_url: str, file_name: str) -> pd.DataFrame:
     """
-    Fetch JSON data from Firebase Realtime Database and convert it into a pandas DataFrame.
+    Fetch Kaggle csv data and convert it into a pandas DataFrame.
     """
     try:
-        url = firebase_url.rstrip('/') + '.json'
-        logging.info(f"Fetching data from Firebase: {url}")
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
-
-        if not data:
-            raise ValueError("Received empty data from Firebase.")
-
-        if isinstance(data, list):
-            df = pd.DataFrame(data)
-        elif isinstance(data, dict):
-            df = pd.DataFrame.from_dict(data, orient='index')
-        else:
-            raise ValueError("Unexpected data format from Firebase.")
+        path = kagglehub.dataset_download(kaggle_url)
+        csv_path = os.path.join(path, file_name)
+        df = pd.read_csv(csv_path)
 
         return df
 
@@ -99,16 +88,16 @@ def binary_encoder(df, heart_attack_date, target_column_name):
         raise handle_exception(e)
     
 
-def date_feature_extractor(df, date_column):
-    try:
-        df[date_column] = pd.to_datetime(df[date_column], errors='coerce')
-        df[f'{date_column}_year'] = df[date_column].dt.year
-        df[f'{date_column}_month'] = df[date_column].dt.month
-        df[f'{date_column}_day'] = df[date_column].dt.day
-        df[f'{date_column}_day_of_week'] = df[date_column].dt.dayofweek  # Monday=0, Sunday=6
-        df[f'{date_column}_quarter'] = df[date_column].dt.quarter  # 1, 2, 3, or 4
-        df[f'{date_column}_is_weekend'] = (df[date_column].dt.weekday >= 5).astype(int)  # 1 for weekend, 0 for weekdays
-        df.drop(columns=[date_column], inplace=True)
-        return df
-    except Exception as e:
-        raise handle_exception(e)
+# def date_feature_extractor(df, date_column):
+#     try:
+#         df[date_column] = pd.to_datetime(df[date_column], errors='coerce')
+#         df[f'{date_column}_year'] = df[date_column].dt.year
+#         df[f'{date_column}_month'] = df[date_column].dt.month
+#         df[f'{date_column}_day'] = df[date_column].dt.day
+#         df[f'{date_column}_day_of_week'] = df[date_column].dt.dayofweek  # Monday=0, Sunday=6
+#         df[f'{date_column}_quarter'] = df[date_column].dt.quarter  # 1, 2, 3, or 4
+#         df[f'{date_column}_is_weekend'] = (df[date_column].dt.weekday >= 5).astype(int)  # 1 for weekend, 0 for weekdays
+#         df.drop(columns=[date_column], inplace=True)
+#         return df
+#     except Exception as e:
+#         raise handle_exception(e)

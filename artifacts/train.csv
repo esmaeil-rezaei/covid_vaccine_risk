@@ -1,441 +1,1601 @@
-Age,BMI,Blood Pressure,Cholesterol Level,Diabetes Status,Gender,Location,Outcome,Patient ID,Pre-existing Conditions,Severity,Smoking History,Vaccine Dose,target,Heart Attack Date_year,Heart Attack Date_month,Heart Attack Date_day,Heart Attack Date_day_of_week,Heart Attack Date_quarter,Heart Attack Date_is_weekend,Vaccination Date_year,Vaccination Date_month,Vaccination Date_day,Vaccination Date_day_of_week,Vaccination Date_quarter,Vaccination Date_is_weekend
-26,29.0,Elevated,244,No,Female,Surat,Survived,483,Heart Disease,Moderate,No,2nd Dose,1,2021.0,8.0,12.0,3.0,3.0,0,2021,5,17,0,2,0
-35,30.3,Very High,162,Yes,Male,Agra,,159,Hypertension,,No,Booster,0,,,,,,0,2021,8,7,5,3,1
-26,29.4,High,157,Yes,Female,Surat,,16,Obesity,,Yes,Booster,0,,,,,,0,2021,12,2,3,4,0
-33,18.8,Elevated,240,No,Male,Mumbai,,335,Hypertension,,No,1st Dose,0,,,,,,0,2022,4,21,3,2,0
-72,32.8,High,197,Yes,Female,Agra,,40,None,,No,Booster,0,,,,,,0,2022,11,11,4,4,0
-34,23.9,Very High,208,Yes,Male,Bhopal,,55,Heart Disease,,No,Booster,0,,,,,,0,2023,1,19,3,1,0
-28,28.9,Elevated,252,No,Female,Hyderabad,,535,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,7,12,2,3,0
-34,26.1,High,300,Yes,Female,Chandigarh,Survived,47,Hypertension,Severe,No,Booster,1,2022.0,12.0,30.0,4.0,4.0,0,2022,4,26,1,2,0
-44,25.0,Elevated,164,No,Female,Delhi,Survived,94,Smoking,Moderate,No,Booster,1,2022.0,1.0,16.0,6.0,1.0,1,2021,12,31,4,4,0
-38,32.6,Elevated,229,Yes,Female,Chandigarh,Survived,479,None,Fatal,No,2nd Dose,1,2021.0,12.0,31.0,4.0,4.0,0,2021,3,21,6,1,1
-47,27.8,Very High,181,No,Male,Delhi,,364,None,,Yes,1st Dose,0,,,,,,0,2021,5,6,3,2,0
-52,28.9,Elevated,253,No,Female,Ludhiana,,494,Smoking,,No,1st Dose,0,,,,,,0,2022,6,28,1,2,0
-75,19.9,High,154,Yes,Male,Pune,,474,Multiple Conditions,,Yes,Booster,0,,,,,,0,2022,2,16,2,1,0
-60,29.8,Normal,170,Yes,Male,Delhi,,249,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2021,3,6,5,1,1
-40,26.6,High,196,No,Female,Jaipur,,550,Obesity,,No,2nd Dose,0,,,,,,0,2021,7,11,6,3,1
-57,19.6,Normal,187,Yes,Male,Ludhiana,Survived,490,Smoking,Mild,Yes,2nd Dose,1,2022.0,6.0,20.0,0.0,2.0,0,2021,12,20,0,4,0
-63,21.1,Elevated,178,No,Female,Mumbai,,445,Hypertension,,No,2nd Dose,0,,,,,,0,2023,10,3,1,4,0
-25,23.3,High,296,Yes,Female,Ludhiana,,366,Obesity,,No,Booster,0,,,,,,0,2021,1,7,3,1,0
-71,31.6,Normal,265,No,Male,Surat,Survived,205,Hypertension,Fatal,Yes,1st Dose,1,2023.0,7.0,12.0,2.0,3.0,0,2023,6,22,3,2,0
-64,21.7,High,174,Yes,Female,Agra,Survived,336,Hypertension,Fatal,No,2nd Dose,1,2023.0,4.0,12.0,2.0,2.0,0,2022,7,9,5,3,1
-56,22.5,Elevated,164,No,Female,Mumbai,,358,Hypertension,,No,1st Dose,0,,,,,,0,2021,1,29,4,1,0
-72,23.9,High,196,No,Female,Bangalore,,362,Multiple Conditions,,No,1st Dose,0,,,,,,0,2021,11,14,6,4,1
-68,29.3,Elevated,150,No,Female,Delhi,,311,Obesity,,Yes,Booster,0,,,,,,0,2021,9,5,6,3,1
-78,30.8,Elevated,245,Yes,Female,Indore,,399,Heart Disease,,No,1st Dose,0,,,,,,0,2022,3,24,3,1,0
-49,21.2,Very High,284,Yes,Male,Surat,Survived,70,Heart Disease,Moderate,Yes,1st Dose,1,2024.0,3.0,25.0,0.0,1.0,0,2023,7,3,0,3,0
-42,25.4,Normal,208,No,Male,Jaipur,,262,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2021,6,17,3,2,0
-27,35.0,High,283,Yes,Male,Pune,,518,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2022,4,14,3,2,0
-72,25.4,Very High,220,No,Male,Chandigarh,,438,Smoking,,No,Booster,0,,,,,,0,2021,11,20,5,4,1
-38,21.9,Very High,251,No,Female,Ahmedabad,,183,Obesity,,Yes,2nd Dose,0,,,,,,0,2022,4,5,1,2,0
-29,30.8,Normal,219,Yes,Male,Chennai,,125,Obesity,,Yes,2nd Dose,0,,,,,,0,2023,3,27,0,1,0
-48,19.7,Elevated,243,No,Female,Ahmedabad,Survived,394,None,Severe,No,1st Dose,1,2022.0,2.0,8.0,1.0,1.0,0,2021,12,15,2,4,0
-75,32.3,Elevated,292,No,Male,Ahmedabad,,226,None,,No,1st Dose,0,,,,,,0,2022,5,14,5,2,1
-32,21.3,Normal,260,Yes,Male,Ludhiana,,236,Diabetes,,No,Booster,0,,,,,,0,2022,1,23,6,1,1
-61,27.1,High,195,No,Male,Lucknow,,177,Multiple Conditions,,No,Booster,0,,,,,,0,2021,5,21,4,2,0
-41,19.7,Very High,191,No,Male,Jaipur,Not Survived,538,Multiple Conditions,Fatal,Yes,Booster,1,2023.0,8.0,28.0,0.0,3.0,0,2023,6,3,5,2,1
-38,29.5,Elevated,172,No,Female,Lucknow,,306,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,5,23,6,2,1
-26,33.1,High,162,No,Female,Chennai,,500,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2022,3,17,3,1,0
-36,34.4,Elevated,215,Yes,Female,Bangalore,,384,Smoking,,No,Booster,0,,,,,,0,2022,12,6,1,4,0
-53,27.8,High,262,No,Female,Patna,,275,Heart Disease,,Yes,1st Dose,0,,,,,,0,2023,8,27,6,3,1
-63,31.0,Very High,198,Yes,Female,Kolkata,,313,Diabetes,,Yes,Booster,0,,,,,,0,2022,3,23,2,1,0
-28,20.6,Normal,161,No,Male,Bangalore,,368,Multiple Conditions,,No,Booster,0,,,,,,0,2022,7,4,0,3,0
-78,22.2,Elevated,256,No,Male,Chennai,,322,Heart Disease,,No,Booster,0,,,,,,0,2023,8,7,0,3,0
-74,23.4,Very High,278,Yes,Female,Bhopal,,473,Obesity,,Yes,Booster,0,,,,,,0,2022,6,5,6,2,1
-28,28.5,Elevated,294,No,Female,Bhopal,,20,Obesity,,No,Booster,0,,,,,,0,2022,1,28,4,1,0
-57,33.6,Normal,254,Yes,Male,Bangalore,Survived,381,Smoking,Mild,No,Booster,1,2024.0,3.0,9.0,5.0,1.0,1,2023,6,30,4,2,0
-58,30.2,High,194,Yes,Male,Kolkata,,57,Heart Disease,,Yes,1st Dose,0,,,,,,0,2023,11,1,2,4,0
-74,26.4,High,178,No,Female,Chandigarh,,391,Multiple Conditions,,Yes,Booster,0,,,,,,0,2022,2,1,1,1,0
-62,27.0,Elevated,259,No,Female,Delhi,,282,Hypertension,,No,1st Dose,0,,,,,,0,2022,7,30,5,3,1
-43,33.8,High,279,No,Female,Indore,Survived,396,Hypertension,Severe,No,1st Dose,1,2024.0,3.0,14.0,3.0,1.0,0,2023,4,18,1,2,0
-69,32.5,Very High,230,Yes,Male,Delhi,,472,Hypertension,,No,Booster,0,,,,,,0,2023,12,25,0,4,0
-46,30.1,High,238,Yes,Female,Mumbai,Not Survived,258,Multiple Conditions,Fatal,Yes,Booster,1,2023.0,4.0,4.0,1.0,2.0,0,2022,7,12,1,3,0
-49,33.3,Normal,248,No,Male,Chennai,,489,Hypertension,,Yes,Booster,0,,,,,,0,2023,12,23,5,4,1
-52,28.5,High,289,Yes,Female,Delhi,Survived,193,None,Mild,Yes,2nd Dose,1,2024.0,7.0,28.0,6.0,3.0,1,2023,10,2,0,4,0
-56,34.1,High,223,No,Female,Delhi,,26,Hypertension,,No,1st Dose,0,,,,,,0,2021,4,23,4,2,0
-38,31.0,Normal,234,Yes,Male,Agra,,291,Heart Disease,,Yes,Booster,0,,,,,,0,2022,8,30,1,3,0
-52,30.1,Very High,251,No,Male,Chandigarh,,43,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2022,2,8,1,1,0
-44,21.6,High,190,Yes,Male,Bangalore,,350,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,5,23,1,2,0
-44,25.1,Elevated,255,No,Female,Patna,,524,Diabetes,,No,1st Dose,0,,,,,,0,2023,4,27,3,2,0
-80,23.1,Normal,194,No,Female,Mumbai,,470,Multiple Conditions,,No,Booster,0,,,,,,0,2021,12,24,4,4,0
-28,24.3,Very High,237,No,Male,Nagpur,,400,Obesity,,No,1st Dose,0,,,,,,0,2021,6,20,6,2,1
-41,26.8,Very High,299,No,Male,Delhi,,319,Smoking,,Yes,2nd Dose,0,,,,,,0,2022,4,24,6,2,1
-35,22.3,Elevated,295,Yes,Male,Bhopal,,155,Diabetes,,Yes,1st Dose,0,,,,,,0,2022,7,15,4,3,0
-68,33.7,High,293,No,Female,Bangalore,,127,Obesity,,Yes,1st Dose,0,,,,,,0,2023,4,6,3,2,0
-56,18.8,High,151,No,Female,Ahmedabad,,288,Multiple Conditions,,No,Booster,0,,,,,,0,2023,4,7,4,2,0
-33,24.2,Normal,212,No,Female,Delhi,,375,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,6,5,0,2,0
-66,34.2,Elevated,216,No,Female,Lucknow,,175,Hypertension,,No,1st Dose,0,,,,,,0,2022,1,16,6,1,1
-75,33.2,High,252,Yes,Male,Bangalore,,32,Diabetes,,Yes,Booster,0,,,,,,0,2022,7,29,4,3,0
-28,24.1,High,173,No,Female,Indore,,114,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,4,7,2,2,0
-71,29.7,Very High,273,Yes,Male,Mumbai,,305,Diabetes,,Yes,2nd Dose,0,,,,,,0,2022,5,10,1,2,0
-34,19.0,Very High,266,Yes,Male,Indore,,174,Diabetes,,Yes,1st Dose,0,,,,,,0,2023,8,10,3,3,0
-79,21.5,Normal,289,Yes,Female,Agra,Survived,363,Smoking,Fatal,Yes,1st Dose,1,2023.0,5.0,2.0,1.0,2.0,0,2022,5,31,1,2,0
-74,26.3,Elevated,268,No,Male,Chandigarh,,209,Obesity,,Yes,Booster,0,,,,,,0,2021,6,12,5,2,1
-27,28.6,High,216,No,Male,Surat,,58,Obesity,,No,1st Dose,0,,,,,,0,2022,3,16,2,1,0
-28,24.4,Elevated,278,Yes,Male,Surat,,256,Smoking,,No,1st Dose,0,,,,,,0,2023,7,18,1,3,0
-41,25.4,Elevated,179,Yes,Female,Jaipur,,25,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2021,10,18,0,4,0
-33,27.0,Very High,185,Yes,Male,Indore,,18,Obesity,,No,1st Dose,0,,,,,,0,2023,2,6,0,1,0
-61,34.7,Very High,204,No,Female,Delhi,,238,Multiple Conditions,,No,1st Dose,0,,,,,,0,2023,11,6,0,4,0
-36,20.6,High,228,No,Male,Chandigarh,,67,Diabetes,,Yes,1st Dose,0,,,,,,0,2021,2,9,1,1,0
-27,24.9,Normal,297,No,Male,Mumbai,Survived,250,Obesity,Moderate,Yes,2nd Dose,1,2023.0,7.0,19.0,2.0,3.0,0,2023,5,3,2,2,0
-41,28.8,Normal,160,No,Female,Pune,Survived,529,Multiple Conditions,Mild,No,2nd Dose,1,2023.0,8.0,26.0,5.0,3.0,1,2022,11,26,5,4,1
-32,29.9,Elevated,277,Yes,Female,Agra,,266,Obesity,,Yes,Booster,0,,,,,,0,2022,4,8,4,2,0
-62,19.0,High,257,No,Male,Delhi,Survived,452,Multiple Conditions,Mild,Yes,Booster,1,2023.0,5.0,29.0,0.0,2.0,0,2022,12,19,0,4,0
-75,19.6,High,271,No,Female,Mumbai,,447,Smoking,,Yes,2nd Dose,0,,,,,,0,2023,4,30,6,2,1
-74,27.8,High,262,Yes,Male,Kolkata,,95,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,12,13,2,4,0
-77,19.1,Very High,192,Yes,Female,Agra,,181,Heart Disease,,No,2nd Dose,0,,,,,,0,2023,1,8,6,1,1
-54,28.8,Elevated,200,No,Female,Ahmedabad,,235,Hypertension,,Yes,2nd Dose,0,,,,,,0,2022,11,21,0,4,0
-43,23.6,High,202,No,Female,Nagpur,,93,Hypertension,,No,Booster,0,,,,,,0,2021,11,24,2,4,0
-56,25.2,High,164,Yes,Female,Hyderabad,,24,Diabetes,,No,2nd Dose,0,,,,,,0,2022,6,22,2,2,0
-64,28.5,Normal,200,Yes,Female,Chandigarh,,278,Diabetes,,Yes,Booster,0,,,,,,0,2022,11,29,1,4,0
-66,27.3,Elevated,199,Yes,Male,Hyderabad,,300,Hypertension,,No,1st Dose,0,,,,,,0,2021,3,17,2,1,0
-39,23.5,Elevated,246,No,Female,Lucknow,,298,Multiple Conditions,,No,1st Dose,0,,,,,,0,2023,8,31,3,3,0
-74,30.0,High,162,Yes,Female,Chandigarh,,6,Diabetes,,Yes,2nd Dose,0,,,,,,0,2022,11,20,6,4,1
-30,34.0,Elevated,263,No,Female,Patna,,117,Multiple Conditions,,No,1st Dose,0,,,,,,0,2021,7,15,3,3,0
-31,31.2,Very High,278,Yes,Male,Mumbai,,46,Smoking,,No,2nd Dose,0,,,,,,0,2022,7,31,6,3,1
-33,23.8,Elevated,225,No,Male,Patna,,229,Diabetes,,Yes,Booster,0,,,,,,0,2021,4,14,2,2,0
-58,24.8,Very High,154,Yes,Female,Chandigarh,,317,Hypertension,,Yes,Booster,0,,,,,,0,2021,3,26,4,1,0
-28,19.6,Elevated,179,Yes,Female,Kolkata,,17,None,,No,Booster,0,,,,,,0,2023,6,8,3,2,0
-37,34.2,Normal,263,Yes,Male,Jaipur,,49,Smoking,,Yes,Booster,0,,,,,,0,2021,8,18,2,3,0
-53,24.3,Normal,271,No,Female,Patna,,423,Obesity,,No,Booster,0,,,,,,0,2023,12,7,3,4,0
-33,29.6,Elevated,261,Yes,Female,Nagpur,Survived,412,Obesity,Mild,No,Booster,1,2023.0,12.0,30.0,5.0,4.0,1,2023,12,6,2,4,0
-33,24.6,Normal,199,No,Male,Hyderabad,,4,Smoking,,No,1st Dose,0,,,,,,0,2022,3,17,3,1,0
-79,22.9,Very High,152,No,Male,Indore,,273,Obesity,,Yes,1st Dose,0,,,,,,0,2021,3,1,0,1,0
-41,26.5,Normal,162,Yes,Male,Kolkata,Survived,245,Smoking,Severe,Yes,Booster,1,2021.0,8.0,27.0,4.0,3.0,0,2021,1,6,2,1,0
-39,30.0,Very High,257,No,Female,Kolkata,Survived,61,Obesity,Moderate,No,1st Dose,1,2024.0,7.0,26.0,4.0,3.0,0,2023,9,29,4,3,0
-46,32.5,High,229,Yes,Male,Ludhiana,,197,Hypertension,,Yes,2nd Dose,0,,,,,,0,2023,1,23,0,1,0
-79,25.5,High,198,Yes,Female,Patna,Survived,530,Hypertension,Severe,Yes,Booster,1,2022.0,5.0,21.0,5.0,2.0,1,2022,3,3,3,1,0
-27,22.1,Normal,287,No,Female,Mumbai,,111,Obesity,,Yes,Booster,0,,,,,,0,2022,12,18,6,4,1
-51,33.9,Normal,261,Yes,Female,Mumbai,,458,Obesity,,Yes,1st Dose,0,,,,,,0,2021,9,21,1,3,0
-28,22.6,Elevated,215,Yes,Male,Delhi,,302,Diabetes,,No,Booster,0,,,,,,0,2022,11,5,5,4,1
-70,28.5,High,183,No,Male,Patna,,30,Hypertension,,No,1st Dose,0,,,,,,0,2022,11,28,0,4,0
-69,20.3,Normal,174,Yes,Female,Bhopal,Survived,246,Hypertension,Moderate,No,1st Dose,1,2024.0,2.0,2.0,4.0,1.0,0,2023,4,29,5,2,1
-78,20.2,Very High,256,Yes,Male,Delhi,Survived,223,None,Mild,Yes,Booster,1,2023.0,8.0,25.0,4.0,3.0,0,2022,11,11,4,4,0
-44,27.3,Very High,180,No,Male,Indore,,27,Heart Disease,,Yes,1st Dose,0,,,,,,0,2021,11,30,1,4,0
-48,19.8,Very High,231,No,Female,Pune,Survived,8,Obesity,Mild,No,2nd Dose,1,2023.0,10.0,17.0,1.0,4.0,0,2022,12,25,6,4,1
-38,26.9,Elevated,172,Yes,Female,Indore,,182,Diabetes,,Yes,Booster,0,,,,,,0,2023,3,24,4,1,0
-55,19.7,High,217,No,Female,Indore,,51,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2023,5,24,2,2,0
-44,24.7,Very High,257,Yes,Male,Delhi,,109,Smoking,,No,1st Dose,0,,,,,,0,2022,12,14,2,4,0
-66,33.6,Normal,278,Yes,Male,Jaipur,,38,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,8,6,4,3,0
-68,21.1,Normal,153,Yes,Male,Nagpur,Survived,158,Obesity,Moderate,Yes,1st Dose,1,2024.0,2.0,25.0,6.0,1.0,1,2023,12,22,4,4,0
-69,34.6,High,285,No,Female,Pune,,525,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2023,10,11,2,4,0
-26,19.8,Elevated,184,Yes,Female,Jaipur,,119,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2021,3,30,1,1,0
-72,33.7,Normal,294,Yes,Female,Chennai,,413,Heart Disease,,Yes,1st Dose,0,,,,,,0,2022,12,7,2,4,0
-32,24.9,Normal,254,Yes,Male,Ahmedabad,,115,Diabetes,,No,2nd Dose,0,,,,,,0,2023,6,18,6,2,1
-77,22.9,High,191,Yes,Male,Pune,Survived,299,Multiple Conditions,Severe,Yes,1st Dose,1,2021.0,5.0,23.0,6.0,2.0,1,2021,1,8,4,1,0
-42,19.8,High,206,No,Female,Kolkata,Survived,204,Diabetes,Moderate,Yes,Booster,1,2023.0,1.0,16.0,0.0,1.0,0,2022,10,25,1,4,0
-66,19.3,Elevated,250,Yes,Female,Bhopal,,176,None,,Yes,Booster,0,,,,,,0,2021,10,16,5,4,1
-51,26.5,Very High,237,Yes,Male,Delhi,,248,Obesity,,No,1st Dose,0,,,,,,0,2022,9,3,5,3,1
-27,26.6,Very High,154,No,Male,Pune,,376,Diabetes,,No,1st Dose,0,,,,,,0,2022,10,19,2,4,0
-32,21.4,Very High,258,No,Male,Chandigarh,Survived,145,None,Severe,Yes,1st Dose,1,2021.0,8.0,24.0,1.0,3.0,0,2021,7,22,3,3,0
-73,31.3,High,171,No,Female,Indore,,195,Diabetes,,Yes,Booster,0,,,,,,0,2022,8,23,1,3,0
-66,28.5,High,244,Yes,Male,Lucknow,Survived,427,Diabetes,Mild,Yes,Booster,1,2022.0,2.0,28.0,0.0,1.0,0,2021,5,9,6,2,1
-40,25.5,High,232,No,Female,Surat,Survived,440,None,Mild,Yes,2nd Dose,1,2023.0,3.0,30.0,3.0,1.0,0,2022,5,20,4,2,0
-54,23.0,Elevated,150,No,Female,Indore,Survived,292,Hypertension,Severe,No,Booster,1,2023.0,7.0,5.0,2.0,3.0,0,2022,11,8,1,4,0
-56,29.3,Very High,269,No,Male,Ludhiana,Survived,308,Smoking,Severe,No,2nd Dose,1,2023.0,9.0,11.0,0.0,3.0,0,2023,2,21,1,1,0
-65,32.9,High,214,No,Female,Delhi,Survived,421,Smoking,Fatal,Yes,1st Dose,1,2023.0,11.0,12.0,6.0,4.0,1,2023,4,15,5,2,1
-54,25.6,Elevated,265,Yes,Female,Bhopal,,514,Heart Disease,,No,Booster,0,,,,,,0,2023,3,9,3,1,0
-39,31.8,High,254,No,Female,Ludhiana,Survived,142,Multiple Conditions,Severe,No,Booster,1,2023.0,7.0,1.0,5.0,3.0,1,2022,11,14,0,4,0
-38,32.0,High,230,Yes,Male,Nagpur,,422,Hypertension,,Yes,2nd Dose,0,,,,,,0,2021,4,8,3,2,0
-49,35.0,Elevated,220,No,Female,Kolkata,Survived,68,Smoking,Mild,No,2nd Dose,1,2023.0,8.0,25.0,4.0,3.0,0,2023,4,19,2,2,0
-32,28.7,Very High,274,No,Female,Bhopal,,433,Hypertension,,No,2nd Dose,0,,,,,,0,2022,7,1,4,3,0
-72,21.9,Very High,197,No,Female,Agra,Survived,228,Multiple Conditions,Severe,Yes,1st Dose,1,2023.0,11.0,28.0,1.0,4.0,0,2023,3,24,4,1,0
-40,19.7,High,282,No,Male,Lucknow,Survived,169,Smoking,Mild,No,1st Dose,1,2023.0,10.0,25.0,2.0,4.0,0,2023,4,18,1,2,0
-61,26.0,Very High,263,No,Male,Kolkata,Survived,189,Multiple Conditions,Moderate,No,Booster,1,2022.0,12.0,25.0,6.0,4.0,1,2022,2,4,4,1,0
-46,30.5,Elevated,229,Yes,Female,Bhopal,Survived,272,Hypertension,Moderate,Yes,1st Dose,1,2023.0,8.0,12.0,5.0,3.0,1,2023,7,21,4,3,0
-58,34.7,Normal,286,Yes,Female,Delhi,,435,Obesity,,No,1st Dose,0,,,,,,0,2022,4,23,5,2,1
-32,32.4,Normal,297,Yes,Male,Pune,,269,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2022,1,4,1,1,0
-42,33.5,Normal,209,Yes,Female,Pune,,194,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2022,9,14,2,3,0
-50,33.2,Very High,277,No,Male,Bangalore,,153,Hypertension,,Yes,1st Dose,0,,,,,,0,2022,7,17,6,3,1
-64,27.5,Very High,171,No,Male,Mumbai,,512,Smoking,,No,1st Dose,0,,,,,,0,2022,8,11,3,3,0
-79,30.4,Very High,191,No,Female,Kolkata,,356,Heart Disease,,No,2nd Dose,0,,,,,,0,2021,3,26,4,1,0
-70,23.5,Very High,183,Yes,Male,Ludhiana,Not Survived,411,None,Fatal,Yes,2nd Dose,1,2023.0,4.0,14.0,4.0,2.0,0,2023,1,4,2,1,0
-28,27.3,Normal,206,No,Female,Chennai,Survived,404,Multiple Conditions,Mild,No,Booster,1,2022.0,5.0,8.0,6.0,2.0,1,2022,1,9,6,1,1
-27,28.7,Elevated,153,Yes,Male,Mumbai,Survived,104,Smoking,Moderate,Yes,Booster,1,2024.0,3.0,4.0,0.0,1.0,0,2023,5,31,2,2,0
-26,31.2,Very High,294,No,Male,Agra,,378,None,,No,2nd Dose,0,,,,,,0,2022,4,28,3,2,0
-26,31.4,High,286,No,Male,Chennai,Survived,75,Multiple Conditions,Moderate,Yes,2nd Dose,1,2024.0,10.0,20.0,6.0,4.0,1,2023,12,20,2,4,0
-29,34.0,Normal,159,Yes,Male,Mumbai,,354,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2022,12,27,1,4,0
-42,25.4,Very High,211,No,Female,Agra,,528,Hypertension,,Yes,Booster,0,,,,,,0,2023,3,7,1,1,0
-54,32.0,Elevated,234,No,Male,Patna,,120,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2023,3,7,1,1,0
-69,27.6,Very High,212,No,Female,Ahmedabad,Not Survived,323,Obesity,Fatal,No,1st Dose,1,2022.0,2.0,23.0,2.0,1.0,0,2021,8,12,3,3,0
-48,26.7,Very High,211,No,Male,Bhopal,Survived,343,Obesity,Severe,Yes,2nd Dose,1,2023.0,7.0,13.0,3.0,3.0,0,2023,6,29,3,2,0
-56,30.9,High,214,No,Female,Delhi,,409,Obesity,,Yes,Booster,0,,,,,,0,2021,5,29,5,2,1
-50,32.2,Elevated,235,No,Female,Hyderabad,,461,Heart Disease,,No,1st Dose,0,,,,,,0,2022,11,16,2,4,0
-60,33.2,Normal,228,Yes,Male,Chandigarh,,333,Diabetes,,No,Booster,0,,,,,,0,2021,6,9,2,2,0
-35,27.1,Normal,159,No,Male,Ludhiana,Survived,287,Hypertension,Severe,No,Booster,1,2023.0,10.0,15.0,6.0,4.0,1,2023,9,13,2,3,0
-42,33.7,Normal,202,Yes,Male,Indore,,339,None,,Yes,2nd Dose,0,,,,,,0,2021,3,24,2,1,0
-53,20.4,Elevated,188,Yes,Female,Lucknow,,443,None,,No,1st Dose,0,,,,,,0,2022,7,29,4,3,0
-54,24.1,Normal,252,No,Female,Kolkata,,342,Obesity,,No,Booster,0,,,,,,0,2021,9,9,3,3,0
-33,25.9,High,153,Yes,Female,Patna,Survived,37,Obesity,Severe,No,1st Dose,1,2024.0,4.0,6.0,5.0,2.0,1,2023,12,14,3,4,0
-28,26.5,High,216,Yes,Male,Mumbai,,140,Obesity,,No,Booster,0,,,,,,0,2022,5,3,1,2,0
-27,24.1,Very High,269,Yes,Female,Kolkata,Survived,254,Heart Disease,Moderate,Yes,2nd Dose,1,2023.0,9.0,3.0,6.0,3.0,1,2022,12,25,6,4,1
-50,33.6,High,246,No,Female,Kolkata,,326,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,5,22,5,2,1
-34,30.2,Very High,293,No,Male,Surat,,60,Hypertension,,Yes,Booster,0,,,,,,0,2022,9,19,0,3,0
-63,26.9,Normal,262,No,Female,Jaipur,Survived,112,Diabetes,Moderate,No,1st Dose,1,2023.0,3.0,29.0,2.0,1.0,0,2022,12,3,5,4,1
-44,32.9,Normal,180,No,Female,Jaipur,Survived,303,Heart Disease,Severe,Yes,Booster,1,2023.0,11.0,28.0,1.0,4.0,0,2023,6,8,3,2,0
-75,30.5,High,274,No,Female,Jaipur,Not Survived,463,Heart Disease,Fatal,Yes,Booster,1,2024.0,3.0,14.0,3.0,1.0,0,2023,4,18,1,2,0
-30,23.6,High,260,No,Female,Indore,,263,None,,Yes,Booster,0,,,,,,0,2022,4,27,2,2,0
-47,23.6,Normal,191,Yes,Male,Lucknow,,416,Hypertension,,No,1st Dose,0,,,,,,0,2023,7,26,2,3,0
-38,23.9,High,280,Yes,Female,Patna,,151,Smoking,,No,1st Dose,0,,,,,,0,2023,12,2,5,4,1
-38,21.1,High,247,Yes,Male,Surat,,267,Obesity,,Yes,1st Dose,0,,,,,,0,2023,1,4,2,1,0
-77,26.7,Normal,159,No,Female,Mumbai,Survived,441,Multiple Conditions,Mild,No,1st Dose,1,2023.0,3.0,15.0,2.0,1.0,0,2022,3,15,1,1,0
-77,31.0,Very High,171,Yes,Female,Jaipur,Survived,39,Hypertension,Mild,No,1st Dose,1,2023.0,2.0,4.0,5.0,1.0,1,2022,2,8,1,1,0
-78,20.1,Very High,214,No,Female,Bangalore,,361,Obesity,,No,1st Dose,0,,,,,,0,2022,1,29,5,1,1
-71,20.0,Very High,182,Yes,Male,Jaipur,,199,Hypertension,,No,Booster,0,,,,,,0,2021,4,30,4,2,0
-68,31.9,High,240,No,Male,Ahmedabad,,297,Multiple Conditions,,Yes,Booster,0,,,,,,0,2021,8,28,5,3,1
-66,25.3,Normal,213,Yes,Female,Surat,,147,None,,Yes,Booster,0,,,,,,0,2023,5,23,1,2,0
-47,32.2,Elevated,179,Yes,Female,Surat,,453,Obesity,,Yes,2nd Dose,0,,,,,,0,2021,11,26,4,4,0
-43,24.1,Elevated,286,Yes,Male,Mumbai,,148,Diabetes,,No,1st Dose,0,,,,,,0,2021,4,12,0,2,0
-75,31.3,Normal,267,No,Male,Agra,Survived,401,None,Fatal,No,1st Dose,1,2023.0,9.0,21.0,3.0,3.0,0,2022,12,30,4,4,0
-43,31.4,Normal,227,Yes,Male,Kolkata,,425,Diabetes,,Yes,2nd Dose,0,,,,,,0,2021,1,29,4,1,0
-52,24.7,Elevated,273,Yes,Female,Bhopal,,124,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2021,4,18,6,2,1
-65,25.1,Elevated,220,No,Male,Bhopal,Survived,426,None,Moderate,Yes,2nd Dose,1,2022.0,6.0,6.0,0.0,2.0,0,2021,11,14,6,4,1
-50,27.9,Elevated,182,No,Male,Jaipur,,97,Heart Disease,,No,Booster,0,,,,,,0,2022,2,11,4,1,0
-33,24.4,Very High,250,Yes,Female,Mumbai,Survived,144,Smoking,Moderate,No,2nd Dose,1,2022.0,4.0,18.0,0.0,2.0,0,2022,2,15,1,1,0
-34,24.6,Normal,165,Yes,Female,Chandigarh,,240,Hypertension,,No,1st Dose,0,,,,,,0,2022,6,27,0,2,0
-30,26.7,High,183,No,Female,Chennai,,526,Heart Disease,,Yes,Booster,0,,,,,,0,2022,11,6,6,4,1
-78,32.6,Normal,164,Yes,Female,Patna,,98,None,,No,2nd Dose,0,,,,,,0,2021,3,27,5,1,1
-44,23.2,Elevated,249,No,Male,Indore,,468,Heart Disease,,Yes,Booster,0,,,,,,0,2023,7,22,5,3,1
-64,34.5,Normal,274,Yes,Male,Pune,,294,None,,No,1st Dose,0,,,,,,0,2022,9,23,4,3,0
-62,26.3,High,180,No,Male,Chandigarh,,405,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2023,10,6,4,4,0
-46,21.2,Very High,231,Yes,Female,Ahmedabad,Survived,123,Heart Disease,Severe,No,Booster,1,2023.0,8.0,4.0,4.0,3.0,0,2022,8,12,4,3,0
-59,24.1,Elevated,290,No,Female,Lucknow,Survived,184,Hypertension,Moderate,No,2nd Dose,1,2022.0,2.0,25.0,4.0,1.0,0,2021,7,19,0,3,0
-30,30.6,Elevated,274,No,Female,Pune,,203,Hypertension,,Yes,Booster,0,,,,,,0,2021,12,17,4,4,0
-49,24.4,High,188,No,Female,Patna,,247,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,10,26,1,4,0
-36,29.8,Elevated,152,Yes,Female,Lucknow,Survived,471,Heart Disease,Moderate,No,1st Dose,1,2023.0,10.0,12.0,3.0,4.0,0,2023,1,11,2,1,0
-25,31.2,Elevated,270,Yes,Male,Chandigarh,,341,Smoking,,No,1st Dose,0,,,,,,0,2021,3,26,4,1,0
-50,28.5,Very High,171,Yes,Female,Chandigarh,Survived,406,Hypertension,Mild,Yes,Booster,1,2023.0,9.0,1.0,4.0,3.0,0,2023,4,20,3,2,0
-61,23.9,Very High,269,No,Female,Hyderabad,,442,Obesity,,No,2nd Dose,0,,,,,,0,2023,10,1,6,4,1
-75,25.5,Very High,174,Yes,Female,Bhopal,,457,None,,No,2nd Dose,0,,,,,,0,2021,4,6,1,2,0
-45,19.9,High,254,No,Male,Nagpur,,325,Multiple Conditions,,No,Booster,0,,,,,,0,2021,4,3,5,2,1
-77,32.2,Elevated,223,No,Male,Ludhiana,Survived,126,Heart Disease,Moderate,No,1st Dose,1,2024.0,2.0,14.0,2.0,1.0,0,2023,11,2,3,4,0
-28,22.0,Normal,239,Yes,Female,Nagpur,,347,Obesity,,No,Booster,0,,,,,,0,2021,8,18,2,3,0
-50,29.8,Very High,187,Yes,Female,Kolkata,,224,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,7,29,4,3,0
-46,24.0,Very High,241,No,Female,Bhopal,Survived,484,None,Mild,No,1st Dose,1,2022.0,8.0,23.0,1.0,3.0,0,2022,6,8,2,2,0
-55,34.0,Elevated,159,No,Male,Ahmedabad,Survived,220,Smoking,Fatal,Yes,Booster,1,2023.0,1.0,4.0,2.0,1.0,0,2022,9,4,6,3,1
-64,21.0,Very High,162,Yes,Female,Kolkata,,130,Hypertension,,Yes,Booster,0,,,,,,0,2022,4,14,3,2,0
-37,34.7,High,250,Yes,Female,Bhopal,Survived,486,Smoking,Fatal,Yes,Booster,1,2023.0,9.0,30.0,5.0,3.0,1,2023,3,7,1,1,0
-77,25.8,Very High,223,Yes,Male,Jaipur,,330,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,2,10,4,1,0
-64,29.8,Normal,198,Yes,Female,Chennai,Survived,377,Multiple Conditions,Mild,No,1st Dose,1,2021.0,9.0,12.0,6.0,3.0,1,2021,8,25,2,3,0
-29,19.9,Normal,174,Yes,Female,Jaipur,,437,Smoking,,Yes,1st Dose,0,,,,,,0,2023,12,30,5,4,1
-53,18.6,Elevated,206,No,Female,Ahmedabad,Not Survived,332,None,Fatal,No,Booster,1,2022.0,11.0,26.0,5.0,4.0,1,2022,11,13,6,4,1
-58,33.7,High,236,No,Female,Lucknow,,497,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,6,20,0,2,0
-63,27.1,High,268,Yes,Male,Ahmedabad,,337,Smoking,,No,Booster,0,,,,,,0,2022,4,19,1,2,0
-66,33.7,Elevated,275,No,Female,Mumbai,,295,Heart Disease,,Yes,1st Dose,0,,,,,,0,2022,12,27,1,4,0
-71,29.2,Very High,286,No,Female,Ludhiana,,424,Hypertension,,Yes,Booster,0,,,,,,0,2021,6,22,1,2,0
-48,23.0,Elevated,227,Yes,Female,Indore,,515,Hypertension,,Yes,1st Dose,0,,,,,,0,2021,6,26,5,2,1
-49,27.8,High,206,Yes,Male,Ahmedabad,Survived,349,Obesity,Severe,No,1st Dose,1,2021.0,8.0,31.0,1.0,3.0,0,2021,6,24,3,2,0
-43,34.3,Normal,289,No,Male,Chennai,,113,Smoking,,No,Booster,0,,,,,,0,2022,7,15,4,3,0
-31,27.8,Elevated,254,Yes,Male,Chandigarh,,180,Heart Disease,,Yes,1st Dose,0,,,,,,0,2023,3,28,1,1,0
-55,33.0,Very High,275,No,Male,Chandigarh,,353,None,,No,1st Dose,0,,,,,,0,2021,10,16,5,4,1
-76,25.7,Very High,201,Yes,Female,Ludhiana,,389,Smoking,,No,1st Dose,0,,,,,,0,2021,10,28,3,4,0
-64,25.6,Normal,177,No,Female,Hyderabad,Survived,432,Smoking,Mild,Yes,2nd Dose,1,2024.0,4.0,12.0,4.0,2.0,0,2023,12,28,3,4,0
-44,34.6,Very High,220,Yes,Male,Agra,,315,Heart Disease,,No,Booster,0,,,,,,0,2022,6,30,3,2,0
-45,25.6,Normal,230,Yes,Male,Chennai,Survived,152,Multiple Conditions,Moderate,Yes,Booster,1,2023.0,4.0,20.0,3.0,2.0,0,2022,10,11,1,4,0
-79,33.4,Very High,214,No,Female,Surat,,415,None,,No,Booster,0,,,,,,0,2022,12,17,5,4,1
-59,29.9,Elevated,252,No,Female,Jaipur,Survived,234,None,Severe,Yes,2nd Dose,1,2024.0,8.0,26.0,0.0,3.0,0,2023,10,8,6,4,1
-30,27.2,Very High,161,No,Female,Ahmedabad,,307,Heart Disease,,Yes,Booster,0,,,,,,0,2023,12,23,5,4,1
-61,27.8,Normal,156,No,Male,Bangalore,,357,None,,Yes,2nd Dose,0,,,,,,0,2022,4,20,2,2,0
-32,24.4,Normal,234,No,Male,Agra,Survived,165,Smoking,Mild,Yes,2nd Dose,1,2023.0,8.0,15.0,1.0,3.0,0,2023,8,5,5,3,1
-29,21.7,Normal,239,No,Male,Chennai,Survived,318,Heart Disease,Moderate,Yes,1st Dose,1,2021.0,10.0,17.0,6.0,4.0,1,2021,5,4,1,2,0
-42,33.3,High,279,No,Female,Mumbai,Survived,137,Multiple Conditions,Severe,Yes,2nd Dose,1,2023.0,12.0,10.0,6.0,4.0,1,2023,9,22,4,3,0
-31,21.4,Very High,182,No,Male,Hyderabad,Survived,198,Obesity,Moderate,Yes,Booster,1,2023.0,11.0,29.0,2.0,4.0,0,2023,5,2,1,2,0
-67,26.0,Normal,226,Yes,Female,Agra,,259,Hypertension,,Yes,1st Dose,0,,,,,,0,2022,1,16,6,1,1
-74,34.9,Very High,258,Yes,Male,Mumbai,Survived,233,Smoking,Severe,Yes,Booster,1,2024.0,5.0,6.0,0.0,2.0,0,2023,6,30,4,2,0
-69,29.2,Very High,255,No,Male,Lucknow,,116,Obesity,,Yes,Booster,0,,,,,,0,2021,10,14,3,4,0
-48,23.2,Very High,205,Yes,Male,Lucknow,Survived,121,Hypertension,Fatal,Yes,1st Dose,1,2022.0,4.0,29.0,4.0,2.0,0,2021,11,17,2,4,0
-46,26.7,Elevated,298,No,Male,Mumbai,,478,Hypertension,,No,Booster,0,,,,,,0,2023,7,10,0,3,0
-49,31.2,Elevated,192,Yes,Female,Indore,,225,Obesity,,No,1st Dose,0,,,,,,0,2021,8,21,5,3,1
-58,26.7,High,191,Yes,Female,Pune,,464,Smoking,,Yes,2nd Dose,0,,,,,,0,2023,8,20,6,3,1
-53,21.1,Normal,285,Yes,Male,Ludhiana,,502,Heart Disease,,No,Booster,0,,,,,,0,2023,9,22,4,3,0
-64,28.8,Very High,222,Yes,Male,Ahmedabad,,348,Smoking,,Yes,1st Dose,0,,,,,,0,2021,7,16,4,3,0
-30,18.9,Very High,254,Yes,Male,Bangalore,,128,None,,Yes,1st Dose,0,,,,,,0,2022,9,10,5,3,1
-80,18.9,High,153,No,Female,Chennai,,541,None,,No,1st Dose,0,,,,,,0,2022,11,29,1,4,0
-71,20.9,Very High,260,Yes,Male,Hyderabad,,286,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2021,7,27,1,3,0
-32,31.2,High,256,No,Male,Hyderabad,Not Survived,501,Multiple Conditions,Fatal,No,1st Dose,1,2021.0,12.0,7.0,1.0,4.0,0,2021,8,2,0,3,0
-60,32.7,Normal,155,No,Male,Surat,,520,Smoking,,No,1st Dose,0,,,,,,0,2021,10,7,3,4,0
-63,31.4,Normal,174,Yes,Female,Kolkata,,108,Diabetes,,No,1st Dose,0,,,,,,0,2023,3,15,2,1,0
-42,23.1,High,162,Yes,Female,Delhi,Survived,496,Smoking,Mild,No,1st Dose,1,2024.0,3.0,20.0,2.0,1.0,0,2023,8,1,1,3,0
-41,23.7,High,216,Yes,Female,Patna,,374,Smoking,,Yes,2nd Dose,0,,,,,,0,2022,1,26,2,1,0
-58,32.8,High,239,No,Female,Mumbai,,134,Hypertension,,Yes,1st Dose,0,,,,,,0,2021,11,8,0,4,0
-53,20.1,Very High,156,No,Female,Agra,,434,Diabetes,,No,2nd Dose,0,,,,,,0,2023,12,28,3,4,0
-80,32.8,Elevated,253,Yes,Female,Jaipur,,45,Diabetes,,No,Booster,0,,,,,,0,2023,5,2,1,2,0
-49,25.2,Elevated,168,Yes,Female,Ludhiana,,170,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,4,18,0,2,0
-57,24.9,Normal,192,No,Male,Lucknow,,66,Multiple Conditions,,No,Booster,0,,,,,,0,2021,1,4,0,1,0
-44,29.2,High,247,Yes,Male,Bhopal,Survived,284,Diabetes,Moderate,Yes,2nd Dose,1,2022.0,5.0,19.0,3.0,2.0,0,2021,9,18,5,3,1
-73,21.6,High,223,Yes,Male,Chennai,,86,None,,Yes,Booster,0,,,,,,0,2022,4,2,5,2,1
-48,20.7,Elevated,184,Yes,Female,Jaipur,,243,Smoking,,No,1st Dose,0,,,,,,0,2023,9,24,6,3,1
-51,19.9,Normal,222,No,Male,Pune,,187,Smoking,,No,1st Dose,0,,,,,,0,2022,2,11,4,1,0
-39,26.2,Elevated,249,No,Female,Hyderabad,,498,None,,No,1st Dose,0,,,,,,0,2021,5,6,3,2,0
-56,32.2,Very High,185,No,Female,Patna,,160,Diabetes,,Yes,2nd Dose,0,,,,,,0,2021,12,21,1,4,0
-66,30.2,High,153,No,Female,Lucknow,,13,Smoking,,No,Booster,0,,,,,,0,2023,5,10,2,2,0
-65,34.3,Normal,209,No,Male,Kolkata,,36,Obesity,,Yes,Booster,0,,,,,,0,2023,5,31,2,2,0
-65,20.3,Very High,281,No,Female,Ludhiana,Survived,29,Obesity,Mild,No,1st Dose,1,2022.0,7.0,9.0,5.0,3.0,1,2021,8,5,3,3,0
-52,34.2,Very High,157,Yes,Male,Mumbai,,171,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2021,12,27,0,4,0
-76,33.9,High,294,Yes,Male,Delhi,Survived,143,Diabetes,Mild,No,Booster,1,2024.0,4.0,11.0,3.0,2.0,0,2023,7,29,5,3,1
-67,30.0,Normal,282,No,Female,Ludhiana,,527,Obesity,,No,1st Dose,0,,,,,,0,2021,10,30,5,4,1
-65,34.1,High,247,No,Female,Ludhiana,,549,Obesity,,Yes,2nd Dose,0,,,,,,0,2022,8,14,6,3,1
-71,26.6,Very High,151,Yes,Female,Agra,Survived,222,Hypertension,Mild,No,Booster,1,2021.0,12.0,5.0,6.0,4.0,1,2021,1,27,2,1,0
-48,32.5,Elevated,165,No,Female,Kolkata,Survived,487,Smoking,Mild,No,2nd Dose,1,2024.0,6.0,17.0,0.0,2.0,0,2023,11,24,4,4,0
-55,31.3,Normal,295,No,Female,Delhi,,96,Diabetes,,No,1st Dose,0,,,,,,0,2023,8,27,6,3,1
-47,24.2,High,280,Yes,Male,Surat,,52,None,,Yes,1st Dose,0,,,,,,0,2023,1,24,1,1,0
-66,19.6,Elevated,163,Yes,Female,Bangalore,,241,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2021,1,29,4,1,0
-73,18.7,Very High,176,No,Female,Bangalore,,430,Obesity,,Yes,Booster,0,,,,,,0,2022,7,1,4,3,0
-63,23.9,High,260,Yes,Male,Ludhiana,Survived,352,Multiple Conditions,Moderate,Yes,Booster,1,2024.0,1.0,26.0,4.0,1.0,0,2023,5,30,1,2,0
-72,32.0,Normal,299,No,Female,Bangalore,Survived,439,Heart Disease,Moderate,No,Booster,1,2021.0,7.0,24.0,5.0,3.0,1,2021,2,9,1,1,0
-67,26.6,Elevated,268,No,Male,Indore,Survived,179,Multiple Conditions,Severe,No,Booster,1,2023.0,10.0,27.0,4.0,4.0,0,2023,1,13,4,1,0
-48,22.4,Normal,226,No,Female,Kolkata,Survived,451,Obesity,Mild,No,1st Dose,1,2023.0,12.0,7.0,3.0,4.0,0,2023,11,13,0,4,0
-26,24.7,High,201,Yes,Female,Pune,,42,Multiple Conditions,,Yes,Booster,0,,,,,,0,2023,1,26,3,1,0
-48,23.6,High,292,No,Female,Surat,,504,None,,Yes,Booster,0,,,,,,0,2021,4,22,3,2,0
-70,28.1,Elevated,185,No,Female,Agra,,448,Obesity,,Yes,1st Dose,0,,,,,,0,2022,3,29,1,1,0
-70,24.6,High,212,No,Female,Kolkata,,207,Obesity,,Yes,Booster,0,,,,,,0,2022,3,23,2,1,0
-34,23.0,Normal,197,Yes,Male,Mumbai,,393,Smoking,,No,2nd Dose,0,,,,,,0,2023,12,31,6,4,1
-57,21.6,High,179,No,Female,Indore,Survived,283,Obesity,Severe,Yes,Booster,1,2024.0,6.0,8.0,5.0,2.0,1,2023,11,16,3,4,0
-60,19.8,Normal,236,No,Male,Chandigarh,Survived,359,Smoking,Severe,No,2nd Dose,1,2022.0,10.0,28.0,4.0,4.0,0,2022,9,28,2,3,0
-76,28.6,High,276,No,Male,Jaipur,,398,Heart Disease,,Yes,Booster,0,,,,,,0,2021,5,1,5,2,1
-41,21.8,Normal,184,Yes,Female,Pune,,255,Hypertension,,No,1st Dose,0,,,,,,0,2021,5,29,5,2,1
-50,26.3,Normal,181,Yes,Male,Patna,,480,Smoking,,Yes,2nd Dose,0,,,,,,0,2023,2,14,1,1,0
-50,21.0,Normal,273,No,Female,Mumbai,,5,Diabetes,,No,2nd Dose,0,,,,,,0,2023,3,26,6,1,1
-70,21.2,Elevated,273,No,Female,Patna,,257,None,,Yes,1st Dose,0,,,,,,0,2023,7,8,5,3,1
-67,28.5,Normal,294,Yes,Female,Delhi,,516,Heart Disease,,Yes,1st Dose,0,,,,,,0,2021,10,3,6,4,1
-41,26.5,Normal,261,Yes,Female,Ahmedabad,,101,Heart Disease,,No,Booster,0,,,,,,0,2022,11,10,3,4,0
-63,30.3,Normal,241,Yes,Male,Mumbai,,227,Smoking,,No,1st Dose,0,,,,,,0,2021,10,16,5,4,1
-40,20.2,Normal,259,No,Male,Mumbai,,493,Multiple Conditions,,No,Booster,0,,,,,,0,2021,7,10,5,3,1
-29,27.4,High,220,Yes,Female,Pune,Survived,214,Multiple Conditions,Moderate,Yes,Booster,1,2021.0,12.0,3.0,4.0,4.0,0,2021,2,19,4,1,0
-59,30.5,High,152,No,Male,Agra,,488,Smoking,,No,2nd Dose,0,,,,,,0,2021,3,14,6,1,1
-75,19.4,Normal,198,Yes,Male,Jaipur,,172,Diabetes,,No,2nd Dose,0,,,,,,0,2021,1,26,1,1,0
-68,24.5,Elevated,240,Yes,Male,Lucknow,Survived,99,Multiple Conditions,Mild,Yes,2nd Dose,1,2022.0,9.0,26.0,0.0,3.0,0,2022,2,21,0,1,0
-61,29.5,Very High,262,Yes,Female,Agra,,293,None,,No,2nd Dose,0,,,,,,0,2023,3,23,3,1,0
-76,25.0,Normal,292,Yes,Female,Agra,,216,Diabetes,,No,Booster,0,,,,,,0,2022,9,11,6,3,1
-56,34.7,Normal,242,No,Male,Chennai,,62,Obesity,,No,Booster,0,,,,,,0,2022,3,28,0,1,0
-72,18.8,Elevated,212,Yes,Male,Pune,,407,Heart Disease,,No,2nd Dose,0,,,,,,0,2023,8,8,1,3,0
-53,21.3,High,277,Yes,Male,Delhi,,48,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2023,8,25,4,3,0
-63,34.4,Normal,197,Yes,Female,Bangalore,,33,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2023,4,29,5,2,1
-25,23.6,High,212,No,Female,Bhopal,Survived,418,Hypertension,Fatal,No,2nd Dose,1,2023.0,7.0,23.0,6.0,3.0,1,2023,6,16,4,2,0
-29,24.4,Normal,167,No,Female,Delhi,,268,Obesity,,No,1st Dose,0,,,,,,0,2021,1,26,1,1,0
-41,33.6,High,202,No,Female,Ludhiana,Survived,328,Heart Disease,Severe,No,Booster,1,2022.0,6.0,1.0,2.0,2.0,0,2021,11,14,6,4,1
-64,26.0,High,166,No,Male,Ludhiana,,201,None,,Yes,Booster,0,,,,,,0,2022,10,26,2,4,0
-27,26.8,High,165,No,Female,Nagpur,,135,None,,Yes,2nd Dose,0,,,,,,0,2022,12,21,2,4,0
-48,22.3,Very High,160,No,Male,Surat,Survived,28,Diabetes,Mild,No,Booster,1,2024.0,9.0,10.0,1.0,3.0,0,2023,12,8,4,4,0
-26,28.4,High,272,Yes,Male,Mumbai,,450,Heart Disease,,Yes,Booster,0,,,,,,0,2023,7,7,4,3,0
-74,30.8,High,199,Yes,Male,Jaipur,,231,Hypertension,,No,1st Dose,0,,,,,,0,2022,5,22,6,2,1
-34,27.7,Very High,277,No,Female,Lucknow,,261,Obesity,,Yes,2nd Dose,0,,,,,,0,2022,7,4,0,3,0
-63,20.5,High,181,Yes,Female,Indore,Not Survived,379,Heart Disease,Fatal,Yes,1st Dose,1,2024.0,3.0,2.0,5.0,1.0,1,2023,11,1,2,4,0
-55,25.7,Elevated,160,No,Female,Kolkata,Survived,289,Heart Disease,Moderate,Yes,2nd Dose,1,2023.0,10.0,1.0,6.0,4.0,1,2023,3,20,0,1,0
-48,29.9,Elevated,195,Yes,Male,Bangalore,Survived,419,Heart Disease,Moderate,No,Booster,1,2023.0,9.0,22.0,4.0,3.0,0,2023,4,8,5,2,1
-48,33.6,High,279,No,Female,Agra,Survived,163,Heart Disease,Moderate,Yes,2nd Dose,1,2024.0,12.0,5.0,3.0,4.0,0,2023,12,7,3,4,0
-55,28.4,Very High,299,Yes,Female,Patna,,392,Obesity,,Yes,2nd Dose,0,,,,,,0,2023,1,9,0,1,0
-65,25.1,High,245,No,Female,Nagpur,,491,Diabetes,,No,1st Dose,0,,,,,,0,2022,7,13,2,3,0
-54,26.7,Normal,218,No,Female,Bhopal,Survived,139,Heart Disease,Fatal,No,2nd Dose,1,2022.0,9.0,4.0,6.0,3.0,1,2022,5,6,4,2,0
-54,20.1,Normal,218,Yes,Female,Bangalore,,63,Smoking,,No,2nd Dose,0,,,,,,0,2023,9,15,4,3,0
-69,22.4,Very High,296,No,Female,Indore,,136,Smoking,,Yes,2nd Dose,0,,,,,,0,2021,11,29,0,4,0
-38,32.7,High,272,Yes,Female,Bhopal,Survived,129,Multiple Conditions,Severe,No,2nd Dose,1,2022.0,8.0,30.0,1.0,3.0,0,2022,2,13,6,1,1
-25,19.6,Normal,285,No,Male,Lucknow,,534,Obesity,,Yes,Booster,0,,,,,,0,2022,10,21,4,4,0
-73,23.0,Normal,200,No,Male,Nagpur,,9,Obesity,,No,Booster,0,,,,,,0,2022,7,31,6,3,1
-50,26.3,High,160,Yes,Male,Jaipur,,327,Heart Disease,,No,Booster,0,,,,,,0,2021,7,28,2,3,0
-31,23.6,Elevated,209,Yes,Male,Agra,,345,Diabetes,,No,2nd Dose,0,,,,,,0,2023,8,13,6,3,1
-62,33.7,Very High,268,Yes,Female,Bhopal,,65,Multiple Conditions,,Yes,Booster,0,,,,,,0,2023,4,24,0,2,0
-48,29.2,Normal,188,Yes,Male,Ludhiana,,301,Heart Disease,,Yes,2nd Dose,0,,,,,,0,2021,7,9,4,3,0
-41,33.0,Normal,249,No,Female,Agra,,15,None,,No,2nd Dose,0,,,,,,0,2021,6,8,1,2,0
-42,29.4,High,203,Yes,Female,Agra,,157,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2021,8,14,5,3,1
-62,23.3,Normal,257,Yes,Female,Mumbai,,41,None,,No,1st Dose,0,,,,,,0,2022,5,1,6,2,1
-48,35.0,Elevated,214,No,Male,Hyderabad,,380,Multiple Conditions,,No,1st Dose,0,,,,,,0,2022,1,20,3,1,0
-58,25.5,Normal,151,No,Male,Ludhiana,,188,Heart Disease,,No,2nd Dose,0,,,,,,0,2021,11,13,5,4,1
-77,28.6,Normal,196,No,Male,Ludhiana,,465,Obesity,,Yes,1st Dose,0,,,,,,0,2021,11,5,4,4,0
-80,25.4,Normal,163,No,Female,Pune,,217,Obesity,,Yes,Booster,0,,,,,,0,2022,8,21,6,3,1
-26,19.2,Elevated,238,No,Male,Lucknow,,410,Diabetes,,Yes,1st Dose,0,,,,,,0,2021,2,28,6,1,1
-59,20.9,Normal,294,No,Male,Pune,,280,None,,Yes,2nd Dose,0,,,,,,0,2021,10,24,6,4,1
-73,29.4,Elevated,167,No,Female,Lucknow,,503,Obesity,,Yes,1st Dose,0,,,,,,0,2022,2,20,6,1,1
-68,30.9,Normal,225,Yes,Male,Chennai,,499,Heart Disease,,Yes,Booster,0,,,,,,0,2021,4,10,5,2,1
-55,32.3,High,198,No,Male,Chandigarh,Survived,338,Multiple Conditions,Severe,Yes,1st Dose,1,2024.0,8.0,14.0,2.0,3.0,0,2023,11,2,3,4,0
-34,26.0,High,210,Yes,Female,Chennai,,237,Hypertension,,Yes,1st Dose,0,,,,,,0,2023,12,16,5,4,1
-38,31.0,High,281,No,Female,Nagpur,,208,Hypertension,,No,1st Dose,0,,,,,,0,2021,2,14,6,1,1
-61,19.0,Elevated,237,No,Male,Nagpur,,213,Obesity,,No,1st Dose,0,,,,,,0,2023,10,9,0,4,0
-35,29.7,Very High,272,Yes,Male,Pune,,296,Hypertension,,No,1st Dose,0,,,,,,0,2023,8,31,3,3,0
-69,23.9,Very High,246,Yes,Female,Hyderabad,,519,Obesity,,Yes,Booster,0,,,,,,0,2022,6,20,0,2,0
-27,32.1,High,259,No,Male,Hyderabad,,252,Smoking,,Yes,Booster,0,,,,,,0,2023,3,12,6,1,1
-71,26.1,Very High,190,No,Female,Indore,,542,Obesity,,Yes,Booster,0,,,,,,0,2023,3,30,3,1,0
-58,24.3,High,241,No,Male,Lucknow,,462,None,,Yes,Booster,0,,,,,,0,2022,12,2,4,4,0
-58,30.3,Normal,298,Yes,Male,Pune,,456,Obesity,,No,Booster,0,,,,,,0,2021,11,19,4,4,0
-51,34.2,Elevated,267,Yes,Male,Bhopal,Survived,548,Smoking,Mild,No,1st Dose,1,2021.0,12.0,25.0,5.0,4.0,1,2021,9,8,2,3,0
-77,33.9,Very High,167,No,Male,Patna,Not Survived,304,Hypertension,Fatal,Yes,2nd Dose,1,2024.0,2.0,3.0,5.0,1.0,1,2023,11,7,1,4,0
-45,19.7,High,246,No,Male,Surat,Survived,351,Smoking,Fatal,Yes,Booster,1,2023.0,4.0,16.0,6.0,2.0,1,2022,4,23,5,2,1
-77,27.8,Very High,290,No,Male,Lucknow,,270,Diabetes,,No,1st Dose,0,,,,,,0,2023,10,27,4,4,0
-59,21.7,High,155,No,Female,Chennai,,446,Hypertension,,No,2nd Dose,0,,,,,,0,2023,8,11,4,3,0
-76,28.9,Normal,229,No,Male,Chennai,,202,Heart Disease,,No,Booster,0,,,,,,0,2021,1,16,5,1,1
-58,35.0,Very High,208,No,Male,Bhopal,,162,Hypertension,,No,1st Dose,0,,,,,,0,2022,3,15,1,1,0
-76,25.0,Elevated,198,Yes,Male,Indore,,44,Diabetes,,No,1st Dose,0,,,,,,0,2023,10,29,6,4,1
-26,33.7,High,284,Yes,Female,Pune,Survived,218,None,Moderate,No,1st Dose,1,2024.0,6.0,2.0,6.0,2.0,1,2023,7,8,5,3,1
-37,22.5,Very High,287,No,Male,Kolkata,,402,None,,No,2nd Dose,0,,,,,,0,2023,6,8,3,2,0
-34,19.0,Very High,186,Yes,Female,Surat,,191,Obesity,,No,2nd Dose,0,,,,,,0,2021,8,4,2,3,0
-41,34.6,Elevated,268,No,Male,Pune,,477,None,,No,Booster,0,,,,,,0,2022,11,26,5,4,1
-29,24.2,High,255,No,Female,Patna,,310,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,9,23,5,3,1
-37,30.7,Very High,241,No,Female,Nagpur,,260,Heart Disease,,No,2nd Dose,0,,,,,,0,2023,7,26,2,3,0
-41,30.6,High,180,No,Female,Ludhiana,Survived,106,Multiple Conditions,Fatal,Yes,1st Dose,1,2021.0,12.0,19.0,6.0,4.0,1,2021,10,23,5,4,1
-32,21.7,Very High,212,No,Female,Bhopal,,54,Heart Disease,,No,2nd Dose,0,,,,,,0,2021,8,13,4,3,0
-49,30.9,High,198,No,Male,Chandigarh,,390,None,,No,1st Dose,0,,,,,,0,2023,10,18,2,4,0
-27,29.1,Elevated,150,Yes,Male,Agra,,2,None,,No,2nd Dose,0,,,,,,0,2023,7,12,2,3,0
-71,33.2,High,215,Yes,Male,Patna,Survived,521,None,Fatal,No,Booster,1,2022.0,7.0,23.0,5.0,3.0,1,2022,1,12,2,1,0
-27,29.1,Elevated,209,Yes,Male,Lucknow,,360,Hypertension,,Yes,2nd Dose,0,,,,,,0,2022,9,5,0,3,0
-71,19.6,Very High,186,Yes,Male,Pune,Survived,50,None,Mild,No,Booster,1,2023.0,12.0,14.0,3.0,4.0,0,2023,10,8,6,4,1
-77,27.2,Very High,258,Yes,Female,Bhopal,Survived,420,Hypertension,Moderate,Yes,2nd Dose,1,2022.0,8.0,17.0,2.0,3.0,0,2022,5,28,5,2,1
-28,24.0,Elevated,218,No,Female,Lucknow,Survived,81,Heart Disease,Mild,Yes,1st Dose,1,2021.0,9.0,10.0,4.0,3.0,0,2021,1,20,2,1,0
-37,23.0,Normal,206,No,Female,Hyderabad,Survived,206,Multiple Conditions,Fatal,No,Booster,1,2023.0,1.0,19.0,3.0,1.0,0,2022,7,10,6,3,1
-72,24.0,Normal,199,Yes,Male,Jaipur,,35,Smoking,,No,2nd Dose,0,,,,,,0,2021,6,19,5,2,1
-60,24.1,Very High,206,No,Female,Pune,Survived,431,Smoking,Moderate,No,Booster,1,2022.0,11.0,22.0,1.0,4.0,0,2022,9,23,4,3,0
-58,29.4,Very High,187,No,Female,Pune,,264,Obesity,,Yes,Booster,0,,,,,,0,2022,11,22,1,4,0
-69,33.7,Elevated,187,Yes,Female,Delhi,,428,Hypertension,,No,Booster,0,,,,,,0,2021,6,19,5,2,1
-50,28.7,High,292,No,Male,Chennai,,455,Diabetes,,Yes,1st Dose,0,,,,,,0,2023,8,30,2,3,0
-74,27.5,Normal,254,Yes,Female,Agra,,444,Obesity,,Yes,Booster,0,,,,,,0,2022,6,26,6,2,1
-73,31.1,Elevated,210,Yes,Male,Bangalore,,367,None,,No,2nd Dose,0,,,,,,0,2021,4,27,1,2,0
-30,26.0,Elevated,171,Yes,Female,Chandigarh,Survived,92,Multiple Conditions,Mild,Yes,1st Dose,1,2023.0,8.0,23.0,2.0,3.0,0,2022,11,28,0,4,0
-75,28.8,Very High,208,No,Male,Chandigarh,Survived,340,Multiple Conditions,Severe,Yes,1st Dose,1,2023.0,1.0,26.0,3.0,1.0,0,2022,7,12,1,3,0
-58,33.6,High,268,No,Female,Pune,,531,Hypertension,,No,1st Dose,0,,,,,,0,2023,6,15,3,2,0
-58,31.9,High,205,Yes,Male,Lucknow,Survived,53,Multiple Conditions,Moderate,No,Booster,1,2023.0,2.0,15.0,2.0,1.0,0,2022,2,28,0,1,0
-48,29.5,Very High,188,Yes,Male,Delhi,,346,Smoking,,No,Booster,0,,,,,,0,2023,10,28,5,4,1
-47,20.8,High,152,No,Male,Mumbai,,265,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2022,8,3,2,3,0
-75,29.8,Very High,190,No,Male,Pune,Survived,506,Diabetes,Mild,No,2nd Dose,1,2021.0,5.0,24.0,0.0,2.0,0,2021,5,2,6,2,1
-40,19.2,Normal,257,Yes,Female,Surat,,242,Multiple Conditions,,Yes,Booster,0,,,,,,0,2021,7,29,3,3,0
-71,33.7,Normal,214,No,Female,Agra,Survived,14,Heart Disease,Moderate,Yes,1st Dose,1,2024.0,6.0,12.0,2.0,2.0,0,2023,11,14,1,4,0
-53,24.1,Elevated,282,Yes,Male,Nagpur,,316,Smoking,,No,2nd Dose,0,,,,,,0,2023,11,19,6,4,1
-67,26.9,Very High,152,Yes,Female,Mumbai,Survived,89,Heart Disease,Severe,Yes,Booster,1,2022.0,9.0,16.0,4.0,3.0,0,2022,3,2,2,1,0
-46,34.9,Normal,202,Yes,Female,Agra,,388,Obesity,,Yes,1st Dose,0,,,,,,0,2023,12,22,4,4,0
-49,29.3,Elevated,207,Yes,Female,Bangalore,,274,Diabetes,,Yes,2nd Dose,0,,,,,,0,2022,5,3,1,2,0
-73,34.8,Very High,214,No,Female,Chennai,,167,Multiple Conditions,,Yes,Booster,0,,,,,,0,2021,7,27,1,3,0
-57,34.8,Elevated,279,Yes,Male,Ahmedabad,Survived,545,Smoking,Severe,No,Booster,1,2023.0,10.0,22.0,6.0,4.0,1,2023,8,1,1,3,0
-27,28.0,Very High,279,No,Male,Mumbai,Survived,485,Obesity,Mild,No,2nd Dose,1,2024.0,7.0,11.0,3.0,3.0,0,2023,8,2,2,3,0
-57,22.0,Normal,185,No,Female,Ludhiana,,536,Smoking,,No,2nd Dose,0,,,,,,0,2023,8,21,0,3,0
-57,23.5,Normal,253,No,Female,Agra,,505,Smoking,,Yes,2nd Dose,0,,,,,,0,2022,8,23,1,3,0
-75,23.5,Normal,206,No,Female,Delhi,,244,Hypertension,,No,2nd Dose,0,,,,,,0,2023,12,5,1,4,0
-30,29.1,High,188,No,Male,Agra,,190,Smoking,,No,Booster,0,,,,,,0,2021,3,7,6,1,1
-60,30.6,Elevated,242,No,Male,Jaipur,,476,Hypertension,,Yes,2nd Dose,0,,,,,,0,2022,12,27,1,4,0
-34,25.2,Very High,267,No,Male,Pune,,511,Heart Disease,,No,2nd Dose,0,,,,,,0,2022,1,13,3,1,0
-46,30.9,Normal,242,No,Female,Patna,,59,Smoking,,No,1st Dose,0,,,,,,0,2021,4,20,1,2,0
-70,28.3,Normal,219,Yes,Male,Bangalore,,475,Smoking,,No,1st Dose,0,,,,,,0,2022,5,12,3,2,0
-47,23.0,Elevated,196,No,Male,Jaipur,Survived,253,Multiple Conditions,Severe,No,Booster,1,2022.0,12.0,5.0,0.0,4.0,0,2022,4,2,5,2,1
-35,32.1,High,290,No,Female,Lucknow,Survived,22,Multiple Conditions,Moderate,No,Booster,1,2022.0,4.0,29.0,4.0,2.0,0,2022,3,23,2,1,0
-61,24.7,High,162,No,Male,Pune,,314,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2023,12,13,2,4,0
-39,24.5,Elevated,202,No,Female,Ludhiana,,460,Heart Disease,,Yes,1st Dose,0,,,,,,0,2021,2,15,0,1,0
-66,24.2,High,229,Yes,Female,Chandigarh,Survived,161,None,Severe,No,2nd Dose,1,2024.0,8.0,2.0,4.0,3.0,0,2023,9,14,3,3,0
-74,22.1,Elevated,151,No,Male,Surat,Survived,277,Obesity,Mild,No,2nd Dose,1,2023.0,3.0,23.0,3.0,1.0,0,2022,12,26,0,4,0
-43,31.8,Normal,267,Yes,Female,Lucknow,Survived,192,Diabetes,Moderate,No,1st Dose,1,2022.0,11.0,26.0,5.0,4.0,1,2021,12,23,3,4,0
-48,34.0,Elevated,158,No,Female,Bangalore,Survived,386,Diabetes,Mild,Yes,2nd Dose,1,2023.0,4.0,11.0,1.0,2.0,0,2022,9,18,6,3,1
-45,21.2,Very High,226,No,Male,Delhi,Survived,414,Multiple Conditions,Moderate,Yes,1st Dose,1,2024.0,8.0,19.0,0.0,3.0,0,2023,12,5,1,4,0
-44,20.1,Normal,258,Yes,Female,Agra,,492,Obesity,,Yes,Booster,0,,,,,,0,2023,9,25,0,3,0
-69,26.5,Elevated,215,Yes,Male,Chennai,,344,Obesity,,Yes,1st Dose,0,,,,,,0,2022,7,9,5,3,1
-54,20.8,Elevated,213,No,Male,Agra,Survived,309,Smoking,Severe,Yes,1st Dose,1,2023.0,11.0,21.0,1.0,4.0,0,2023,11,3,4,4,0
-26,26.2,Elevated,181,No,Male,Ludhiana,,131,Multiple Conditions,,Yes,1st Dose,0,,,,,,0,2021,5,28,4,2,0
-49,30.2,Normal,169,Yes,Male,Ahmedabad,Not Survived,100,Diabetes,Fatal,No,1st Dose,1,2022.0,1.0,8.0,5.0,1.0,1,2021,6,21,0,2,0
-48,22.9,Elevated,257,No,Female,Chandigarh,,373,Smoking,,No,2nd Dose,0,,,,,,0,2022,3,12,5,1,1
-67,33.1,Normal,257,Yes,Male,Delhi,,88,Hypertension,,No,Booster,0,,,,,,0,2022,10,2,6,4,1
-64,23.9,Very High,163,Yes,Female,Patna,,459,Multiple Conditions,,No,Booster,0,,,,,,0,2023,12,17,6,4,1
-74,20.2,Normal,213,No,Female,Lucknow,,331,Diabetes,,No,2nd Dose,0,,,,,,0,2022,9,23,4,3,0
-64,22.1,High,239,No,Male,Hyderabad,,215,Multiple Conditions,,Yes,2nd Dose,0,,,,,,0,2022,4,23,5,2,1
-62,25.7,Very High,235,Yes,Male,Hyderabad,,467,Multiple Conditions,,No,2nd Dose,0,,,,,,0,2022,2,18,4,1,0
-47,21.2,Elevated,161,No,Male,Lucknow,,122,Diabetes,,No,Booster,0,,,,,,0,2023,12,10,6,4,1
-33,23.9,Normal,230,Yes,Female,Kolkata,,21,Obesity,,No,1st Dose,0,,,,,,0,2022,1,14,4,1,0
-25,33.0,Normal,183,Yes,Female,Hyderabad,,72,Hypertension,,No,1st Dose,0,,,,,,0,2023,8,17,3,3,0
-78,23.5,Elevated,202,No,Male,Pune,,107,Obesity,,Yes,2nd Dose,0,,,,,,0,2023,3,13,0,1,0
-69,18.7,High,182,Yes,Male,Chennai,Survived,271,Hypertension,Severe,Yes,1st Dose,1,2023.0,6.0,10.0,5.0,2.0,1,2022,10,9,6,4,1
-62,20.8,Very High,220,Yes,Female,Kolkata,,436,Hypertension,,Yes,1st Dose,0,,,,,,0,2021,7,27,1,3,0
-71,28.6,Normal,273,Yes,Female,Lucknow,,103,None,,Yes,2nd Dose,0,,,,,,0,2022,8,8,0,3,0
+User_ID,Age,Gender,Sleep_Duration,Stress_Level,Diet_Type,Daily_Screen_Time,Exercise_Frequency,Caffeine_Intake,Reaction_Time,Memory_Test_Score,Cognitive_Score,AI_Predicted_Score
+U969,45,Male,7.1,4,Non-Vegetarian,4.6,Low,432,480.98,73,42.0,38.98
+U241,33,Male,7.8,7,Non-Vegetarian,5.1,Medium,344,336.73,78,74.95,72.59
+U820,44,Male,6.4,2,Non-Vegetarian,9.0,High,261,236.15,54,87.72,91.58
+U693,19,Female,9.8,9,Non-Vegetarian,6.4,Medium,136,225.23,68,90.74,86.94
+U421,46,Female,7.9,1,Non-Vegetarian,6.3,Low,8,482.82,65,51.22,48.03
+U1086,35,Male,4.7,8,Vegan,7.8,High,217,480.21,82,48.32,46.64
+U1999,49,Female,9.8,3,Non-Vegetarian,4.2,Low,76,479.01,54,47.94,45.52
+U366,31,Male,5.9,9,Vegan,1.9,High,297,485.76,86,57.05,61.47
+U1023,19,Female,4.4,1,Vegetarian,6.7,High,117,440.35,44,53.02,53.45
+U1241,56,Female,4.1,1,Vegetarian,9.9,Medium,470,578.04,52,16.61,19.62
+U589,57,Female,9.4,8,Non-Vegetarian,11.2,Medium,102,511.6,64,35.69,36.73
+U737,32,Male,9.8,1,Non-Vegetarian,7.8,Low,83,285.34,78,90.68,85.79
+U1762,57,Female,7.5,1,Vegetarian,8.9,Medium,128,448.6,71,62.82,59.25
+U942,32,Female,7.4,1,Non-Vegetarian,11.8,Medium,426,459.33,90,60.03,61.72
+U72,22,Male,4.5,7,Non-Vegetarian,3.0,Medium,84,585.6,59,25.72,27.22
+U1408,35,Female,6.6,1,Non-Vegetarian,4.5,High,95,490.72,72,66.76,67.36
+U260,47,Male,9.5,6,Non-Vegetarian,1.7,Medium,403,416.94,80,71.9,70.46
+U52,41,Male,5.2,8,Non-Vegetarian,7.1,Low,170,523.12,65,20.66,16.43
+U199,29,Female,9.7,4,Non-Vegetarian,8.1,High,227,276.83,75,96.07,96.11
+U1789,43,Female,7.7,10,Vegetarian,1.2,Medium,252,561.82,40,19.92,18.18
+U651,47,Male,6.4,6,Non-Vegetarian,8.6,Low,109,591.92,78,21.07,25.18
+U333,43,Female,6.4,5,Vegetarian,11.6,Medium,100,567.55,51,19.31,15.16
+U1360,37,Female,7.3,9,Vegetarian,9.1,Medium,390,315.47,89,72.07,69.48
+U594,50,Female,4.7,5,Non-Vegetarian,11.0,Medium,209,217.02,59,77.05,75.44
+U1392,21,Male,7.9,4,Non-Vegetarian,10.2,High,169,398.39,52,58.72,62.46
+U1801,24,Female,5.9,5,Non-Vegetarian,1.3,High,85,537.92,70,53.5,49.52
+U1315,29,Female,4.8,8,Non-Vegetarian,8.7,High,428,540.01,60,21.99,21.33
+U1112,48,Female,9.7,9,Non-Vegetarian,8.4,High,451,595.89,61,20.96,19.88
+U1007,44,Male,8.2,9,Vegetarian,11.1,Medium,329,431.62,68,42.23,40.59
+U1327,49,Male,6.3,8,Non-Vegetarian,5.3,Medium,225,327.02,73,71.15,75.06
+U427,59,Female,6.2,9,Non-Vegetarian,6.7,Medium,165,333.83,81,70.91,73.01
+U1559,28,Female,4.7,9,Non-Vegetarian,1.5,Medium,130,408.38,73,59.99,62.19
+U1294,51,Female,5.5,9,Non-Vegetarian,4.5,Low,494,494.88,62,19.89,18.06
+U591,48,Female,5.0,3,Non-Vegetarian,6.0,High,63,529.23,93,62.04,65.44
+U1958,44,Female,4.0,6,Non-Vegetarian,10.5,Low,174,530.59,85,25.84,26.85
+U1977,46,Female,6.4,7,Vegetarian,2.3,High,265,325.4,74,82.82,80.57
+U1133,57,Female,6.1,1,Non-Vegetarian,6.3,Low,272,426.19,71,54.78,50.99
+U986,21,Female,9.0,9,Non-Vegetarian,10.3,Medium,6,514.6,74,40.66,40.46
+U399,27,Female,5.7,3,Non-Vegetarian,6.9,Medium,488,591.84,83,33.15,37.08
+U1512,34,Female,6.2,3,Non-Vegetarian,7.2,Medium,227,565.46,49,26.32,27.79
+U437,40,Male,6.7,8,Vegetarian,1.0,Medium,246,420.31,99,75.43,79.85
+U193,19,Male,8.7,9,Non-Vegetarian,8.9,Low,426,366.76,61,41.9,37.13
+U1436,51,Female,6.9,7,Non-Vegetarian,7.5,Low,197,209.59,72,80.68,78.85
+U615,56,Female,6.7,6,Non-Vegetarian,2.7,Medium,211,396.37,99,81.57,80.53
+U1494,27,Female,4.4,6,Vegetarian,11.0,High,297,326.64,64,61.92,63.58
+U577,20,Male,8.6,1,Non-Vegetarian,7.8,Medium,467,411.41,80,70.59,68.0
+U987,36,Male,5.2,7,Vegetarian,11.5,Medium,201,521.3,81,33.75,33.66
+U1433,24,Male,5.4,6,Non-Vegetarian,2.5,Medium,271,281.66,76,85.69,89.33
+U707,49,Male,4.6,6,Vegan,8.2,High,40,507.57,92,55.51,58.73
+U1259,36,Female,5.7,4,Non-Vegetarian,5.4,High,234,398.09,52,60.27,64.31
+U142,52,Female,7.5,4,Non-Vegetarian,3.7,Medium,376,378.25,92,81.89,83.72
+U1358,54,Other,7.9,4,Non-Vegetarian,7.9,High,278,242.99,48,83.89,86.77
+U3,26,Male,8.2,6,Vegetarian,5.7,Low,429,445.21,49,32.57,29.54
+U1222,27,Female,9.5,8,Non-Vegetarian,5.7,Medium,280,443.9,76,57.87,56.07
+U1870,22,Female,6.5,5,Vegan,1.2,Medium,354,200.4,46,88.72,91.44
+U1623,29,Male,4.4,4,Non-Vegetarian,5.3,High,141,314.47,53,74.12,73.09
+U340,51,Male,9.6,9,Non-Vegetarian,11.9,Medium,488,470.39,71,35.69,37.97
+U1770,39,Male,8.3,3,Non-Vegetarian,3.2,Medium,64,556.76,77,55.23,57.03
+U1537,30,Female,5.8,2,Vegetarian,7.6,Medium,137,427.11,76,65.27,65.65
+U484,19,Female,6.4,1,Non-Vegetarian,7.5,Medium,3,206.37,67,100.0,100.0
+U266,18,Male,4.0,1,Vegetarian,1.4,Low,272,331.38,53,64.73,69.6
+U377,28,Male,6.2,10,Non-Vegetarian,6.1,High,364,292.63,54,64.2,63.12
+U742,40,Female,6.5,10,Non-Vegetarian,10.5,Medium,403,361.44,53,40.45,42.49
+U1014,28,Male,5.7,2,Non-Vegetarian,8.9,Low,227,299.61,41,55.08,54.35
+U440,28,Female,8.2,4,Non-Vegetarian,4.4,Medium,327,584.98,95,50.26,52.78
+U272,31,Male,7.6,6,Vegan,8.0,Low,186,397.83,82,57.18,60.35
+U185,29,Male,7.3,3,Vegan,4.2,Medium,83,424.51,80,74.89,76.94
+U940,52,Female,6.1,2,Vegetarian,9.3,Low,81,365.93,63,58.14,62.28
+U245,50,Female,8.8,2,Vegetarian,10.5,Low,466,228.1,66,78.51,81.07
+U932,35,Male,6.5,6,Vegetarian,5.3,Medium,129,424.97,50,49.64,47.39
+U446,48,Female,4.1,10,Non-Vegetarian,10.0,High,103,483.78,89,45.01,42.16
+U597,36,Male,5.1,5,Non-Vegetarian,7.6,Medium,468,276.04,79,77.93,74.77
+U818,27,Female,8.0,1,Non-Vegetarian,1.9,Medium,281,593.37,72,47.64,50.93
+U1273,34,Male,6.2,5,Vegetarian,1.8,Low,158,211.99,43,77.71,79.75
+U1677,22,Other,4.6,7,Non-Vegetarian,7.1,Low,288,231.66,44,57.18,57.11
+U487,22,Male,9.2,10,Non-Vegetarian,7.7,Low,65,380.64,91,62.61,63.43
+U681,33,Male,8.6,5,Non-Vegetarian,7.6,High,433,547.27,54,32.93,34.84
+U416,33,Male,5.0,9,Vegetarian,1.5,Low,271,489.49,85,40.25,36.73
+U274,53,Male,5.1,9,Vegetarian,1.3,High,203,578.49,58,28.77,30.46
+U1472,50,Female,6.6,4,Non-Vegetarian,3.8,Low,24,222.99,73,93.36,92.77
+U1830,28,Female,5.3,9,Non-Vegetarian,9.1,High,429,568.24,91,31.16,27.92
+U1455,19,Female,4.1,6,Non-Vegetarian,8.4,Low,310,293.77,71,58.94,57.41
+U251,55,Male,9.6,8,Non-Vegetarian,1.3,Medium,239,382.36,84,79.74,76.83
+U414,48,Female,8.7,3,Non-Vegetarian,9.9,Medium,367,435.43,41,42.14,43.88
+U1386,25,Male,7.0,1,Non-Vegetarian,9.2,High,381,433.08,88,72.4,67.61
+U1308,59,Female,7.2,6,Non-Vegetarian,2.9,High,173,567.99,64,41.92,44.83
+U716,42,Male,6.6,4,Vegetarian,3.9,Medium,179,350.2,43,63.9,61.89
+U311,51,Female,9.8,2,Vegetarian,3.1,Low,294,212.16,63,96.21,96.5
+U927,42,Female,7.5,2,Vegetarian,8.8,Low,399,393.26,46,42.28,38.61
+U382,30,Male,5.0,9,Vegetarian,9.7,Medium,410,544.44,99,33.01,28.42
+U1566,56,Male,9.7,8,Vegetarian,5.7,Low,451,277.37,75,72.1,68.14
+U426,32,Female,8.2,1,Non-Vegetarian,9.1,High,155,241.93,56,95.33,95.31
+U1875,24,Male,5.9,9,Non-Vegetarian,10.1,Low,55,292.19,40,43.85,47.2
+U533,27,Male,6.1,5,Vegetarian,9.2,Medium,87,538.04,66,34.99,37.74
+U753,33,Male,9.1,2,Non-Vegetarian,12.0,Low,248,508.59,46,24.48,19.57
+U766,28,Male,5.8,3,Vegetarian,10.9,High,164,215.57,81,100.0,100.0
+U1357,28,Female,8.5,1,Vegetarian,4.8,High,448,429.83,62,68.2,65.05
+U409,26,Male,9.8,7,Vegetarian,2.0,Medium,107,247.0,42,85.29,88.4
+U1615,55,Female,5.4,9,Non-Vegetarian,2.7,Low,361,445.06,71,37.85,42.48
+U695,57,Male,9.4,7,Non-Vegetarian,11.1,Medium,333,491.17,86,47.63,44.32
+U1739,37,Male,7.3,5,Non-Vegetarian,5.3,Medium,147,468.17,47,44.18,41.63
+U549,19,Male,8.4,6,Non-Vegetarian,7.0,High,394,316.17,67,77.23,78.38
+U937,49,Male,6.2,2,Vegetarian,8.3,High,463,401.46,64,61.78,63.33
+U1390,47,Female,7.6,7,Vegetarian,9.3,Low,208,289.83,95,77.28,80.69
+U1608,36,Male,6.0,7,Vegetarian,3.5,Medium,473,488.0,97,55.46,52.1
+U1940,27,Female,8.2,2,Vegetarian,4.4,Medium,228,347.35,91,93.85,97.18
+U1482,22,Female,5.8,7,Non-Vegetarian,6.5,Low,24,308.14,76,69.01,65.81
+U183,51,Male,8.4,4,Non-Vegetarian,2.9,Medium,64,395.47,78,81.26,81.05
+U1941,42,Female,8.9,10,Non-Vegetarian,4.0,Medium,112,551.06,44,24.72,29.13
+U1161,30,Female,5.3,9,Non-Vegetarian,3.7,Medium,253,426.66,49,40.38,41.19
+U171,33,Female,8.2,8,Non-Vegetarian,6.3,Medium,391,448.69,67,46.85,44.28
+U293,44,Male,5.7,6,Non-Vegetarian,5.6,High,460,315.72,60,69.18,66.68
+U562,29,Male,7.1,5,Vegetarian,6.5,Medium,32,532.87,70,45.0,41.03
+U1457,45,Male,7.4,7,Non-Vegetarian,7.9,Medium,192,232.97,99,100.0,100.0
+U1877,51,Female,8.5,7,Vegetarian,1.2,High,294,544.2,99,64.12,67.69
+U1652,54,Male,7.0,6,Non-Vegetarian,2.0,Low,118,586.01,90,38.97,40.88
+U850,23,Male,4.2,4,Vegan,9.3,Low,14,418.64,71,46.9,46.31
+U273,59,Male,10.0,6,Vegan,10.0,High,434,512.46,40,28.91,32.2
+U1550,28,Male,10.0,10,Non-Vegetarian,11.1,High,401,515.0,97,48.0,52.9
+U1035,33,Male,4.1,3,Non-Vegetarian,5.7,Medium,490,227.52,76,88.93,87.65
+U1744,40,Female,9.8,6,Non-Vegetarian,8.6,Medium,249,246.82,45,76.08,76.12
+U372,23,Male,10.0,1,Vegetarian,8.9,Low,413,377.12,63,60.04,56.4
+U1670,58,Female,8.6,8,Non-Vegetarian,3.3,Medium,43,392.84,50,59.92,64.72
+U722,24,Male,9.1,6,Non-Vegetarian,1.8,Medium,348,308.13,98,99.19,100.0
+U734,22,Female,6.1,1,Vegetarian,8.3,Medium,477,494.35,42,31.82,30.18
+U778,51,Female,6.3,3,Non-Vegetarian,5.1,Low,451,474.9,98,54.78,55.5
+U519,39,Female,4.9,3,Vegetarian,10.2,Low,62,536.17,61,23.4,25.55
+U335,44,Male,4.7,4,Non-Vegetarian,10.1,Medium,495,520.03,55,22.18,22.85
+U846,21,Female,9.7,1,Non-Vegetarian,11.4,Low,14,520.29,59,37.81,42.47
+U1252,58,Female,8.2,3,Non-Vegetarian,4.0,Medium,176,213.01,98,100.0,100.0
+U1053,53,Male,8.2,10,Non-Vegetarian,11.1,Medium,476,536.11,71,21.38,25.53
+U1924,30,Male,4.2,6,Non-Vegetarian,10.6,Medium,345,499.07,76,33.42,30.76
+U16,39,Female,4.6,3,Vegan,8.7,Medium,405,488.88,93,52.07,48.88
+U708,27,Female,4.7,6,Vegetarian,6.2,High,269,542.6,70,37.29,35.63
+U901,28,Female,7.3,4,Non-Vegetarian,7.0,High,159,500.14,83,61.06,59.96
+U1980,38,Female,6.9,2,Non-Vegetarian,1.8,Low,413,356.41,86,77.44,76.34
+U1573,39,Male,8.8,5,Non-Vegetarian,9.7,High,314,576.85,92,46.63,46.17
+U904,52,Female,7.6,2,Non-Vegetarian,10.8,Medium,212,373.07,95,81.08,76.59
+U466,23,Male,6.9,8,Vegetarian,8.8,Medium,33,547.32,47,21.22,22.61
+U1978,40,Male,9.3,2,Vegan,11.9,Low,156,375.9,60,55.98,53.38
+U200,21,Female,9.6,8,Non-Vegetarian,7.4,Medium,269,506.36,53,33.83,29.44
+U1207,45,Male,5.8,8,Vegetarian,5.9,Low,163,455.79,74,39.52,35.49
+U1056,58,Male,8.4,3,Non-Vegetarian,4.7,Low,172,509.2,75,47.94,49.08
+U1132,44,Male,6.2,8,Non-Vegetarian,2.8,High,21,347.45,44,65.87,62.09
+U1380,46,Male,9.9,5,Non-Vegetarian,8.1,Medium,163,509.4,54,41.49,38.9
+U999,51,Female,5.0,4,Non-Vegetarian,7.5,Low,309,508.36,49,19.34,16.77
+U728,48,Female,9.6,1,Vegetarian,4.9,Low,137,555.45,99,59.04,60.51
+U1772,57,Female,6.5,5,Vegetarian,11.1,High,172,244.15,44,74.22,78.55
+U1910,18,Other,5.4,9,Vegan,5.5,Low,478,582.26,95,20.45,16.3
+U1822,29,Female,8.2,5,Non-Vegetarian,9.4,Low,423,253.78,40,56.54,58.58
+U568,46,Male,4.6,4,Non-Vegetarian,7.0,High,334,431.58,80,62.09,57.69
+U44,45,Male,6.3,5,Vegan,4.9,Medium,85,415.82,88,73.25,75.43
+U275,35,Male,5.9,5,Vegetarian,1.0,Low,397,463.95,88,54.04,57.48
+U1097,54,Female,5.2,10,Vegetarian,5.3,High,30,581.12,55,22.5,26.18
+U102,53,Female,8.3,3,Vegetarian,5.6,Medium,220,287.66,67,88.36,92.15
+U1232,33,Female,4.4,1,Vegetarian,10.6,Medium,361,592.58,66,22.92,19.5
+U1722,44,Female,7.2,9,Vegetarian,2.5,Medium,441,551.41,81,37.43,36.29
+U1833,53,Male,5.5,10,Non-Vegetarian,11.7,Medium,64,446.07,66,35.83,34.29
+U108,47,Male,5.6,1,Non-Vegetarian,5.9,High,176,485.36,77,64.44,66.69
+U1618,22,Female,8.0,10,Non-Vegetarian,1.4,High,230,218.51,60,92.88,92.85
+U498,33,Female,4.1,8,Vegetarian,7.0,Low,498,261.5,41,43.66,43.98
+U1981,27,Female,6.3,6,Vegan,1.6,High,48,455.01,65,63.91,64.43
+U882,45,Other,8.0,1,Non-Vegetarian,8.6,Medium,411,319.69,42,65.6,66.42
+U757,45,Male,7.5,10,Non-Vegetarian,3.5,Low,304,214.79,63,74.37,77.55
+U620,20,Female,5.4,3,Vegetarian,11.9,Medium,19,321.22,75,75.53,73.92
+U1107,27,Female,4.3,6,Non-Vegetarian,5.5,High,495,431.88,88,60.47,57.75
+U1936,47,Female,5.4,3,Non-Vegetarian,5.6,Medium,351,241.39,89,98.65,97.26
+U810,31,Male,7.3,10,Non-Vegetarian,5.8,High,107,423.42,77,61.69,66.19
+U1038,51,Male,8.6,2,Non-Vegetarian,2.3,Medium,357,225.17,76,100.0,100.0
+U73,34,Other,8.7,6,Vegetarian,9.5,Medium,69,215.99,70,93.77,89.75
+U1284,26,Female,9.5,5,Non-Vegetarian,6.7,Medium,392,217.09,68,93.93,98.12
+U1272,44,Female,7.3,1,Non-Vegetarian,7.4,Low,241,499.98,74,45.35,41.11
+U1335,42,Male,6.4,8,Non-Vegetarian,7.0,Medium,368,278.03,46,60.6,64.86
+U1459,45,Female,8.1,9,Non-Vegetarian,7.8,Low,350,331.61,83,60.73,64.16
+U482,38,Male,8.3,9,Vegetarian,6.9,Low,382,478.12,74,32.92,31.79
+U1069,35,Male,8.6,3,Vegetarian,8.6,Medium,412,573.57,84,41.46,38.95
+U507,59,Male,5.1,7,Non-Vegetarian,6.5,Low,331,296.09,67,58.98,59.7
+U1238,43,Male,7.5,8,Vegetarian,7.8,Low,466,350.14,44,36.62,35.35
+U1862,35,Female,6.4,6,Vegetarian,9.5,Medium,49,479.52,60,40.65,45.42
+U1990,42,Male,4.9,6,Vegan,8.4,Medium,126,396.7,64,53.56,49.95
+U1477,49,Female,8.8,1,Non-Vegetarian,3.5,Medium,84,254.56,48,95.24,98.04
+U1867,46,Male,9.0,2,Non-Vegetarian,8.9,High,367,580.02,56,34.64,38.91
+U1456,29,Male,6.1,5,Vegetarian,8.1,Medium,214,223.84,55,80.96,83.17
+U312,32,Female,9.7,10,Vegan,1.7,Medium,392,505.56,58,38.75,40.87
+U963,35,Female,5.1,7,Vegetarian,8.8,Low,352,437.72,98,47.01,51.61
+U406,21,Female,4.5,1,Non-Vegetarian,10.6,Medium,142,216.99,66,90.1,85.87
+U1331,35,Female,8.0,10,Non-Vegetarian,4.9,Low,13,390.52,99,67.8,69.22
+U1650,58,Male,9.8,3,Vegan,11.4,High,147,209.28,97,100.0,100.0
+U310,59,Female,8.7,9,Non-Vegetarian,9.7,High,25,596.32,98,43.96,45.65
+U227,57,Female,6.0,7,Non-Vegetarian,2.3,High,396,540.08,76,44.62,49.3
+U1858,28,Female,6.3,8,Non-Vegetarian,3.5,Low,396,286.58,49,55.17,58.96
+U711,30,Female,7.0,10,Vegan,1.7,Medium,457,508.73,42,23.52,21.98
+U1944,27,Male,6.0,9,Vegan,4.8,Medium,385,492.24,68,36.06,31.26
+U1384,55,Female,9.9,6,Non-Vegetarian,11.2,High,413,414.76,55,51.11,53.99
+U1786,32,Female,5.2,1,Non-Vegetarian,2.8,Medium,316,481.12,46,45.69,45.17
+U149,57,Female,4.4,9,Vegetarian,3.9,Medium,343,279.05,46,59.58,64.1
+U1555,38,Male,4.8,8,Non-Vegetarian,6.2,Medium,424,205.47,56,74.57,74.06
+U1957,43,Female,5.5,8,Non-Vegetarian,8.7,Low,459,586.73,49,0.0,0.72
+U926,22,Male,7.4,7,Non-Vegetarian,8.7,High,137,363.06,58,63.5,60.16
+U943,25,Female,4.0,10,Vegetarian,1.8,Low,252,370.69,64,45.48,46.58
+U837,19,Other,8.6,8,Non-Vegetarian,6.0,High,300,236.53,83,98.28,93.75
+U576,28,Male,6.8,2,Non-Vegetarian,2.3,Low,84,334.62,97,92.2,89.34
+U558,34,Female,8.3,5,Non-Vegetarian,2.6,High,289,523.06,96,67.74,66.92
+U1236,36,Female,7.4,2,Vegetarian,8.9,Medium,5,528.78,46,37.22,40.98
+U1361,19,Male,8.9,4,Vegetarian,4.4,Medium,70,268.15,60,92.11,87.26
+U1348,52,Male,6.6,9,Non-Vegetarian,2.8,Low,444,235.98,93,84.29,82.73
+U1162,29,Other,10.0,10,Non-Vegetarian,11.1,High,474,517.18,75,35.17,37.25
+U1443,24,Male,6.0,7,Non-Vegetarian,1.1,High,480,399.19,72,66.22,70.48
+U287,39,Male,8.8,10,Non-Vegetarian,1.9,Medium,482,567.65,43,17.0,22.0
+U1605,50,Male,4.2,2,Non-Vegetarian,6.2,Low,317,266.17,74,76.4,73.91
+U1058,34,Male,6.8,4,Non-Vegetarian,8.4,Medium,146,398.5,56,56.66,52.04
+U599,44,Male,5.1,8,Non-Vegetarian,1.8,Medium,245,274.9,67,79.28,81.66
+U933,18,Female,9.2,4,Vegetarian,11.5,High,52,215.49,76,100.0,100.0
+U1462,45,Female,8.1,5,Vegan,11.5,Low,310,537.91,65,20.6,16.96
+U1638,52,Male,9.8,8,Non-Vegetarian,1.4,Medium,234,301.74,77,90.03,91.62
+U1588,35,Male,4.2,7,Vegetarian,7.5,High,33,401.45,79,65.08,67.08
+U1041,53,Male,7.4,8,Vegetarian,2.6,Low,379,588.55,90,29.23,33.19
+U1231,41,Male,5.8,1,Non-Vegetarian,10.6,High,60,483.92,83,63.35,62.21
+U807,47,Male,6.9,8,Non-Vegetarian,6.1,Low,263,578.99,98,30.89,28.89
+U905,27,Female,4.3,7,Vegan,4.5,High,10,581.06,91,46.31,46.75
+U1680,55,Female,6.5,3,Non-Vegetarian,5.4,Medium,332,564.82,83,44.62,47.09
+U1205,20,Male,8.6,4,Non-Vegetarian,6.9,High,380,451.21,95,73.55,77.28
+U768,55,Female,7.5,4,Vegetarian,7.1,Medium,92,508.29,70,49.79,49.7
+U610,21,Female,7.1,10,Vegetarian,2.3,Low,30,428.91,55,41.16,43.12
+U1993,53,Female,7.3,2,Vegan,4.4,Low,154,548.57,75,41.99,43.6
+U1565,47,Male,5.8,7,Non-Vegetarian,11.5,Medium,215,355.06,90,66.87,64.0
+U1423,57,Male,6.5,5,Non-Vegetarian,1.8,High,451,510.33,68,50.23,47.29
+U1011,52,Male,9.2,3,Non-Vegetarian,6.3,Medium,168,555.13,93,58.57,62.16
+U494,26,Female,4.7,1,Non-Vegetarian,6.2,High,292,562.67,91,53.98,49.77
+U1321,53,Other,5.0,9,Non-Vegetarian,8.3,Medium,376,346.12,88,63.34,59.53
+U278,56,Male,9.0,5,Non-Vegetarian,11.5,High,333,366.39,69,67.53,63.42
+U1847,30,Other,8.1,4,Vegetarian,7.8,Medium,25,203.0,80,100.0,100.0
+U359,31,Male,9.1,2,Vegan,9.1,Medium,381,364.44,85,79.69,78.19
+U1111,28,Male,4.1,8,Non-Vegetarian,11.9,Low,109,403.66,60,29.89,31.14
+U237,22,Male,6.9,8,Non-Vegetarian,7.7,High,166,285.89,45,67.78,69.76
+U552,38,Female,8.2,9,Non-Vegetarian,2.1,Low,452,323.6,55,54.78,56.08
+U1868,42,Male,9.2,9,Vegetarian,10.9,Low,372,378.17,59,38.08,41.16
+U1813,39,Female,9.2,2,Non-Vegetarian,5.2,Low,209,537.78,52,33.79,30.22
+U209,46,Male,4.6,1,Vegan,6.2,Low,18,456.43,93,62.97,64.76
+U1387,42,Male,8.3,1,Non-Vegetarian,7.7,Medium,462,313.53,89,91.06,94.01
+U1561,34,Male,8.0,2,Non-Vegetarian,4.9,Medium,4,274.72,46,86.78,87.56
+U59,41,Female,9.7,2,Non-Vegetarian,3.5,Low,22,417.42,81,75.64,78.64
+U632,49,Female,5.8,4,Vegetarian,5.1,Low,381,490.92,72,37.51,33.51
+U1962,37,Male,6.3,9,Non-Vegetarian,8.6,High,424,403.17,69,50.52,48.02
+U1860,30,Female,6.8,4,Non-Vegetarian,10.8,High,304,291.45,59,74.24,71.8
+U1817,31,Female,8.9,6,Non-Vegetarian,11.4,Medium,281,377.88,98,74.1,77.98
+U364,38,Female,8.6,1,Vegetarian,12.0,Medium,0,337.07,96,94.02,91.96
+U506,57,Male,6.2,3,Vegan,8.2,Low,76,313.57,56,63.32,68.06
+U1166,36,Male,4.6,8,Vegetarian,5.2,Low,180,205.36,55,70.07,68.85
+U1122,23,Male,7.7,3,Vegetarian,9.3,Low,181,344.11,59,58.98,56.59
+U1630,27,Male,8.4,2,Vegetarian,4.1,Low,300,417.95,63,57.49,61.49
+U1217,21,Other,7.0,8,Vegan,2.8,Medium,210,378.32,85,74.05,69.73
+U1152,28,Female,7.6,5,Vegetarian,3.2,Medium,390,224.05,64,92.26,87.67
+U1125,54,Male,5.6,7,Vegetarian,6.2,Low,237,238.79,40,58.36,60.91
+U1595,39,Female,6.8,8,Vegetarian,6.1,High,150,252.22,77,91.91,95.47
+U119,32,Male,9.1,9,Vegetarian,11.1,Low,259,337.52,48,41.12,38.22
+U1250,24,Female,5.4,6,Vegetarian,11.6,Medium,59,362.99,92,70.72,67.59
+U1994,28,Male,6.8,8,Vegetarian,6.0,Low,54,206.83,96,96.05,95.43
+U523,26,Male,5.2,7,Vegan,9.5,Medium,5,451.96,93,58.22,55.01
+U514,24,Male,4.6,5,Vegetarian,7.9,Medium,132,247.0,86,91.54,88.69
+U82,45,Female,10.0,1,Non-Vegetarian,2.7,High,381,273.26,94,100.0,96.75
+U916,37,Male,4.8,8,Vegetarian,7.1,Low,463,487.68,73,23.91,22.8
+U1019,45,Male,8.5,9,Non-Vegetarian,3.9,Low,169,355.39,90,70.54,67.55
+U381,58,Male,4.6,5,Vegan,9.8,High,483,216.03,58,77.84,80.43
+U1030,32,Male,8.2,8,Vegetarian,8.6,Medium,492,366.98,56,49.5,50.92
+U1689,48,Male,8.4,8,Non-Vegetarian,11.8,Medium,429,580.9,62,13.7,9.27
+U85,19,Male,9.2,3,Vegetarian,2.3,Medium,449,485.16,83,65.61,61.32
+U1678,51,Female,8.0,9,Vegetarian,4.0,Low,416,511.89,90,38.36,41.07
+U330,55,Male,8.3,7,Non-Vegetarian,3.2,Medium,83,495.74,60,48.52,52.66
+U7,48,Male,6.7,2,Vegan,1.4,Low,39,407.13,51,59.17,55.92
+U746,30,Male,8.2,9,Vegetarian,8.9,Medium,115,445.44,56,41.51,40.15
+U1554,37,Female,6.6,4,Vegan,11.4,Low,189,371.25,76,55.44,58.73
+U915,43,Male,6.0,6,Non-Vegetarian,5.9,Low,242,502.76,62,28.52,24.6
+U874,52,Female,7.8,6,Non-Vegetarian,5.3,Medium,80,471.77,65,52.92,56.96
+U452,47,Female,6.1,2,Non-Vegetarian,8.0,High,391,525.95,85,53.22,50.52
+U491,54,Male,4.7,3,Vegan,7.3,Medium,175,534.24,51,30.41,30.12
+U1481,51,Male,7.5,9,Non-Vegetarian,6.4,Low,218,317.3,66,58.16,59.26
+U288,58,Male,5.8,1,Non-Vegetarian,11.7,High,492,290.16,59,73.35,71.24
+U949,43,Female,6.4,1,Non-Vegetarian,2.3,Low,51,248.96,96,100.0,100.0
+U1986,47,Female,9.6,6,Non-Vegetarian,3.1,High,252,275.16,80,100.0,96.71
+U1369,48,Female,7.3,2,Non-Vegetarian,7.9,Low,250,335.55,62,63.82,63.77
+U1147,18,Female,10.0,3,Vegetarian,8.5,Low,273,576.85,44,16.65,13.44
+U706,46,Female,6.5,9,Vegetarian,8.0,High,284,443.28,66,46.44,50.14
+U1727,39,Female,7.4,10,Non-Vegetarian,3.8,Medium,476,341.52,92,73.66,70.64
+U1702,37,Male,6.7,7,Non-Vegetarian,6.6,Low,483,288.47,78,65.76,66.35
+U1629,56,Female,7.6,2,Non-Vegetarian,10.4,Low,486,534.19,91,37.35,34.21
+U1600,19,Female,5.9,9,Non-Vegetarian,7.5,Medium,487,481.96,72,33.48,31.29
+U1539,27,Male,4.4,2,Non-Vegetarian,4.6,Low,114,515.85,40,24.64,25.17
+U1406,37,Male,9.0,4,Non-Vegetarian,2.9,Medium,444,222.75,52,90.65,88.02
+U1651,47,Female,7.6,3,Non-Vegetarian,9.3,Low,415,220.5,58,74.2,72.43
+U328,27,Female,4.9,3,Non-Vegetarian,2.0,Low,430,580.63,99,39.93,43.71
+U443,56,Male,9.1,5,Vegan,11.0,Low,46,365.54,45,47.36,51.16
+U775,31,Male,8.2,10,Vegetarian,2.6,High,416,273.85,73,85.04,89.36
+U1088,39,Other,4.3,3,Non-Vegetarian,8.5,Medium,47,555.9,42,22.26,22.64
+U1221,43,Male,6.2,4,Vegan,9.7,Medium,299,418.53,61,49.62,49.11
+U1636,43,Male,6.3,5,Vegetarian,4.5,Low,208,559.82,78,32.39,34.77
+U178,26,Female,9.5,9,Non-Vegetarian,11.7,Medium,139,574.72,68,23.88,18.89
+U1323,35,Female,6.5,8,Non-Vegetarian,9.0,Medium,310,472.68,61,34.02,29.93
+U705,36,Female,7.7,2,Vegetarian,6.8,Medium,416,477.93,86,61.22,61.39
+U87,57,Male,8.0,7,Non-Vegetarian,4.2,Medium,124,595.1,76,37.04,33.73
+U1884,22,Female,9.4,9,Vegetarian,11.1,Medium,314,421.47,56,40.62,42.36
+U1948,57,Female,4.3,4,Vegetarian,9.8,Low,95,269.91,82,75.01,77.12
+U458,50,Male,8.7,4,Non-Vegetarian,5.2,Low,322,220.48,47,76.91,74.79
+U1829,57,Female,5.7,3,Non-Vegetarian,11.0,High,30,581.55,97,49.88,46.31
+U55,18,Male,9.0,8,Non-Vegetarian,9.5,Medium,185,568.22,47,17.85,20.03
+U1502,41,Male,4.8,2,Non-Vegetarian,3.6,Low,477,525.63,53,24.56,19.84
+U644,44,Male,8.1,8,Vegetarian,11.0,Low,298,486.3,71,27.19,24.94
+U678,51,Female,7.7,5,Non-Vegetarian,2.1,Medium,166,530.99,76,53.43,56.15
+U222,52,Female,8.1,7,Vegetarian,10.8,Medium,472,474.99,43,23.89,21.19
+U114,27,Female,7.1,4,Non-Vegetarian,10.1,Low,293,344.9,91,68.21,67.81
+U983,28,Female,8.5,9,Vegetarian,4.8,Medium,15,467.02,40,38.66,36.1
+U1229,42,Female,9.1,2,Non-Vegetarian,4.4,Medium,299,373.51,75,81.87,86.75
+U1000,23,Female,8.8,5,Vegetarian,6.2,Medium,337,422.83,59,55.59,51.23
+U175,41,Female,6.5,5,Non-Vegetarian,1.7,Low,416,426.01,92,62.13,66.42
+U782,46,Male,7.9,10,Non-Vegetarian,10.3,High,32,200.62,72,92.27,89.65
+U590,35,Male,7.1,8,Vegetarian,3.4,Medium,413,258.65,95,94.23,89.45
+U1560,35,Male,9.7,7,Vegetarian,2.1,Low,402,510.77,93,50.58,45.84
+U19,20,Female,5.7,7,Vegetarian,5.6,Low,207,400.35,60,43.13,45.45
+U424,31,Female,7.9,10,Non-Vegetarian,8.6,Medium,129,595.02,45,8.65,7.86
+U1344,45,Male,9.5,10,Non-Vegetarian,9.7,High,101,448.76,94,64.64,60.92
+U286,36,Female,8.2,5,Non-Vegetarian,9.1,Medium,235,497.25,87,53.68,58.53
+U1584,49,Female,5.2,7,Non-Vegetarian,11.9,Low,54,479.49,51,18.05,16.57
+U429,45,Male,4.9,2,Non-Vegetarian,8.5,Low,375,506.84,68,30.08,34.67
+U1510,49,Female,7.3,10,Non-Vegetarian,11.4,Medium,379,351.98,73,52.76,55.53
+U1319,20,Female,7.4,2,Vegetarian,2.2,Low,317,329.28,66,74.28,71.48
+U670,33,Male,4.1,1,Non-Vegetarian,3.2,Medium,389,295.33,94,96.4,92.64
+U32,43,Male,5.2,3,Vegetarian,10.9,Medium,156,301.99,98,88.6,86.08
+U941,43,Female,9.4,2,Non-Vegetarian,8.3,Medium,450,588.74,97,48.73,47.28
+U723,52,Male,4.9,8,Vegetarian,8.0,High,84,200.58,63,88.19,89.31
+U995,29,Male,6.8,9,Vegetarian,9.8,Low,238,367.27,67,43.43,48.11
+U215,39,Female,6.8,1,Vegetarian,11.3,Low,292,515.39,98,46.91,43.55
+U814,47,Female,9.4,3,Vegan,3.5,Low,414,467.1,60,46.42,49.93
+U327,24,Female,9.1,8,Vegetarian,11.6,Medium,202,408.05,71,53.25,50.2
+U561,34,Male,7.4,2,Vegetarian,10.7,Low,186,266.08,76,79.68,84.19
+U1113,27,Female,9.5,2,Non-Vegetarian,10.6,Medium,366,429.1,64,57.26,58.67
+U701,23,Female,7.3,2,Non-Vegetarian,7.8,Low,21,288.76,48,69.35,71.56
+U1579,44,Female,6.6,4,Vegetarian,6.9,Medium,220,577.86,43,20.64,19.47
+U1190,30,Male,9.6,1,Vegetarian,10.5,Low,99,283.77,98,96.18,97.67
+U342,33,Male,5.3,3,Non-Vegetarian,9.4,Medium,193,425.93,42,41.65,41.38
+U630,43,Male,7.1,2,Vegan,4.5,Medium,300,372.1,69,74.93,75.4
+U148,54,Male,7.7,2,Vegan,2.4,Low,4,379.11,44,61.54,65.7
+U1310,19,Female,9.6,6,Vegan,4.5,Low,492,377.91,55,50.12,52.43
+U361,42,Female,4.5,5,Non-Vegetarian,8.4,Medium,185,258.05,55,72.19,77.1
+U84,22,Male,5.7,9,Vegan,5.2,Low,243,578.18,44,1.38,1.81
+U49,54,Male,5.8,2,Non-Vegetarian,10.8,Low,477,308.88,73,61.88,57.39
+U469,56,Male,7.8,9,Vegan,7.9,Medium,117,229.05,51,75.73,76.58
+U156,46,Male,8.2,9,Non-Vegetarian,2.6,Low,470,402.68,68,46.99,44.55
+U773,58,Male,4.2,3,Vegetarian,11.0,Medium,449,215.32,59,75.53,73.33
+U1240,20,Female,5.5,2,Non-Vegetarian,1.5,Medium,375,367.95,52,66.93,69.12
+U1201,18,Male,5.6,9,Non-Vegetarian,9.5,Medium,394,245.74,68,69.11,68.4
+U1403,48,Male,9.6,7,Non-Vegetarian,10.7,Low,153,574.75,95,32.8,37.45
+U1203,57,Female,6.8,9,Vegetarian,6.7,Medium,275,259.64,54,68.78,72.62
+U1631,50,Female,7.1,6,Vegetarian,6.1,Medium,21,334.51,81,82.38,79.45
+U501,59,Male,7.8,10,Vegetarian,6.3,High,204,323.61,52,64.13,64.07
+U1765,39,Male,5.9,6,Non-Vegetarian,1.6,Low,191,539.83,45,21.11,19.57
+U180,49,Male,4.0,6,Non-Vegetarian,1.3,Low,120,488.47,47,28.74,31.86
+U1048,55,Female,7.6,1,Vegan,11.1,High,455,264.5,86,96.37,96.84
+U1756,23,Female,5.4,5,Non-Vegetarian,6.3,Medium,74,216.82,44,80.73,80.13
+U951,56,Female,7.4,8,Vegetarian,3.7,Medium,116,431.04,88,68.09,69.09
+U1317,39,Male,7.9,1,Non-Vegetarian,10.7,Medium,463,277.74,98,96.2,93.38
+U1620,48,Male,9.7,10,Vegan,3.1,Low,0,426.31,99,68.2,63.32
+U529,55,Male,6.9,5,Non-Vegetarian,1.4,Medium,92,243.21,98,100.0,100.0
+U347,33,Male,4.1,4,Non-Vegetarian,6.5,Medium,6,337.09,90,84.15,82.81
+U1388,47,Female,4.4,3,Non-Vegetarian,8.7,Low,235,470.23,54,28.68,29.4
+U1961,47,Male,4.2,2,Non-Vegetarian,6.4,Low,308,411.54,75,52.55,48.31
+U1051,47,Male,7.0,7,Vegetarian,8.1,Low,425,295.74,61,55.56,56.31
+U1973,44,Female,4.1,4,Vegetarian,10.6,Medium,285,271.93,63,69.78,71.14
+U1442,30,Female,10.0,6,Vegan,4.5,Medium,419,410.71,82,70.42,67.99
+U602,52,Male,4.1,2,Vegan,5.7,Low,228,573.29,50,15.54,12.36
+U1282,35,Male,6.7,2,Vegetarian,9.8,Medium,244,598.21,92,41.12,44.79
+U244,48,Female,8.2,8,Non-Vegetarian,9.3,Medium,499,504.05,93,43.96,45.92
+U1337,44,Female,6.6,5,Vegetarian,2.7,Low,422,319.68,83,73.93,72.66
+U1068,36,Other,6.6,5,Non-Vegetarian,3.5,Medium,466,554.77,50,26.17,23.25
+U1476,57,Male,4.4,3,Vegetarian,6.4,High,266,358.47,42,59.13,54.41
+U313,58,Male,8.5,4,Vegetarian,6.7,Medium,124,471.46,89,67.39,65.49
+U436,29,Female,7.3,10,Non-Vegetarian,5.6,Medium,303,462.42,79,47.57,50.17
+U1899,54,Female,6.2,10,Non-Vegetarian,10.6,Medium,230,379.42,55,41.16,43.82
+U1329,30,Female,5.9,4,Non-Vegetarian,9.6,High,57,487.33,62,48.04,48.14
+U309,42,Male,5.5,3,Vegetarian,11.7,Medium,399,439.11,87,54.78,51.65
+U431,24,Male,7.5,3,Non-Vegetarian,6.2,Low,136,215.84,88,100.0,95.41
+U661,39,Male,4.8,5,Non-Vegetarian,4.2,High,223,211.87,93,100.0,100.0
+U371,39,Female,4.3,5,Non-Vegetarian,10.1,Medium,304,391.62,63,48.6,52.62
+U567,29,Female,6.8,6,Non-Vegetarian,4.3,Low,498,406.42,72,48.45,44.99
+U980,55,Male,8.8,9,Non-Vegetarian,10.4,Medium,429,537.7,95,38.3,33.59
+U182,39,Female,6.8,5,Non-Vegetarian,11.7,Low,157,484.44,71,32.67,30.4
+U1363,38,Female,6.4,6,Vegetarian,7.4,Medium,496,433.73,84,54.49,50.55
+U622,37,Female,8.5,9,Non-Vegetarian,5.2,High,232,476.35,68,51.17,51.01
+U819,55,Female,5.5,1,Vegetarian,11.4,Low,224,476.05,80,43.08,46.56
+U1193,23,Female,7.5,6,Vegetarian,4.3,Medium,31,579.46,63,35.85,34.7
+U953,34,Female,9.4,5,Vegetarian,5.0,Medium,98,267.33,42,80.78,83.51
+U1422,25,Female,4.4,1,Non-Vegetarian,2.7,Low,269,572.62,49,21.43,19.99
+U1841,36,Male,6.6,1,Non-Vegetarian,9.8,Low,108,218.54,72,88.92,92.64
+U923,36,Female,7.7,10,Non-Vegetarian,6.0,Medium,378,515.98,64,29.84,32.5
+U1074,45,Female,4.5,9,Non-Vegetarian,3.6,Medium,385,327.46,96,76.32,75.22
+U297,51,Female,5.2,7,Non-Vegetarian,6.7,Medium,2,448.37,71,52.08,50.07
+U967,39,Female,4.4,1,Non-Vegetarian,3.9,Medium,71,239.98,61,95.03,91.21
+U462,26,Male,7.3,9,Vegan,2.7,Medium,94,221.43,91,100.0,100.0
+U1303,38,Female,7.9,5,Non-Vegetarian,10.9,High,443,293.37,51,67.19,69.96
+U1177,20,Male,7.2,1,Vegetarian,11.9,High,77,345.47,56,73.43,72.34
+U378,18,Male,5.5,8,Vegan,5.7,Medium,338,243.23,64,76.15,75.23
+U799,23,Female,7.7,5,Vegetarian,2.9,Low,420,264.03,81,84.15,84.35
+U1103,40,Female,8.1,1,Non-Vegetarian,9.3,Low,115,451.35,78,56.72,54.73
+U106,59,Male,5.6,1,Non-Vegetarian,2.1,Low,143,445.83,67,57.39,60.23
+U127,40,Male,5.6,7,Vegan,7.2,Low,59,373.44,98,66.98,70.31
+U1996,44,Male,9.7,10,Non-Vegetarian,4.3,High,241,574.18,47,25.93,21.69
+U839,50,Male,8.4,6,Non-Vegetarian,8.1,Medium,192,514.13,56,36.12,40.97
+U356,28,Female,4.1,10,Non-Vegetarian,6.9,Low,389,364.11,58,33.38,32.11
+U1617,47,Male,4.9,5,Non-Vegetarian,3.4,Low,217,504.78,53,27.73,28.72
+U683,47,Female,4.2,7,Vegan,5.3,Medium,460,445.32,43,29.53,24.65
+U813,23,Male,8.2,1,Vegetarian,6.9,Medium,397,318.85,81,88.47,92.16
+U1681,49,Male,8.2,9,Non-Vegetarian,1.3,Low,34,509.82,57,34.3,35.88
+U210,42,Female,4.9,10,Vegetarian,2.2,Medium,157,534.94,60,29.2,27.12
+U1493,28,Female,5.6,8,Vegetarian,8.8,Medium,376,398.37,76,51.09,52.62
+U141,42,Male,9.3,7,Non-Vegetarian,2.5,Low,377,428.67,66,49.86,49.37
+U1975,23,Male,8.2,8,Non-Vegetarian,5.5,Medium,359,518.24,50,28.6,31.33
+U1340,53,Male,7.5,5,Non-Vegetarian,2.0,High,412,566.53,81,49.84,51.44
+U1798,21,Male,7.0,6,Vegetarian,4.8,Medium,110,212.67,65,94.66,90.66
+U1575,50,Male,4.6,8,Non-Vegetarian,5.1,Low,368,473.85,81,34.71,33.31
+U1182,36,Male,5.4,4,Non-Vegetarian,6.6,Low,397,599.86,87,23.48,20.16
+U1394,26,Male,6.5,4,Vegan,7.6,Low,498,296.43,60,59.23,59.72
+U1816,41,Female,6.9,1,Vegetarian,8.9,Low,196,551.66,96,45.59,43.9
+U712,37,Male,5.2,7,Non-Vegetarian,3.2,High,497,250.87,51,75.35,79.74
+U1794,30,Other,8.4,8,Non-Vegetarian,6.1,Low,310,357.33,88,64.9,68.63
+U893,20,Female,9.3,1,Vegetarian,5.9,Medium,173,591.37,91,56.23,54.41
+U860,31,Female,9.0,7,Vegetarian,8.5,Low,327,379.41,43,37.97,40.93
+U11,54,Female,7.3,8,Vegetarian,11.7,High,50,490.61,69,42.78,40.54
+U1695,30,Female,9.4,10,Non-Vegetarian,5.8,Low,289,402.59,46,35.22,32.11
+U1428,45,Male,4.5,6,Non-Vegetarian,1.4,Medium,440,425.22,43,41.73,41.85
+U283,42,Male,7.9,1,Vegetarian,1.8,Low,368,435.79,98,75.11,79.69
+U811,37,Male,6.0,1,Non-Vegetarian,2.0,Low,58,286.12,49,77.65,78.41
+U1342,46,Male,7.1,1,Vegan,9.5,High,20,559.88,96,62.24,62.21
+U292,36,Female,6.0,5,Vegetarian,9.8,Medium,473,534.97,65,26.18,21.39
+U755,42,Female,7.3,5,Non-Vegetarian,2.2,Low,311,388.19,44,47.38,43.75
+U627,52,Female,7.9,8,Non-Vegetarian,6.3,Medium,254,528.68,54,29.16,25.35
+U944,45,Female,4.4,6,Non-Vegetarian,9.6,Medium,255,519.92,63,27.15,29.88
+U862,35,Male,5.8,10,Non-Vegetarian,9.7,Medium,129,300.97,79,68.81,67.37
+U130,34,Female,5.3,4,Vegetarian,11.0,Medium,114,461.97,59,41.32,44.33
+U1176,48,Male,9.9,1,Vegetarian,9.3,High,30,540.94,58,52.09,49.03
+U324,57,Female,8.7,4,Non-Vegetarian,2.8,Medium,374,416.62,49,57.78,62.7
+U1091,58,Female,6.9,9,Non-Vegetarian,10.9,Medium,85,558.86,75,27.11,30.02
+U844,57,Female,6.8,7,Non-Vegetarian,5.0,Low,390,413.73,97,58.84,62.52
+U964,33,Female,7.3,5,Non-Vegetarian,3.3,High,325,383.83,87,82.68,83.17
+U1865,47,Female,8.4,7,Non-Vegetarian,7.3,Low,172,549.82,49,16.27,16.65
+U866,57,Female,6.1,3,Vegetarian,7.0,Medium,358,479.25,40,33.67,35.02
+U922,28,Other,5.3,1,Non-Vegetarian,7.0,Low,33,476.04,87,56.6,52.62
+U696,43,Female,4.5,1,Non-Vegetarian,8.1,Medium,186,316.6,94,90.36,91.09
+U216,38,Other,10.0,8,Non-Vegetarian,4.7,Low,61,205.33,74,93.51,90.64
+U1781,56,Female,8.2,1,Non-Vegetarian,1.2,High,210,567.73,81,64.28,68.15
+U1262,43,Female,6.9,8,Non-Vegetarian,1.8,Low,306,486.58,43,24.38,28.48
+U159,39,Female,4.5,8,Non-Vegetarian,7.2,Low,63,540.85,55,13.3,18.29
+U1059,45,Female,7.7,1,Non-Vegetarian,7.7,Low,225,390.07,40,47.34,47.5
+U989,39,Male,7.3,4,Vegan,3.6,Medium,464,584.41,76,37.52,34.69
+U842,36,Male,9.2,10,Vegetarian,9.6,Medium,136,492.01,58,33.28,33.51
+U635,38,Male,8.7,2,Vegetarian,10.9,Low,172,240.24,69,83.07,82.72
+U517,52,Male,9.6,8,Non-Vegetarian,11.6,High,167,432.54,73,56.87,52.04
+U1429,45,Female,6.4,2,Non-Vegetarian,11.7,Low,448,577.17,82,22.1,24.09
+U1748,39,Male,4.9,9,Vegetarian,9.5,Low,156,406.57,67,35.17,36.01
+U598,45,Female,8.9,8,Non-Vegetarian,1.2,Low,180,262.62,71,83.13,84.45
+U196,48,Male,5.7,5,Vegetarian,1.2,Low,492,258.61,56,69.66,70.05
+U1784,47,Male,8.3,10,Vegetarian,4.8,High,129,270.13,72,87.8,90.87
+U870,40,Male,6.7,5,Non-Vegetarian,4.7,High,168,340.49,42,67.24,70.27
+U411,55,Female,5.9,1,Non-Vegetarian,11.5,Medium,463,404.46,91,66.38,64.76
+U97,50,Male,5.7,6,Non-Vegetarian,5.1,Medium,323,466.09,51,38.11,35.74
+U1001,52,Female,8.3,1,Vegan,9.8,Low,341,458.39,92,57.68,52.98
+U1506,33,Female,7.4,8,Vegetarian,10.4,Low,357,284.06,62,54.72,54.74
+U157,31,Male,5.3,7,Non-Vegetarian,10.0,High,277,466.45,81,48.82,48.36
+U420,50,Female,5.5,10,Non-Vegetarian,3.9,Low,59,217.55,45,65.21,69.58
+U1803,31,Female,8.3,9,Non-Vegetarian,9.4,High,214,323.71,79,75.77,76.5
+U478,46,Male,6.3,7,Non-Vegetarian,8.1,Low,228,341.82,52,45.92,41.18
+U1856,29,Female,8.1,8,Non-Vegetarian,8.8,Low,99,313.48,77,66.27,63.3
+U669,56,Female,9.6,5,Non-Vegetarian,1.6,High,324,502.13,62,57.63,60.62
+U1418,49,Female,7.5,2,Non-Vegetarian,9.8,Low,270,470.37,65,40.01,39.9
+U1872,22,Female,9.7,3,Non-Vegetarian,9.1,Low,147,412.05,77,61.63,59.97
+U1300,58,Female,4.6,1,Non-Vegetarian,8.3,Medium,49,583.89,84,43.46,46.12
+U448,35,Female,9.9,5,Non-Vegetarian,11.5,Medium,208,466.4,57,44.16,44.07
+U554,53,Male,7.7,7,Non-Vegetarian,9.2,Low,315,298.45,68,60.56,63.04
+U179,54,Female,9.9,2,Vegetarian,1.1,Medium,295,346.97,77,93.92,94.18
+U391,42,Female,9.5,8,Non-Vegetarian,10.9,High,209,316.48,68,73.72,70.98
+U579,29,Female,5.2,10,Non-Vegetarian,5.0,Low,33,274.28,58,60.53,56.59
+U1478,23,Female,6.7,5,Vegetarian,4.0,High,46,566.41,76,50.08,48.74
+U1707,22,Male,9.9,10,Vegan,1.5,Low,331,432.32,82,54.88,58.48
+U1288,57,Female,6.9,10,Vegetarian,8.6,Low,192,476.18,71,28.2,32.2
+U1645,43,Male,5.7,8,Non-Vegetarian,5.3,Low,209,569.83,84,25.3,20.98
+U1024,19,Female,5.7,2,Non-Vegetarian,10.6,Low,303,470.74,67,35.48,34.38
+U821,35,Male,7.9,7,Non-Vegetarian,11.7,Low,72,277.39,90,76.58,75.01
+U1825,35,Male,7.6,10,Vegan,2.3,Medium,386,321.12,84,77.51,78.91
+U985,53,Female,4.3,10,Vegan,8.5,Low,52,210.05,46,57.8,56.93
+U1339,45,Male,5.1,3,Non-Vegetarian,10.2,Medium,47,226.69,57,83.68,81.43
+U665,33,Male,6.7,3,Vegetarian,5.6,High,87,519.09,49,45.24,47.98
+U143,34,Male,7.5,4,Vegetarian,5.7,Low,351,570.27,69,25.88,22.19
+U1517,29,Female,6.1,7,Non-Vegetarian,7.7,Medium,72,491.68,44,30.26,33.22
+U1430,33,Male,8.5,7,Non-Vegetarian,8.0,Low,189,515.28,61,26.84,25.35
+U865,58,Female,9.4,9,Non-Vegetarian,2.4,Low,46,202.48,85,100.0,99.39
+U422,25,Female,5.8,7,Non-Vegetarian,10.6,Medium,359,472.65,97,49.24,50.3
+U637,18,Male,4.1,10,Vegan,1.8,Low,194,598.78,82,17.82,21.04
+U1407,53,Male,7.1,6,Non-Vegetarian,8.2,Medium,240,571.58,75,32.34,33.05
+U800,37,Male,7.7,9,Non-Vegetarian,7.9,Low,354,361.32,42,34.25,29.28
+U1404,53,Female,6.5,9,Non-Vegetarian,11.6,Low,125,407.23,75,39.73,40.65
+U616,54,Male,9.9,8,Non-Vegetarian,10.6,Medium,330,207.71,42,72.68,72.96
+U295,54,Male,8.1,10,Vegetarian,6.1,High,132,204.92,57,88.76,89.39
+U924,49,Male,5.0,4,Vegan,11.3,Low,105,293.77,56,56.99,56.48
+U1269,22,Female,9.0,6,Non-Vegetarian,4.2,High,51,252.37,91,100.0,100.0
+U1903,21,Female,9.9,7,Non-Vegetarian,5.9,High,136,288.98,90,100.0,96.93
+U89,26,Male,8.7,4,Non-Vegetarian,8.2,Medium,463,331.09,70,72.66,69.89
+U42,20,Male,9.1,8,Non-Vegetarian,5.1,Medium,36,266.77,99,100.0,95.3
+U1802,33,Female,8.6,1,Non-Vegetarian,7.2,Low,250,351.1,95,83.38,80.11
+U1934,23,Female,8.1,9,Non-Vegetarian,9.1,Medium,148,215.82,56,78.62,80.41
+U132,32,Other,9.3,3,Non-Vegetarian,8.8,High,77,212.51,43,93.94,90.21
+U1002,20,Female,6.3,3,Non-Vegetarian,8.6,High,415,574.34,40,19.68,21.8
+U1158,36,Female,7.1,10,Vegan,2.6,Low,115,235.87,44,65.69,63.33
+U1095,41,Female,4.1,5,Vegetarian,2.8,High,120,489.85,95,67.46,63.93
+U1855,33,Female,7.3,9,Vegan,3.0,Low,112,353.41,60,55.96,59.26
+U1345,58,Female,4.9,1,Vegetarian,1.0,High,56,510.19,77,68.65,70.53
+U1499,31,Female,7.0,2,Non-Vegetarian,10.8,High,226,307.4,88,92.05,95.89
+U165,52,Male,7.7,2,Vegetarian,8.5,High,219,453.39,51,54.2,54.31
+U725,29,Male,9.9,6,Non-Vegetarian,11.1,Low,107,375.47,41,41.93,39.42
+U291,20,Male,7.9,1,Non-Vegetarian,11.1,Medium,127,336.45,99,93.04,95.04
+U1209,38,Male,7.5,6,Vegetarian,3.4,Low,204,417.14,91,64.8,61.71
+U1589,21,Female,5.0,6,Non-Vegetarian,4.3,Medium,96,204.5,63,92.05,95.51
+U1897,37,Female,7.2,1,Non-Vegetarian,6.1,Medium,343,317.5,95,95.97,99.2
+U1642,47,Female,4.3,6,Non-Vegetarian,1.4,Medium,169,336.61,67,73.52,73.49
+U1362,28,Female,4.1,8,Non-Vegetarian,1.4,Low,301,243.6,77,76.98,78.56
+U779,53,Female,8.0,9,Non-Vegetarian,8.5,Low,476,599.36,75,8.34,11.95
+U840,30,Male,5.8,9,Non-Vegetarian,9.5,Medium,79,327.12,89,72.75,72.82
+U349,56,Female,7.6,1,Non-Vegetarian,7.8,Low,9,514.73,79,50.03,52.94
+U1945,31,Male,8.3,10,Non-Vegetarian,2.5,Medium,146,422.97,93,70.93,68.97
+U572,53,Male,4.4,5,Vegetarian,9.0,Low,453,563.36,45,0.0,0.0
+U918,21,Male,9.8,1,Vegetarian,2.9,Low,448,568.68,68,38.51,38.6
+U977,44,Female,5.7,7,Vegetarian,2.7,Low,313,470.14,40,23.73,23.05
+U1914,35,Female,7.9,2,Vegetarian,2.6,High,408,243.38,41,89.68,84.79
+U1469,58,Female,7.1,7,Non-Vegetarian,3.4,High,468,486.28,70,49.69,45.86
+U1592,59,Female,8.2,8,Non-Vegetarian,7.8,High,135,426.95,74,61.84,60.48
+U1318,26,Female,6.7,9,Non-Vegetarian,6.1,Medium,13,455.21,42,36.12,34.78
+U1845,19,Male,7.3,7,Non-Vegetarian,9.7,Medium,387,301.78,91,78.51,77.89
+U137,46,Male,9.6,8,Non-Vegetarian,2.2,High,257,390.2,82,80.73,83.32
+U459,34,Female,8.5,8,Non-Vegetarian,7.0,Medium,34,419.98,92,70.82,67.36
+U376,43,Female,4.9,3,Non-Vegetarian,3.2,Low,10,246.56,67,86.21,88.37
+U1343,34,Male,7.5,2,Non-Vegetarian,7.3,Low,497,413.56,66,49.18,53.64
+U334,47,Male,8.7,9,Non-Vegetarian,1.7,High,466,597.39,73,34.47,34.9
+U1160,36,Male,9.0,2,Vegetarian,7.5,Low,69,261.39,68,86.8,85.55
+U1761,20,Male,5.8,10,Non-Vegetarian,6.0,Medium,316,521.75,54,21.32,18.34
+U1458,36,Male,6.8,1,Non-Vegetarian,6.7,Medium,177,571.86,79,47.2,44.32
+U817,20,Male,9.8,4,Vegetarian,8.9,Medium,192,593.79,98,49.45,48.87
+U1115,59,Female,7.8,2,Non-Vegetarian,1.3,Low,282,311.48,99,96.6,91.64
+U1006,58,Female,5.3,3,Non-Vegetarian,9.5,Low,169,473.2,75,40.6,38.32
+U1857,42,Male,6.3,3,Vegetarian,6.5,Medium,239,319.58,48,67.81,68.42
+U1955,54,Male,6.3,4,Vegetarian,9.6,Low,251,468.46,50,27.1,26.84
+U1851,54,Male,7.3,1,Vegetarian,9.3,Low,357,356.14,90,72.15,73.33
+U911,43,Female,6.8,6,Non-Vegetarian,4.6,High,178,389.22,71,71.77,74.52
+U1930,25,Male,7.2,8,Non-Vegetarian,10.2,Medium,475,598.07,82,19.92,23.09
+U1126,30,Male,7.2,9,Vegan,4.7,Low,369,540.93,41,7.32,3.13
+U329,27,Female,5.4,4,Vegetarian,2.6,Medium,14,312.17,56,79.59,82.35
+U1248,44,Female,8.5,2,Vegetarian,9.1,Low,415,221.11,51,74.7,71.47
+U319,51,Male,4.4,7,Vegetarian,11.2,Medium,441,466.57,54,23.42,27.02
+U1690,28,Male,8.3,4,Non-Vegetarian,1.3,Low,101,340.31,77,81.41,84.44
+U1359,39,Other,9.4,4,Non-Vegetarian,8.0,Medium,18,364.0,54,69.77,71.27
+U1733,33,Female,5.5,8,Vegan,1.9,Low,351,469.3,50,26.91,25.88
+U168,35,Male,7.5,8,Vegan,2.9,High,10,462.88,48,51.3,47.26
+U13,51,Male,9.5,5,Non-Vegetarian,5.5,Low,30,384.25,72,67.11,63.6
+U1927,54,Female,5.7,4,Vegetarian,11.3,Low,466,502.21,81,28.93,26.04
+U172,42,Male,7.8,4,Vegetarian,10.0,Medium,492,419.46,83,59.35,64.19
+U650,40,Male,6.4,6,Non-Vegetarian,10.3,Low,341,446.05,56,27.19,24.97
+U1062,59,Male,5.8,10,Non-Vegetarian,8.1,Medium,463,340.89,82,59.37,61.54
+U261,51,Male,6.1,10,Vegan,6.9,Low,324,545.41,90,24.47,24.14
+U1367,31,Male,10.0,9,Non-Vegetarian,7.7,Medium,181,473.85,44,34.85,36.17
+U1549,49,Male,9.6,5,Non-Vegetarian,10.1,Low,159,579.73,46,12.25,15.15
+U902,56,Female,5.2,2,Vegetarian,6.4,Medium,423,281.15,74,83.48,80.19
+U673,18,Female,7.8,9,Non-Vegetarian,2.5,High,69,338.53,45,68.55,72.26
+U259,33,Female,8.6,9,Non-Vegetarian,7.5,Medium,423,320.24,81,71.62,72.33
+U845,25,Male,8.4,2,Vegetarian,9.0,High,113,259.35,93,100.0,100.0
+U868,54,Male,5.0,1,Non-Vegetarian,6.1,Medium,265,378.82,94,82.41,78.72
+U1800,45,Female,6.9,7,Vegetarian,9.7,Low,118,373.04,70,50.72,47.94
+U139,50,Female,4.9,4,Non-Vegetarian,2.7,Low,54,575.0,98,44.84,45.07
+U894,51,Other,6.5,2,Non-Vegetarian,1.1,Low,262,555.08,84,46.6,43.58
+U1838,46,Male,7.1,10,Vegetarian,8.6,Medium,200,455.99,83,47.8,46.42
+U550,29,Male,4.7,2,Vegetarian,8.6,High,426,557.3,58,30.1,33.77
+U320,44,Female,6.1,3,Non-Vegetarian,6.0,Low,143,331.8,63,65.54,61.35
+U1527,40,Female,9.9,4,Vegetarian,7.2,Medium,13,583.91,93,54.92,53.35
+U1806,44,Male,4.0,4,Vegan,9.4,High,186,449.25,44,39.3,39.59
+U1178,22,Male,4.2,7,Non-Vegetarian,11.9,Medium,214,489.22,83,37.23,34.83
+U559,33,Female,9.7,10,Vegetarian,10.9,Medium,210,348.67,69,60.24,62.33
+U140,23,Male,5.0,2,Non-Vegetarian,9.7,Low,47,566.59,61,21.58,20.14
+U1735,58,Female,9.1,2,Non-Vegetarian,2.7,Medium,403,310.41,48,79.35,79.07
+U532,55,Male,10.0,6,Vegetarian,4.4,Medium,184,462.2,82,66.69,71.23
+U225,34,Female,7.2,2,Non-Vegetarian,11.0,Low,238,490.52,70,37.39,35.45
+U724,50,Male,7.0,2,Non-Vegetarian,5.3,High,53,486.61,97,78.39,83.38
+U787,32,Male,4.9,7,Non-Vegetarian,7.1,Medium,239,539.54,87,38.95,37.23
+U1718,22,Female,5.5,6,Non-Vegetarian,6.0,Medium,289,469.34,48,35.0,31.93
+U1008,18,Female,6.1,1,Non-Vegetarian,8.7,Low,414,279.22,46,60.33,56.91
+U410,52,Male,9.1,6,Non-Vegetarian,9.8,Medium,429,595.48,84,30.67,32.76
+U326,42,Female,8.9,6,Non-Vegetarian,4.7,Low,404,367.39,60,54.44,51.24
+U1766,21,Male,5.3,4,Non-Vegetarian,2.4,Medium,233,263.83,52,81.37,83.97
+U300,22,Male,6.1,6,Vegetarian,10.1,Medium,490,552.64,95,35.64,33.26
+U1263,46,Male,4.2,6,Non-Vegetarian,4.9,Low,424,283.81,71,63.77,65.24
+U1946,20,Female,9.8,2,Non-Vegetarian,6.0,Medium,122,334.33,95,100.0,99.97
+U26,32,Female,4.1,6,Vegan,4.9,Medium,492,493.84,95,49.2,46.92
+U1859,35,Male,7.1,2,Non-Vegetarian,11.5,Medium,377,250.6,55,76.14,73.02
+U715,30,Female,5.9,7,Non-Vegetarian,5.5,High,98,388.78,95,80.29,84.28
+U1010,35,Female,7.7,8,Non-Vegetarian,7.4,Low,197,282.71,99,81.74,85.56
+U194,18,Male,9.6,1,Non-Vegetarian,3.3,Low,41,583.08,72,45.25,49.03
+U441,18,Male,5.7,8,Non-Vegetarian,5.7,Low,317,354.57,69,50.92,46.13
+U574,53,Female,6.8,10,Non-Vegetarian,9.5,Low,461,330.46,40,30.05,29.14
+U947,23,Female,5.9,6,Vegetarian,1.6,Medium,276,429.74,53,51.76,54.16
+U998,36,Female,9.7,10,Non-Vegetarian,4.9,Low,136,566.21,92,35.96,36.2
+U504,29,Female,7.0,4,Vegetarian,1.5,High,105,524.23,44,46.28,44.95
+U606,58,Female,8.0,5,Vegan,2.1,Medium,78,364.3,64,77.57,81.78
+U1717,25,Female,8.8,10,Non-Vegetarian,5.0,High,58,401.67,53,58.5,60.59
+U1164,54,Male,4.1,10,Non-Vegetarian,2.5,Low,64,401.36,77,49.78,49.01
+U1787,42,Female,7.0,10,Vegetarian,11.4,Medium,21,401.01,85,57.14,55.87
+U847,24,Male,9.0,6,Non-Vegetarian,9.8,Medium,62,216.24,56,87.02,86.25
+U4,32,Male,7.8,9,Vegetarian,8.3,Low,464,286.33,94,70.15,74.59
+U1287,50,Female,7.7,1,Non-Vegetarian,7.6,Medium,9,388.46,42,63.08,64.35
+U1223,24,Male,8.5,1,Non-Vegetarian,3.5,High,170,454.93,40,60.53,60.27
+U468,43,Male,6.7,2,Non-Vegetarian,11.3,High,262,515.69,43,32.76,31.31
+U322,50,Female,5.6,5,Non-Vegetarian,6.5,High,228,206.15,40,82.53,78.21
+U6,36,Female,7.4,10,Vegan,6.6,Low,381,453.43,70,31.71,32.77
+U223,23,Female,7.7,4,Vegetarian,11.6,High,242,229.91,80,96.84,98.03
+U1375,32,Male,5.0,4,Non-Vegetarian,4.2,Low,251,264.16,52,67.65,66.9
+U548,29,Female,4.8,10,Non-Vegetarian,2.0,Medium,91,473.27,92,56.9,58.61
+U229,47,Male,4.0,8,Vegan,3.2,Low,367,481.04,58,23.69,24.08
+U40,26,Male,8.6,10,Non-Vegetarian,4.1,Medium,414,387.22,79,62.73,63.24
+U543,50,Female,7.1,6,Vegetarian,11.9,Medium,494,540.2,84,31.44,29.43
+U243,33,Male,9.6,7,Non-Vegetarian,11.5,High,128,495.29,43,34.34,39.32
+U899,46,Female,4.3,4,Non-Vegetarian,9.4,Medium,356,204.64,45,72.77,68.23
+U1134,32,Male,8.8,1,Non-Vegetarian,2.4,High,41,409.15,64,84.99,87.4
+U1449,22,Female,7.8,4,Vegan,5.1,Medium,399,369.65,40,55.36,55.67
+U1869,19,Female,5.9,8,Vegetarian,8.9,High,216,465.99,79,49.96,54.81
+U843,39,Male,7.6,2,Non-Vegetarian,6.6,Medium,102,342.06,69,81.75,84.64
+U1419,59,Male,5.8,8,Non-Vegetarian,8.4,Low,333,265.63,55,54.57,52.88
+U1654,19,Female,4.0,9,Non-Vegetarian,4.1,Medium,208,331.74,88,73.4,73.61
+U1970,29,Male,8.4,10,Non-Vegetarian,9.4,Low,86,304.94,52,51.16,48.39
+U662,35,Male,8.1,7,Vegetarian,4.7,Medium,421,533.04,47,26.39,21.85
+U1211,44,Female,4.7,6,Vegetarian,5.0,High,403,211.57,49,81.08,76.17
+U315,52,Male,9.4,7,Vegetarian,3.9,Low,499,495.87,47,24.82,28.47
+U692,41,Female,8.7,7,Vegetarian,11.4,Low,66,320.88,69,61.0,62.61
+U1504,40,Male,5.4,6,Non-Vegetarian,6.1,Medium,224,371.72,51,53.72,51.81
+U425,31,Female,7.7,1,Vegetarian,11.3,High,454,565.71,44,25.08,22.4
+U595,27,Female,9.5,6,Non-Vegetarian,9.6,Medium,191,396.81,60,57.64,61.72
+U1964,46,Male,9.4,10,Vegetarian,3.8,High,319,457.43,62,51.48,48.39
+U623,23,Female,8.9,1,Non-Vegetarian,3.8,Medium,330,487.53,56,55.24,58.33
+U1171,35,Female,5.1,3,Non-Vegetarian,6.2,Medium,468,291.58,47,65.44,64.23
+U1044,40,Female,6.7,9,Vegetarian,8.3,Medium,96,480.75,62,36.9,36.1
+U228,46,Female,5.6,2,Vegetarian,2.8,Medium,325,293.94,53,79.01,75.83
+U1118,37,Other,6.0,10,Vegetarian,2.6,Medium,186,333.28,52,59.83,59.06
+U1332,34,Male,5.4,7,Vegan,10.6,Medium,347,329.22,79,63.59,58.83
+U1316,34,Female,4.7,2,Vegan,5.5,Medium,485,407.14,97,73.09,76.42
+U67,37,Male,9.0,8,Vegetarian,4.5,Medium,230,326.89,52,67.17,67.67
+U25,23,Male,6.7,7,Vegetarian,11.6,Medium,178,242.71,64,74.99,73.51
+U145,57,Other,8.9,4,Non-Vegetarian,3.0,High,356,357.6,56,76.58,72.51
+U537,20,Male,5.7,1,Non-Vegetarian,9.6,Low,74,581.91,44,13.54,11.91
+U812,45,Female,9.3,1,Non-Vegetarian,3.3,Low,47,201.25,66,100.0,97.54
+U1467,44,Female,7.1,5,Non-Vegetarian,3.5,Low,444,200.84,69,86.1,81.42
+U86,53,Male,5.9,4,Non-Vegetarian,8.7,Low,486,500.8,80,32.56,33.32
+U1661,42,Female,5.3,3,Non-Vegetarian,2.6,Low,427,536.14,41,18.3,19.99
+U1646,51,Male,6.0,9,Vegetarian,1.0,Low,382,538.88,84,32.05,29.52
+U1805,56,Male,8.8,5,Non-Vegetarian,2.0,Medium,81,249.02,95,100.0,100.0
+U1818,20,Male,8.1,9,Non-Vegetarian,1.1,Low,475,235.15,48,66.86,64.34
+U1577,31,Female,5.5,7,Vegan,10.8,High,179,318.32,81,74.67,76.52
+U1145,19,Male,4.5,2,Non-Vegetarian,11.2,Low,236,593.22,49,4.11,1.18
+U363,48,Female,6.2,2,Vegetarian,11.2,Medium,80,247.57,43,75.24,75.67
+U1612,47,Male,9.2,8,Vegetarian,10.8,Medium,146,525.5,42,21.7,20.5
+U1866,20,Male,4.7,7,Vegetarian,5.7,Medium,367,413.63,52,41.57,38.47
+U1027,25,Male,6.9,2,Non-Vegetarian,6.4,High,254,549.25,98,62.58,66.77
+U1031,21,Female,7.0,7,Non-Vegetarian,5.8,Medium,159,562.23,93,45.92,42.65
+U1304,40,Female,8.8,9,Non-Vegetarian,2.5,Medium,419,361.38,55,59.74,61.72
+U1356,58,Male,4.0,6,Non-Vegetarian,3.2,Low,94,434.08,58,40.97,44.08
+U1731,18,Female,9.1,1,Vegan,10.8,Medium,89,316.35,63,82.0,86.6
+U666,20,Male,9.3,6,Vegetarian,10.8,Medium,360,409.12,73,56.51,54.04
+U365,49,Male,9.8,2,Non-Vegetarian,7.1,Medium,241,296.56,71,91.2,95.97
+U78,46,Female,9.9,2,Non-Vegetarian,1.3,High,211,583.79,95,69.83,71.0
+U28,22,Female,4.1,6,Vegetarian,2.2,High,218,549.06,73,43.53,42.09
+U1437,58,Female,7.1,1,Vegetarian,7.2,Medium,183,243.29,90,100.0,100.0
+U526,54,Male,6.6,6,Non-Vegetarian,11.1,Low,131,313.86,66,57.62,59.55
+U1835,45,Female,5.1,4,Vegetarian,9.9,Low,159,401.56,84,54.24,50.08
+U56,21,Female,9.9,10,Vegetarian,1.7,Low,407,483.88,82,44.46,48.25
+U639,42,Female,8.0,6,Non-Vegetarian,3.6,Low,38,396.08,81,67.33,67.14
+U303,22,Female,8.7,6,Non-Vegetarian,2.0,Medium,433,417.64,98,78.13,73.88
+U719,47,Male,6.0,4,Vegan,11.2,High,97,237.96,85,98.1,94.8
+U625,44,Male,5.6,2,Vegetarian,10.7,Low,248,349.64,87,66.42,70.33
+U8,35,Female,6.0,1,Vegan,6.8,Medium,2,298.46,60,85.02,81.45
+U804,29,Male,9.2,4,Vegetarian,2.4,Medium,115,273.41,42,84.93,89.07
+U1050,57,Female,9.6,9,Non-Vegetarian,7.3,Low,391,334.69,79,61.15,59.1
+U337,18,Male,5.6,3,Non-Vegetarian,8.1,Low,232,516.19,72,33.38,34.58
+U48,38,Male,8.3,9,Non-Vegetarian,11.6,Medium,162,551.36,56,19.07,14.81
+U1764,32,Male,4.2,3,Non-Vegetarian,1.9,Medium,187,514.31,55,42.59,37.97
+U107,25,Male,8.9,10,Non-Vegetarian,10.6,Low,194,273.23,47,50.98,47.07
+U350,18,Female,4.3,6,Vegetarian,3.0,Low,41,588.83,96,36.14,35.5
+U1080,26,Female,6.6,8,Vegetarian,3.9,Low,372,331.44,50,48.67,45.82
+U239,52,Female,9.2,2,Vegetarian,8.6,Medium,438,426.9,40,46.59,45.51
+U214,19,Male,8.2,6,Non-Vegetarian,5.6,Low,469,518.14,44,17.26,14.47
+U1776,18,Female,9.6,4,Vegetarian,9.4,Medium,434,537.92,64,35.77,31.65
+U1139,52,Female,4.2,9,Non-Vegetarian,10.4,Medium,190,276.8,65,62.37,57.47
+U794,19,Male,4.4,2,Vegetarian,9.9,High,83,335.49,55,69.88,70.04
+U1587,27,Male,8.8,6,Non-Vegetarian,10.6,Medium,367,453.54,80,51.77,55.18
+U1583,46,Female,9.4,4,Vegetarian,7.9,Medium,21,443.59,49,54.1,56.64
+U1672,50,Male,7.1,8,Non-Vegetarian,10.6,Low,43,519.84,65,22.3,24.13
+U524,59,Female,6.3,7,Non-Vegetarian,9.1,Medium,471,401.01,65,46.2,50.8
+U233,19,Male,7.1,8,Non-Vegetarian,11.1,Low,73,415.47,53,32.34,35.5
+U645,45,Male,7.2,8,Vegan,3.7,Medium,319,456.58,85,57.87,59.58
+U1508,25,Male,4.6,5,Non-Vegetarian,4.9,Medium,310,273.69,67,78.54,75.82
+U534,37,Female,9.1,4,Non-Vegetarian,8.2,Medium,422,458.95,84,59.97,64.47
+U1942,33,Male,8.0,10,Vegan,8.1,Medium,424,390.98,95,62.71,65.6
+U604,23,Male,7.4,6,Non-Vegetarian,6.3,Low,463,510.93,82,34.93,36.26
+U1330,34,Other,4.6,6,Non-Vegetarian,4.8,Medium,226,496.5,47,31.23,33.77
+U1075,59,Female,8.4,9,Non-Vegetarian,11.1,Low,191,393.35,95,55.27,56.21
+U1305,44,Female,9.2,10,Vegetarian,1.9,Medium,452,273.59,54,72.91,71.7
+U61,44,Female,4.7,3,Vegan,3.6,High,241,348.77,91,90.55,90.31
+U1264,45,Male,5.4,8,Vegan,3.5,Low,33,314.85,62,62.42,63.29
+U93,26,Male,4.1,5,Vegetarian,4.0,Low,448,466.35,84,42.51,47.17
+U667,52,Female,5.6,8,Non-Vegetarian,8.4,Low,262,381.08,62,39.85,42.93
+U281,40,Female,7.6,1,Non-Vegetarian,11.9,Low,392,229.55,84,86.25,90.62
+U1114,55,Male,6.5,7,Vegan,5.4,Low,454,341.68,90,64.87,60.06
+U360,25,Female,7.2,10,Non-Vegetarian,10.9,Low,156,274.0,62,55.26,58.07
+U1129,44,Female,7.9,5,Non-Vegetarian,5.0,High,154,548.96,85,56.23,60.68
+U1170,21,Male,8.3,9,Vegetarian,10.6,Low,367,330.01,70,50.36,49.73
+U848,39,Male,4.1,2,Non-Vegetarian,1.5,Low,337,582.91,91,38.56,36.14
+U1522,45,Male,4.9,7,Vegetarian,6.7,Medium,141,243.55,51,72.84,71.25
+U111,20,Male,5.3,9,Non-Vegetarian,8.3,Low,415,448.72,76,30.06,31.43
+U43,54,Female,8.4,7,Vegetarian,1.6,High,208,379.94,68,76.92,79.46
+U126,54,Female,7.2,6,Non-Vegetarian,9.8,High,34,397.58,84,72.76,69.82
+U205,26,Male,6.3,6,Vegan,9.7,Medium,231,520.59,43,21.17,17.67
+U53,42,Male,8.4,3,Non-Vegetarian,5.6,Low,272,507.76,87,50.83,52.25
+U546,42,Female,7.9,2,Vegetarian,8.1,Medium,43,247.55,49,87.03,83.03
+U69,53,Female,8.5,9,Vegan,8.0,Medium,46,576.36,80,35.02,31.91
+U1741,38,Male,9.8,5,Non-Vegetarian,1.1,Low,490,279.3,80,86.6,89.33
+U1548,29,Male,8.4,1,Non-Vegetarian,1.5,Medium,287,565.33,87,61.09,58.26
+U184,36,Male,6.3,8,Non-Vegetarian,11.1,Medium,32,483.53,57,32.22,32.92
+U138,59,Male,4.4,5,Non-Vegetarian,5.1,Medium,104,384.69,65,62.46,59.29
+U900,32,Female,9.6,9,Vegetarian,5.1,High,337,274.49,46,74.06,78.9
+U797,41,Female,8.7,1,Non-Vegetarian,8.6,Medium,70,594.51,81,47.52,48.28
+U133,44,Male,6.6,4,Non-Vegetarian,8.5,Low,89,477.11,86,49.15,49.34
+U81,46,Female,7.5,9,Vegan,9.8,Low,379,232.74,43,52.43,50.03
+U1987,35,Female,4.5,1,Non-Vegetarian,8.7,Low,424,341.57,66,56.54,54.82
+U1541,34,Female,6.5,10,Non-Vegetarian,10.1,Medium,353,374.94,83,54.8,57.49
+U542,38,Female,7.1,10,Non-Vegetarian,11.2,Low,333,325.73,95,58.95,63.2
+U1669,52,Male,9.9,4,Non-Vegetarian,9.2,Low,113,230.11,41,72.89,68.88
+U984,45,Male,7.9,2,Vegetarian,2.6,Medium,115,561.91,89,61.45,63.35
+U166,59,Male,4.7,6,Vegetarian,9.4,Medium,143,489.37,79,43.38,40.15
+U249,40,Female,8.9,9,Vegetarian,8.7,Medium,143,479.97,82,49.9,49.76
+U447,26,Female,5.3,6,Non-Vegetarian,9.3,Medium,48,212.37,77,91.79,90.68
+U1515,47,Female,4.4,3,Vegetarian,11.3,Low,0,563.81,73,23.38,26.96
+U859,30,Male,7.6,4,Vegetarian,6.3,High,353,503.9,67,50.21,54.94
+U1212,18,Male,4.3,3,Non-Vegetarian,9.8,Medium,306,285.02,88,83.28,80.7
+U98,50,Male,9.9,1,Non-Vegetarian,5.1,High,372,588.46,70,49.63,46.79
+U1974,36,Male,6.6,7,Non-Vegetarian,7.5,Low,290,414.29,57,36.6,31.75
+U738,54,Female,6.0,6,Non-Vegetarian,2.1,High,375,256.1,83,98.17,94.75
+U1256,40,Female,7.1,4,Non-Vegetarian,6.6,Medium,356,360.31,69,68.63,64.27
+U103,48,Male,6.9,2,Vegetarian,9.5,High,50,349.02,51,71.88,72.52
+U435,53,Female,4.9,5,Vegetarian,11.7,Low,347,504.4,47,9.74,11.66
+U75,27,Female,5.6,8,Non-Vegetarian,9.2,Medium,68,394.28,83,60.83,61.97
+U1792,49,Female,4.0,10,Non-Vegetarian,6.0,Medium,467,527.82,74,23.69,28.16
+U1235,37,Female,7.1,1,Non-Vegetarian,9.9,Medium,403,579.99,97,46.12,47.35
+U919,24,Male,9.9,1,Non-Vegetarian,8.7,Medium,392,579.88,69,39.76,40.86
+U1712,43,Male,4.8,5,Non-Vegetarian,7.5,Medium,48,501.25,44,30.85,28.31
+U1671,22,Female,7.7,6,Vegetarian,5.9,Low,347,581.97,67,19.11,23.59
+U1621,56,Other,8.2,8,Vegetarian,4.5,Low,127,538.55,55,23.85,21.47
+U763,52,Female,8.4,1,Non-Vegetarian,1.9,High,85,524.3,67,66.37,69.27
+U990,42,Female,4.1,6,Non-Vegetarian,10.9,Low,104,514.89,61,17.46,15.87
+U389,55,Female,8.9,9,Non-Vegetarian,11.4,Low,269,496.13,70,24.63,27.64
+U236,58,Female,9.5,1,Non-Vegetarian,3.3,Low,82,356.53,52,71.99,69.02
+U1507,30,Female,7.8,5,Vegetarian,9.2,Medium,195,379.24,74,66.69,70.29
+U268,42,Male,9.5,5,Non-Vegetarian,5.9,Medium,71,309.72,92,98.11,100.0
+U1188,37,Female,8.2,3,Vegetarian,6.6,Low,206,493.07,64,41.2,45.58
+U118,28,Female,6.6,3,Vegan,2.1,High,71,438.16,59,69.1,70.04
+U1607,35,Male,4.0,1,Non-Vegetarian,8.4,Medium,434,311.04,56,65.88,62.03
+U674,47,Male,7.0,8,Vegetarian,3.6,High,28,472.37,49,47.81,51.05
+U250,33,Female,5.9,1,Vegan,8.8,High,38,210.56,92,100.0,99.3
+U1453,24,Female,6.5,1,Vegan,8.7,Medium,101,357.9,45,63.78,62.86
+U1995,56,Male,6.1,3,Non-Vegetarian,4.7,Medium,318,574.36,79,41.56,45.09
+U95,45,Male,8.3,8,Vegetarian,10.2,Low,176,327.08,99,71.77,74.32
+U34,49,Female,8.2,1,Non-Vegetarian,10.2,Medium,305,291.0,46,72.5,76.65
+U1464,55,Female,4.9,10,Vegetarian,9.9,High,160,365.16,75,58.39,61.07
+U1668,41,Male,4.1,6,Vegetarian,11.6,Medium,409,341.88,49,43.14,39.27
+U449,20,Male,7.4,2,Non-Vegetarian,9.8,Low,78,299.84,44,61.57,62.32
+U717,46,Female,9.0,5,Non-Vegetarian,8.0,Low,138,237.92,93,95.09,100.0
+U1810,59,Male,8.5,9,Vegan,10.0,Low,235,299.13,89,68.95,69.03
+U1518,42,Male,4.6,7,Vegetarian,2.9,Medium,477,232.02,84,89.64,87.78
+U1,57,Female,6.5,3,Non-Vegetarian,6.5,Medium,41,583.33,65,36.71,39.77
+U1376,22,Female,9.4,3,Non-Vegetarian,4.1,Medium,150,508.4,84,65.92,69.67
+U1102,34,Male,8.9,7,Vegan,5.1,High,238,229.19,98,100.0,100.0
+U1109,27,Male,9.0,4,Non-Vegetarian,2.1,Medium,30,227.52,45,95.83,100.0
+U1227,40,Female,4.3,10,Non-Vegetarian,11.5,Medium,363,461.22,60,22.22,24.88
+U83,34,Female,4.7,6,Non-Vegetarian,2.4,Medium,420,498.98,70,42.24,45.57
+U1289,23,Male,6.1,8,Non-Vegetarian,3.7,Low,247,256.4,97,86.48,82.35
+U677,40,Male,6.8,7,Non-Vegetarian,2.0,Medium,424,485.5,52,38.2,35.62
+U1921,41,Female,8.7,9,Vegetarian,1.6,Medium,377,230.72,83,97.51,97.3
+U1047,33,Male,4.7,8,Vegetarian,8.3,High,204,382.79,74,60.07,63.97
+U771,46,Female,7.6,6,Vegan,11.4,Medium,138,263.39,80,84.44,80.56
+U1947,21,Male,5.3,7,Vegetarian,4.2,Low,22,275.25,55,66.48,65.15
+U1281,41,Male,8.5,4,Non-Vegetarian,9.6,Low,130,352.81,66,61.2,62.29
+U1581,18,Female,6.2,10,Vegetarian,6.8,Medium,49,413.52,51,42.8,41.05
+U1489,27,Male,5.4,10,Vegetarian,3.8,High,219,327.13,55,63.7,68.58
+U405,39,Female,7.0,4,Non-Vegetarian,6.3,Medium,222,432.15,81,65.59,69.73
+U1728,29,Female,7.6,5,Non-Vegetarian,5.3,Low,313,547.78,44,16.69,13.49
+U1299,36,Female,7.8,4,Non-Vegetarian,10.8,Medium,34,295.35,70,81.49,85.47
+U1341,49,Female,5.3,7,Vegetarian,10.9,Low,97,407.29,41,25.93,26.09
+U105,58,Female,5.5,9,Non-Vegetarian,7.5,Medium,135,380.93,95,68.06,66.0
+U689,57,Female,7.0,8,Non-Vegetarian,2.8,Low,465,550.42,50,12.76,12.33
+U1306,42,Male,6.5,4,Non-Vegetarian,4.2,Low,135,234.59,46,74.9,71.24
+U827,40,Female,8.7,6,Non-Vegetarian,5.0,High,234,501.28,50,44.67,49.06
+U63,57,Female,7.3,7,Non-Vegetarian,11.6,High,491,415.19,91,59.68,58.78
+U853,29,Male,5.0,7,Vegetarian,3.1,Medium,99,281.35,66,80.48,75.58
+U1354,38,Female,5.0,10,Vegetarian,11.8,Low,210,496.06,56,8.42,12.99
+U224,40,Male,6.5,8,Vegetarian,7.8,Medium,302,276.64,41,58.65,55.77
+U146,42,Female,10.0,9,Non-Vegetarian,9.5,Medium,369,368.18,42,45.01,44.39
+U1089,40,Female,9.9,7,Non-Vegetarian,7.7,Medium,136,365.72,47,59.08,62.35
+U374,23,Female,9.0,7,Non-Vegetarian,11.9,Medium,409,228.19,88,88.94,86.73
+U1421,47,Male,6.2,3,Non-Vegetarian,3.5,Low,352,209.53,76,92.19,92.05
+U1143,59,Female,9.4,7,Vegetarian,4.8,Low,273,297.37,43,59.08,60.86
+U1827,36,Male,4.0,4,Vegetarian,9.8,Medium,491,552.62,52,14.38,13.07
+U1495,37,Female,6.8,6,Vegetarian,6.5,Medium,44,409.59,93,74.2,71.48
+U1602,57,Female,5.2,4,Non-Vegetarian,1.4,Medium,98,484.55,66,55.58,51.02
+U1271,34,Male,4.2,1,Non-Vegetarian,8.9,Medium,167,403.15,93,74.02,72.32
+U10,57,Female,7.9,9,Non-Vegetarian,9.1,High,355,417.96,54,44.39,43.88
+U450,49,Male,8.0,4,Non-Vegetarian,8.9,Medium,160,587.59,87,42.02,46.62
+U709,44,Male,9.6,4,Vegetarian,5.0,Medium,473,331.96,57,72.41,71.94
+U256,38,Male,7.2,10,Non-Vegetarian,12.0,Medium,400,238.25,52,59.69,60.31
+U883,44,Female,6.4,4,Vegetarian,10.4,Low,499,439.99,77,39.39,35.08
+U390,34,Female,8.3,6,Non-Vegetarian,3.9,Low,314,219.04,82,91.96,91.06
+U909,23,Male,5.2,2,Non-Vegetarian,4.4,Low,376,342.48,78,69.2,64.71
+U925,31,Male,5.5,6,Non-Vegetarian,1.0,Low,262,516.67,61,31.65,32.38
+U1704,58,Male,4.9,8,Non-Vegetarian,8.5,Medium,356,450.5,86,46.85,43.37
+U1233,33,Male,6.1,1,Vegetarian,3.8,Low,465,474.02,79,50.7,51.71
+U461,46,Male,4.3,6,Non-Vegetarian,5.1,Medium,242,413.05,88,64.27,59.53
+U1270,46,Other,4.8,3,Vegan,7.2,Low,153,334.0,69,63.57,65.52
+U1760,55,Female,7.6,7,Non-Vegetarian,1.0,Low,112,408.79,73,60.83,57.91
+U1169,40,Female,5.5,4,Non-Vegetarian,5.1,High,391,451.08,55,49.85,54.62
+U959,56,Female,4.5,2,Vegetarian,2.9,Low,401,557.22,97,43.26,42.99
+U502,39,Male,4.4,7,Non-Vegetarian,9.9,Medium,110,227.51,61,75.33,72.28
+U740,55,Female,4.6,1,Non-Vegetarian,5.4,Medium,384,517.36,97,58.69,57.44
+U1850,40,Male,4.8,4,Non-Vegetarian,1.9,Medium,317,566.74,60,32.95,30.91
+U869,44,Female,7.9,6,Non-Vegetarian,8.9,Medium,250,392.39,74,62.05,66.67
+U732,39,Female,4.8,9,Non-Vegetarian,1.3,Low,88,329.88,50,52.91,49.47
+U540,26,Male,8.0,10,Non-Vegetarian,4.7,High,129,319.72,64,75.08,77.79
+U1202,30,Female,9.4,3,Vegetarian,6.0,Medium,58,334.47,70,86.9,91.72
+U698,29,Male,8.7,2,Non-Vegetarian,3.9,Low,453,551.53,44,23.57,21.24
+U1393,59,Female,8.4,9,Non-Vegetarian,5.4,Low,129,367.94,64,53.8,53.55
+U1377,55,Female,8.4,7,Non-Vegetarian,3.1,Medium,96,406.06,78,72.55,73.14
+U1146,58,Female,9.7,3,Non-Vegetarian,10.3,Low,455,524.32,88,40.46,42.54
+U1032,40,Other,9.2,3,Vegetarian,5.7,Low,339,456.46,65,48.49,51.02
+U373,19,Female,6.9,9,Non-Vegetarian,7.4,Low,453,584.71,49,0.0,0.0
+U668,58,Male,6.0,8,Vegetarian,4.1,Medium,210,556.5,76,35.9,36.2
+U1526,33,Male,7.6,4,Vegetarian,8.4,Medium,29,271.85,95,100.0,100.0
+U358,51,Male,4.7,3,Vegetarian,3.8,High,351,234.62,82,100.0,100.0
+U968,41,Male,8.0,3,Non-Vegetarian,7.1,Medium,40,370.69,88,85.77,83.43
+U784,21,Male,4.6,6,Non-Vegetarian,5.5,Low,358,594.3,83,19.24,19.67
+U736,18,Female,6.6,1,Non-Vegetarian,11.1,High,102,413.06,63,65.17,61.65
+U1036,41,Female,9.4,10,Non-Vegetarian,10.5,Low,180,282.71,52,53.33,56.64
+U971,38,Male,7.5,8,Non-Vegetarian,3.5,Medium,421,545.87,82,40.35,36.99
+U1525,48,Female,8.8,10,Non-Vegetarian,6.4,Medium,371,546.53,94,41.49,45.39
+U1487,48,Female,8.2,8,Non-Vegetarian,8.9,Low,493,410.55,43,25.26,24.99
+U1524,45,Female,4.1,9,Vegetarian,5.3,Medium,481,451.82,58,31.33,28.34
+U1491,18,Female,10.0,2,Vegetarian,5.4,Medium,10,271.8,85,100.0,96.97
+U1643,22,Male,8.2,9,Vegetarian,10.6,Medium,175,295.94,88,78.68,75.44
+U1253,50,Male,4.9,1,Non-Vegetarian,1.4,Medium,280,274.65,45,81.82,83.31
+U1694,27,Male,5.1,5,Non-Vegetarian,6.7,Medium,210,283.62,53,70.18,69.79
+U1750,18,Female,5.6,7,Non-Vegetarian,8.8,Low,14,545.37,98,36.83,37.26
+U1237,27,Male,8.1,10,Non-Vegetarian,7.9,Low,86,487.3,40,16.41,14.87
+U886,52,Female,5.1,6,Non-Vegetarian,7.2,Medium,149,510.8,57,32.79,32.87
+U80,27,Male,9.1,5,Non-Vegetarian,4.4,High,116,242.94,75,100.0,100.0
+U1173,52,Female,7.3,8,Vegetarian,6.7,Medium,290,351.93,46,52.1,53.0
+U815,21,Female,8.6,1,Non-Vegetarian,3.5,Low,92,283.23,56,83.9,84.61
+U1286,23,Male,8.7,10,Vegetarian,11.3,Low,89,485.35,70,27.78,27.66
+U672,38,Other,7.4,1,Vegetarian,11.3,Medium,126,336.61,73,78.73,81.14
+U1532,33,Female,8.4,7,Non-Vegetarian,6.6,Low,344,484.26,61,30.81,30.36
+U58,31,Male,6.7,8,Vegetarian,5.6,Low,144,509.8,82,37.15,41.35
+U134,26,Female,6.5,7,Vegetarian,3.2,Low,90,210.53,85,94.81,95.43
+U1141,59,Male,9.6,6,Non-Vegetarian,3.5,Low,410,200.07,50,80.4,83.48
+U934,21,Female,7.5,10,Non-Vegetarian,9.7,Low,402,347.16,74,46.55,48.97
+U1685,56,Female,4.6,10,Non-Vegetarian,1.1,Medium,287,314.17,63,65.95,60.96
+U824,57,Male,8.2,8,Vegan,8.7,High,349,284.9,99,92.39,96.28
+U1215,19,Male,5.6,1,Vegetarian,6.9,Low,345,303.58,88,80.35,83.83
+U505,47,Male,8.4,2,Non-Vegetarian,2.4,Medium,211,553.79,50,42.68,39.99
+U1775,54,Female,8.5,5,Non-Vegetarian,2.8,Medium,333,302.69,46,73.69,75.3
+U348,49,Male,4.0,2,Vegetarian,5.0,Medium,439,297.76,49,67.59,67.9
+U387,58,Male,9.7,8,Non-Vegetarian,7.3,Low,456,501.12,49,19.31,18.52
+U1025,54,Male,5.4,6,Non-Vegetarian,3.8,High,489,414.7,90,69.2,65.01
+U895,21,Male,7.7,4,Vegetarian,3.2,Medium,372,394.01,78,73.49,69.5
+U829,21,Female,8.3,5,Vegetarian,5.3,Low,401,285.49,55,65.55,66.81
+U1893,52,Male,8.0,7,Non-Vegetarian,10.1,Low,276,526.9,75,26.01,25.16
+U476,48,Male,7.7,6,Vegetarian,10.2,Low,148,568.08,68,19.46,18.53
+U1471,27,Male,6.5,3,Non-Vegetarian,10.4,Medium,401,315.01,98,84.88,80.11
+U1448,47,Male,8.9,10,Vegetarian,8.3,Low,88,264.08,79,74.08,69.92
+U1582,45,Female,6.8,4,Vegan,1.2,Medium,267,454.67,78,66.68,64.23
+U653,52,Male,4.0,4,Non-Vegetarian,4.4,Medium,465,485.43,61,38.69,38.92
+U173,33,Female,6.7,4,Vegetarian,4.2,Low,1,290.29,64,77.7,74.88
+U1150,50,Female,4.4,7,Non-Vegetarian,2.7,Medium,351,241.69,86,91.45,96.04
+U39,29,Female,4.8,7,Vegan,3.2,Low,400,592.28,93,25.59,21.21
+U714,44,Male,10.0,1,Non-Vegetarian,2.1,High,481,284.69,61,98.28,100.0
+U91,22,Male,9.1,6,Vegetarian,3.5,Medium,399,232.33,61,89.75,87.84
+U1937,27,Female,8.1,8,Vegetarian,3.9,Low,250,317.79,95,78.89,75.58
+U1206,31,Female,4.5,9,Vegan,9.6,Low,391,225.99,41,46.62,49.16
+U876,59,Male,9.9,3,Non-Vegetarian,6.4,High,493,392.15,67,72.48,74.33
+U1352,33,Female,9.6,7,Non-Vegetarian,10.1,Medium,438,318.22,60,63.25,58.49
+U1890,55,Male,5.2,1,Non-Vegetarian,8.4,High,130,595.76,87,47.41,43.46
+U1094,18,Male,9.2,2,Non-Vegetarian,4.2,Low,115,261.42,85,99.73,100.0
+U1156,42,Female,8.7,4,Non-Vegetarian,9.6,High,300,353.57,40,60.07,59.4
+U1782,28,Female,6.0,5,Vegetarian,7.4,Medium,327,521.42,72,38.46,38.17
+U1959,42,Female,8.3,3,Non-Vegetarian,1.6,Medium,74,372.19,69,84.19,85.31
+U500,36,Female,6.1,4,Non-Vegetarian,6.7,Medium,354,298.03,99,91.9,89.06
+U339,28,Female,9.7,9,Vegetarian,2.3,High,8,330.22,95,100.0,95.38
+U1189,34,Male,5.9,7,Non-Vegetarian,6.9,Medium,136,559.93,58,25.41,22.52
+U29,46,Female,7.3,8,Vegetarian,5.0,High,459,452.06,83,58.08,55.57
+U1218,34,Female,6.8,3,Non-Vegetarian,9.7,Medium,0,525.65,43,31.94,28.66
+U1400,37,Female,4.8,4,Vegetarian,2.6,High,375,424.35,96,77.47,78.07
+U1821,48,Female,6.4,10,Vegan,7.5,Medium,74,355.95,82,66.74,65.08
+U946,20,Male,9.1,7,Non-Vegetarian,5.1,Low,404,560.56,58,19.04,21.84
+U170,52,Male,4.0,7,Vegetarian,10.4,Medium,114,584.2,53,10.25,6.41
+U1405,37,Female,7.3,6,Non-Vegetarian,2.7,Low,304,535.64,52,24.2,28.16
+U1198,33,Male,7.6,1,Non-Vegetarian,6.8,Medium,50,372.71,85,87.38,87.12
+U1254,19,Female,9.6,10,Non-Vegetarian,4.8,Low,397,504.33,97,43.51,42.05
+U1614,56,Female,8.3,1,Non-Vegetarian,8.0,Low,285,232.06,86,96.22,91.47
+U913,58,Female,8.1,3,Non-Vegetarian,5.2,Medium,195,313.83,59,80.69,77.67
+U492,30,Male,7.0,2,Vegetarian,9.4,Medium,97,224.91,53,87.98,87.76
+U954,33,Female,7.9,8,Non-Vegetarian,8.0,Low,121,434.6,81,48.45,51.86
+U1098,24,Female,10.0,4,Non-Vegetarian,7.8,Medium,365,312.26,98,94.96,93.58
+U1033,25,Male,9.8,8,Vegetarian,3.2,Medium,271,256.56,89,100.0,100.0
+U588,18,Male,6.0,10,Vegetarian,10.9,Low,369,285.88,71,51.12,47.14
+U751,33,Female,6.8,6,Vegetarian,7.8,High,430,449.69,51,41.85,43.28
+U658,36,Male,5.7,8,Vegetarian,11.5,Low,347,278.65,62,50.77,51.61
+U235,57,Male,8.8,7,Non-Vegetarian,4.8,High,108,280.15,64,89.55,88.92
+U733,45,Male,4.7,9,Non-Vegetarian,3.7,Medium,34,496.41,50,32.43,29.84
+U1989,54,Female,8.7,1,Non-Vegetarian,7.9,Low,461,449.88,51,39.85,34.98
+U1633,28,Female,9.0,9,Non-Vegetarian,11.4,High,40,437.69,55,46.65,43.9
+U1157,21,Female,7.4,4,Non-Vegetarian,1.1,Low,68,510.38,73,50.23,49.24
+U1470,27,Male,7.3,6,Non-Vegetarian,4.6,Low,115,367.95,48,51.08,49.78
+U1425,37,Male,5.7,9,Vegan,9.3,Low,257,490.81,74,24.51,22.03
+U1628,45,Male,5.4,6,Non-Vegetarian,11.0,Medium,167,207.23,47,72.92,75.88
+U935,29,Male,4.5,9,Non-Vegetarian,1.6,High,91,252.34,66,87.72,86.33
+U1210,28,Female,8.8,1,Non-Vegetarian,3.7,Low,136,469.98,78,63.0,58.32
+U1066,43,Male,9.1,8,Non-Vegetarian,7.4,High,91,364.58,65,71.02,71.19
+U109,31,Female,6.7,8,Vegan,10.7,Medium,146,298.99,69,68.1,64.92
+U1543,38,Male,7.9,9,Vegetarian,7.3,Low,49,562.2,95,34.67,35.75
+U569,25,Male,8.6,8,Non-Vegetarian,6.1,Medium,383,337.15,92,79.2,83.24
+U1168,41,Other,6.0,10,Non-Vegetarian,3.6,High,499,571.6,79,30.85,30.23
+U1175,31,Female,6.3,2,Vegetarian,10.8,Medium,144,312.33,76,80.46,81.7
+U891,36,Male,7.3,6,Non-Vegetarian,9.7,Low,256,549.48,68,20.35,18.84
+U948,48,Male,7.4,3,Vegetarian,4.2,Medium,202,532.12,84,56.77,59.06
+U1049,35,Male,6.8,8,Vegetarian,10.2,Medium,492,576.75,46,4.34,6.18
+U1353,38,Female,4.3,5,Vegan,2.0,Low,285,377.86,98,70.92,73.03
+U1778,26,Female,6.8,10,Vegan,6.8,Low,30,488.38,69,30.9,35.35
+U1447,24,Female,9.2,8,Non-Vegetarian,6.6,Medium,55,411.19,85,70.37,69.08
+U885,21,Male,9.8,5,Vegetarian,6.2,Low,425,473.61,74,44.86,43.8
+U1673,28,Male,10.0,5,Non-Vegetarian,1.5,Medium,319,534.9,61,47.72,47.06
+U851,21,Female,6.8,8,Vegan,11.2,Low,422,284.27,48,43.98,48.92
+U735,21,Female,9.7,9,Non-Vegetarian,11.7,Medium,258,330.53,90,73.6,68.61
+U718,32,Male,5.1,4,Non-Vegetarian,7.7,Low,450,575.48,81,21.24,24.54
+U455,19,Female,9.2,5,Non-Vegetarian,3.8,Low,372,387.94,43,47.1,51.91
+U265,22,Female,7.3,9,Non-Vegetarian,11.6,Low,10,532.03,40,5.33,8.8
+U76,33,Female,9.1,10,Non-Vegetarian,5.7,Low,12,353.15,44,47.55,52.29
+U1658,37,Male,5.4,9,Non-Vegetarian,9.6,Low,408,389.48,56,28.33,28.6
+U445,23,Male,4.4,5,Vegetarian,3.6,Medium,203,336.95,73,74.68,74.98
+U396,32,Female,6.6,5,Non-Vegetarian,8.4,Medium,311,424.21,41,39.18,43.29
+U177,52,Male,8.0,6,Vegetarian,1.1,High,349,447.34,57,59.31,61.2
+U1043,37,Male,4.1,5,Non-Vegetarian,9.3,Low,250,442.38,64,32.52,31.44
+U1736,27,Female,4.3,10,Vegetarian,2.1,Medium,167,244.86,80,86.3,86.24
+U1402,38,Female,9.5,3,Non-Vegetarian,9.8,High,129,298.27,52,82.01,85.56
+U1381,49,Male,6.5,9,Non-Vegetarian,6.1,High,190,516.17,57,34.52,31.61
+U596,46,Female,9.3,3,Vegetarian,10.4,Low,308,467.43,75,45.43,44.02
+U62,41,Male,8.7,10,Non-Vegetarian,11.3,Medium,278,344.46,94,69.48,73.89
+U1297,29,Female,7.5,3,Non-Vegetarian,3.3,High,477,326.05,85,92.67,92.63
+U873,42,Female,9.6,9,Vegetarian,11.3,Low,409,368.83,80,49.6,53.7
+U1490,38,Male,8.9,9,Non-Vegetarian,2.7,Low,304,503.98,59,30.17,26.13
+U1879,31,Female,8.0,2,Non-Vegetarian,2.1,Low,197,244.23,65,91.7,89.34
+U279,29,Female,8.2,4,Vegetarian,4.1,Medium,70,415.41,45,59.12,61.46
+U37,47,Male,6.7,9,Non-Vegetarian,10.8,Medium,161,432.87,89,53.34,53.31
+U1976,34,Male,9.9,1,Non-Vegetarian,8.8,High,480,247.72,53,90.21,88.16
+U663,39,Female,4.6,2,Vegan,8.3,Medium,176,496.86,69,45.92,43.48
+U1954,44,Male,5.0,7,Vegetarian,2.3,Low,410,337.52,63,54.6,53.31
+U1445,41,Male,8.6,8,Non-Vegetarian,3.7,High,237,311.67,55,76.47,74.99
+U978,42,Male,9.1,4,Vegetarian,7.2,Medium,7,387.21,87,83.22,85.75
+U1572,23,Female,6.5,8,Non-Vegetarian,2.3,Low,243,599.58,82,24.76,24.13
+U739,56,Female,5.2,5,Non-Vegetarian,1.4,High,342,418.7,75,69.18,69.81
+U192,33,Female,4.1,8,Non-Vegetarian,3.3,Medium,433,381.51,97,68.5,68.14
+U920,36,Female,4.0,2,Vegetarian,4.3,Low,378,588.83,55,14.35,17.27
+U457,34,Female,7.2,2,Vegan,11.4,Low,426,409.75,62,42.49,45.23
+U676,56,Male,6.7,5,Non-Vegetarian,10.5,Low,159,294.98,43,51.81,53.38
+U761,52,Female,6.4,3,Vegetarian,5.6,Low,266,426.37,57,45.52,42.75
+U1808,32,Male,8.0,7,Non-Vegetarian,8.6,Low,248,238.57,95,86.88,90.72
+U1603,25,Male,6.0,5,Non-Vegetarian,1.2,Medium,469,303.16,43,66.79,64.51
+U729,33,Male,9.7,2,Non-Vegetarian,9.9,Low,255,397.11,73,60.77,65.16
+U413,31,Male,4.5,7,Vegetarian,10.1,Medium,369,281.21,56,58.6,54.46
+U1099,41,Male,7.9,6,Non-Vegetarian,8.9,Medium,441,325.13,89,76.94,76.13
+U826,30,Male,4.7,7,Non-Vegetarian,4.9,Medium,238,334.14,44,54.6,58.03
+U1640,38,Male,8.0,9,Vegetarian,4.5,Medium,324,397.59,98,72.5,72.84
+U617,20,Male,5.5,3,Vegetarian,11.4,Low,15,463.65,46,28.33,26.26
+U115,21,Female,8.7,5,Vegetarian,8.1,Low,282,514.89,88,42.8,39.26
+U418,31,Female,9.1,8,Vegetarian,4.5,High,170,576.67,89,50.44,48.86
+U1911,52,Male,4.5,2,Non-Vegetarian,9.2,High,481,459.12,80,55.06,50.89
+U970,40,Male,8.1,3,Vegan,7.9,Medium,359,339.87,83,81.02,80.57
+U605,26,Male,7.2,6,Vegetarian,2.9,Medium,178,577.68,65,35.71,37.93
+U1919,18,Female,8.3,5,Non-Vegetarian,4.4,Medium,263,247.1,88,100.0,95.85
+U90,53,Female,8.6,7,Non-Vegetarian,5.9,Low,84,480.46,60,37.59,41.06
+U849,35,Male,7.4,8,Vegan,11.2,Medium,197,505.95,70,33.74,32.42
+U1520,21,Female,9.9,1,Vegetarian,1.5,Medium,180,260.92,73,100.0,95.42
+U1918,31,Female,5.9,2,Non-Vegetarian,1.2,Low,426,572.33,96,45.09,45.44
+U754,48,Female,7.0,5,Non-Vegetarian,10.9,Medium,243,573.51,89,36.71,37.8
+U499,28,Male,6.3,2,Non-Vegetarian,4.2,Low,372,372.08,74,64.85,68.69
+U1277,28,Female,9.5,2,Non-Vegetarian,3.9,Low,468,526.9,79,46.47,47.72
+U1326,52,Male,6.7,1,Non-Vegetarian,7.5,Medium,9,569.94,98,58.98,61.74
+U12,18,Female,7.6,1,Vegan,2.6,Low,2,221.63,84,100.0,100.0
+U397,58,Female,8.3,5,Vegetarian,4.6,Low,224,416.57,97,69.29,67.39
+U285,55,Female,9.0,7,Non-Vegetarian,10.7,Low,432,458.65,49,22.37,23.39
+U1067,31,Female,8.3,7,Non-Vegetarian,11.4,Medium,403,477.68,44,24.83,26.64
+U1192,47,Male,9.7,3,Vegetarian,9.3,Medium,27,376.64,92,87.14,91.67
+U1745,48,Female,6.7,6,Non-Vegetarian,1.1,Medium,34,315.52,76,89.48,91.49
+U691,34,Male,8.7,1,Non-Vegetarian,11.7,Low,183,421.26,92,64.98,62.17
+U1753,46,Male,7.1,10,Vegetarian,3.7,Medium,21,466.03,55,43.06,42.23
+U1876,47,Female,4.1,6,Non-Vegetarian,11.5,Medium,67,338.43,56,54.2,50.85
+U690,20,Female,9.8,10,Vegetarian,8.9,High,256,250.0,62,80.46,85.39
+U852,58,Male,7.0,4,Non-Vegetarian,5.0,High,251,263.45,81,100.0,98.5
+U160,53,Female,9.0,8,Vegetarian,6.4,Low,470,465.62,54,27.4,30.51
+U896,40,Male,4.5,5,Non-Vegetarian,10.0,High,347,542.67,90,41.62,40.04
+U1576,21,Male,5.0,4,Non-Vegetarian,4.6,Low,229,522.05,48,22.51,26.04
+U258,21,Male,8.3,4,Vegan,7.4,Medium,202,200.91,92,100.0,100.0
+U336,36,Male,8.7,6,Vegetarian,9.0,Low,139,409.61,83,57.35,57.16
+U1880,35,Female,6.7,8,Non-Vegetarian,8.9,Medium,96,302.69,93,83.18,78.89
+U1040,33,Female,6.4,10,Non-Vegetarian,6.0,Medium,122,546.01,99,44.86,49.32
+U516,57,Male,7.5,5,Non-Vegetarian,11.5,Medium,1,296.85,58,72.26,77.12
+U1349,37,Male,9.5,4,Vegetarian,3.9,Low,306,271.32,43,70.31,70.91
+U1016,28,Female,4.2,3,Non-Vegetarian,8.1,Low,335,315.81,99,75.42,71.06
+U769,56,Male,7.8,8,Non-Vegetarian,9.7,Medium,145,300.68,76,75.04,75.71
+U1747,41,Male,6.3,8,Vegetarian,11.4,Medium,126,274.39,91,81.75,77.67
+U762,41,Female,5.1,2,Non-Vegetarian,2.1,Low,51,292.64,45,70.76,68.62
+U1247,24,Male,8.2,1,Non-Vegetarian,5.1,Medium,164,492.06,79,65.96,62.72
+U1204,49,Female,4.3,6,Vegetarian,7.2,High,348,375.94,59,55.68,54.13
+U1468,26,Female,8.0,4,Non-Vegetarian,8.7,Low,195,216.51,72,85.96,87.3
+U1984,48,Male,5.9,8,Vegetarian,7.1,Medium,416,227.5,90,88.91,91.12
+U522,40,Male,4.8,9,Non-Vegetarian,10.6,Low,289,374.56,85,44.99,47.05
+U23,26,Male,8.2,1,Non-Vegetarian,11.0,Medium,283,437.39,42,45.34,49.47
+U357,23,Female,6.4,7,Vegan,1.9,Medium,45,311.61,66,81.11,82.79
+U1278,53,Other,9.3,6,Vegan,9.1,Low,55,270.3,87,85.3,89.35
+U1313,59,Female,4.1,8,Non-Vegetarian,8.5,Low,304,415.6,41,19.6,16.06
+U1683,29,Female,4.9,9,Non-Vegetarian,4.5,Low,31,254.64,70,71.99,76.72
+U341,55,Male,9.9,2,Non-Vegetarian,6.6,High,161,461.28,74,72.8,72.97
+U432,19,Female,5.7,5,Vegan,7.9,High,247,265.58,98,99.35,95.42
+U474,21,Male,4.8,9,Vegetarian,5.0,High,499,550.29,68,26.41,24.78
+U218,43,Male,9.9,4,Non-Vegetarian,2.1,Low,46,451.85,75,64.92,65.52
+U912,26,Female,8.9,9,Non-Vegetarian,11.7,Medium,428,349.22,58,49.49,44.81
+U1228,44,Female,6.1,2,Non-Vegetarian,2.0,Medium,356,200.43,94,100.0,100.0
+U1597,19,Male,8.2,4,Vegan,10.3,Low,338,514.0,87,39.02,42.96
+U1012,34,Female,7.7,9,Vegetarian,6.1,High,295,267.11,43,69.33,72.44
+U1950,37,Male,8.0,10,Vegetarian,11.9,Medium,49,271.73,85,79.38,82.64
+U94,42,Male,8.8,7,Non-Vegetarian,3.6,High,331,489.74,95,67.46,71.75
+U1009,57,Female,9.5,2,Non-Vegetarian,6.2,Medium,117,336.46,64,84.28,79.39
+U1071,19,Female,6.4,7,Non-Vegetarian,10.9,High,380,323.37,73,67.45,68.46
+U1093,42,Female,4.7,1,Vegetarian,9.3,Low,44,213.83,40,71.93,70.88
+U1915,54,Female,8.7,4,Vegetarian,11.4,Low,294,455.14,59,35.06,35.24
+U1309,52,Female,5.9,7,Non-Vegetarian,10.3,Medium,315,524.22,89,38.18,36.58
+U697,23,Female,5.9,7,Vegan,3.7,Medium,447,232.04,49,74.14,72.55
+U1828,34,Female,9.5,4,Non-Vegetarian,9.2,Medium,4,514.79,92,62.32,65.2
+U997,38,Male,4.1,8,Non-Vegetarian,3.6,Medium,176,291.44,50,64.71,68.54
+U154,18,Female,6.1,3,Non-Vegetarian,11.9,Low,448,312.11,49,46.87,48.83
+U1100,32,Female,6.8,9,Non-Vegetarian,9.5,Medium,498,237.37,77,75.33,76.25
+U1719,27,Male,7.4,3,Vegan,12.0,Low,491,410.22,65,40.11,35.78
+U1998,55,Female,9.2,2,Vegan,1.9,Medium,440,484.15,89,71.56,67.07
+U790,40,Female,5.1,8,Non-Vegetarian,2.1,Low,253,389.05,76,54.15,52.48
+U581,38,Male,9.4,5,Non-Vegetarian,8.8,Medium,92,221.77,49,86.3,88.43
+U704,58,Male,8.2,5,Non-Vegetarian,1.2,Low,155,508.07,62,42.82,47.28
+U1213,50,Male,6.0,3,Non-Vegetarian,9.4,High,20,358.19,72,77.8,79.78
+U1296,25,Female,5.6,10,Vegan,8.4,Medium,21,424.75,70,47.39,42.91
+U1666,42,Male,8.5,8,Vegetarian,4.0,Medium,64,357.74,51,64.6,60.8
+U1261,54,Female,7.8,7,Non-Vegetarian,3.4,Low,240,543.86,94,43.06,47.32
+U488,23,Female,5.6,9,Vegetarian,6.0,Low,51,533.48,43,10.77,12.33
+U560,59,Male,4.1,1,Non-Vegetarian,10.5,High,413,202.89,72,94.38,94.93
+U1142,43,Female,6.6,9,Non-Vegetarian,6.4,High,54,430.28,94,69.81,73.08
+U1120,24,Male,9.4,4,Vegan,3.9,Low,59,487.01,70,52.6,47.8
+U802,57,Male,4.7,4,Non-Vegetarian,5.2,High,287,373.65,77,74.09,77.18
+U513,19,Female,7.7,3,Vegan,7.1,Low,345,375.17,85,66.82,63.35
+U634,29,Male,4.6,4,Vegetarian,6.0,Low,307,526.77,98,42.26,44.76
+U1922,19,Male,4.3,8,Vegetarian,1.7,Low,116,433.13,97,59.04,56.43
+U1788,20,Male,8.7,3,Non-Vegetarian,4.8,Medium,444,363.95,82,80.66,75.99
+U1546,50,Female,9.4,9,Vegan,2.7,High,194,343.61,40,65.6,62.08
+U1151,54,Other,7.6,6,Non-Vegetarian,6.0,Low,85,257.8,48,68.53,67.58
+U791,27,Female,7.5,9,Non-Vegetarian,7.4,Medium,49,553.37,95,45.19,44.69
+U117,19,Male,5.5,3,Vegetarian,9.2,Low,456,357.53,87,60.99,58.8
+U741,41,Male,8.1,4,Non-Vegetarian,10.7,Low,65,339.61,69,63.75,59.5
+U1691,51,Female,9.7,5,Non-Vegetarian,5.7,Low,316,288.32,92,87.48,82.73
+U1082,39,Female,7.4,10,Non-Vegetarian,9.5,Low,62,304.79,67,57.01,60.5
+U831,48,Female,7.4,2,Non-Vegetarian,11.3,Medium,381,258.72,89,92.61,91.6
+U120,28,Female,6.9,5,Vegetarian,3.4,Medium,304,569.01,89,47.28,46.46
+U657,32,Male,7.3,5,Vegetarian,2.5,Medium,77,586.27,85,49.1,53.46
+U1908,55,Male,4.9,5,Non-Vegetarian,5.5,Medium,422,346.42,40,50.37,51.64
+U636,29,Male,6.9,2,Non-Vegetarian,4.0,Low,196,290.44,90,91.47,95.42
+U370,32,Male,8.4,3,Vegetarian,9.6,High,76,214.65,99,100.0,99.71
+U269,23,Female,6.7,9,Non-Vegetarian,5.1,Low,178,251.74,49,61.73,61.35
+U656,33,Male,9.3,1,Non-Vegetarian,1.2,Low,437,568.47,71,41.82,43.27
+U936,43,Male,9.8,2,Non-Vegetarian,9.0,Low,253,210.21,48,81.0,81.83
+U823,53,Male,6.7,9,Non-Vegetarian,3.6,Medium,490,392.98,78,58.7,62.7
+U867,42,Male,6.3,9,Vegetarian,1.0,Low,458,224.42,55,69.04,68.13
+U47,36,Male,7.1,5,Vegetarian,4.6,Low,28,395.34,67,59.35,56.54
+U1374,55,Female,7.3,8,Vegetarian,4.9,Low,92,353.8,48,49.44,49.75
+U1709,41,Male,9.3,4,Vegetarian,9.2,Low,159,399.75,82,63.0,65.21
+U992,37,Male,9.0,8,Vegetarian,2.0,Medium,253,529.81,71,46.14,48.54
+U877,28,Male,8.5,6,Non-Vegetarian,7.6,Medium,456,349.33,96,79.26,79.63
+U774,47,Male,4.6,2,Non-Vegetarian,11.6,Medium,212,509.13,97,52.2,47.61
+U1220,26,Female,5.8,10,Non-Vegetarian,6.9,Medium,170,459.92,42,27.2,29.3
+U2000,46,Female,6.9,7,Vegetarian,9.2,High,42,343.82,51,63.36,65.97
+U5,50,Male,9.7,2,Non-Vegetarian,11.3,Medium,365,237.65,62,87.54,91.78
+U1004,26,Male,7.4,9,Non-Vegetarian,7.7,Medium,381,468.14,64,36.61,33.61
+U1724,32,Female,8.6,4,Vegan,11.1,Low,104,311.92,89,77.98,79.62
+U264,46,Male,8.6,6,Vegetarian,4.2,Low,463,335.81,54,55.67,60.66
+U1570,58,Female,4.9,7,Non-Vegetarian,2.0,Low,350,541.27,69,25.09,26.66
+U1831,22,Male,4.7,7,Non-Vegetarian,5.3,Low,1,595.38,77,21.7,21.25
+U444,46,Female,7.2,5,Non-Vegetarian,8.7,Medium,224,544.09,86,44.19,44.75
+U1003,50,Female,9.4,5,Non-Vegetarian,3.2,Medium,91,221.08,62,100.0,100.0
+U1078,38,Female,5.7,5,Non-Vegetarian,7.2,Low,485,566.23,81,22.03,24.18
+U838,22,Female,5.6,9,Vegetarian,2.1,Medium,445,376.86,92,69.34,71.99
+U1791,23,Male,8.2,8,Non-Vegetarian,1.3,Medium,237,512.13,53,39.85,35.2
+U305,44,Female,9.0,4,Vegan,6.6,Medium,31,420.76,47,57.85,60.09
+U1366,53,Male,4.7,2,Vegetarian,3.6,Medium,461,465.01,72,54.28,56.34
+U1558,44,Female,4.8,5,Vegan,2.3,Medium,328,519.44,50,33.02,34.62
+U314,51,Male,5.6,3,Vegetarian,7.3,Medium,284,571.48,65,30.82,27.91
+U150,55,Male,5.2,9,Non-Vegetarian,2.7,Medium,494,521.68,68,30.52,28.73
+U1149,40,Male,7.3,5,Non-Vegetarian,8.8,Medium,100,590.61,41,16.46,12.14
+U1214,35,Male,7.7,8,Non-Vegetarian,7.9,Medium,400,247.54,43,64.79,66.31
+U575,21,Female,7.7,6,Vegetarian,8.5,Medium,359,270.72,65,75.85,72.57
+U51,33,Female,4.2,1,Non-Vegetarian,4.7,Low,12,422.67,40,43.66,41.14
+U1553,49,Female,9.2,8,Non-Vegetarian,4.1,Low,341,240.84,49,68.79,66.8
+U727,22,Female,5.5,1,Non-Vegetarian,10.5,Low,93,234.59,59,76.79,81.56
+U834,34,Female,6.0,1,Vegetarian,2.0,High,249,306.66,70,95.91,99.66
+U1378,41,Female,9.3,9,Vegetarian,9.3,Medium,478,586.22,78,23.39,26.45
+U1116,25,Male,6.1,10,Vegetarian,11.1,Medium,317,541.31,65,16.49,16.3
+U1167,20,Female,6.5,7,Non-Vegetarian,11.2,Low,206,561.48,80,19.5,20.97
+U471,59,Female,8.0,8,Vegetarian,10.9,Low,458,452.61,75,31.55,34.92
+U972,26,Female,8.6,9,Non-Vegetarian,8.9,High,126,322.84,61,70.02,66.99
+U654,45,Female,6.1,4,Non-Vegetarian,2.6,Low,369,419.87,70,52.94,52.53
+U400,54,Female,4.9,2,Non-Vegetarian,10.9,Low,408,551.22,78,23.42,23.74
+U512,29,Male,6.0,2,Vegan,10.9,Medium,208,570.75,50,22.36,24.94
+U321,38,Male,9.5,2,Vegetarian,4.1,Low,85,417.83,97,81.01,77.15
+U20,26,Male,5.8,2,Non-Vegetarian,10.7,High,497,491.49,47,33.2,37.52
+U685,19,Male,7.3,1,Non-Vegetarian,6.7,Medium,431,482.5,86,61.51,65.08
+U36,24,Female,7.4,9,Non-Vegetarian,11.9,High,86,204.58,71,88.63,88.87
+U903,26,Male,6.6,4,Vegetarian,9.4,High,228,378.49,95,80.96,83.93
+U1779,36,Male,7.6,9,Non-Vegetarian,11.7,High,417,288.02,95,80.81,84.22
+U828,26,Female,7.7,8,Vegan,2.2,Low,322,503.22,77,39.29,37.76
+U1854,33,Male,8.3,4,Vegetarian,2.0,Medium,51,256.31,52,92.86,94.54
+U408,50,Female,5.8,8,Non-Vegetarian,2.3,Low,200,292.03,58,63.48,64.26
+U921,52,Female,6.9,8,Non-Vegetarian,2.0,Medium,41,495.62,54,43.38,47.95
+U538,59,Female,5.8,8,Non-Vegetarian,8.0,Low,60,519.5,47,14.32,15.77
+U759,53,Male,4.9,6,Non-Vegetarian,8.1,Low,189,292.72,97,76.58,79.05
+U1905,47,Male,8.5,7,Vegetarian,6.0,Medium,180,329.52,80,80.48,84.25
+U1063,41,Female,6.2,4,Non-Vegetarian,5.2,Medium,490,389.11,76,64.95,63.56
+U1200,44,Male,4.6,7,Non-Vegetarian,2.2,Low,164,541.05,67,26.95,31.18
+U246,34,Male,6.0,4,Vegan,11.4,Low,186,227.43,43,61.78,59.74
+U1417,28,Male,7.8,7,Non-Vegetarian,9.4,High,476,212.59,40,72.55,72.8
+U1128,26,Female,7.9,5,Vegan,2.4,High,269,285.41,74,96.25,97.93
+U785,32,Female,8.8,3,Non-Vegetarian,5.8,Low,199,248.69,83,93.97,89.13
+U1743,54,Female,7.3,6,Vegetarian,1.6,Medium,352,469.94,62,50.84,50.47
+U490,49,Female,7.4,6,Vegan,11.1,Low,134,532.87,82,30.66,29.36
+U155,20,Male,9.6,1,Non-Vegetarian,10.7,High,145,479.36,75,65.86,67.36
+U962,49,Male,5.2,8,Vegetarian,2.2,High,383,404.92,66,58.95,56.85
+U854,54,Other,9.2,2,Non-Vegetarian,11.1,Medium,34,412.89,85,75.76,75.05
+U1312,24,Male,6.4,6,Vegan,5.0,Medium,334,565.22,69,31.92,33.18
+U626,47,Male,9.1,3,Non-Vegetarian,7.1,Low,368,270.75,90,89.07,91.38
+U686,43,Female,9.3,1,Vegetarian,1.9,Low,456,506.97,41,35.64,35.61
+U1562,51,Female,9.5,4,Non-Vegetarian,5.5,Low,0,480.63,56,45.64,42.39
+U570,25,Male,9.8,9,Vegetarian,3.8,High,49,539.99,83,56.42,53.84
+U1909,53,Male,7.5,2,Vegan,6.2,Low,266,512.57,45,28.45,27.12
+U18,37,Male,7.5,7,Non-Vegetarian,4.8,Medium,147,454.81,79,59.56,61.46
+U128,35,Female,5.7,6,Vegetarian,2.2,Medium,274,563.64,53,28.18,29.15
+U1347,41,Female,9.5,10,Vegan,3.7,Low,438,252.97,62,68.53,66.28
+U1280,26,Female,6.5,6,Vegetarian,6.3,Medium,171,321.03,83,81.12,76.19
+U1969,39,Female,5.9,6,Non-Vegetarian,10.8,Medium,406,553.12,91,33.79,29.58
+U928,31,Female,8.7,9,Vegetarian,4.7,Medium,472,337.04,87,75.24,76.64
+U981,42,Female,4.4,1,Non-Vegetarian,7.5,Medium,85,352.7,91,85.57,90.25
+U1965,51,Male,9.3,10,Vegetarian,2.0,Low,140,422.34,80,57.41,62.36
+U191,25,Female,7.5,2,Vegetarian,8.0,Medium,256,342.79,63,73.25,72.73
+U1140,48,Female,6.9,6,Vegetarian,10.2,Medium,81,499.14,41,27.19,27.18
+U993,18,Female,4.7,8,Non-Vegetarian,1.8,High,476,378.34,83,69.62,73.38
+U1956,46,Female,4.4,6,Non-Vegetarian,2.3,Low,43,216.92,54,78.34,74.28
+U1657,59,Female,7.8,7,Non-Vegetarian,10.5,Medium,305,580.1,57,16.57,12.15
+U607,44,Male,9.7,10,Non-Vegetarian,11.1,Medium,382,364.0,55,46.94,51.66
+U181,36,Male,6.0,4,Non-Vegetarian,6.7,Low,493,434.19,40,26.73,23.34
+U302,53,Female,5.9,8,Non-Vegetarian,6.6,Medium,105,201.25,87,98.76,100.0
+U497,57,Male,8.8,3,Vegetarian,3.1,Low,207,585.01,79,39.81,39.6
+U1721,44,Female,8.2,9,Vegan,6.7,Low,492,255.1,94,77.99,76.66
+U1710,34,Male,6.2,7,Non-Vegetarian,2.9,Medium,303,562.11,41,19.8,16.93
+U1888,28,Male,9.8,4,Non-Vegetarian,2.0,Low,202,403.72,63,63.77,66.29
+U1992,47,Female,5.2,2,Vegetarian,10.1,Medium,187,496.0,99,59.34,54.73
+U518,23,Female,7.8,10,Vegetarian,10.5,Medium,498,251.64,66,65.95,67.41
+U1985,35,Male,4.8,4,Non-Vegetarian,11.5,Low,268,591.39,90,20.43,18.51
+U1070,24,Female,9.3,7,Non-Vegetarian,9.0,High,206,259.88,70,88.67,85.97
+U477,38,Male,6.5,8,Non-Vegetarian,1.6,Low,182,397.2,47,43.26,46.86
+U158,51,Male,8.5,2,Non-Vegetarian,7.8,Low,5,383.9,66,65.22,67.44
+U1244,21,Male,5.8,6,Non-Vegetarian,10.4,Low,204,258.17,76,69.89,70.82
+U1196,51,Female,7.5,7,Non-Vegetarian,3.2,High,226,228.39,57,92.12,95.58
+U17,21,Male,6.3,6,Vegetarian,3.1,Medium,158,433.19,75,63.09,66.12
+U1536,35,Female,5.7,5,Non-Vegetarian,4.0,Medium,140,406.58,51,55.34,55.46
+U1073,45,Female,9.1,5,Non-Vegetarian,7.9,Low,48,545.71,47,22.94,24.28
+U1972,23,Female,7.2,4,Non-Vegetarian,5.1,Low,481,229.34,45,68.41,66.46
+U547,49,Male,5.8,6,Non-Vegetarian,2.4,High,292,261.51,65,89.07,90.46
+U1540,44,Female,7.4,7,Vegetarian,6.3,Low,44,386.57,52,47.04,48.42
+U659,27,Other,7.3,8,Non-Vegetarian,7.9,High,287,272.19,48,69.64,73.09
+U1626,19,Male,5.8,7,Non-Vegetarian,1.6,Low,439,474.45,60,32.34,32.88
+U1020,55,Male,4.3,4,Vegetarian,6.9,Medium,352,467.36,63,41.82,38.78
+U1663,27,Male,5.7,6,Non-Vegetarian,9.1,Medium,291,283.99,72,73.6,76.7
+U1505,55,Female,5.4,8,Non-Vegetarian,4.7,Medium,46,301.99,83,83.0,87.73
+U960,30,Male,9.7,7,Vegetarian,8.3,Medium,20,546.62,66,39.45,40.1
+U1882,42,Female,6.8,1,Non-Vegetarian,7.4,Medium,493,535.81,57,34.84,32.91
+U284,30,Male,7.9,3,Vegan,7.3,Low,340,216.59,68,84.95,86.66
+U798,25,Female,4.4,6,Non-Vegetarian,3.1,Low,165,216.81,88,91.72,91.35
+U1627,41,Male,5.0,3,Vegetarian,7.7,Low,197,223.52,92,92.26,88.44
+U226,41,Female,5.2,9,Non-Vegetarian,1.3,Medium,201,485.88,55,37.95,38.47
+U27,23,Male,6.9,5,Non-Vegetarian,8.5,Medium,54,411.75,40,46.34,44.36
+U1771,56,Female,9.9,8,Non-Vegetarian,6.9,Medium,27,373.98,98,84.58,80.27
+U438,48,Male,5.1,3,Non-Vegetarian,10.5,Medium,48,329.28,43,59.11,59.74
+U1949,50,Female,8.5,6,Non-Vegetarian,8.7,Low,470,434.5,46,28.13,27.12
+U1389,41,Male,4.6,8,Vegetarian,9.8,High,349,311.93,70,64.53,63.89
+U230,41,Female,5.1,4,Vegetarian,3.9,Medium,405,542.45,42,23.84,26.65
+U38,48,Female,6.0,9,Non-Vegetarian,3.7,High,413,281.06,77,81.85,80.37
+U750,36,Female,4.2,6,Vegetarian,9.9,High,130,262.75,88,89.16,89.1
+U1046,31,Female,4.6,6,Vegetarian,1.1,Medium,16,589.23,51,27.52,30.64
+U1399,19,Other,6.6,1,Vegan,2.5,Low,420,308.13,89,87.2,91.4
+U470,58,Female,6.5,9,Non-Vegetarian,10.3,Medium,399,473.26,63,29.19,33.24
+U1693,38,Female,7.7,10,Non-Vegetarian,4.6,Medium,410,431.59,78,52.37,48.77
+U1968,26,Male,9.6,1,Non-Vegetarian,2.4,High,395,347.21,98,100.0,98.95
+U688,19,Male,5.1,8,Non-Vegetarian,4.4,Medium,455,255.51,97,89.42,85.98
+U1844,47,Male,9.5,9,Vegetarian,5.0,Medium,449,560.64,68,30.08,29.17
+U640,26,Female,7.4,8,Vegan,9.2,Medium,318,401.53,95,64.22,62.11
+U1713,53,Male,8.1,8,Vegetarian,4.7,Low,234,479.11,94,50.62,51.51
+U1219,33,Female,5.9,4,Non-Vegetarian,6.3,Low,436,306.27,96,77.59,81.28
+U1159,30,Male,9.9,6,Vegan,7.6,Low,421,334.44,67,60.74,64.07
+U1416,25,Female,4.3,10,Vegetarian,1.9,Low,474,215.81,56,63.3,64.14
+U1528,46,Male,8.0,7,Non-Vegetarian,2.2,Medium,195,439.42,97,75.06,78.72
+U1656,57,Other,4.1,3,Non-Vegetarian,10.1,Medium,316,502.51,94,48.98,45.55
+U1301,27,Male,6.2,3,Non-Vegetarian,10.6,High,425,277.29,54,72.78,75.97
+U1823,27,Female,8.9,9,Non-Vegetarian,6.8,Medium,454,230.68,42,68.07,69.51
+U801,31,Male,7.3,3,Non-Vegetarian,9.3,Medium,361,552.8,77,38.8,40.69
+U1604,50,Female,8.0,10,Vegan,8.8,Low,184,376.87,71,46.81,47.3
+U161,32,Male,9.7,7,Vegetarian,5.0,Low,154,536.13,72,36.46,39.38
+U957,33,Female,9.6,9,Vegan,11.2,Medium,21,252.04,79,86.47,82.57
+U1187,52,Male,8.4,3,Vegetarian,9.5,Medium,228,581.34,53,26.6,25.28
+U822,28,Female,4.4,8,Non-Vegetarian,9.0,Low,98,466.68,48,18.56,17.21
+U1682,27,Female,4.8,9,Vegan,3.2,Low,75,361.8,77,58.5,59.44
+U878,37,Female,7.5,5,Vegetarian,8.0,Medium,63,238.77,83,98.44,95.2
+U914,30,Female,9.1,3,Vegetarian,5.6,Low,285,533.53,98,53.18,56.01
+U153,19,Male,4.9,4,Vegetarian,7.8,High,341,345.89,99,85.13,89.01
+U1871,48,Female,5.8,8,Vegetarian,5.7,Low,433,372.67,63,42.78,46.66
+U1777,29,Female,9.6,7,Vegetarian,10.7,Low,160,297.21,71,66.92,65.49
+U510,49,Male,5.6,7,Non-Vegetarian,1.6,Low,388,514.85,76,34.23,30.91
+U1136,23,Male,9.9,9,Vegetarian,3.9,Medium,258,582.15,81,39.26,35.5
+U1251,46,Female,5.7,9,Non-Vegetarian,11.1,Medium,144,502.59,64,27.1,28.96
+U1684,52,Other,8.3,10,Non-Vegetarian,11.6,High,51,480.91,42,29.03,24.68
+U104,27,Female,7.4,6,Vegetarian,2.8,High,363,435.32,96,76.79,73.49
+U1446,41,Female,6.5,8,Non-Vegetarian,5.5,Medium,437,482.54,53,31.09,27.56
+U1444,20,Female,5.2,7,Vegetarian,5.4,Medium,392,479.96,68,39.47,37.78
+U587,32,Female,6.8,7,Vegan,6.3,Low,362,445.06,66,36.73,40.57
+U1769,47,Female,5.6,9,Vegetarian,11.7,High,158,318.62,87,72.89,71.96
+U1144,41,Male,7.3,9,Non-Vegetarian,6.4,Medium,3,206.65,57,86.0,88.48
+U54,43,Female,8.7,7,Non-Vegetarian,4.0,High,143,326.48,83,91.63,95.44
+U152,42,Female,7.5,8,Vegan,6.1,Low,67,229.35,50,70.28,72.43
+U404,49,Female,9.1,6,Vegetarian,3.9,High,325,444.94,78,68.69,72.33
+U1943,36,Male,6.9,4,Non-Vegetarian,6.4,Medium,29,206.57,72,100.0,99.58
+U208,44,Female,6.4,9,Non-Vegetarian,10.6,Low,483,321.0,83,52.24,54.95
+U1895,47,Female,9.8,6,Non-Vegetarian,9.7,Medium,128,588.98,99,46.83,43.01
+U1123,48,Male,7.4,9,Non-Vegetarian,3.4,Low,23,586.77,80,28.44,30.07
+U1891,56,Female,6.5,7,Non-Vegetarian,7.4,Medium,406,262.27,40,61.07,62.37
+U9,29,Male,5.1,6,Non-Vegetarian,10.2,Low,244,380.08,82,50.67,54.17
+U1015,54,Male,5.4,8,Non-Vegetarian,3.7,Low,318,397.81,80,51.59,53.11
+U1907,44,Male,4.4,6,Vegetarian,2.3,High,0,304.7,93,99.07,99.4
+U1061,37,Female,8.0,9,Vegetarian,6.9,Low,21,454.32,90,51.51,48.29
+U453,23,Male,4.8,10,Non-Vegetarian,10.6,High,458,248.02,58,62.2,60.78
+U254,58,Male,8.4,10,Non-Vegetarian,3.4,High,282,542.67,46,28.62,30.76
+U1328,20,Male,7.9,3,Non-Vegetarian,11.0,Medium,361,407.28,66,56.2,57.41
+U897,35,Male,7.0,8,Vegetarian,8.4,Low,137,219.07,98,90.15,90.78
+U1734,47,Male,7.9,4,Non-Vegetarian,8.6,Low,423,230.81,63,74.47,75.02
+U881,45,Male,8.8,7,Vegan,5.0,Medium,425,307.82,65,73.8,77.23
+U1596,39,Male,4.8,8,Vegetarian,9.1,Medium,96,554.58,98,39.6,44.52
+U1889,22,Female,6.6,10,Non-Vegetarian,10.0,Medium,13,258.99,78,78.78,82.38
+U624,50,Male,7.0,3,Non-Vegetarian,2.1,Medium,308,381.75,50,65.06,68.44
+U346,32,Female,5.0,10,Non-Vegetarian,8.8,Medium,351,233.18,52,61.92,61.52
+U1703,37,Female,7.4,10,Vegan,3.9,Low,141,578.32,90,29.74,33.3
+U263,59,Male,9.5,3,Vegan,12.0,Low,149,537.05,53,24.01,19.31
+U1635,44,Female,8.8,9,Non-Vegetarian,1.2,Low,285,366.08,44,48.09,43.74
+U1322,56,Female,7.1,2,Vegetarian,7.6,Medium,122,295.79,45,74.56,73.86
+U1439,34,Male,9.7,4,Non-Vegetarian,5.4,High,348,495.6,74,60.74,63.76
+U151,58,Male,8.1,10,Non-Vegetarian,4.3,Medium,247,543.68,62,30.2,31.83
+U473,51,Male,6.4,3,Vegan,11.0,Medium,250,406.13,86,65.61,68.72
+U641,56,Male,7.8,2,Non-Vegetarian,9.3,Low,367,460.35,58,37.58,37.97
+U1983,31,Male,8.3,1,Non-Vegetarian,7.1,Medium,300,578.62,56,34.51,33.04
+U1883,23,Male,6.9,6,Non-Vegetarian,2.6,Medium,372,231.54,70,91.87,91.49
+U551,43,Female,8.5,3,Vegan,2.0,Low,0,395.28,77,75.62,79.34
+U1780,35,Female,8.9,8,Non-Vegetarian,6.1,Medium,409,488.92,73,44.48,42.17
+U929,56,Male,5.4,1,Vegan,10.8,High,144,414.16,43,52.19,48.58
+U489,25,Male,4.3,10,Non-Vegetarian,8.1,Medium,443,215.07,72,72.74,77.16
+U1812,28,Female,5.0,9,Vegetarian,4.1,Low,297,297.84,94,72.27,68.7
+U1172,29,Female,4.4,8,Non-Vegetarian,7.8,Low,411,456.34,73,28.32,24.15
+U147,29,Female,8.9,9,Non-Vegetarian,7.4,Medium,109,580.46,74,31.78,28.42
+U1705,21,Male,9.9,6,Non-Vegetarian,3.1,High,417,277.68,80,98.53,100.0
+U1929,23,Female,6.9,7,Non-Vegetarian,1.7,High,144,335.63,91,93.93,98.63
+U403,51,Male,7.9,10,Vegetarian,2.2,Medium,178,400.36,79,66.71,63.2
+U955,21,Male,9.6,8,Vegan,10.2,High,436,428.91,40,37.7,37.14
+U1878,45,Male,6.4,4,Vegetarian,8.4,Medium,329,290.97,77,80.62,76.83
+U660,21,Other,4.9,10,Non-Vegetarian,10.9,Low,411,462.08,98,32.22,33.36
+U1373,30,Male,6.1,5,Non-Vegetarian,8.5,Medium,430,489.77,54,31.22,35.26
+U464,57,Male,4.9,2,Non-Vegetarian,4.0,Low,267,434.64,65,49.52,45.72
+U1350,39,Male,9.0,5,Vegetarian,6.8,High,291,477.05,59,51.97,47.96
+U187,22,Female,4.3,6,Non-Vegetarian,4.2,High,385,551.95,56,28.61,29.42
+U1148,27,Female,9.7,9,Non-Vegetarian,9.6,Medium,388,465.34,78,45.68,43.95
+U1225,44,Female,4.3,2,Non-Vegetarian,6.5,Medium,119,336.07,85,83.96,82.16
+U609,53,Female,6.8,4,Non-Vegetarian,4.5,Medium,460,328.28,59,69.44,73.62
+U144,44,Female,9.3,9,Non-Vegetarian,1.8,Medium,5,338.37,63,77.9,76.53
+U752,35,Male,7.3,3,Non-Vegetarian,10.6,Medium,111,472.37,41,37.25,38.72
+U1535,19,Female,6.8,10,Vegetarian,9.3,Medium,34,288.28,60,65.92,63.73
+U982,55,Male,4.6,8,Non-Vegetarian,1.1,Low,489,339.91,90,65.12,60.19
+U198,38,Other,9.1,2,Vegetarian,3.3,Low,314,274.2,60,82.27,82.71
+U1634,25,Female,7.5,3,Non-Vegetarian,7.9,Medium,57,580.13,47,27.82,23.19
+U884,50,Female,4.8,7,Vegetarian,5.0,Medium,362,572.89,70,25.38,24.73
+U280,55,Female,5.3,7,Non-Vegetarian,8.5,Low,27,414.68,57,37.7,42.17
+U294,24,Female,8.6,4,Non-Vegetarian,8.6,Low,2,433.45,88,63.02,66.52
+U1824,37,Female,4.3,6,Non-Vegetarian,5.8,Medium,320,346.46,49,53.26,48.5
+U401,28,Female,7.7,3,Vegetarian,5.8,Medium,269,588.91,83,43.67,48.13
+U123,47,Female,7.4,2,Non-Vegetarian,2.2,High,54,440.87,93,89.44,87.51
+U1208,43,Male,6.6,1,Vegetarian,10.0,Low,499,244.44,62,71.48,72.53
+U203,59,Female,5.0,8,Vegetarian,3.0,Low,410,367.85,57,43.49,40.11
+U1463,43,Other,8.3,7,Vegetarian,4.2,Medium,374,364.99,73,69.49,67.55
+U836,56,Female,6.9,9,Non-Vegetarian,1.3,Medium,150,516.4,73,46.28,50.45
+U247,38,Female,5.2,9,Vegetarian,6.9,High,448,571.69,67,21.31,21.5
+U1440,25,Female,4.2,2,Non-Vegetarian,11.2,High,110,332.07,49,64.56,68.8
+U1754,28,Female,4.7,3,Non-Vegetarian,2.4,High,75,469.8,62,61.0,63.38
+U1902,49,Other,7.7,7,Non-Vegetarian,6.6,Low,271,254.74,89,83.12,79.95
+U1708,39,Male,7.8,10,Vegetarian,6.8,Medium,272,413.0,90,61.13,56.55
+U1881,34,Male,6.9,6,Non-Vegetarian,5.9,High,282,229.06,92,100.0,100.0
+U1154,43,Female,7.8,10,Non-Vegetarian,4.6,Medium,373,337.45,68,64.0,64.17
+U1662,59,Male,9.6,1,Non-Vegetarian,1.8,Medium,420,448.18,59,65.9,61.16
+U1427,38,Female,6.7,8,Vegetarian,10.2,Medium,224,416.92,65,45.63,44.24
+U385,39,Male,9.1,8,Vegetarian,8.8,Low,158,296.91,56,59.35,56.0
+U1759,41,Female,4.9,2,Non-Vegetarian,4.8,High,161,232.2,77,100.0,100.0
+U855,19,Female,5.8,1,Vegetarian,6.5,Low,305,288.13,78,79.73,75.25
+U1590,55,Male,5.8,5,Vegetarian,5.7,Low,51,513.49,54,28.45,29.95
+U220,22,Female,7.7,3,Non-Vegetarian,10.5,Medium,27,270.36,42,74.05,74.45
+U642,44,Male,5.4,2,Non-Vegetarian,9.7,Medium,146,320.76,43,62.37,67.13
+U2,39,Female,7.6,9,Non-Vegetarian,10.8,High,214,368.24,58,54.35,57.68
+U113,33,Male,8.8,3,Non-Vegetarian,11.3,Medium,245,555.91,68,36.1,36.29
+U699,38,Male,5.4,7,Non-Vegetarian,11.7,Low,282,334.77,68,46.82,44.24
+U1916,40,Male,6.8,7,Vegan,8.4,Medium,478,361.44,86,65.2,64.16
+U952,46,Female,7.9,6,Vegetarian,7.8,Medium,95,264.99,47,74.54,72.94
+U1649,42,Male,9.5,8,Non-Vegetarian,9.3,Low,74,529.06,90,39.39,43.88
+U1637,29,Male,7.8,7,Non-Vegetarian,7.6,Medium,376,403.81,96,68.38,66.41
+U1886,56,Female,5.5,3,Non-Vegetarian,5.6,Medium,238,586.29,89,43.63,40.75
+U1411,27,Female,4.3,10,Non-Vegetarian,3.8,Medium,354,297.58,47,54.72,52.37
+U1410,50,Male,5.1,8,Non-Vegetarian,9.5,Low,218,481.46,87,33.85,36.06
+U1534,26,Female,5.3,10,Vegetarian,4.6,Low,366,480.69,87,34.77,36.19
+U1292,30,Other,8.3,7,Vegetarian,11.5,Medium,148,256.17,67,78.2,76.69
+U1809,56,Female,7.9,3,Vegetarian,6.2,High,257,588.08,55,34.85,35.79
+U442,30,Male,8.4,5,Non-Vegetarian,3.4,Low,432,323.35,80,74.17,76.05
+U1521,27,Male,5.6,2,Vegetarian,8.6,Medium,343,340.46,95,83.2,81.47
+U1137,49,Male,5.4,10,Vegetarian,2.4,High,255,299.75,83,83.64,79.1
+U1716,34,Female,7.5,8,Vegan,3.8,Low,344,421.9,90,56.1,58.4
+U1257,23,Male,5.4,10,Non-Vegetarian,8.1,Low,407,497.61,60,12.57,8.56
+U1864,54,Male,9.8,10,Non-Vegetarian,10.1,Medium,109,215.01,84,93.43,90.03
+U1632,41,Female,6.3,7,Vegetarian,5.9,High,433,320.23,80,77.72,76.52
+U1696,42,Female,9.9,2,Non-Vegetarian,9.9,Medium,155,328.7,48,72.07,75.94
+U1398,36,Female,7.5,1,Non-Vegetarian,4.4,Low,251,571.35,45,23.65,28.15
+U664,59,Male,8.7,4,Vegetarian,9.4,Low,129,358.9,86,70.9,68.97
+U1836,26,Female,4.2,6,Vegetarian,10.7,Low,430,413.4,96,45.85,41.24
+U1258,42,Female,4.5,6,Vegetarian,2.8,Low,410,307.33,59,57.88,54.64
+U1774,32,Male,5.0,1,Vegan,6.7,High,241,488.66,66,54.69,55.37
+U1701,45,Male,8.4,5,Non-Vegetarian,7.6,Low,482,426.72,55,37.14,34.84
+U318,51,Female,6.3,5,Vegetarian,11.8,Low,198,222.54,75,76.35,72.59
+U649,33,Female,7.9,10,Non-Vegetarian,7.9,Low,188,347.32,93,63.8,67.56
+U1435,41,Male,6.9,4,Vegetarian,5.6,Medium,284,297.0,42,68.22,71.4
+U1480,58,Female,9.5,4,Vegetarian,11.4,High,196,516.83,61,44.34,40.62
+U710,46,Female,4.3,6,Non-Vegetarian,9.4,High,310,571.16,69,25.61,20.78
+U1383,47,Female,7.5,2,Non-Vegetarian,11.4,High,130,382.75,74,74.51,72.47
+U1283,44,Female,7.9,2,Vegetarian,10.7,Low,227,505.99,74,38.88,36.64
+U973,19,Male,9.1,1,Non-Vegetarian,8.8,Low,460,233.58,85,92.37,93.98
+U628,35,Male,9.6,1,Vegan,1.2,High,7,496.32,78,81.54,83.85
+U633,52,Male,6.6,2,Non-Vegetarian,9.8,Low,68,525.23,42,21.6,16.75
+U1307,24,Female,9.5,1,Non-Vegetarian,5.4,Low,57,367.84,87,84.95,81.92
+U1401,29,Female,9.9,10,Vegan,8.6,High,103,466.12,59,46.65,46.82
+U1409,23,Female,7.8,5,Non-Vegetarian,4.2,Medium,41,421.4,47,56.75,58.97
+U1249,35,Female,8.9,3,Vegetarian,10.3,High,359,364.46,86,81.43,82.32
+U1953,20,Male,9.9,7,Non-Vegetarian,11.5,Medium,240,364.85,98,76.94,73.54
+U1255,35,Male,6.5,4,Vegetarian,4.0,Medium,380,418.82,74,63.6,63.82
+U1497,54,Male,5.6,1,Vegetarian,2.4,Low,414,523.27,60,35.11,37.09
+U1372,38,Male,6.0,1,Vegetarian,11.4,Low,247,363.8,93,68.83,65.77
+U1530,19,Female,6.8,6,Non-Vegetarian,6.0,High,17,506.85,43,39.28,36.28
+U1664,48,Male,6.8,3,Non-Vegetarian,2.2,Medium,235,316.02,50,76.93,78.34
+U1355,57,Female,7.5,6,Vegetarian,3.2,Medium,359,231.9,86,100.0,98.23
+U1926,37,Female,8.7,2,Vegetarian,7.0,Medium,259,350.83,51,69.75,67.41
+U1901,44,Male,9.9,8,Non-Vegetarian,1.8,High,201,257.87,75,100.0,100.0
+U1644,34,Male,7.4,5,Vegetarian,1.3,Medium,87,349.45,92,93.87,96.33
+U1849,26,Male,7.8,5,Vegetarian,2.4,Medium,252,431.37,70,65.06,65.08
+U796,36,Male,4.1,10,Vegetarian,11.1,Medium,412,368.25,75,44.44,43.18
+U646,56,Female,9.7,2,Non-Vegetarian,6.5,Low,367,409.74,65,57.52,57.18
+U1013,56,Male,7.6,10,Non-Vegetarian,6.6,High,327,401.47,94,68.85,67.68
+U1840,25,Male,7.7,2,Non-Vegetarian,11.7,Medium,217,396.9,67,61.86,57.54
+U557,47,Male,6.1,7,Non-Vegetarian,5.7,High,338,242.49,82,93.48,94.24
+U682,58,Male,5.6,2,Non-Vegetarian,3.2,Low,250,568.59,42,18.64,16.96
+U578,27,Female,6.6,9,Non-Vegetarian,7.6,High,479,236.44,44,66.81,63.04
+U1110,59,Female,7.0,9,Vegan,8.1,High,440,235.9,83,87.23,86.26
+U1267,32,Female,9.5,9,Vegetarian,7.4,High,241,579.59,46,21.48,18.3
+U1723,22,Male,4.5,6,Non-Vegetarian,6.1,High,386,220.4,82,94.4,97.72
+U1184,50,Female,9.1,3,Vegetarian,1.1,High,63,447.88,71,80.14,84.15
+U525,54,Male,8.0,5,Non-Vegetarian,9.5,Low,365,344.05,97,70.61,69.93
+U1060,24,Female,7.3,4,Non-Vegetarian,9.0,High,455,505.08,93,56.32,59.38
+U541,45,Male,6.9,5,Non-Vegetarian,11.6,Low,154,489.89,65,29.17,28.98
+U1195,32,Female,7.6,8,Non-Vegetarian,5.8,Medium,255,211.52,81,95.65,93.06
+U1679,26,Male,8.7,9,Non-Vegetarian,4.7,Medium,148,447.04,66,52.88,49.85
+U749,57,Female,8.3,8,Vegetarian,3.3,Medium,79,569.99,42,25.07,25.11
+U1852,25,Male,7.6,10,Vegan,11.2,Low,98,544.98,42,1.61,0.0
+U1431,27,Male,5.9,5,Vegetarian,5.3,High,91,354.25,55,70.49,67.93
+U485,54,Female,4.1,7,Vegan,7.1,Low,12,409.41,67,43.58,47.39
+U1758,52,Female,6.8,2,Non-Vegetarian,10.1,Low,378,357.82,40,42.25,41.62
+U96,44,Male,9.3,10,Non-Vegetarian,5.3,High,228,382.96,52,58.26,57.15
+U1021,51,Male,5.4,8,Non-Vegetarian,8.4,Medium,100,441.47,83,53.12,57.31
+U564,21,Male,8.2,2,Vegetarian,10.7,Low,335,230.65,57,74.71,76.31
+U1265,24,Female,5.1,5,Non-Vegetarian,8.5,Low,395,520.18,51,13.35,16.79
+U743,24,Male,8.7,8,Non-Vegetarian,5.0,Low,452,522.66,40,12.75,9.82
+U864,31,Male,6.0,10,Non-Vegetarian,9.4,High,267,409.85,72,50.25,46.14
+U1599,51,Male,4.6,2,Non-Vegetarian,8.1,Low,68,446.73,60,42.24,44.94
+U1715,26,Male,5.7,9,Vegetarian,3.4,Medium,278,473.58,57,37.31,39.33
+U1485,27,Male,8.3,6,Vegetarian,11.1,Low,98,455.63,88,49.05,51.2
+U892,34,Male,4.6,7,Non-Vegetarian,6.7,Medium,85,238.29,67,82.24,85.91
+U1578,52,Female,6.1,7,Non-Vegetarian,11.0,Medium,147,537.55,71,29.67,34.43
+U1039,35,Male,4.5,3,Non-Vegetarian,11.5,Medium,348,431.17,48,35.93,33.97
+U207,56,Male,6.1,3,Non-Vegetarian,8.2,High,7,381.23,44,62.22,64.2
+U393,46,Female,5.2,1,Vegetarian,7.8,Medium,412,491.84,42,32.49,30.58
+U795,55,Male,8.8,9,Non-Vegetarian,6.3,High,106,392.61,47,56.1,53.81
+U871,24,Female,7.6,4,Non-Vegetarian,1.6,High,89,588.65,51,40.41,42.52
+U398,50,Female,9.3,1,Vegetarian,5.1,High,270,445.1,45,61.87,58.94
+U767,51,Male,7.9,1,Non-Vegetarian,9.0,Low,197,506.71,63,38.41,42.22
+U1842,19,Male,6.2,10,Non-Vegetarian,1.9,Low,77,579.75,96,34.38,33.69
+U1242,19,Male,7.8,1,Non-Vegetarian,11.9,High,173,340.51,46,68.54,70.99
+U1029,28,Male,5.6,7,Non-Vegetarian,4.5,High,477,431.82,91,64.44,60.36
+U1793,28,Male,7.6,6,Vegan,11.6,High,394,268.71,76,81.14,78.54
+U643,46,Male,8.5,8,Vegetarian,10.0,Medium,278,396.79,53,45.81,44.81
+U1892,52,Male,5.7,9,Non-Vegetarian,7.4,Medium,454,493.42,84,37.98,39.08
+U613,34,Female,6.6,5,Non-Vegetarian,6.0,Low,26,256.9,46,68.86,67.4
+U1763,19,Female,7.6,7,Non-Vegetarian,10.7,Medium,381,253.02,64,72.36,69.46
+U961,21,Other,7.5,1,Non-Vegetarian,1.3,Low,302,350.24,72,77.64,81.18
+U1571,30,Male,7.7,2,Non-Vegetarian,9.1,Medium,130,597.39,48,24.58,20.64
+U726,40,Female,6.8,10,Vegetarian,9.9,Low,404,584.13,78,7.31,4.56
+U684,20,Male,6.9,10,Vegetarian,1.2,Low,190,234.16,56,72.17,75.79
+U99,55,Female,4.7,8,Non-Vegetarian,1.2,Low,398,513.61,97,41.54,38.43
+U805,58,Male,6.1,9,Vegan,11.7,Low,182,592.74,83,10.72,9.01
+U1752,55,Male,7.7,10,Non-Vegetarian,6.0,Low,277,459.1,79,38.84,42.02
+U1598,58,Female,9.5,10,Non-Vegetarian,3.9,Low,191,339.9,57,56.18,59.43
+U407,19,Male,9.6,3,Vegetarian,9.6,Low,373,389.89,96,69.36,71.01
+U503,56,Male,6.5,3,Non-Vegetarian,6.6,Medium,238,488.04,97,64.5,62.53
+U1072,24,Male,8.9,7,Non-Vegetarian,4.9,High,387,405.94,51,56.55,60.45
+U1057,18,Female,10.0,6,Non-Vegetarian,6.6,Low,5,408.64,59,54.39,58.47
+U930,29,Female,9.3,7,Non-Vegetarian,4.6,Low,297,427.7,62,46.48,48.33
+U780,32,Female,9.3,2,Non-Vegetarian,5.3,Medium,382,432.68,86,74.9,79.83
+U201,54,Female,4.5,6,Non-Vegetarian,3.6,Medium,47,251.88,97,100.0,100.0
+U135,38,Male,8.6,2,Non-Vegetarian,5.6,Medium,470,469.24,58,51.19,54.24
+U1052,53,Female,9.6,2,Vegetarian,1.8,Low,499,282.33,74,87.46,82.64
+U41,51,Female,6.6,4,Non-Vegetarian,9.8,High,279,397.59,61,59.16,60.15
+U1018,30,Male,8.9,2,Vegetarian,5.9,Low,464,217.67,81,94.89,98.79
+U231,52,Female,8.1,3,Non-Vegetarian,8.1,Medium,80,286.74,96,100.0,97.64
+U1514,25,Female,8.7,9,Non-Vegetarian,5.6,Low,74,575.44,61,19.11,19.87
+U1797,47,Other,6.4,7,Non-Vegetarian,11.0,Medium,232,579.19,89,30.63,26.91
+U379,45,Female,5.0,3,Vegetarian,10.1,Low,336,577.57,97,29.37,24.73
+U289,28,Female,7.2,10,Vegan,1.6,Medium,189,550.82,43,22.92,26.07
+U419,52,Female,6.2,7,Non-Vegetarian,6.6,Medium,419,208.14,64,82.43,78.67
+U1699,23,Male,6.8,8,Non-Vegetarian,2.0,Medium,237,440.04,75,59.02,59.48
+U392,34,Female,7.7,7,Non-Vegetarian,11.1,Low,435,508.23,97,34.85,39.26
+U593,42,Female,8.7,4,Vegan,7.1,Low,269,403.6,67,54.6,54.54
+U1523,22,Male,8.2,4,Vegan,1.9,Medium,296,527.47,75,54.22,57.92
+U1163,19,Male,4.7,5,Vegetarian,11.9,High,44,366.37,80,69.61,67.77
+U1087,27,Female,8.1,7,Non-Vegetarian,2.9,Low,409,425.91,46,36.68,37.23
+U1496,38,Female,9.4,10,Vegetarian,8.5,Low,204,529.87,81,29.16,27.95
+U648,32,Female,5.4,7,Non-Vegetarian,3.7,Medium,118,306.45,68,76.82,72.79
+U1153,37,Female,5.1,1,Non-Vegetarian,4.6,Low,262,261.53,57,75.97,71.98
+U1368,54,Male,4.3,8,Non-Vegetarian,10.7,High,348,281.91,47,56.1,52.43
+U521,30,Female,6.4,1,Non-Vegetarian,10.2,Medium,370,318.54,86,83.01,85.24
+U1863,47,Male,8.4,7,Vegetarian,6.7,Medium,438,560.11,94,42.64,41.18
+U65,56,Male,8.5,1,Non-Vegetarian,5.9,Medium,291,200.1,80,100.0,98.88
+U1837,55,Female,7.1,10,Non-Vegetarian,1.9,Low,431,201.91,52,70.08,70.67
+U15,19,Male,6.0,2,Non-Vegetarian,6.1,Medium,67,559.14,44,31.32,33.52
+U1181,34,Female,5.0,5,Non-Vegetarian,3.3,High,188,324.18,49,71.76,68.26
+U1065,35,Female,8.9,3,Vegetarian,3.8,Medium,135,401.08,53,68.05,67.42
+U493,20,Male,6.1,3,Non-Vegetarian,10.1,Medium,211,504.4,83,49.26,46.29
+U380,39,Female,4.6,1,Non-Vegetarian,11.6,Medium,401,526.36,52,25.05,21.43
+U188,43,Male,6.9,6,Vegetarian,2.6,Medium,449,279.7,58,76.3,73.59
+U764,47,Female,8.4,6,Non-Vegetarian,5.4,Medium,223,580.92,76,38.42,35.3
+U217,56,Female,6.7,3,Non-Vegetarian,6.9,Low,411,597.98,87,27.67,24.14
+U792,21,Male,5.2,10,Vegetarian,2.3,Medium,64,484.71,53,36.38,33.95
+U1077,47,Other,8.7,3,Vegetarian,8.4,High,273,394.84,93,84.03,87.81
+U879,27,Female,6.8,8,Non-Vegetarian,10.1,Low,101,347.97,69,51.93,53.24
+U338,50,Female,8.6,2,Vegan,9.3,High,297,267.64,96,100.0,100.0
+U1773,44,Other,6.9,1,Vegetarian,2.8,High,58,391.08,53,77.76,75.14
+U720,55,Female,8.4,10,Vegan,9.7,High,73,267.89,96,94.14,98.35
+U1749,54,Male,5.7,5,Vegetarian,2.3,Low,29,411.81,50,48.73,45.43
+U296,44,Female,6.9,3,Non-Vegetarian,9.4,Low,9,348.38,80,70.46,72.48
+U1726,22,Male,8.7,7,Non-Vegetarian,7.8,Medium,164,361.78,88,77.12,79.53
+U1017,20,Male,4.6,2,Vegetarian,11.5,High,441,583.38,93,38.4,39.5
+U1276,40,Male,5.4,1,Non-Vegetarian,11.6,Low,332,368.89,77,56.78,60.46
+U1751,23,Female,9.7,3,Vegan,8.8,Medium,195,256.36,64,90.57,93.93
+U1486,28,Male,7.4,10,Non-Vegetarian,5.7,Medium,87,253.78,49,71.71,69.02
+U456,37,Male,7.0,10,Non-Vegetarian,11.2,Low,134,445.06,76,33.34,37.64
+U1997,33,Male,9.8,3,Vegetarian,6.2,Medium,333,399.6,98,85.04,82.03
+U816,53,Male,4.1,5,Vegetarian,10.5,Medium,182,595.17,45,7.12,5.89
+U1887,37,Female,7.4,4,Vegetarian,5.2,High,354,261.0,88,100.0,100.0
+U270,40,Female,5.3,6,Vegetarian,12.0,Medium,35,397.21,76,56.7,53.67
+U996,42,Male,4.6,1,Vegetarian,8.1,High,177,497.86,83,60.03,59.91
+U202,28,Female,6.6,8,Non-Vegetarian,4.3,Low,349,481.2,58,27.57,26.2
+U162,54,Male,7.8,1,Non-Vegetarian,2.6,Low,292,511.64,49,38.09,41.29
+U1580,23,Female,8.0,2,Vegetarian,8.4,Medium,40,389.8,40,58.63,59.74
+U730,50,Female,9.0,1,Non-Vegetarian,4.8,Low,169,253.5,45,80.67,83.12
+U402,52,Female,6.3,5,Non-Vegetarian,2.0,Medium,237,232.34,70,96.14,96.94
+U703,20,Female,4.7,5,Vegan,11.1,Low,468,225.67,72,66.78,64.72
+U1501,23,Male,6.9,9,Non-Vegetarian,6.6,High,415,471.27,43,30.55,31.88
+U1846,36,Other,9.0,10,Non-Vegetarian,11.0,Medium,353,213.45,73,80.37,80.03
+U1796,53,Female,7.0,4,Non-Vegetarian,1.6,Low,125,275.74,47,73.64,73.98
+U1130,34,Male,6.3,5,Vegetarian,5.8,Low,4,494.24,60,36.45,33.29
+U566,18,Female,5.2,7,Non-Vegetarian,5.6,Medium,265,482.16,60,37.34,40.07
+U1414,32,Male,4.1,8,Vegetarian,6.3,Medium,463,337.99,58,51.16,52.03
+U1022,45,Female,8.5,10,Vegetarian,2.3,High,477,257.47,58,80.1,80.42
+U1026,33,Male,8.6,10,Non-Vegetarian,2.8,Medium,248,279.78,51,71.91,75.89
+U1412,35,Male,9.3,9,Vegan,3.7,High,401,441.27,51,48.98,49.88
+U1896,19,Female,7.4,2,Non-Vegetarian,3.0,Low,362,216.13,78,97.04,100.0
+U1586,44,Male,6.0,9,Non-Vegetarian,4.0,Low,59,490.78,62,31.02,31.55
+U1105,48,Male,9.5,1,Vegetarian,6.7,Low,101,500.95,74,53.44,58.2
+U206,43,Female,7.3,9,Non-Vegetarian,10.6,Medium,397,200.82,83,85.79,86.81
+U35,42,Male,6.8,10,Non-Vegetarian,5.2,Medium,36,520.81,51,28.78,30.96
+U776,41,Male,9.1,10,Non-Vegetarian,6.7,Medium,89,389.38,65,58.97,61.08
+U509,54,Female,8.9,9,Non-Vegetarian,2.0,Medium,15,403.7,68,68.22,67.49
+U1452,25,Female,9.7,8,Vegetarian,4.8,Medium,187,348.44,46,62.39,64.28
+U1479,36,Other,4.9,3,Vegetarian,4.1,Medium,67,275.03,96,100.0,100.0
+U1971,23,Male,7.5,3,Non-Vegetarian,10.7,Low,432,592.14,56,8.62,12.55
+U1391,22,Male,8.1,8,Non-Vegetarian,5.1,Medium,215,488.11,61,42.4,44.39
+U92,32,Female,5.3,8,Vegetarian,3.5,Low,104,533.61,83,34.84,30.44
+U1364,50,Male,5.9,10,Vegetarian,2.4,Low,172,213.19,78,83.23,84.75
+U898,51,Female,8.6,8,Vegetarian,3.4,Low,259,482.88,56,33.44,35.28
+U565,52,Female,9.0,9,Non-Vegetarian,7.0,Medium,388,322.41,85,75.5,79.84
+U1370,21,Male,5.8,3,Vegetarian,10.6,Medium,123,410.14,49,48.38,53.38
+U777,55,Female,4.0,1,Vegetarian,6.5,High,395,359.64,49,62.91,61.11
+U242,42,Male,5.9,8,Non-Vegetarian,1.0,High,57,253.23,58,89.96,94.94
+U14,24,Female,9.3,1,Non-Vegetarian,3.5,High,342,342.53,74,94.42,94.36
+U316,37,Female,6.5,10,Vegan,10.8,Medium,110,341.6,53,49.17,53.8
+U601,48,Female,4.1,10,Non-Vegetarian,5.5,Low,82,409.81,41,25.51,27.01
+U388,35,Male,6.5,6,Non-Vegetarian,6.8,Medium,313,245.0,72,84.71,87.21
+U1298,25,Female,8.8,6,Non-Vegetarian,5.1,Medium,221,447.05,53,50.52,49.57
+U167,34,Female,9.8,9,Vegan,1.9,Medium,415,522.55,40,28.36,27.02
+U841,29,Male,5.0,9,Vegan,1.1,High,35,453.6,68,58.05,58.65
+U21,35,Female,8.7,8,Non-Vegetarian,4.0,High,281,360.05,48,63.77,65.28
+U647,35,Female,9.8,4,Non-Vegetarian,10.5,Low,428,364.99,98,70.46,72.76
+U1843,23,Female,8.9,9,Non-Vegetarian,5.4,High,266,243.35,69,90.32,93.48
+U1509,55,Male,6.6,4,Non-Vegetarian,3.4,Low,136,428.94,87,64.39,68.4
+U1155,19,Male,4.6,4,Non-Vegetarian,2.3,High,224,419.47,80,73.36,75.78
+U1529,38,Male,6.1,3,Non-Vegetarian,4.9,High,267,366.44,51,67.94,71.59
+U832,20,Male,4.2,8,Vegetarian,11.7,Low,265,357.88,44,26.9,24.39
+U1268,50,Male,7.9,10,Non-Vegetarian,1.1,Medium,234,206.72,64,92.02,95.69
+U1591,58,Female,9.2,6,Non-Vegetarian,6.7,Low,277,578.5,64,21.39,22.88
+U1900,19,Male,8.2,8,Non-Vegetarian,1.8,Low,32,287.71,44,66.11,61.43
+U563,44,Female,6.4,9,Non-Vegetarian,3.0,Low,212,554.94,48,12.57,10.57
+U1952,24,Female,7.2,10,Non-Vegetarian,10.8,High,413,424.77,43,30.64,31.95
+U687,35,Male,6.7,9,Non-Vegetarian,7.4,High,10,521.16,48,31.24,34.59
+U958,36,Other,6.1,7,Vegetarian,12.0,High,284,356.08,93,71.67,74.17
+U190,37,Female,6.5,5,Vegetarian,8.7,Low,110,270.09,79,77.24,79.27
+U1807,47,Male,9.6,5,Non-Vegetarian,3.1,High,94,432.28,41,61.12,64.97
+U976,43,Female,8.2,4,Vegetarian,11.2,Medium,283,262.45,91,92.7,92.14
+U700,33,Female,7.5,6,Non-Vegetarian,6.9,Medium,59,541.5,61,36.72,36.81
+U1500,22,Male,7.7,1,Vegetarian,3.6,Low,448,285.03,88,90.54,88.1
+U1706,37,Female,9.7,9,Non-Vegetarian,2.6,Low,133,594.41,74,27.77,27.67
+U511,51,Female,5.1,3,Non-Vegetarian,8.4,Low,371,272.83,66,66.71,68.83
+U1083,32,Male,9.3,7,Vegetarian,6.1,Low,189,356.16,82,68.31,70.44
+U475,38,Male,5.8,5,Vegetarian,7.4,Medium,476,477.2,84,48.45,53.42
+U1585,45,Female,6.9,4,Non-Vegetarian,1.8,Low,50,339.87,60,70.45,67.39
+U857,38,Male,5.3,3,Non-Vegetarian,5.2,Medium,53,433.19,90,73.54,74.1
+U748,35,Male,4.8,3,Non-Vegetarian,5.5,Low,285,409.58,73,52.89,57.46
+U253,57,Male,8.3,4,Non-Vegetarian,11.2,Medium,94,251.11,54,80.07,78.49
+U22,33,Male,8.4,5,Non-Vegetarian,9.4,Low,100,546.35,68,28.64,28.62
+U1338,31,Female,5.8,5,Non-Vegetarian,7.3,High,181,265.4,76,90.8,90.34
+U460,54,Female,7.4,5,Vegetarian,10.0,Medium,201,366.16,71,65.25,67.17
+U1185,25,Male,7.9,8,Non-Vegetarian,11.7,Medium,459,202.39,92,90.34,85.44
+U277,27,Female,8.0,10,Vegan,9.3,Medium,407,249.53,51,62.82,64.9
+U956,27,Female,9.5,1,Non-Vegetarian,8.8,Low,53,244.5,52,82.99,80.78
+U1216,21,Male,5.5,1,Non-Vegetarian,7.0,Medium,446,385.05,54,57.4,59.35
+U386,21,Female,9.1,3,Non-Vegetarian,3.7,Low,240,582.01,72,35.85,38.31
+U806,24,Female,7.0,1,Vegetarian,5.5,Medium,227,366.94,61,73.55,68.64
+U1438,31,Female,8.1,4,Vegetarian,11.6,Low,112,396.17,52,43.53,40.28
+U1516,36,Male,9.5,9,Vegan,5.5,Low,198,515.02,96,45.95,41.67
+U344,58,Female,5.2,4,Non-Vegetarian,5.9,Medium,276,415.65,43,45.26,46.85
+U770,41,Male,8.5,5,Vegetarian,8.3,Medium,338,317.82,62,70.82,69.06
+U1333,33,Female,4.4,2,Vegetarian,4.8,Low,453,440.38,54,37.14,35.38
+U1686,35,Female,5.4,5,Non-Vegetarian,10.6,High,469,402.22,83,59.98,58.91
+U131,24,Male,8.2,1,Non-Vegetarian,6.2,Medium,114,209.2,46,95.95,97.86
+U1688,29,Male,7.4,5,Non-Vegetarian,9.7,Low,226,266.23,92,82.36,78.7
+U872,27,Male,8.2,7,Vegetarian,9.9,Low,493,335.01,98,65.86,66.6
+U1124,29,Other,7.6,3,Non-Vegetarian,8.6,Medium,443,482.9,76,49.96,50.16
+U1397,48,Female,4.6,10,Non-Vegetarian,7.2,Medium,411,265.71,88,74.9,76.98
+U88,56,Female,9.2,7,Non-Vegetarian,10.9,Medium,317,505.87,56,30.4,33.42
+U1483,36,Female,8.9,8,Non-Vegetarian,7.5,High,76,296.86,69,84.05,88.41
+U331,41,Male,6.8,2,Vegetarian,5.8,Low,253,316.23,99,87.63,87.58
+U1239,19,Female,5.7,8,Non-Vegetarian,5.8,High,455,391.9,49,46.78,51.45
+U467,26,Female,5.7,2,Non-Vegetarian,11.4,Low,299,490.92,69,32.0,36.41
+U122,55,Female,8.9,3,Non-Vegetarian,9.1,Medium,19,533.51,70,48.85,50.87
+U1639,32,Female,4.4,10,Non-Vegetarian,7.4,Low,449,411.49,90,40.14,39.77
+U1045,57,Female,8.6,8,Vegetarian,5.8,Medium,423,350.6,67,64.11,68.67
+U1725,45,Male,7.4,8,Non-Vegetarian,8.4,High,423,380.2,43,45.87,50.02
+U1096,50,Female,9.5,9,Non-Vegetarian,8.8,High,413,241.24,52,75.33,75.58
+U1131,25,Male,6.6,3,Non-Vegetarian,3.2,Medium,389,413.95,50,55.63,59.99
+U1295,30,Female,4.0,1,Vegetarian,1.5,Medium,330,239.76,52,88.19,86.28
+U861,47,Female,8.1,8,Non-Vegetarian,3.1,Medium,377,565.39,80,38.78,37.08
+U1460,52,Male,4.9,5,Non-Vegetarian,4.5,Low,309,342.71,70,59.75,63.93
+U1127,48,Male,6.1,3,Non-Vegetarian,11.1,High,335,219.99,85,98.69,97.0
