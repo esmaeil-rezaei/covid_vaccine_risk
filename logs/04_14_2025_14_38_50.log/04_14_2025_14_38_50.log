@@ -1,0 +1,602 @@
+[ 2025-04-14 14:38:50,664 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.112.4.48:5000
+[ 2025-04-14 14:38:50,664 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-04-14 14:38:55,979 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+[ 2025-04-14 14:38:55,979 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:38:55,979 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 77, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 81, in load_object
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:38:55,982 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:38:55] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:38:58,905 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+[ 2025-04-14 14:38:58,905 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:38:58,905 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 77, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 81, in load_object
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:38:58,907 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:38:58] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:05,637 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+[ 2025-04-14 14:39:05,638 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:39:05,638 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 77, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 81, in load_object
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:39:05,640 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:05] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:08,759 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:39:08,764 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:08] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:39,735 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+[ 2025-04-14 14:39:39,736 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:39:39,736 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 77, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 81, in load_object
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:39:39,738 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:39] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:42,840 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+[ 2025-04-14 14:39:42,840 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:39:42,840 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 77, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py", line 81, in load_object
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [18] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/utils.py] line number [77] error message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+[ 2025-04-14 14:39:42,842 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:42] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:46,850 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:39:46,851 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:46] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:55,421 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:39:55,422 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:55] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:39:55,659 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:39:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-04-14 14:40:03,228 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:40:03,230 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:03] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:40:03,849 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:40:03,851 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:03] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:40:04,318 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:40:04,320 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:04] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:40:04,515 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:40:04,516 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:04] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:40:04,782 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:40:04,784 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:04] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 14:40:08,019 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:08] "GET / HTTP/1.1" 200 -
+[ 2025-04-14 14:40:11,403 ] 875 app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 21, in predict_datapoint
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/ishmael/Documents/covid_vaccine_risk/templates/home.html", line 1, in template
+    {% comment %} <html>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'comment'.
+[ 2025-04-14 14:40:11,405 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 14:40:11] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -

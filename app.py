@@ -21,15 +21,22 @@ def predict_datapoint():
         return render_template('home.html')
     else:
         data=CustomData(
+
+            age=float(request.form.get('age')),
             gender=request.form.get('gender'),
-            race_ethnicity=request.form.get('ethnicity'),
-            parental_level_of_education=request.form.get('parental_level_of_education'),
-            lunch=request.form.get('lunch'),
-            test_preparation_course=request.form.get('test_preparation_course'),
-            reading_score=float(request.form.get('writing_score')),
-            writing_score=float(request.form.get('reading_score'))
+            sleep_duration=float(request.form.get('sleep_duration')),
+            stress_level=float(request.form.get('stress_level')),
+            diet_type=request.form.get('diet_type'),
+            daily_screen_time=float(request.form.get('daily_screen_time')),
+            exercise_frequency=request.form.get('exercise_frequency'),
+            caffeine_intake=float(request.form.get('caffeine_intake')),
+            reaction_time=float(request.form.get('reaction_time')),
+            memory_test_score=float(request.form.get('memory_test_score')),
+            # cognitive_score=float(request.form.get('cognitive_score')),
+            # ai_predicted_score=float(request.form.get('ai_predicted_score')),
 
         )
+        print(request.form.get('gender'))
         pred_df=data.get_data_as_data_frame()
         print(pred_df)
         print("Before Prediction")
@@ -38,7 +45,7 @@ def predict_datapoint():
         print("Mid Prediction")
         results=predict_pipeline.predict(pred_df)
         print("after Prediction")
-        return render_template('home.html',results=results[0])
+        return render_template('home.html',results=np.round(results[0], 2))
     
 
 if __name__=="__main__":

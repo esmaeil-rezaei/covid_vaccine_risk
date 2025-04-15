@@ -1,0 +1,179 @@
+[ 2025-04-14 22:50:36,128 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.216:5000
+[ 2025-04-14 22:50:36,128 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-04-14 22:50:41,983 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [20] error message[setting an array element with a sequence.]
+[ 2025-04-14 22:50:41,983 ] 875 app - ERROR - Exception on /predictdata [POST]
+TypeError: float() argument must be a string or a real number, not 'tuple'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 20, in predict
+    data_scaled=preprocessor.transform(features)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/compose/_column_transformer.py", line 1101, in transform
+    Xs = self._call_func_on_transformers(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/compose/_column_transformer.py", line 910, in _call_func_on_transformers
+    return Parallel(n_jobs=self.n_jobs)(jobs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/pipeline.py", line 1092, in transform
+    Xt = transform.transform(Xt, **routed_params[name].transform)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/impute/_base.py", line 607, in transform
+    X = self._validate_input(X, in_fit=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/impute/_base.py", line 363, in _validate_input
+    raise ve
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/impute/_base.py", line 344, in _validate_input
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 2944, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1055, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_array_api.py", line 839, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 2153, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [20] error message[setting an array element with a sequence.]
+[ 2025-04-14 22:50:41,991 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 22:50:41] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-04-14 23:00:07,117 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [20] error message[setting an array element with a sequence.]
+[ 2025-04-14 23:00:07,118 ] 875 app - ERROR - Exception on /predictdata [POST]
+TypeError: float() argument must be a string or a real number, not 'tuple'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 20, in predict
+    data_scaled=preprocessor.transform(features)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/compose/_column_transformer.py", line 1101, in transform
+    Xs = self._call_func_on_transformers(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/compose/_column_transformer.py", line 910, in _call_func_on_transformers
+    return Parallel(n_jobs=self.n_jobs)(jobs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 77, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/joblib/parallel.py", line 1918, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/joblib/parallel.py", line 1847, in _get_sequential_output
+    res = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 139, in __call__
+    return self.function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/pipeline.py", line 1531, in _transform_one
+    res = transformer.transform(X, **params.transform)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/pipeline.py", line 1092, in transform
+    Xt = transform.transform(Xt, **routed_params[name].transform)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/impute/_base.py", line 607, in transform
+    X = self._validate_input(X, in_fit=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/impute/_base.py", line 363, in _validate_input
+    raise ve
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/impute/_base.py", line 344, in _validate_input
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 2944, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1055, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_array_api.py", line 839, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 2153, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 45, in predict_datapoint
+    print("Mid Prediction")
+            ^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [20] error message[setting an array element with a sequence.]
+[ 2025-04-14 23:00:07,121 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 23:00:07] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

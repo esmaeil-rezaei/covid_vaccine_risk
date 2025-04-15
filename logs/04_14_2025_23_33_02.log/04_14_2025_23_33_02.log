@@ -1,0 +1,44 @@
+[ 2025-04-14 23:33:02,974 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.216:5000
+[ 2025-04-14 23:33:02,974 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-04-14 23:33:06,432 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 23:33:06] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-04-14 23:33:28,758 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [20] error message[columns are missing: {'AI_Predicted_Score'}]
+[ 2025-04-14 23:33:28,758 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 20, in predict
+    data_scaled=preprocessor.transform(features)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/sklearn/compose/_column_transformer.py", line 1090, in transform
+    raise ValueError(f"columns are missing: {diff}")
+ValueError: columns are missing: {'AI_Predicted_Score'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/app.py", line 46, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py", line 25, in predict
+    raise handle_exception(e)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ishmael/Documents/covid_vaccine_risk/src/exception_handler.py", line 9, in handle_exception
+    raise custom_error
+src.exception.custom_exception: Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/pipeline/predict_pipeline.py] line number [20] error message[columns are missing: {'AI_Predicted_Score'}]
+[ 2025-04-14 23:33:28,760 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2025 23:33:28] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

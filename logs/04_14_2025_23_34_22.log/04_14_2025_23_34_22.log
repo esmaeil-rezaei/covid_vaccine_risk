@@ -1,0 +1,11 @@
+[ 2025-04-14 23:34:24,839 ] 47 root - INFO - Read the dataset as dataframe
+[ 2025-04-14 23:34:25,057 ] 53 root - INFO - Limited data is in use!
+[ 2025-04-14 23:34:25,068 ] 67 root - INFO - Ingestion of the data is completed
+[ 2025-04-14 23:34:25,072 ] 78 root - INFO - Read train and test data completed
+[ 2025-04-14 23:34:25,073 ] 80 root - INFO - Obtaining preprocessing object
+[ 2025-04-14 23:34:25,074 ] 58 root - INFO - Categorical columns: ['Diet_Type', 'Exercise_Frequency', 'Gender']
+[ 2025-04-14 23:34:25,074 ] 59 root - INFO - Numerical columns: ['Age', 'Caffeine_Intake', 'Daily_Screen_Time', 'Memory_Test_Score', 'Reaction_Time', 'Sleep_Duration', 'Stress_Level']
+[ 2025-04-14 23:34:25,074 ] 92 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-04-14 23:34:25,090 ] 106 root - INFO - Saved preprocessing object.
+[ 2025-04-14 23:34:25,090 ] 34 root - INFO - Split training and test input data
+[ 2025-04-14 23:35:57,281 ] 103 root - INFO - Best found model on both training and testing dataset
