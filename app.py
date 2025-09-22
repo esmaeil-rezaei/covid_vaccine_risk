@@ -32,8 +32,6 @@ def predict_datapoint():
             caffeine_intake=float(request.form.get('caffeine_intake')),
             reaction_time=float(request.form.get('reaction_time')),
             memory_test_score=float(request.form.get('memory_test_score')),
-            # cognitive_score=float(request.form.get('cognitive_score')),
-            # ai_predicted_score=float(request.form.get('ai_predicted_score')),
 
         )
         print(request.form.get('gender'))
@@ -49,5 +47,5 @@ def predict_datapoint():
     
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")        
+    app.run(host="0.0.0.0", port =8082, debug=True)        
 

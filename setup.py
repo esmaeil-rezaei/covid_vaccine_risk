@@ -17,7 +17,7 @@ def get_requirements(file_path: str) -> list[str]:
     return requirements
 
 setup(
-    name='covid_vaccine_risk',
+    name='Covid Vaccine Heart Attack Risk Analysis',
     version='0.0.1',
     author='Ishmael',
     author_email='ishmaelrezaei@gmail.com',

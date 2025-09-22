@@ -1,8 +1,9 @@
 import sys
 import os
+import numpy as np
 import pandas as pd
 from src.exception_handler import handle_exception
-from src.utils import load_object
+from src.utils import load_object, date_feature_extractor
 
 
 class PredictPipeline:
@@ -28,71 +29,64 @@ class PredictPipeline:
 
 class CustomData:
     def __init__(  self,
+        blood_pressure: int,
+        diabetes_status: str,
+        gender: int,
+        heart_attack_related_to_vaccine: int,
+        location: str,
+        pre_existing_conditions: int,
+        smoking_history: str,
+        vaccine_dose: int,
         age: int,
-        gender: str,
-        sleep_duration: int,
-        stress_level: int,
-        diet_type: str,
-        daily_screen_time: int,
-        exercise_frequency: str,
-        caffeine_intake: int,
-        reaction_time: int,
-        memory_test_score: int,
-        # cognitive_score: int,
-        # ai_predicted_score: int,
+        bmi: int,
+        cholesterol_level: int,
+        heart_attack_date: str,
+        patient_id: int,
+        vaccination_date: str,
         ):
 
-        self.age = age
+        self.blood_pressure = blood_pressure
+        self.diabetes_status = diabetes_status
         self.gender = gender
-        self.sleep_duration = sleep_duration
-        self.stress_level = stress_level
-        self.diet_type = diet_type
-        self.daily_screen_time = daily_screen_time
-        self.exercise_frequency = exercise_frequency
-        self.caffeine_intake = caffeine_intake
-        self.reaction_time = reaction_time
-        self.memory_test_score = memory_test_score
-        # self.cognitive_score = cognitive_score
-        # self.ai_predicted_score = ai_predicted_score
+        self.heart_attack_related_to_vaccine = heart_attack_related_to_vaccine
+        self.location = location
+        self.pre_existing_conditions = pre_existing_conditions
+        self.smoking_history = smoking_history
+        self.vaccine_dose = vaccine_dose
+        self.age = age
+        self.bmi = bmi
+        self.cholesterol_level = cholesterol_level
+        self.heart_attack_date = heart_attack_date
+        self.patient_id = patient_id
+        self.vaccination_date = vaccination_date
 
     def get_data_as_data_frame(self):
         try:
             custom_data_input_dict = {
                 "Age": [self.age],
                 "Gender": [self.gender],
-                "Sleep_Duration": [self.sleep_duration],
-                "Stress_Level": [self.stress_level],
-                "Diet_Type": [self.diet_type],
-                "Daily_Screen_Time": [self.daily_screen_time],
-                "Exercise_Frequency": [self.exercise_frequency],
-                "Caffeine_Intake": [self.caffeine_intake],
-                "Reaction_Time": [self.reaction_time],
-                "Memory_Test_Score": [self.memory_test_score],
-                # "Cognitive_Score": [self.cognitive_score],
-                # "AI_Predicted_Score": [self.ai_predicted_score],
+                "Blood Pressure": [self.blood_pressure],
+                "Diabetes Status": [self.diabetes_status],
+                "Heart Attack Related to Vaccine": [self.heart_attack_related_to_vaccine],
+                "Location": [self.location],
+                "Pre-existing Conditions": [self.pre_existing_conditions],
+                "Smoking History": [self.smoking_history],
+                "Vaccine Dose": [self.vaccine_dose],
+                "BMI": [self.bmi],
+                "Cholesterol Level": [self.cholesterol_level],
+                "Heart Attack Date": [self.heart_attack_date],
+                "Patient ID": [self.patient_id],
+                "Vaccination Date": [self.vaccination_date],
             }
 
-            return pd.DataFrame(custom_data_input_dict)
+            df = pd.DataFrame(custom_data_input_dict)
+            df["Heart Attack Date"] = pd.to_datetime(df["Heart Attack Date"], errors='coerce')
+            df["Vaccination Date"] = pd.to_datetime(df["Vaccination Date"], errors='coerce')
+
+            date_feature_extractor(df, date_column="Heart Attack Date")
+            date_feature_extractor(df, date_column="Vaccination Date")
+
+            return df
 
         except Exception as e:
             raise handle_exception(e)
-
-
-
-# if __name__=="__main__":
-#     test_dict = {
-#                 "Age": [20],
-#                 "Gender": ['Male'],
-#                 "Sleep_Duration": [2],
-#                 "Stress_Level": [2],
-#                 "Diet_Type": ['Vegetarian'],
-#                 "Daily_Screen_Time": [2],
-#                 "Exercise_Frequency": ['Low'],
-#                 "Caffeine_Intake": [2],
-#                 "Reaction_Time": [2],
-#                 "Memory_Test_Score": [2],
-#                 # "Cognitive_Score": [self.cognitive_score],
-#                 "AI_Predicted_Score": [2],
-#             }
-#     test=pd.DataFrame(test_dict)
-#     print(PredictPipeline().predict(test))

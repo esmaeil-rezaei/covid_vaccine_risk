@@ -1,8 +1,0 @@
-[ 2025-04-13 19:29:09,671 ] 41 root - INFO - Entered the data ingestion method or component
-[ 2025-04-13 19:29:09,983 ] 47 root - INFO - Read the dataset as dataframe
-[ 2025-04-13 19:29:10,184 ] 57 root - INFO - Train test split done
-[ 2025-04-13 19:29:10,379 ] 66 root - INFO - Inmgestion of the data is completed
-[ 2025-04-13 19:29:10,437 ] 77 root - INFO - Read train and test data completed
-[ 2025-04-13 19:29:10,437 ] 79 root - INFO - Obtaining preprocessing object
-[ 2025-04-13 19:29:10,439 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [40] error message['list' object has no attribute 'difference']
-[ 2025-04-13 19:29:10,439 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [81] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [40] error message['list' object has no attribute 'difference']]

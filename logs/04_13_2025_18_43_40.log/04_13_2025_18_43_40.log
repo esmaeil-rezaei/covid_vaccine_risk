@@ -1,8 +1,0 @@
-[ 2025-04-13 18:43:41,920 ] 41 root - INFO - Entered the data ingestion method or component
-[ 2025-04-13 18:43:42,343 ] 47 root - INFO - Read the dataset as dataframe
-[ 2025-04-13 18:43:42,558 ] 57 root - INFO - Train test split done
-[ 2025-04-13 18:43:42,789 ] 66 root - INFO - Inmgestion of the data is completed
-[ 2025-04-13 18:43:42,840 ] 78 root - INFO - Read train and test data completed
-[ 2025-04-13 18:43:42,840 ] 80 root - INFO - Obtaining preprocessing object
-[ 2025-04-13 18:43:42,840 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [38] error message[Input must be Index or array-like]
-[ 2025-04-13 18:43:42,840 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [82] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [38] error message[Input must be Index or array-like]]

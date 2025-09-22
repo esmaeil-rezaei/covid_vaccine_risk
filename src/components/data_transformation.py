@@ -23,6 +23,7 @@ class DataTransformationConfig:
 class DataTransformation:
     def __init__(self):
         self.data_transformation_config = DataTransformationConfig()
+        self.target_column_name = "Has Heart Attack"
 
     def get_data_transformer_object(self, df: pd.DataFrame):
         """
@@ -30,15 +31,15 @@ class DataTransformation:
 
         """
         try:
-            target_column_name = ["Cognitive_Score"]
-
+        
             numerical_columns = (
-                df.select_dtypes(include=["number"])
-                .columns.difference(target_column_name)
-                .difference(['AI_Predicted_Score'])
-                .tolist()
+                df.select_dtypes(include=["number"])\
+                    .columns.difference([self.target_column_name, 'User_ID'])\
+                        .tolist()
             )
-            categorical_columns = df.select_dtypes(exclude=["number"]).columns.difference(['User_ID']).tolist()
+            categorical_columns = df.select_dtypes(exclude=["number"])\
+                .columns.difference(['User_ID'])\
+                    .tolist()
 
             num_pipeline = Pipeline(
                 steps=[
@@ -81,17 +82,14 @@ class DataTransformation:
 
             preprocessing_obj = self.get_data_transformer_object(train_df)
 
-            target_column_name = "Cognitive_Score"
 
-            input_feature_train_df = train_df.drop(columns=[target_column_name], axis=1)
-            target_feature_train_df = train_df[target_column_name]
+            input_feature_train_df = train_df.drop(columns=[self.target_column_name], axis=1)
+            target_feature_train_df = train_df[self.target_column_name]
 
-            input_feature_test_df = test_df.drop(columns=[target_column_name], axis=1)
-            target_feature_test_df = test_df[target_column_name]
+            input_feature_test_df = test_df.drop(columns=[self.target_column_name], axis=1)
+            target_feature_test_df = test_df[self.target_column_name]
 
-            logging.info(
-                f"Applying preprocessing object on training dataframe and testing dataframe."
-            )
+            logging.info("Applying preprocessing object on training and testing datasets.")
 
             input_feature_train_arr = preprocessing_obj.fit_transform(
                 input_feature_train_df
