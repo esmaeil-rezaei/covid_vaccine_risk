@@ -23,7 +23,7 @@ class DataTransformationConfig:
 class DataTransformation:
     def __init__(self):
         self.data_transformation_config = DataTransformationConfig()
-        self.target_column_name = "Has Heart Attack"
+        self.target_column_name = "Heart Attack Related to Vaccine"
 
     def get_data_transformer_object(self, df: pd.DataFrame):
         """

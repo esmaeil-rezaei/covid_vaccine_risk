@@ -32,7 +32,6 @@ class CustomData:
         blood_pressure: int,
         diabetes_status: str,
         gender: int,
-        heart_attack_related_to_vaccine: int,
         location: str,
         pre_existing_conditions: int,
         smoking_history: str,
@@ -48,7 +47,6 @@ class CustomData:
         self.blood_pressure = blood_pressure
         self.diabetes_status = diabetes_status
         self.gender = gender
-        self.heart_attack_related_to_vaccine = heart_attack_related_to_vaccine
         self.location = location
         self.pre_existing_conditions = pre_existing_conditions
         self.smoking_history = smoking_history
@@ -67,7 +65,6 @@ class CustomData:
                 "Gender": [self.gender],
                 "Blood Pressure": [self.blood_pressure],
                 "Diabetes Status": [self.diabetes_status],
-                "Heart Attack Related to Vaccine": [self.heart_attack_related_to_vaccine],
                 "Location": [self.location],
                 "Pre-existing Conditions": [self.pre_existing_conditions],
                 "Smoking History": [self.smoking_history],

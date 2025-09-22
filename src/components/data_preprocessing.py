@@ -21,7 +21,7 @@ def data_preprocessing(df):
         df = df.drop(columns=all_nan_cols, axis=1)
         logging.info(f"Dropped all NaN columns: {all_nan_cols}")
 
-        df = binary_encoder(df, target="Heart Attack Date", new_column_name="Has Heart Attack")
+        df = binary_encoder(df, target="Heart Attack Related to Vaccine")
         logging.info("Binary encoding done to create traget variable")
 
         date_feature_extractor(df, date_column="Heart Attack Date")
